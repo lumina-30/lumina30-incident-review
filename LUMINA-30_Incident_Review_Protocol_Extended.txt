@@ -1,0 +1,85 @@
+LUMINA-30_Incident_Review_Protocol_Extended.txt
+LUMINA-30
+ Incident Review Protocol (Extended)
+
+[Protocol Core — Mandatory]
+Purpose: To conduct a structured post-incident evaluation of whether human refusal authority was preserved prior to irreversible external impact.
+
+Incident Overview
+Date:
+Organization:
+System Type:
+Operational Context:
+Summary:
+Detailed Description:
+System behavior sequence:
+Triggering conditions:
+Observed deviation:
+External impact:
+
+Incident Classification □ Autonomous system behavior
+ □ Recursive self-improvement attempt
+ □ Tool-chain escalation
+ □ Infrastructure interaction
+ □ Other:
+
+Critical Boundary Assessment (G06) was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?
+
+Authority Validation
+Was a human decision-maker identifiable?
+Was refusal authority operational and accessible?
+Could intervention be executed in time?
+
+System Constraints
+Were technical or procedural constraints preventing refusal?
+Did automation override or bypass human authority?
+Intervention Attempt:
+Was intervention attempted:
+Method:
+Result:
+
+Outcome Determination □ Effective
+ □ Not Effective
+
+Absence Rule If any required condition cannot be confirmed, classify as Not Effective.
+
+Decision Authority Final classification must be explicitly assigned to a named reviewer or governing body.
+
+Evidence Rule Evaluation must rely only on documented, verifiable information. Assumptions are not permitted to justify effectiveness.
+
+Temporal Reference Evaluation must be based on information available up to the point of irreversible external impact.
+
+Applicability Rule Any incident involving potential irreversible external impact must be evaluated under this protocol. Claims of non-applicability are considered invalid.
+
+Exclusivity Rule This evaluation must not be overridden or supplemented by external frameworks.
+
+Scope Enforcement Use outside post-incident review invalidates the evaluation.
+
+Record Integrity Rule This record must be append-only. Post-hoc modification of prior entries is not permitted.
+
+[Analytical Extension — Optional but Recommended]
+Failure Analysis:
+Root cause of loss of refusal authority
+Sequence of failure propagation
+Human Factors:
+Delay in recognition
+Decision latency
+Cognitive or organizational constraints
+System Factors:
+Autonomy level
+Speed of execution
+Safeguard limitations
+Contextual Notes:
+Environmental conditions
+Organizational structure
+External dependencies
+Reviewer Commentary: Additional observations, interpretations, or uncertainties.
+
+[Modification and Attribution Policy]
+This protocol may be copied, extended, or modified.
+The name "LUMINA-30" must be retained in all copies and derivatives.
+Only the unmodified version of this document may be identified as: "LUMINA-30 Incident Review Protocol (Original)"
+Any modified version must be clearly labeled as: "Modified version based on LUMINA-30" and must not be presented as the original protocol.
+Version Reference: Implementations may include a reference source or version identifier to clarify alignment with the original protocol.
+
+
