@@ -8,6 +8,8 @@ A practical review set for assessing whether human refusal authority remained ef
 
 > Was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?
 
+This repository turns refusal authority from an abstract principle into a reviewable condition.
+
 ---
 
 ## Open Documents
