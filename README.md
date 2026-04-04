@@ -27,15 +27,28 @@ A practical review set for assessing whether human refusal authority remained ef
 
 ---
 
+## Supplementary Document / 補助文書
+
+### ▶ Operational Refusal Preservation Minimum / 拒否権保全の最小運用条件
+
+Minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact.
+
+不可逆な現実世界への影響が発生する前に、レビュー可能な人間の拒否権を維持するための最小運用条件です。
+
+[Open LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf](./LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf)
+
+---
 ## What this repository provides / このリポジトリで提供するもの
 
-- A minimal review protocol  
-- An extended analysis protocol  
+- A minimal incident review protocol  
+- An extended protocol for deeper structural analysis  
 - A ready-to-use incident review template  
+- A supplementary document defining minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact  
 
-- 最小構成のレビュー・プロトコル  
-- 詳細分析用の拡張プロトコル  
+- 最小構成のインシデントレビュー・プロトコル  
+- より深い構造分析のための拡張プロトコル  
 - そのまま使えるインシデントレビュー・テンプレート  
+- 不可逆な現実世界への影響が発生する前に、レビュー可能な人間の拒否権を維持するための最小運用条件を定義する補助文書
 
 ---
 
