@@ -17,13 +17,13 @@ A practical review set for assessing whether human refusal authority remained ef
 ## Open Documents / 文書を開く
 
 ### ▶ Basic Protocol / 基本プロトコル
-[Open LUMINA-30_Incident_Review_Protocol.docx](./LUMINA-30_Incident_Review_Protocol.docx)
+[Open LUMINA-30_Incident_Review_Protocol.pdf](./LUMINA-30_Incident_Review_Protocol.pdf)
 
 ### ▶ Extended Protocol / 拡張プロトコル
-[Open LUMINA-30_Incident_Review_Protocol_Extended.docx](./LUMINA-30_Incident_Review_Protocol_Extended.docx)
+[Open LUMINA-30_Incident_Review_Protocol_Extended.pdf](./LUMINA-30_Incident_Review_Protocol_Extended.pdf)
 
 ### ▶ Incident Review Template / インシデントレビュー テンプレート
-[Open LUMINA-30_Incident_Review_Template.docx](./LUMINA-30_Incident_Review_Template.docx)
+[Open LUMINA-30_Incident_Review_Template.pdf](./LUMINA-30_Incident_Review_Template.pdf)
 
 ---
 
