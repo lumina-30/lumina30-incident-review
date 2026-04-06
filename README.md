@@ -18,6 +18,8 @@ It evaluates whether alignment remains procedurally valid.
 This structure is consistent with the PCR-C framework,
 which models procedural invalidity before irreversible thresholds.
 
+This repository is intended for use in incident analysis, audit, and governance evaluation contexts.
+
 ---
 
 LUMINA-30 does not define what is right.
