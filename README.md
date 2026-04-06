@@ -1,41 +1,21 @@
-# LUMINA-30 Incident Review Set
+## LUMINA-30 Incident Review
 
-This repository is the practical review entry for LUMINA-30.
-For the conceptual overview of the framework, see the overview repository.
+This repository provides a minimal operational structure
+for reviewing AI incidents under the LUMINA-30 framework.
 
-このリポジトリはLUMINA-30の実務レビュー入口です。
-フレームワーク全体の概念概要はoverviewリポジトリを参照してください。
+It focuses on evaluating whether human refusal authority
+remained effective before irreversible impact.
 
-A practical review set for assessing whether human refusal authority remained effective before irreversible real-world impact.
+This repository is intended to be used together with:
+- lumina-30-overview (conceptual structure)
+- WORKF2 (full operational structure reference)
 
-This repository is designed to be used together with the conceptual overview.
-Understanding the framework structure improves the consistency of review outcomes.
+LUMINA-30 does not evaluate alignment intent or quality.
+It evaluates whether alignment remains procedurally valid.
 
-本リポジトリは概念概要と併用することを前提としています。
-フレームワーク構造を理解することで、レビュー結果の一貫性が向上します。
+This structure is consistent with the PCR-C framework,
+which models procedural invalidity before irreversible thresholds.
 
-LUMINA-30 does not evaluate alignment quality or intent.
-It evaluates whether alignment remains procedurally valid under irreversible conditions.
-
-LUMINA-30はアライメントの良し悪しや意図を評価しません。
-不可逆条件下において、アライメントが手続的に有効であるかのみを評価します。
-
-If alignment cannot be verified as preserving effective human refusal authority,
-it is treated as procedurally invalid.
-
-人間の拒否権の実効性を保持していることが検証できないアライメントは、
-手続的に無効として扱われます。
-
-This review structure is consistent with the Pre-Critical Recursive Cutoff (PCR-C) framework,
-which models procedural invalidity before irreversible thresholds are crossed.
-
-本レビュー構造は、不可逆閾値に到達する前の手続的無効化をモデル化する
-Pre-Critical Recursive Cutoff（PCR-C）フレームワークと整合しています。
-
-A system is considered procedurally invalid if effective human refusal is not preserved before irreversible impact.
-
-不可逆的影響の発生前に人間の拒否権の実効性が保持されていない場合、
-そのシステムは手続的に無効と見なされます。
 ---
 
 LUMINA-30 does not define what is right.
