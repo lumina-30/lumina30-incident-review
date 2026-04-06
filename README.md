@@ -1,5 +1,11 @@
 # LUMINA-30 Incident Review Set
 
+This repository is the practical review entry for LUMINA-30.
+For the conceptual overview of the framework, see the overview repository.
+
+このリポジトリはLUMINA-30の実務レビュー入口です。
+フレームワーク全体の概念概要はoverviewリポジトリを参照してください。
+
 A practical review set for assessing whether human refusal authority remained effective before irreversible real-world impact.
 
 ---
