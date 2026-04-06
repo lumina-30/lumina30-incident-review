@@ -18,8 +18,6 @@ It evaluates whether alignment remains procedurally valid.
 This structure is consistent with the PCR-C framework,
 which models procedural invalidity before irreversible thresholds.
 
-
-
 ---
 
 LUMINA-30 does not define what is right.
@@ -34,21 +32,6 @@ across conflicting ethical and regulatory systems.
 Absence of verifiable refusal authority is treated as absence of effectiveness.
 
 Intended users: reviewers, auditors, governance and oversight bodies.
-
-
-LUMINA-30は「何が正しいか」を定義しません。
-システムが「手続的に無効となる条件」を定義します。
-
-本フレームワークは意思決定に対する検証レイヤーであり、
-事前（導入前）および事後（インシデント後）の両方で使用可能です。
-
-価値や結果を定義しないことで、
-相反する倫理体系や制度環境でも適用可能性を維持します。
-
-検証可能な拒否権の実効性が確認できない場合、
-それは「実効性が存在しないもの」として扱われます。
-
-想定利用者：レビュー担当者、監査人、ガバナンス機関、監督主体。
 
 ---
 
