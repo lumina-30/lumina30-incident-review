@@ -13,8 +13,21 @@ Understanding the framework structure improves the consistency of review outcome
 
 本リポジトリは概念概要と併用することを前提としています。
 フレームワーク構造を理解することで、レビュー結果の一貫性が向上します。
- 
+
+LUMINA-30 does not evaluate alignment quality or intent.
+It evaluates whether alignment remains procedurally valid under irreversible conditions.
+
+LUMINA-30はアライメントの良し悪しや意図を評価しません。
+不可逆条件下において、アライメントが手続的に有効であるかのみを評価します。
+
+If alignment cannot be verified as preserving effective human refusal authority,
+it is treated as procedurally invalid.
+
+人間の拒否権の実効性を保持していることが検証できないアライメントは、
+手続的に無効として扱われます。
+
 ---
+
 LUMINA-30 does not define what is right.
 It defines when a system becomes procedurally invalid.
 
