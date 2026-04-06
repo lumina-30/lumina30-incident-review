@@ -8,6 +8,12 @@ For the conceptual overview of the framework, see the overview repository.
 
 A practical review set for assessing whether human refusal authority remained effective before irreversible real-world impact.
 
+This repository is designed to be used together with the conceptual overview.
+Understanding the framework structure improves the consistency of review outcomes.
+
+本リポジトリは概念概要と併用することを前提としています。
+フレームワーク構造を理解することで、レビュー結果の一貫性が向上します。
+ 
 ---
 LUMINA-30 does not define what is right.
 It defines when a system becomes procedurally invalid.
