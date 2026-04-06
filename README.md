@@ -9,11 +9,16 @@ remained effective before irreversible impact.
 This repository is intended to be used together with:
 - lumina-30-overview (conceptual structure)
 
+This review structure corresponds to G06 (Integrity and Verification),
+which determines procedural validity based on verifiable refusal effectiveness.
+
 LUMINA-30 does not evaluate alignment intent or quality.
 It evaluates whether alignment remains procedurally valid.
 
 This structure is consistent with the PCR-C framework,
 which models procedural invalidity before irreversible thresholds.
+
+
 
 ---
 
