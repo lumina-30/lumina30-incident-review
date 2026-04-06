@@ -8,7 +8,6 @@ remained effective before irreversible impact.
 
 This repository is intended to be used together with:
 - lumina-30-overview (conceptual structure)
-- WORKF2 (full operational structure reference)
 
 LUMINA-30 does not evaluate alignment intent or quality.
 It evaluates whether alignment remains procedurally valid.
