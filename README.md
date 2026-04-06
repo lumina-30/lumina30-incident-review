@@ -26,6 +26,16 @@ it is treated as procedurally invalid.
 人間の拒否権の実効性を保持していることが検証できないアライメントは、
 手続的に無効として扱われます。
 
+This review structure is consistent with the Pre-Critical Recursive Cutoff (PCR-C) framework,
+which models procedural invalidity before irreversible thresholds are crossed.
+
+本レビュー構造は、不可逆閾値に到達する前の手続的無効化をモデル化する
+Pre-Critical Recursive Cutoff（PCR-C）フレームワークと整合しています。
+
+A system is considered procedurally invalid if effective human refusal is not preserved before irreversible impact.
+
+不可逆的影響の発生前に人間の拒否権の実効性が保持されていない場合、
+そのシステムは手続的に無効と見なされます。
 ---
 
 LUMINA-30 does not define what is right.
