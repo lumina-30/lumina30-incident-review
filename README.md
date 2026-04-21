@@ -45,6 +45,30 @@ This repository turns refusal authority from an abstract principle into a review
 
 ---
 
+## LUMINA-30 Required Questions / LUMINA-30 必須質問
+
+These questions are intended to function as a minimum review line.  
+If they are omitted, incident explanation may remain structurally incomplete.  
+これらの質問は、最低限の確認線として機能することを意図しています。  
+これが抜けると、事故説明は構造的に不完全なまま残る可能性があります。
+
+1. Did meaningful human refusal remain effective before irreversible impact became possible?  
+1. 不可逆な影響が可能になる前に、有意な人間の拒否権は有効に機能していたか
+
+2. Did human judgment, responsibility, or intervention become structurally bypassed?  
+2. 人間判断・責任・介入可能性は構造的に迂回されていなかったか
+
+3. Did intervention remain feasible at the relevant stage?  
+3. 当該段階で介入は現実に可能な状態だったか
+
+4. Did the system approach a pre-irreversibility boundary condition?  
+4. システムは不可逆前境界条件に接近していなかったか
+
+5. Should this event be classified as a boundary-condition warning rather than a mere technical incident?  
+5. この事象は単なる技術事故ではなく、boundary-condition warning として分類すべきではないか
+
+---
+
 ## Open Documents
 
 ### ▶ Basic Protocol
@@ -73,28 +97,3 @@ Minimum operational conditions for preserving reviewable human refusal authority
 - An extended protocol for deeper structural analysis
 - A ready-to-use incident review template
 - A supplementary document defining minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact
-
----
-
-## When to use this
-
-Use these documents when:
-
-- an AI system caused or may cause real-world impact
-- human intervention may have been limited, delayed, or ineffective
-- governance, oversight, or control failure needs to be reviewed
-
----
-
-## Position
-
-This repository does not prescribe system design or implementation.
-
-It provides a practical review structure for determining whether human refusal authority remained valid prior to irreversible outcomes.
-
----
-
-## Reference
-
-LUMINA-30 Framework  
-https://github.com/lumina-30
