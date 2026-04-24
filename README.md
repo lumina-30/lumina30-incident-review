@@ -96,6 +96,59 @@ Use the following path depending on the review need.
 
 ---
 
+## Boundary Check and External Use Documents / 境界チェック・外部利用文書
+
+The following Markdown documents provide short, reusable tools for post-incident boundary review and external explanation.  
+以下のMarkdown文書は、事故後の境界レビューと外部説明に使える短い再利用用ツールです。
+
+### Boundary Check / 境界チェック
+
+- [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)  
+  One-page boundary check for effective human refusal before irreversible impact.  
+  不可逆的影響の前に人間の拒否が実効的だったかを確認する1ページ判定表。
+
+- [Required Questions 5](./boundary-check/Required_Questions_5.md)  
+  Minimal five-question review set.  
+  最小5問のレビュー質問セット。
+
+- [Absence Rule Check](./boundary-check/Absence_Rule_Check.md)  
+  Treat absent or unverifiable records as no effective refusal for boundary-review purposes.  
+  記録不在または検証不能を、境界レビュー上は実効的拒否なしとして扱う確認文書。
+
+- [AI Output as Final Rationale Check](./boundary-check/AI_Output_As_Final_Rationale_Check.md)  
+  Checks whether AI-generated output became the sole or primary rationale for final action.  
+  AI生成出力が最終行為の唯一または主要な根拠になっていないかを確認する文書。
+
+### External Use / 外部利用
+
+- [External Paste Templates](./external-use/External_Paste_Templates.md)  
+  Short text blocks for audit, research, policy, and incident-review contexts.  
+  監査、研究、政策、事故レビュー向けの短文貼付テンプレート。
+
+- [Minimal External Explanation](./external-use/Minimal_External_Explanation.md)  
+  Short explanations for introducing LUMINA-30 externally.  
+  LUMINA-30を外部に説明するための短い説明文。
+
+- [OECD / AISI / EU AI Act Connection Note](./external-use/OECD_AISI_EU_AI_Act_Connection_Note.md)  
+  Context note for connecting LUMINA-30 to existing incident, safety, audit, and governance discussions.  
+  既存のインシデント、安全性、監査、ガバナンス議論へLUMINA-30を接続するための文脈メモ。
+
+- [What LUMINA-30 Is Not](./external-use/LUMINA-30_Is_Not.md)  
+  Misreading-prevention note for non-binding and descriptive use.  
+  非拘束的・記述的な利用を守るための誤読防止メモ。
+
+### Response Templates / 応答テンプレート
+
+- [Post-Incident Review Response Template](./response-templates/Post_Incident_Review_Response_Template.md)  
+  Cautious response format for applying LUMINA-30 after an AI incident.  
+  AIインシデント後にLUMINA-30を適用する際の慎重な応答テンプレート。
+
+- [Mapping to Ordinary Incident Review](./response-templates/Ordinary_Incident_Review_Mapping.md)  
+  Mapping between ordinary incident review and LUMINA-30 boundary review.  
+  通常インシデントレビューとLUMINA-30境界レビューの対応表。
+
+---
+
 ## Stakeholder One-Page Briefs / 相手別1枚資料
 
 These short documents translate the LUMINA-30 review axis into role-specific working language.  
