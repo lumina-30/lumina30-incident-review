@@ -19,6 +19,7 @@ This file defines a recommended reading order for incident reviewers, auditors, 
 2. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
 3. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)
 4. [Post-Incident Review Response Template](./response-templates/Post_Incident_Review_Response_Template.md)
+5. [Timeboxed Post-Incident Review Checkpoints](./response-templates/Timeboxed_Post_Incident_Review_Checkpoints.md)
 
 ## Auditor Path / 監査担当者向け
 
