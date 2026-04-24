@@ -74,6 +74,15 @@ If they are omitted, incident explanation may remain structurally incomplete.
 Use the following path depending on the review need.  
 レビュー目的に応じて、まず以下を開いてください。
 
+- Start here / はじめに  
+  → `START_HERE.md`
+
+- Recommended reading order / 推奨読書順  
+  → `READING_ORDER.md`
+
+- First 3 files / 最初に読む3ファイル  
+  → `FIRST_3_FILES.md`
+
 - Immediate incident response / 事故直後の初動  
   → `LUMINA-30_Incident_Review_Protocol.pdf`
 
@@ -119,6 +128,22 @@ The following Markdown documents provide short, reusable tools for post-incident
   Checks whether AI-generated output became the sole or primary rationale for final action.  
   AI生成出力が最終行為の唯一または主要な根拠になっていないかを確認する文書。
 
+- [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)  
+  Short first-pass assessment form for AI-related incidents.  
+  AI関連インシデントの初回簡易評価フォーム。
+
+- [Boundary Check Scoring Guide](./boundary-check/Boundary_Check_Scoring_Guide.md)  
+  Simple review-aid scoring guide for comparing evidence strength.  
+  証拠の強さを比較するための簡易レビュー補助スコアガイド。
+
+- [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)  
+  Standard result labels for LUMINA-30 boundary review.  
+  LUMINA-30境界レビューの標準結果ラベル。
+
+- [First Use Questions](./boundary-check/First_Use_Questions.md)  
+  First questions to ask before applying the full boundary review.  
+  完全な境界レビューを適用する前に最初に確認する質問。
+
 ### External Use / 外部利用
 
 - [External Paste Templates](./external-use/External_Paste_Templates.md)  
@@ -137,6 +162,26 @@ The following Markdown documents provide short, reusable tools for post-incident
   Misreading-prevention note for non-binding and descriptive use.  
   非拘束的・記述的な利用を守るための誤読防止メモ。
 
+- [Auditor Minimal Template](./external-use/Auditor_Minimal_Template.md)  
+  Minimal text for audit and control-review contexts.  
+  監査・統制レビュー向けの最小説明文。
+
+- [Legal and Compliance Minimal Template](./external-use/Legal_Compliance_Minimal_Template.md)  
+  Minimal text for legal, compliance, and accountability contexts.  
+  法務・コンプライアンス・説明責任向けの最小説明文。
+
+- [Researcher Minimal Template](./external-use/Researcher_Minimal_Template.md)  
+  Minimal citation-oriented text for researchers.  
+  研究者向けの引用しやすい最小説明文。
+
+- [Policy and Regulator Minimal Template](./external-use/Policy_Regulator_Minimal_Template.md)  
+  Minimal text for policy, regulatory, and governance contexts.  
+  政策・規制・ガバナンス向けの最小説明文。
+
+- [Executive Stop Decision Brief](./external-use/Executive_Stop_Decision_Brief.md)  
+  Short executive brief for stop, pause, or escalation decisions.  
+  停止・一時停止・エスカレーション判断向けの短い経営層メモ。
+
 ### Response Templates / 応答テンプレート
 
 - [Post-Incident Review Response Template](./response-templates/Post_Incident_Review_Response_Template.md)  
@@ -146,6 +191,22 @@ The following Markdown documents provide short, reusable tools for post-incident
 - [Mapping to Ordinary Incident Review](./response-templates/Ordinary_Incident_Review_Mapping.md)  
   Mapping between ordinary incident review and LUMINA-30 boundary review.  
   通常インシデントレビューとLUMINA-30境界レビューの対応表。
+
+- [Initial Public Review Note](./response-templates/Initial_Public_Review_Note.md)  
+  Cautious initial public note for AI incidents before facts are complete.  
+  事実が揃う前に使う、慎重な初期公開レビュー文。
+
+- [Evidence Insufficient Response](./response-templates/Evidence_Insufficient_Response.md)  
+  Response template when records are insufficient or unverifiable.  
+  記録が不十分または検証不能な場合の応答テンプレート。
+
+- [Boundary Warning Response](./response-templates/Boundary_Warning_Response.md)  
+  Response template for cases approaching a LUMINA-30 boundary concern.  
+  LUMINA-30境界懸念に接近している事案向けの応答テンプレート。
+
+- [No Effective Refusal Response](./response-templates/No_Effective_Refusal_Response.md)  
+  Response template when effective human refusal is not demonstrated.  
+  実効的な人間の拒否が示されない場合の応答テンプレート。
 
 ---
 
