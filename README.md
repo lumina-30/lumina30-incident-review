@@ -231,6 +231,10 @@ The following documents provide citation phrases, terminology, PCR-C relationshi
   Stable GitHub and DOI links for citation and navigation.  
   引用と導線のための安定したGitHubリンクおよびDOIリンク。
 
+- [Research Landscape Mapping](./reference/Research_Landscape_Mapping.md)  
+  Research-context positioning and comparative framing for LUMINA-30.  
+  LUMINA-30の研究文脈上の位置づけと比較的位置づけ。
+
 ---
 
 ## Stakeholder One-Page Briefs / 相手別1枚資料
