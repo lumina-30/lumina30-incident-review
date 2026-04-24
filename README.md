@@ -210,6 +210,29 @@ The following Markdown documents provide short, reusable tools for post-incident
 
 ---
 
+## Reference Documents / 参照文書
+
+The following documents provide citation phrases, terminology, PCR-C relationship notes, and stable links for external reference.  
+以下の文書は、外部参照のための引用文、用語、PCR-Cとの関係、安定リンクを提供します。
+
+- [Citation Phrases](./reference/Citation_Phrases.md)  
+  Short reusable citation phrases for research, policy, audit, and incident-review contexts.  
+  研究、政策、監査、事故レビューの文脈で再利用できる短い引用文。
+
+- [LUMINA-30 and PCR-C Relationship](./reference/LUMINA-30_and_PCRC_Relationship.md)  
+  Short explanation of how LUMINA-30 and PCR-C relate without merging their roles.  
+  LUMINA-30とPCR-Cの役割を混同せずに関係を説明する短文。
+
+- [Boundary Reference Terminology](./reference/Boundary_Reference_Terminology.md)  
+  Preferred terms for non-binding, descriptive, post-incident boundary reference use.  
+  非拘束的・記述的な事故後境界参照として使うための推奨語彙。
+
+- [Stable Reference Links](./reference/Stable_Reference_Links.md)  
+  Stable GitHub and DOI links for citation and navigation.  
+  引用と導線のための安定したGitHubリンクおよびDOIリンク。
+
+---
+
 ## Stakeholder One-Page Briefs / 相手別1枚資料
 
 These short documents translate the LUMINA-30 review axis into role-specific working language.  
