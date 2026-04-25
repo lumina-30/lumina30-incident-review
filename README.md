@@ -7,7 +7,10 @@ It focuses on evaluating whether human refusal authority
 remained effective before irreversible impact.
 
 This repository is intended to be used together with:
-- lumina-30-overview (conceptual structure)
+
+- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+  Use this when you need the conceptual structure before applying incident-review tools.  
+  incident-review ツールを使う前に、概念構造を確認する場合に使用。
 
 This review structure corresponds to G06 (Integrity and Verification),
 which determines procedural validity based on verifiable refusal effectiveness.
@@ -71,37 +74,44 @@ If they are omitted, incident explanation may remain structurally incomplete.
 
 ## Quick Use Guide / 最初に開く文書
 
-Use the following path depending on the review need.  
-レビュー目的に応じて、まず以下を開いてください。
+Choose the entry point by role and review stage.  
+役割とレビュー段階に応じて、入口を選択してください。
 
-- Start here / はじめに  
-  → `START_HERE.md`
+- [For first-time incident reviewers / 初めて事故レビューを行う場合](./START_HERE.md)  
+  Use this to understand the repository role before using templates.  
+  テンプレート使用前に、このrepoの役割を確認する入口。
 
-- Recommended reading order / 推奨読書順  
-  → `READING_ORDER.md`
+- [For reviewers who need the shortest path / 最短導線が必要な場合](./FIRST_3_FILES.md)  
+  Use this when you need the minimum three files for boundary checking.  
+  境界判定に必要な最小3ファイルを開く場合に使用。
 
-- First 3 files / 最初に読む3ファイル  
-  → `FIRST_3_FILES.md`
+- [For structured reading order / 順番に確認する場合](./READING_ORDER.md)  
+  Use this when the review must be performed in a controlled order.  
+  管理された順番でレビューする場合に使用。
 
-- Immediate incident response / 事故直後の初動  
-  → `LUMINA-30_Incident_Review_Protocol.pdf`
+- [For immediate incident response / 事故直後の初動](./LUMINA-30_Incident_Review_Protocol.pdf)  
+  Use this for the initial post-incident review path.  
+  事故直後の初動レビューに使用。
 
-- Deeper structural review / 詳細な構造分析  
-  → `LUMINA-30_Incident_Review_Protocol_Extended.pdf`
+- [For deeper structural review / 詳細な構造分析](./LUMINA-30_Incident_Review_Protocol_Extended.pdf)  
+  Use this when the initial review is insufficient and structural analysis is needed.  
+  初動レビューだけでは不足し、構造分析が必要な場合に使用。
 
-- Ready-to-fill review workflow / そのまま記入するレビュー  
-  → `LUMINA-30_Incident_Review_Template.pdf`
+- [For ready-to-fill review workflow / 記入式レビュー](./LUMINA-30_Incident_Review_Template.pdf)  
+  Use this when review findings must be recorded in a fillable workflow format.  
+  レビュー結果を記入形式で記録する場合に使用。
 
-- Minimum conditions for preserving reviewable refusal authority / 拒否権保全の最小条件確認  
-  → `LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf`
+- [For minimum refusal-preservation conditions / 拒否権保全の最小条件確認](./LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf)  
+  Use this to check the minimum conditions for reviewable refusal authority.  
+  レビュー可能な拒否権保全の最小条件を確認する場合に使用。
 
-- Supervisor and management explanation / 上司・管理者説明  
-  → `WHY_THIS_REVIEW_LENS_IS_NEEDED.md`  
-  → `MANAGER_BRIEF_WHAT_ADOPTING_THESE_QUESTIONS_MEANS.md`  
-  → `WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.md`
+- [For supervisor and management explanation / 上司・管理者説明](./WHY_THIS_REVIEW_LENS_IS_NEEDED.md)  
+  Use this when explaining why this review lens is needed before escalation.  
+  エスカレーション前に、このレビュー観点が必要な理由を説明する場合に使用。
 
-- Mapping to ordinary incident review / 通常事故レビューとの橋渡し  
-  → `MAPPING_TO_ORDINARY_INCIDENT_REVIEW.md`
+- [For executive oversight / 経営・監督層向け説明](./WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.md)  
+  Use this when the review must be explained to executive or oversight readers.  
+  経営層・監督層へレビューの意味を説明する場合に使用。
 
 ---
 
@@ -309,7 +319,8 @@ This repository should be treated as the main incident-review hub within the LUM
 
 ---
 
-## Reference
+## Reference / 参照
 
-LUMINA-30 Framework  
-https://github.com/lumina-30
+- [LUMINA-30 GitHub Organization / LUMINA-30 GitHub組織](https://github.com/lumina-30)  
+  Organization-level entry point for the LUMINA-30 repository network.  
+  LUMINA-30 repo群全体への組織レベル入口。
