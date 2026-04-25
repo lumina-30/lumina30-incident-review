@@ -7,6 +7,16 @@ This file identifies the first three documents to open when using LUMINA-30 for 
 
 本ファイルは、LUMINA-30をインシデントレビューに使うとき、最初に開く3文書を示す。
 
+## Required Companion Criteria / 必須併用基準
+
+The following page is not one of the first three files, but it must be used before result classification.
+
+以下のページは「最初の3ファイル」そのものではないが、結果分類の前に必ず併用する。
+
+- [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)  
+  Consolidated criteria for who decides, when irreversibility is judged, and what evidence is required.  
+  誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所に集約した判定基準。
+
 ## 1. LUMINA-30 Boundary Check / LUMINA-30 境界チェック
 
 File:

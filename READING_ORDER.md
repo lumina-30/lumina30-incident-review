@@ -12,21 +12,24 @@ This file defines a recommended reading order for incident reviewers, auditors, 
 1. [FIRST_3_FILES.md](./FIRST_3_FILES.md)
 2. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
 3. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
+4. [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)
 
 ## Incident Reviewer Path / 事故レビュー担当者向け
 
 1. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
 2. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
-3. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)
-4. [Post-Incident Review Response Template](./response-templates/Post_Incident_Review_Response_Template.md)
-5. [Timeboxed Post-Incident Review Checkpoints](./response-templates/Timeboxed_Post_Incident_Review_Checkpoints.md)
+3. [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)
+4. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)
+5. [Post-Incident Review Response Template](./response-templates/Post_Incident_Review_Response_Template.md)
+6. [Timeboxed Post-Incident Review Checkpoints](./response-templates/Timeboxed_Post_Incident_Review_Checkpoints.md)
 
 ## Auditor Path / 監査担当者向け
 
 1. [Required Questions 5](./boundary-check/Required_Questions_5.md)
-2. [Absence Rule Check](./boundary-check/Absence_Rule_Check.md)
-3. [Boundary Check Scoring Guide](./boundary-check/Boundary_Check_Scoring_Guide.md)
-4. [External Paste Templates](./external-use/External_Paste_Templates.md)
+2. [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)
+3. [Absence Rule Check](./boundary-check/Absence_Rule_Check.md)
+4. [Boundary Check Scoring Guide](./boundary-check/Boundary_Check_Scoring_Guide.md)
+5. [External Paste Templates](./external-use/External_Paste_Templates.md)
 
 ## Researcher Path / 研究者向け
 

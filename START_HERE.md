@@ -33,19 +33,29 @@ Start with these three files:
 2. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
 3. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
 
+Before classifying the result, apply the consolidated decision criteria:
+
+結果を分類する前に、集約された判定基準を適用する。
+
+- [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)  
+  Use this to check who decides, when irreversibility is judged, and what evidence is required.  
+  誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを確認する。
+
 ## Minimal Review Flow / 最小レビュー手順
 
 1. Identify the incident boundary.
 2. Check whether irreversible impact was possible or approaching.
 3. Determine whether human final refusal was available before that point.
 4. Verify whether the refusal pathway was recorded.
-5. Classify the result without making legal conclusions.
+5. Apply the consolidated decision criteria.
+6. Classify the result without making legal conclusions.
 
 1. インシデントの境界を特定する。
 2. 不可逆的影響が可能だったか、または接近していたかを確認する。
 3. その時点の前に人間の最終拒否が可能だったかを判断する。
 4. 拒否経路が記録されていたかを検証する。
-5. 法的結論ではなく、境界レビュー上の分類を行う。
+5. 集約された判定基準を適用する。
+6. 法的結論ではなく、境界レビュー上の分類を行う。
 
 ## Status / 位置づけ
 

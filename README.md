@@ -85,6 +85,10 @@ Choose the entry point by role and review stage.
   Use this when you need the minimum three files for boundary checking.  
   境界判定に必要な最小3ファイルを開く場合に使用。
 
+- [For consolidated decision criteria / 判定基準を一か所で確認する場合](./boundary-check/Irreversibility_Decision_Criteria.md)  
+  Use this to check who decides, when irreversibility is judged, and what evidence is required.  
+  誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。
+
 - [For structured reading order / 順番に確認する場合](./READING_ORDER.md)  
   Use this when the review must be performed in a controlled order.  
   管理された順番でレビューする場合に使用。
@@ -125,6 +129,10 @@ The following Markdown documents provide short, reusable tools for post-incident
 - [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)  
   One-page boundary check for effective human refusal before irreversible impact.  
   不可逆的影響の前に人間の拒否が実効的だったかを確認する1ページ判定表。
+
+- [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)  
+  Consolidated criteria for who decides, when irreversibility is judged, and what evidence is required.  
+  誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所に集約した判定基準。
 
 - [Required Questions 5](./boundary-check/Required_Questions_5.md)  
   Minimal five-question review set.  
