@@ -13,6 +13,7 @@ This file defines a recommended reading order for incident reviewers, auditors, 
 2. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
 3. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
 4. [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md)
+5. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)
 
 ## Incident Reviewer Path / 事故レビュー担当者向け
 

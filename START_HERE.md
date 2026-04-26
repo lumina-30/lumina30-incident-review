@@ -25,13 +25,19 @@ Use this repository when an AI-related incident raises questions such as:
 
 ## First Path / 最初の導線
 
-Start with these three files:
+Start by opening the first-use guide, then follow the three core files listed there.
 
-最初は以下の3ファイルから開始する。
+まず初回用ガイドを開き、その中に示された3つの中核ファイルに従う。
 
 1. [FIRST_3_FILES.md](./FIRST_3_FILES.md)
-2. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
-3. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
+
+The three core working files are:
+
+実際に使用する3つの中核ファイルは以下である。
+
+1. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
+2. [Incident Quick Assessment Template](./boundary-check/Incident_Quick_Assessment_Template.md)
+3. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md)
 
 Before classifying the result, apply the consolidated decision criteria:
 
