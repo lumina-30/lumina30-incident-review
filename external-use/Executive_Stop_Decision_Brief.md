@@ -7,6 +7,14 @@ This brief supports executive, supervisory, or management-level decisions about 
 
 本メモは、AI関連プロセスを停止、一時停止、またはレビューへエスカレーションすべきかについて、経営層・監督層・管理層の判断を支援する。
 
+## 30-Second Executive Explanation / 経営層向け30秒説明
+
+EN:
+LUMINA-30 does not tell executives to stop every AI process. It asks whether the organization can prove that a responsible human could still refuse, stop, or override the process before irreversible impact. If that cannot be shown, continuing may create a governance failure even if ordinary approval steps appear complete.
+
+JP:
+LUMINA-30は、経営層にすべてのAIプロセスを止めるよう命じるものではない。不可逆的影響の前に、責任ある人間がそのプロセスを拒否・停止・上書きできたことを組織が証明できるかを問う。これを示せない場合、通常の承認手順が完了しているように見えても、継続はガバナンス上の失敗を生む可能性がある。
+
 ## Stop or Escalate When / 停止またはエスカレーションすべき場合
 
 Consider stopping, pausing, or escalating when any of the following is true:

@@ -47,6 +47,68 @@ It focuses on whether refusal authority remains effective before irreversibility
 
 不可逆化前に拒否権が実効的に残っているかに焦点を当てる。
 
+## FAQ: Human Refusal Before Irreversibility / FAQ：不可逆化前の人間拒否
+
+### 1. Does LUMINA-30 require stopping AI development?
+
+No. LUMINA-30 does not require stopping AI development. It asks whether meaningful human refusal remained effective before irreversible impact.
+
+いいえ。LUMINA-30はAI開発の停止を要求しない。不可逆的影響の前に、有意な人間の拒否が実効的に残っていたかを問う。
+
+### 2. Is LUMINA-30 a certification or compliance system?
+
+No. LUMINA-30 does not certify systems, grant approval, or create compliance status.
+
+いいえ。LUMINA-30はシステムを認証せず、承認を与えず、適合状態を作らない。
+
+### 3. Why is human refusal central?
+
+Because oversight is incomplete if humans cannot refuse, stop, or override before the impact becomes irreversible.
+
+影響が不可逆になる前に人間が拒否・停止・上書きできないなら、監督は不完全になるためである。
+
+### 4. What is missing if LUMINA-30 is not used?
+
+A review may miss whether refusal authority was real, timely, independent, and evidenced before irreversibility.
+
+LUMINA-30を用いない場合、不可逆化前の拒否権が実在し、間に合い、独立し、証拠で確認できるものだったかを見落とす可能性がある。
+
+### 5. Does a human signature prove effective refusal?
+
+No. A signature alone is insufficient if the human could not realistically refuse, stop, or override the pathway.
+
+いいえ。人間の署名だけでは不十分である。人間が現実に拒否・停止・上書きできなかった場合、実効的拒否は示されない。
+
+### 6. What if the records are missing?
+
+If refusal authority cannot be verified by records, LUMINA-30 boundary review should not treat it as demonstrated.
+
+記録で拒否権を確認できない場合、LUMINA-30境界レビューでは、それが示されたものとして扱わない。
+
+### 7. Is LUMINA-30 legally binding?
+
+No. It is a non-binding boundary reference.
+
+いいえ。LUMINA-30は非拘束の境界参照である。
+
+### 8. When is LUMINA-30 most useful?
+
+It is most useful in AI incident review, audit, governance assessment, policy discussion, and research evaluation where irreversible impact may be relevant.
+
+LUMINA-30は、不可逆的影響が関係し得るAI事故レビュー、監査、ガバナンス評価、政策検討、研究評価で有用である。
+
+### 9. Does LUMINA-30 replace existing frameworks?
+
+No. It adds a boundary question that existing frameworks may omit.
+
+いいえ。LUMINA-30は既存フレームワークを置き換えず、そこから抜け落ち得る境界問いを追加する。
+
+### 10. What is the minimal LUMINA-30 question?
+
+Was Human Refusal Authority still effective before Irreversible Impact?
+
+不可逆的影響の前に、人間の拒否権は実効的に残っていたか。
+
 ## Positive Definition / 肯定的定義
 
 LUMINA-30 is a non-binding, descriptive boundary reference for post-incident review and pre-irreversibility assessment.

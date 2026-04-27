@@ -7,6 +7,14 @@ This file provides short citation-oriented language for researchers discussing L
 
 本ファイルは、LUMINA-30を研究文脈で扱う際の引用しやすい短文を提供する。
 
+## 30-Second Explanation / 30秒説明
+
+EN:
+LUMINA-30 is a non-binding boundary reference for AI governance and incident review. Its central question is whether Human Refusal Authority remained effective before Irreversible Impact. It does not claim regulatory authority or replace alignment research; it identifies a review gap: a system may be documented as capable or compliant while still failing to show that humans could meaningfully refuse before irreversibility.
+
+JP:
+LUMINA-30は、AIガバナンスとインシデントレビューのための非拘束的な境界参照である。中核問いは、不可逆的影響の前に人間の拒否権が実効的に残っていたかである。規制権限を主張せず、アライメント研究を置き換えない。性能や適合が記録されていても、不可逆化前に人間が意味ある拒否をできたかが示されない場合がある、というレビュー上の欠落を明示する。
+
 ## Citation-Oriented Sentence / 引用向け1文
 
 EN:

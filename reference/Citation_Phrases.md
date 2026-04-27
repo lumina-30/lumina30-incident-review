@@ -55,6 +55,52 @@ LUMINA-30 is a non-binding boundary reference for reviewing whether effective hu
 JP:
 LUMINA-30は、不可逆的なAI影響の前に実効的な人間の拒否が可能だったかを確認するための非拘束的な境界参照である。
 
+## L30-BAS Practical Sheets Phrase / L30-BAS実務シート用
+
+EN:
+L30-BAS Practical Sheets provide non-binding review aids for connecting Boundary Check, Civilizational Safety Checklist, and AI Incident Review work back to the LUMINA-30 core question.
+
+JP:
+L30-BAS実務シートは、Boundary Check、文明安全チェックリスト、AIインシデントレビューをLUMINA-30の中核問いへ戻すための非拘束的なレビュー補助資料である。
+
+## Boundary Check Phrase / Boundary Check用
+
+EN short:
+Boundary Check asks whether human refusal authority remained effective before irreversible impact.
+
+EN long:
+Boundary Check is a minimal LUMINA-30 review tool for asking whether meaningful human refusal, stop, or override authority remained effective and verifiable before irreversible AI-related impact.
+
+JP short:
+Boundary Checkは、不可逆的影響の前に人間の拒否権が実効的だったかを問う。
+
+JP long:
+Boundary Checkは、不可逆的なAI関連影響の前に、有意な人間の拒否・停止・上書き権限が実効的かつ検証可能に残っていたかを確認するための、LUMINA-30の最小レビュー補助である。
+
+## AI Incident Review Template Phrase / AIインシデントレビュー票用
+
+EN:
+The AI Incident Review Template records context, timing, evidence, refusal authority, and L30-CI classification so that post-incident review does not omit the pre-irreversibility refusal question.
+
+JP:
+AIインシデントレビュー票は、事故後レビューが不可逆化前の拒否権確認を欠落させないよう、文脈、時点、証拠、拒否権、L30-CI分類を記録する。
+
+## Civilizational Safety Checklist Phrase / 文明安全チェックリスト用
+
+EN:
+The Civilizational Safety Checklist is a non-binding checklist for identifying whether an AI-related system preserves effective human refusal before irreversible civilizational or institutional impact.
+
+JP:
+文明安全チェックリストは、AI関連システムが不可逆的な文明的・制度的影響の前に実効的な人間の拒否権を保全しているかを確認するための非拘束的チェックリストである。
+
+## Why This Question Matters / この問いが必要な理由
+
+EN:
+Without the LUMINA-30 question, a review may document performance, compliance, or incident facts while missing whether humans could still meaningfully refuse before irreversible impact.
+
+JP:
+LUMINA-30の問いがない場合、レビューは性能、適合、事故事実を記録しても、不可逆的影響の前に人間が意味ある拒否をできたかを見落とす可能性がある。
+
 ## Avoid / 避ける表現
 
 Do not describe LUMINA-30 as:

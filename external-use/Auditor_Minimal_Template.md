@@ -7,6 +7,14 @@ This file provides a short reusable text for audit, control review, and assuranc
 
 本ファイルは、監査、統制レビュー、保証業務の文脈で再利用できる短文を提供する。
 
+## 30-Second Explanation / 30秒説明
+
+EN:
+LUMINA-30 gives auditors a non-binding boundary question: before irreversible impact, could humans still refuse, stop, or override the AI-driven pathway, and can that be verified by evidence? Without this question, an audit may confirm documentation or approval while missing whether refusal authority was operationally real.
+
+JP:
+LUMINA-30は監査担当者に、非拘束の境界問いを与える。不可逆的影響の前に、人間はAI駆動の経路を拒否・停止・上書きできたか、そしてそれを証拠で確認できるか、という問いである。この問いがない場合、監査は文書化や承認を確認しても、拒否権が運用上実在したかを見落とす可能性がある。
+
 ## Minimal Text / 最小文
 
 EN:

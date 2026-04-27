@@ -7,6 +7,14 @@ This file provides short language for policy, regulatory, and governance context
 
 本ファイルは、政策、規制、ガバナンス文脈で使う短文を提供する。
 
+## 30-Second Explanation / 30秒説明
+
+EN:
+LUMINA-30 is not a regulation, compliance regime, certification system, or approval process. It is a non-binding boundary reference for asking whether effective human refusal remained available before irreversible AI-related impact. In policy and governance review, it helps identify what may be missing when oversight is described only as approval, reporting, or risk management.
+
+JP:
+LUMINA-30は、規制、コンプライアンス制度、認証制度、承認手続ではない。不可逆的なAI関連影響の前に、実効的な人間の拒否が利用可能だったかを問うための非拘束的な境界参照である。政策・ガバナンスレビューでは、監督が承認、報告、リスク管理としてのみ説明される場合に、何が欠け得るかを明確にする。
+
 ## Minimal Text / 最小文
 
 EN:
