@@ -66,3 +66,35 @@ Use this relationship statement when:
 - 研究資料とインシデントレビュー資料を接続する場合
 - 境界定義と制御メカニズムの混同を防ぐ場合
 - 研究、ガバナンス、監査の場でプロジェクトを説明する場合
+
+
+
+---
+
+## Three-Layer Research Position / 三層研究位置づけ
+
+For external research explanation, LUMINA-30, PCR-C, and the related existence-condition argument should not be merged.
+They should be described as separate layers.
+
+外部研究説明では、LUMINA-30、PCR-C、および関連する存在条件論を統合して説明してはならない。
+それぞれを別レイヤーとして説明する。
+
+| Layer | Role | What it answers | What it must not be confused with |
+|---|---|---|---|
+| LUMINA-30 | Boundary reference | Was Human Refusal Authority still effective before Irreversible Impact? | Regulation, certification, alignment method, or approval regime |
+| PCR-C | Infrastructure-layer cutoff model | How can infrastructure-level control act before irreversibility risk becomes dominant? | The canonical LUMINA-30 boundary definition |
+| Existence-condition argument | Research-layer rationale | Why may an external boundary or anchor be structurally necessary? | Operational checklist, compliance rule, or institutional mandate |
+
+| レイヤー | 役割 | 答える問い | 混同してはならないもの |
+|---|---|---|---|
+| LUMINA-30 | 境界参照 | 不可逆的影響の前に人間の拒否権は実効的だったか | 規制、認証、アライメント手法、承認制度 |
+| PCR-C | インフラ層カットオフモデル | 不可逆リスクが支配的になる前に、インフラ層制御はどう作用できるか | LUMINA-30の正典的境界定義 |
+| 存在条件論 | 研究レイヤー上の根拠説明 | なぜ外部境界または外部アンカーが構造的に必要になり得るか | 実務チェックリスト、適合規則、制度命令 |
+
+## Reusable External Sentence / 外部説明用再利用文
+
+EN:
+LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-layer control model for acting before the boundary is crossed; the existence-condition argument explains why an external boundary may be structurally necessary. These layers are complementary but not interchangeable.
+
+JP:
+LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。

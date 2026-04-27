@@ -142,3 +142,37 @@ Use this document when:
 - LUMINA-30をアライメント、規制、認証、執行と混同することを防ぐ場合
 - PCR-CとLUMINA-30を、役割を混同せずに接続する場合
 - 旧Research-Contextリポジトリを統合または後方化できるか判断する場合
+
+
+
+---
+
+## 8. Current External Review Context (2026) / 現行外部レビュー文脈（2026）
+
+Current AI governance and safety discussion increasingly relies on incident evidence, systemic-risk assessment, general-purpose AI obligations, and safety-report synthesis.
+LUMINA-30 should be positioned as a narrow boundary-review reference within that environment, not as a replacement for any of those domains.
+
+現在のAIガバナンスおよび安全性議論では、インシデント証拠、システミックリスク評価、GPAI義務、安全性レポートの統合的整理がますます重視されている。
+LUMINA-30は、その環境内における狭い境界レビュー参照として位置づけるべきであり、それらの領域を置き換えるものではない。
+
+| External research or governance context | What it often checks | LUMINA-30 review gap |
+|---|---|---|
+| Incident monitoring | Whether harm, hazard, failure, or misuse occurred | Whether humans could still meaningfully refuse before the impact became irreversible |
+| GPAI / systemic-risk governance | Whether documentation, risk management, reporting, or cybersecurity duties are addressed | Whether these measures preserved effective refusal authority before irreversibility |
+| AI safety reports | What capabilities, risks, and evidence gaps exist | Whether review includes the human refusal boundary before irreversible impact |
+| Alignment and evaluation research | Whether model behavior, objectives, or capabilities meet expected criteria | Whether even a capable or compliant system left humans with effective refusal authority |
+| Infrastructure-control research | Whether technical control points exist | Whether those control points remained available before refusal became structurally ineffective |
+
+| 外部研究・ガバナンス文脈 | 典型的に確認すること | LUMINA-30が補うレビュー上の欠落 |
+|---|---|---|
+| インシデント監視 | 被害、ハザード、失敗、悪用が発生したか | 影響が不可逆化する前に、人間が意味ある拒否をなお行えたか |
+| GPAI / システミックリスク・ガバナンス | 文書化、リスク管理、報告、サイバーセキュリティ義務が扱われているか | それらの措置が、不可逆化前の実効的拒否権を保全していたか |
+| AI安全性レポート | 能力、リスク、証拠ギャップが何か | レビューが不可逆的影響前の人間拒否境界を含んでいるか |
+| アライメント・評価研究 | モデル挙動、目的、能力が期待基準を満たすか | 能力があり適合的に見えるシステムでも、人間の実効的拒否権が残っていたか |
+| インフラ制御研究 | 技術的制御点が存在するか | 拒否が構造的に不能化する前に、それらの制御点が利用可能だったか |
+
+This section is descriptive only.
+It must not be used to claim that LUMINA-30 is adopted, endorsed, required, or recognised by OECD, EU institutions, AI Safety Institutes, or any external framework.
+
+本節は記述的な位置づけに限る。
+OECD、EU機関、AI Safety Institute群、その他外部枠組みによってLUMINA-30が採用、承認、要求、認定されていると主張するために使用してはならない。
