@@ -32,3 +32,23 @@ For the full structure, see the LUMINA-30 GitHub overview and incident-review ma
 
 JP:
 全体構造は、LUMINA-30のGitHub overviewおよびincident-review資料を参照。
+
+---
+
+## Non-Dialogue Use / 非対話型利用
+
+EN:
+These external explanations may be used in non-dialogue contexts where the purpose is to place a reference point rather than start or maintain a debate. They should be used only with a clear non-affiliation note and without claiming endorsement, adoption, certification, compliance, or legal authority.
+
+JP:
+これらの外部向け説明は、議論を開始・維持することではなく、参照点を置くことを目的とする非対話型の文脈で使用できる。使用時は、非提携・非公式の注記を明確にし、支持、採用、認証、適合、法的権限を主張してはならない。
+
+EN:
+Recommended footer:
+
+> LUMINA-30 is provided as a public, non-binding boundary reference. This note does not claim endorsement, adoption, affiliation, certification, compliance, or legal authority. No response is required.
+
+JP:
+推奨フッター:
+
+> LUMINA-30は、公開された非拘束の境界参照として提示されている。本記載は、支持、採用、提携、認証、適合、法的権限を主張するものではない。返信は不要である。
