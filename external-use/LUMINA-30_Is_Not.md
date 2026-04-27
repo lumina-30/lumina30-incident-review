@@ -7,6 +7,62 @@ This file prevents common misreadings of LUMINA-30.
 
 本ファイルは、LUMINA-30の一般的な誤読を防ぐためのものである。
 
+---
+
+## Plain-Language Irreversibility Note / 不可逆性の平易な説明
+
+In LUMINA-30, **irreversibility** means that an AI-related action, deployment, decision path, or institutional dependency has passed the point where humans can still meaningfully refuse, stop, or reverse it before serious impact occurs.
+
+LUMINA-30における**不可逆性**とは、AIに関わる行為・展開・意思決定経路・制度依存が、重大な影響の前に人間が意味ある形で拒否・停止・取り戻しを行える地点を越えた状態を指す。
+
+A review is incomplete if it only asks whether a system performed well, complied with rules, or produced useful outputs, but does not ask whether humans could still refuse before the outcome became irreversible.
+
+システムがうまく動いたか、規則に従ったか、有用な出力を出したかだけを確認し、結果が不可逆になる前に人間がまだ拒否できたかを確認しないレビューは不完全である。
+
+Minimal test:
+
+- Could a human still say no?
+- Could that refusal stop the relevant pathway in time?
+- Can that be verified by preserved evidence?
+
+最小確認:
+
+- 人間はまだ「拒否」できたか。
+- その拒否は、該当する経路を時間内に止められたか。
+- それを保全された証拠で確認できるか。
+
+---
+
+## What LUMINA-30 Does Not Do / LUMINA-30がしないこと
+
+LUMINA-30 does not:
+
+- certify systems,
+- approve deployments,
+- grant compliance status,
+- replace law, regulation, safety evaluation, audit, or incident-response practice,
+- require AI development to stop,
+- claim affiliation with public institutions, research bodies, or standards organizations,
+- decide liability, legality, or ethical adequacy.
+
+LUMINA-30は以下を行わない。
+
+- システム認証、
+- 展開承認、
+- 適合状態の付与、
+- 法律・規制・安全性評価・監査・事故対応実務の置換、
+- AI開発停止の要求、
+- 公的機関・研究機関・標準化組織との提携主張、
+- 責任・合法性・倫理的妥当性の決定。
+
+It provides only a boundary question:
+
+**Was Human Refusal Authority still effective before Irreversible Impact?**
+
+LUMINA-30が提供するのは、次の境界問いのみである。
+
+**不可逆的影響の前に、人間の拒否権は実効的に残っていたか。**
+
 ## Not Anti-AI / 反AIではない
 
 LUMINA-30 is not an anti-AI movement.
