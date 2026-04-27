@@ -7,6 +7,18 @@ This template provides a cautious public note for AI incidents before facts are 
 
 本テンプレートは、事実が揃う前のAIインシデントについて、慎重な公開レビュー文を提供する。
 
+## Immediate Use Note / 即時使用時の注意
+
+Use this note only as an initial boundary-review statement.  
+It should not claim fault, liability, legal violation, technical cause, adoption, or certification status.
+
+本文は初期の境界レビュー文としてのみ使用する。  
+過失、責任、法令違反、技術原因、採用、認証状態を断定してはならない。
+
+Before using this note, preserve available evidence and check whether the case should first be classified as Not Verifiable under the Absence Rule.
+
+この文を使う前に、利用可能な証拠を保全し、Absence Rule上で先に確認不能として分類すべき事案かを確認する。
+
 ## Template / テンプレート
 
 EN:

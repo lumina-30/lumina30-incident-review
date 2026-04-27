@@ -13,6 +13,14 @@ If evidence, logs, authorization records, or refusal pathways are absent or unve
 
 証拠、ログ、承認記録、拒否経路が存在しない、または検証不能な場合、LUMINA-30の境界レビュー上は、実効的拒否なしとして扱う。
 
+## External Explanation / 外部説明
+
+The Absence Rule prevents a review from treating missing records as proof that human refusal was effective.  
+If the refusal path cannot be verified, LUMINA-30 does not allow the case to be described as demonstrated effective refusal.
+
+Absence Rule は、記録がない状態を「人間拒否が実効的だった証拠」として扱うことを防ぐ。  
+拒否経路を検証できない場合、LUMINA-30では「実効的拒否が示された」とは記述しない。
+
 ## Check Items / 確認項目
 
 ### 1. Decision Record / 判断記録

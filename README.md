@@ -46,6 +46,32 @@ Intended users: reviewers, auditors, governance and oversight bodies.
 
 This repository turns refusal authority from an abstract principle into a reviewable condition.
 
+## Immediate Incident Route / 事故時の即応導線
+
+If an AI-related incident must be reviewed quickly, use the following five-step route:
+
+AI関連インシデントを急いで確認する場合は、以下の5手順を使用する。
+
+1. Preserve the available facts, logs, approval records, and refusal-pathway evidence.
+2. Open [FIRST_3_FILES.md](./FIRST_3_FILES.md) and follow the three core working files.
+3. Apply [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md) before classifying the result.
+4. If evidence is absent or unverifiable, apply [Absence Rule Check](./boundary-check/Absence_Rule_Check.md).
+5. Classify the result using [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md), then choose a response template if needed.
+
+1. 利用可能な事実、ログ、承認記録、拒否経路の証拠を保全する。
+2. [FIRST_3_FILES.md](./FIRST_3_FILES.md) を開き、3つの中核作業ファイルに従う。
+3. 結果分類の前に [Irreversibility Decision Criteria](./boundary-check/Irreversibility_Decision_Criteria.md) を適用する。
+4. 証拠が存在しない、または検証不能な場合は [Absence Rule Check](./boundary-check/Absence_Rule_Check.md) を適用する。
+5. [Boundary Check Result Classification](./boundary-check/Boundary_Check_Result_Classification.md) で結果を分類し、必要に応じて応答テンプレートを選ぶ。
+
+## Template Example Policy / 記入例の扱い
+
+The public templates are kept as blank, reusable review forms.  
+Filled-in examples should not be added unless they are clearly marked as illustrative, non-evidentiary, and non-precedential.
+
+公開テンプレートは、再利用可能な空欄式レビュー用フォームとして維持する。  
+記入例を追加する場合は、例示用・証拠ではない・前例ではないことを明示する。
+
 ---
 
 ## LUMINA-30 Required Questions / LUMINA-30 必須質問

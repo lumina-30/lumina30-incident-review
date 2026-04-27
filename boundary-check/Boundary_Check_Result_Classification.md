@@ -7,6 +7,22 @@ This file defines standard result labels for LUMINA-30 boundary review.
 
 本ファイルは、LUMINA-30境界レビューの標準結果ラベルを定義する。
 
+## L30-CI Short Explanation / L30-CI短文説明
+
+L30-CI means LUMINA-30 Condition Indicator.  
+It is not a legal compliance label, safety certification, deployment approval, or risk-free statement.
+
+L30-CI は LUMINA-30 Condition Indicator を意味する。  
+法令適合ラベル、安全認証、展開承認、リスク不存在の表示ではない。
+
+- **Valid**: effective human refusal was demonstrated under LUMINA-30 boundary conditions.
+- **Invalid**: effective human refusal was not demonstrated.
+- **Invalid (Not Verifiable)**: the required evidence was absent or unverifiable.
+
+- **有効**：LUMINA-30境界条件上、実効的な人間拒否が示された。
+- **無効**：実効的な人間拒否は示されなかった。
+- **無効（確認不能）**：必要な証拠が存在しない、または検証不能である。
+
 ## Classification Labels / 分類ラベル
 
 ### A. Effective Refusal Demonstrated / 実効的拒否が示された

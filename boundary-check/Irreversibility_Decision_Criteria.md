@@ -81,6 +81,26 @@ This does not prove legal liability, intent, or technical defect. It only means 
 
 ---
 
+## Short Evidence Conditions / 証拠条件の短文リスト
+
+Effective human refusal should not be treated as demonstrated unless the review can show:
+
+実効的な人間拒否は、少なくとも以下を示せる場合に限り、示されたものとして扱う。
+
+- who held refusal or stop authority;
+- when the last reversible point existed;
+- what action could have delayed, stopped, overridden, contained, or redirected the system;
+- which records verify the refusal pathway;
+- whether AI-generated output was not the sole or primary final rationale.
+
+- 誰が拒否または停止権限を持っていたか。
+- 最後の可逆点がいつ存在したか。
+- どの行為によって延期、停止、上書き、封じ込め、方向修正が可能だったか。
+- どの記録が拒否経路を検証しているか。
+- AI生成出力が最終判断の唯一または主要な根拠になっていなかったか。
+
+---
+
 ## Required Review Record / 必須記録欄
 
 Use this minimum record before classifying the result.
