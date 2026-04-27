@@ -135,13 +135,29 @@ Choose the entry point by role and review stage.
   Use this to check the minimum conditions for reviewable refusal authority.  
   レビュー可能な拒否権保全の最小条件を確認する場合に使用。
 
-- [For supervisor and management explanation / 上司・管理者説明](./WHY_THIS_REVIEW_LENS_IS_NEEDED.md)  
-  Use this when explaining why this review lens is needed before escalation.  
-  エスカレーション前に、このレビュー観点が必要な理由を説明する場合に使用。
+- [For internal escalation and record integrity / 内部エスカレーション・記録保全](./LUMINA-30_FOR_INTERNAL_ESCALATION_AND_RECORD_INTEGRITY.md)  
+  Use this when explaining review escalation and preserving the refusal record.  
+  レビューへのエスカレーションと拒否記録の保全を説明する場合に使用。
 
 - [For executive oversight / 経営・監督層向け説明](./WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.md)  
   Use this when the review must be explained to executive or oversight readers.  
   経営層・監督層へレビューの意味を説明する場合に使用。
+
+---
+
+## Navigation Recovery / 導線復帰
+
+If the repository file list feels too large, return to the following three entry files instead of browsing folders manually:
+
+repoのファイル一覧が多すぎる場合は、フォルダを手動で探すのではなく、以下の3つの入口へ戻る。
+
+1. [START_HERE.md](./START_HERE.md) — shortest entry path / 最短入口
+2. [FIRST_3_FILES.md](./FIRST_3_FILES.md) — first working files / 最初の作業ファイル
+3. [READING_ORDER.md](./READING_ORDER.md) — role-based route / 役割別導線
+
+This repository is intentionally modular, but incident review should start from the entry files above.
+
+本repoは意図的にモジュール化されているが、インシデントレビューは上記の入口ファイルから開始する。
 
 ---
 
@@ -293,9 +309,8 @@ These short documents translate the LUMINA-30 review axis into role-specific wor
 - [LUMINA-30 as an Evaluation Boundary Layer](./LUMINA-30_AS_AN_EVALUATION_BOUNDARY_LAYER.md)
 - [LUMINA-30 for Internal Escalation and Record Integrity](./LUMINA-30_FOR_INTERNAL_ESCALATION_AND_RECORD_INTEGRITY.md)
 - [Why LUMINA-30 Matters for Executive Oversight](./WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.md)
-- [Why This Review Lens Is Needed](./WHY_THIS_REVIEW_LENS_IS_NEEDED.md)
-- [What Adopting These Questions Means](./MANAGER_BRIEF_WHAT_ADOPTING_THESE_QUESTIONS_MEANS.md)
-- [Mapping to Ordinary Incident Review](./MAPPING_TO_ORDINARY_INCIDENT_REVIEW.md)
+- [Executive Stop Decision Brief](./external-use/Executive_Stop_Decision_Brief.md)
+- [Mapping to Ordinary Incident Review](./response-templates/Ordinary_Incident_Review_Mapping.md)
 
 ---
 

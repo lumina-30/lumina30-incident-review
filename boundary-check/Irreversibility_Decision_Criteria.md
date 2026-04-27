@@ -47,6 +47,19 @@ A review should not classify effective human refusal as demonstrated unless all 
 - その閾値の前に存在した最後の可逆点を特定する。
 - 人間の拒否は、事後ではなく、その時点より前に実効的でなければならない。
 
+
+#### Last Reversible Point Note / 最後の可逆点に関する注記
+
+The last reversible point does not require a single universal technical method.  
+It should be identified from the available operational record, such as approval timing, deployment timing, escalation timing, log timestamps, rollback availability, containment ability, or the last point at which a responsible human body could still delay, stop, override, contain, or redirect the pathway.
+
+最後の可逆点は、単一の普遍的な技術手法で特定することを要求しない。  
+承認時点、展開時点、エスカレーション時点、ログのタイムスタンプ、ロールバック可能性、封じ込め可能性、または責任ある人間主体がまだ延期・停止・上書き・封じ込め・方向修正できた最後の地点など、利用可能な運用記録から特定する。
+
+This note is explanatory only. It does not prescribe a log-reading method, forensic procedure, or technical standard.
+
+この注記は説明用であり、ログ読解手法、フォレンジック手続、技術標準を規定するものではない。
+
 ### 3. Executability / 実行可能性
 
 - A refusal, stop, delay, override, containment, or redirection action could actually be executed in time.
@@ -66,6 +79,22 @@ A review should not classify effective human refusal as demonstrated unless all 
 - 結論は、文書化され検証可能な証拠に基づく。
 - レビューでは、観測事実と推論・解釈を分ける。
 - 記録欠落、上書き、匿名化、監査不能な記録を根拠に「実効的拒否あり」と主張してはならない。
+
+
+
+### Evidence Examples Are Non-Prescriptive / 証拠例は非処方的である
+
+Examples of evidence may include logs, timestamps, approval records, escalation records, incident notes, deployment records, rollback records, containment records, meeting minutes, or preserved communications.  
+These are examples, not mandatory evidence categories.
+
+証拠の例には、ログ、タイムスタンプ、承認記録、エスカレーション記録、インシデントメモ、展開記録、ロールバック記録、封じ込め記録、会議記録、保全された連絡記録などが含まれる。  
+これらは例であり、必須の証拠分類ではない。
+
+A review should not be treated as valid merely because technical artifacts exist.  
+The relevant question is whether the evidence can verify that effective human refusal remained available before irreversible impact.
+
+技術的な成果物が存在するだけで、レビューを有効と扱ってはならない。  
+重要なのは、その証拠が、不可逆的影響の前に実効的な人間の拒否が残っていたことを検証できるかである。
 
 ---
 
