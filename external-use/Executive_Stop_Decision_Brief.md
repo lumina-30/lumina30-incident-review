@@ -62,3 +62,13 @@ If the answer is No or Not Verifiable:
 - 最終的な人間の判断者を特定する。
 - AI生成の根拠と最終的な人間側の根拠を分離する。
 - 再開前にLUMINA-30境界チェックを実施する。
+
+## Non-Affiliation Note / 非提携注記
+
+LUMINA-30 is provided as a public, non-binding boundary reference.  
+This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.  
+No response is required.
+
+LUMINA-30は、公開された非拘束の境界参照として提示される。  
+本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
+返信は不要である。

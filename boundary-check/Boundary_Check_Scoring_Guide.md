@@ -67,6 +67,22 @@ Records show that human refusal was available, operationally effective, and usab
 | 3 | 弱い拒否 / 名目上の監督 |
 | 4 | 実効的拒否が示された |
 
+## Relationship to L30-CI / L30-CIとの関係
+
+The 0–4 score is a review aid for comparing evidence strength.  
+It does not replace the final L30-CI condition label.
+
+0〜4のスコアは、証拠の強さを比較するためのレビュー補助である。  
+最終的なL30-CI条件ラベルを置き換えるものではない。
+
+When a final result is recorded, use the Boundary Check Result Classification and L30-CI label:
+
+最終結果を記録する場合は、Boundary Check Result Classification と L30-CIラベルを使用する。
+
+- Valid
+- Invalid
+- Invalid (Not Verifiable)
+
 ## Caution / 注意
 
 Do not use this score to claim legal liability, regulatory compliance, or institutional certification.

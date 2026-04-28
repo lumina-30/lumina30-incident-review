@@ -46,3 +46,13 @@ Before irreversible impact, could humans meaningfully refuse, stop, or override 
 
 JP:
 不可逆的影響の前に、人間はAI駆動の経路を意味ある形で拒否、停止、上書きできたか。
+
+## Non-Affiliation Note / 非提携注記
+
+LUMINA-30 is provided as a public, non-binding boundary reference.  
+This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.  
+No response is required.
+
+LUMINA-30は、公開された非拘束の境界参照として提示される。  
+本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
+返信は不要である。

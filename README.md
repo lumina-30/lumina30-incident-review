@@ -115,6 +115,10 @@ Choose the entry point by role and review stage.
   Use this to check who decides, when irreversibility is judged, and what evidence is required.  
   誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。
 
+- [For practical L30-BAS sheets / L30-BAS実務シートを使う場合](https://github.com/lumina-30/lumina-30-overview#l30-bas-practical-sheets)  
+  Use this when the review needs downloadable PDF or editable DOCX sheets for Boundary Check, Civilizational Safety Checklist, or AI Incident Review.  
+  Boundary Check、文明安全チェックリスト、AIインシデントレビューのPDF版または編集用DOCX版が必要な場合に使用。
+
 - [For structured reading order / 順番に確認する場合](./READING_ORDER.md)  
   Use this when the review must be performed in a controlled order.  
   管理された順番でレビューする場合に使用。

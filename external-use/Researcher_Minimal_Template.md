@@ -38,3 +38,13 @@ LUMINA-30 defines the boundary; PCR-C provides an infrastructure-layer cutoff mo
 
 JP:
 LUMINA-30は境界を定義し、PCR-Cは不可逆化前制御のためのインフラ層カットオフモデルを提供する。
+
+## Non-Affiliation Note / 非提携注記
+
+LUMINA-30 is provided as a public, non-binding boundary reference.  
+This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.  
+No response is required.
+
+LUMINA-30は、公開された非拘束の境界参照として提示される。  
+本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
+返信は不要である。
