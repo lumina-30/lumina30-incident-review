@@ -1,6 +1,14 @@
 # Minimal External Explanation
 # 外部向け最小説明
 
+## 15-second style / 15秒版
+
+EN:
+LUMINA-30 is a non-binding boundary-check framework asking whether human refusal authority remained effective before irreversible AI impact.
+
+JP:
+LUMINA-30は、AIの不可逆的影響前に人間の拒否権が実効的に残っていたかを問う非拘束的な境界判定フレームです。
+
 ## 100-character style / 100字相当
 
 EN:
@@ -52,3 +60,5 @@ JP:
 推奨フッター:
 
 > LUMINA-30は、公開された非拘束の境界参照として提示されている。本記載は、支持、採用、提携、認証、適合、法的権限を主張するものではない。返信は不要である。
+
+
