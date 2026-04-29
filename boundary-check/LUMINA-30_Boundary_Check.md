@@ -33,6 +33,20 @@ However, if the review concerns irreversible AI-related impact, it should still 
 レビューがLUMINA-30を公式フレームワークとして採用する必要はない。  
 しかし、そのレビューが不可逆的なAI関連影響を扱う場合、不可逆化前に人間の拒否が利用可能で、運用上実効的であり、検証可能だったことを、同等の証拠で示せる必要がある。
 
+## Terminology Note / 用語注記
+
+This document uses operational boundary language.  
+Where the canonical framework uses “civilizational boundary,” this check reads it as a pre-irreversibility human-refusal boundary.
+
+The question is not whether an event is culturally or historically “civilizational.”  
+The question is whether humans still had effective refusal authority before irreversible AI-related impact.
+
+本書では、運用上の境界語を用いる。  
+正典フレームワークが「文明境界」と呼ぶものを、本チェックでは「不可逆化前の人間拒否境界」として読む。
+
+問題は、ある出来事が文化的・歴史的な意味で「文明的」かどうかではない。  
+問題は、不可逆的なAI関連影響の前に、人間がなお実効的な拒否権を持っていたかである。
+
 ## Core Question / 中核問い
 
 Was human final refusal effective before irreversible impact?

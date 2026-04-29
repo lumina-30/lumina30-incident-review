@@ -10,10 +10,26 @@ These short templates are intended for external use in audit, research, policy, 
 ## General / 汎用
 
 EN:
-LUMINA-30 is a non-binding boundary reference for reviewing whether meaningful human refusal remained effective before irreversible AI impact.
+LUMINA-30 is a non-binding pre-irreversibility boundary reference for reviewing whether meaningful human refusal remained effective before irreversible AI-related impact.
+
+The canonical phrase “civilizational boundary” is used inside the framework, but in external review contexts it can be read simply as the boundary where human refusal authority may be lost before irreversible impact.
 
 JP:
-LUMINA-30は、不可逆的なAI影響の前に人間の拒否が実効的に残っていたかを確認するための、非拘束的な境界参照である。
+LUMINA-30は、不可逆的なAI関連影響の前に人間の拒否が実効的に残っていたかを確認するための、非拘束的な不可逆化前境界参照である。
+
+正典上は “civilizational boundary（文明境界）” という語を用いるが、外部レビュー文脈では、不可逆的影響の前に人間の拒否権が失われ得る境界を指すものとして読めばよい。
+
+## Low-Friction Description / 低摩擦説明
+
+EN:
+LUMINA-30 can be read as a pre-irreversibility boundary review tool.  
+It asks whether effective human refusal remained possible before irreversible AI-related impact.  
+Its canonical term “civilizational boundary” refers to that loss-of-refusal threshold, not to a broad ideological or cultural claim.
+
+JP:
+LUMINA-30は、不可逆化前の境界レビュー・ツールとして読める。  
+不可逆的なAI関連影響の前に、実効的な人間拒否がなお可能だったかを問う。  
+正典上の「文明境界」という語は、その拒否喪失の閾値を指すものであり、広い思想的・文化的主張を意味しない。
 
 ## Non-Binding Does Not Mean Disposable / 非拘束は無視可能を意味しない
 
