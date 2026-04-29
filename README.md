@@ -287,6 +287,10 @@ The following documents provide citation phrases, terminology, PCR-C relationshi
   Short explanation of how LUMINA-30 and PCR-C relate without merging their roles.  
   LUMINA-30とPCR-Cの役割を混同せずに関係を説明する短文。
 
+- [PCR-C Calibration and H-Measurement Note](./reference/PCRC_Calibration_and_H_Measurement_Note.md)  
+  Defines how PCR-C thresholds and intervention capacity H should be treated as calibratable operational estimates, not universal empirical constants.  
+  PCR-Cの閾値と介入能力Hを、普遍的な実証定数ではなく、校正可能な運用推定値として扱うための補助文書。
+
 - [Boundary Reference Terminology](./reference/Boundary_Reference_Terminology.md)  
   Preferred terms for non-binding, descriptive, post-incident boundary reference use.  
   非拘束的・記述的な事故後境界参照として使うための推奨語彙。
