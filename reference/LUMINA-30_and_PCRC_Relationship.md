@@ -91,6 +91,26 @@ They should be described as separate layers.
 | PCR-C | インフラ層カットオフモデル | 不可逆リスクが支配的になる前に、インフラ層制御はどう作用できるか | LUMINA-30の正典的境界定義 |
 | 存在条件論 | 研究レイヤー上の根拠説明 | なぜ外部境界または外部アンカーが構造的に必要になり得るか | 実務チェックリスト、適合規則、制度命令 |
 
+## Related Research Paper / 関連研究論文
+
+EN:
+The existence-condition layer is supported by the following paper:
+
+On the Structural Instability of Objective Persistence in Self-Contained Systems  
+Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)  
+Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+JP:
+存在条件レイヤーは、以下の論文によって補助される。
+
+On the Structural Instability of Objective Persistence in Self-Contained Systems  
+Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)  
+Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+This paper does not modify the canonical LUMINA-30 boundary definition and does not define an operational checklist, compliance rule, certification status, or institutional mandate.
+
+本論文は、LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。
+
 ## Reusable External Sentence / 外部説明用再利用文
 
 EN:
@@ -98,3 +118,5 @@ LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-lay
 
 JP:
 LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。
+
+
