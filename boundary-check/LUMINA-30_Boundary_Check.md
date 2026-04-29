@@ -19,6 +19,20 @@ This document provides a short, non-binding post-incident review check for exami
 - 法的結論ではなく境界チェック
 - 事故後レビュー支援
 
+## Status Clarification / 位置づけの補足
+
+Non-binding status limits institutional claims.  
+It does not weaken the boundary logic.
+
+A review does not have to adopt LUMINA-30 as an official framework.  
+However, if the review concerns irreversible AI-related impact, it should still be able to show equivalent evidence that human refusal was available, operationally effective, and verifiable before irreversibility.
+
+非拘束という位置づけは、制度的主張を制限するためのものである。  
+境界論理そのものを弱めるものではない。
+
+レビューがLUMINA-30を公式フレームワークとして採用する必要はない。  
+しかし、そのレビューが不可逆的なAI関連影響を扱う場合、不可逆化前に人間の拒否が利用可能で、運用上実効的であり、検証可能だったことを、同等の証拠で示せる必要がある。
+
 ## Core Question / 中核問い
 
 Was human final refusal effective before irreversible impact?
