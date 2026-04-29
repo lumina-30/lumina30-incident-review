@@ -58,10 +58,10 @@ LUMINA-30は、AIの不可逆的影響前に人間の拒否権が実効的に残
 ## L30-BAS Practical Sheets Phrase / L30-BAS実務シート用
 
 EN:
-L30-BAS Practical Sheets provide non-binding review aids for connecting Boundary Check, Civilizational Safety Checklist, and AI Incident Review work back to the LUMINA-30 core question.
+L30-BAS Practical Sheets are non-binding boundary-review aids for checking whether effective human refusal remained available before irreversible AI-related impact. Their non-binding status means they create no certification, compliance, approval, legal, or institutional obligation; it does not mean the refusal question is disposable in relevant reviews.
 
 JP:
-L30-BAS実務シートは、Boundary Check、文明安全チェックリスト、AIインシデントレビューをLUMINA-30の中核問いへ戻すための非拘束的なレビュー補助資料である。
+L30-BAS実務シートは、不可逆的なAI関連影響の前に実効的な人間拒否が利用可能だったかを確認するための、非拘束的な境界レビュー補助資料である。非拘束とは、認証、適合、承認、法的義務、制度的義務を作らないことを意味し、関連レビューにおいて拒否問いが無視可能であることを意味しない。
 
 ## Boundary Check Phrase / Boundary Check用
 
@@ -88,10 +88,10 @@ AIインシデントレビュー票は、事故後レビューが不可逆化前
 ## Civilizational Safety Checklist Phrase / 文明安全チェックリスト用
 
 EN:
-The Civilizational Safety Checklist is a non-binding checklist for identifying whether an AI-related system preserves effective human refusal before irreversible civilizational or institutional impact.
+The Civilizational Safety Checklist is a non-binding pre-irreversibility human-refusal checklist. In this name, “civilizational” is a continuity term for the LUMINA-30 boundary vocabulary, not a broad cultural, ideological, or historical claim.
 
 JP:
-文明安全チェックリストは、AI関連システムが不可逆的な文明的・制度的影響の前に実効的な人間の拒否権を保全しているかを確認するための非拘束的チェックリストである。
+文明安全チェックリストは、不可逆化前の人間拒否を確認するための非拘束的チェックリストである。この名称における「文明的」は、LUMINA-30の境界語彙を継続するための用語であり、広い文化論・思想論・歴史論を意味しない。
 
 ## Why This Question Matters / この問いが必要な理由
 
@@ -118,5 +118,3 @@ LUMINA-30を以下として説明しない。
 - 法的コンプライアンス制度
 - 規制の置換
 - AI開発停止命令
-
-
