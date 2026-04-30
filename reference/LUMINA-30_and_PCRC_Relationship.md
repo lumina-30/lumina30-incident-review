@@ -97,14 +97,14 @@ EN:
 The existence-condition layer is supported by the following paper:
 
 On the Structural Instability of Objective Persistence in Self-Contained Systems  
-Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)  
+Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
 JP:
 存在条件レイヤーは、以下の論文によって補助される。
 
 On the Structural Instability of Objective Persistence in Self-Contained Systems  
-Version DOI: [10.5281/zenodo.19887870](https://doi.org/10.5281/zenodo.19887870)  
+Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
 
 This paper does not modify the canonical LUMINA-30 boundary definition and does not define an operational checklist, compliance rule, certification status, or institutional mandate.
@@ -118,5 +118,7 @@ LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-lay
 
 JP:
 LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。
+
+
 
 
