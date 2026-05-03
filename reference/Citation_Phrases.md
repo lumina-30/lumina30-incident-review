@@ -55,13 +55,13 @@ LUMINA-30 is a non-binding boundary-check framework asking whether human refusal
 JP:
 LUMINA-30は、AIの不可逆的影響前に人間の拒否権が実効的に残っていたかを問う非拘束的な境界判定フレームです。
 
-## L30-BAS Practical Sheets Phrase ｜ L30-BAS実務シート用
+## L30_FRM Practical Forms Phrase ｜ L30_FRM実務帳票用
 
 EN:
-L30-BAS Practical Sheets are non-binding boundary-review aids for checking whether effective human refusal remained available before irreversible AI-related impact. Their non-binding status means they create no certification, compliance, approval, legal, or institutional obligation; it does not mean the refusal question is disposable in relevant reviews.
+L30_FRM Practical Forms are non-binding boundary-review aids for checking whether effective human refusal remained available before irreversible AI-related impact. Their non-binding status means they create no certification, compliance, approval, legal, or institutional obligation; it does not mean the refusal question is disposable in relevant reviews.
 
 JP:
-L30-BAS実務シートは、不可逆的なAI関連影響の前に実効的な人間拒否が利用可能だったかを確認するための、非拘束的な境界レビュー補助資料である。非拘束とは、認証、適合、承認、法的義務、制度的義務を作らないことを意味し、関連レビューにおいて拒否問いが無視可能であることを意味しない。
+L30_FRM実務帳票は、不可逆的なAI関連影響の前に実効的な人間拒否が利用可能だったかを確認するための、非拘束的なDOCX/PDF境界レビュー補助帳票である。非拘束とは、認証、適合、承認、法的義務、制度的義務を作らないことを意味し、関連レビューにおいて拒否問いが無視可能であることを意味しない。
 
 ## Boundary Check Phrase ｜ Boundary Check用
 
@@ -77,21 +77,21 @@ Boundary Checkは、不可逆的影響の前に人間の拒否権が実効的だ
 JP long:
 Boundary Checkは、不可逆的なAI関連影響の前に、有意な人間の拒否・停止・上書き権限が実効的かつ検証可能に残っていたかを確認するための、LUMINA-30の最小レビュー補助である。
 
-## AI Incident Review Template Phrase ｜ AIインシデントレビュー票用
+## Incident Review Template Phrase ｜ 事故レビュー記録表用
 
 EN:
-The AI Incident Review Template records context, timing, evidence, refusal authority, and L30-CI classification so that post-incident review does not omit the pre-irreversibility refusal question.
+The L30_FRM_I01 Incident Review Template records context, timing, evidence, refusal authority, and review findings so that post-incident review does not omit the pre-irreversibility refusal question.
 
 JP:
-AIインシデントレビュー票は、事故後レビューが不可逆化前の拒否権確認を欠落させないよう、文脈、時点、証拠、拒否権、L30-CI分類を記録する。
+L30_FRM_I01 Incident Review Templateは、事故後レビューが不可逆化前の拒否権確認を欠落させないよう、文脈、時点、証拠、拒否権、レビュー所見を記録する事故レビュー記録表である。
 
-## Civilizational Safety Checklist Phrase ｜ 文明安全チェックリスト用
+## Audit Checklist Phrase ｜ Audit Checklist用
 
 EN:
-The Civilizational Safety Checklist is a non-binding pre-irreversibility human-refusal checklist. In this name, “civilizational” is a continuity term for the LUMINA-30 boundary vocabulary, not a broad cultural, ideological, or historical claim.
+The L30_FRM_A01 Audit Checklist is a non-binding audit support form for checking whether effective human refusal remained available before irreversibility. It is not a certification mark, safety approval, legal standard, or replacement for PCR-C.
 
 JP:
-文明安全チェックリストは、不可逆化前の人間拒否を確認するための非拘束的チェックリストである。この名称における「文明的」は、LUMINA-30の境界語彙を継続するための用語であり、広い文化論・思想論・歴史論を意味しない。
+L30_FRM_A01 Audit Checklistは、不可逆化前に有効な人間拒否が利用可能だったかを確認するための非拘束的な監査補助帳票である。これは認証マーク、安全承認、法的基準、PCR-Cの代替ではない。
 
 ## Why This Question Matters ｜ この問いが必要な理由
 
@@ -118,5 +118,7 @@ LUMINA-30を以下として説明しない。
 - 法的コンプライアンス制度
 - 規制の置換
 - AI開発停止命令
+
+
 
 

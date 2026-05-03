@@ -110,9 +110,9 @@ Choose the entry point by role and review stage.
   Use this to check who decides, when irreversibility is judged, and what evidence is required.  
   誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。
 
-- [For practical L30-BAS sheets ｜ L30-BAS実務シートを使う場合](https://github.com/lumina-30/lumina-30-overview#l30-bas-practical-sheets)  
-  Use this when the review needs downloadable PDF or editable DOCX sheets for Boundary Check, Civilizational Safety Checklist, or AI Incident Review.  
-  Boundary Check、文明安全チェックリスト、AIインシデントレビューのPDF版または編集用DOCX版が必要な場合に使用。
+- [For L30_FRM practical forms ｜ L30_FRM実務帳票を使う場合](./tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md)  
+  Use this when the review needs downloadable PDF or editable DOCX forms for L30_FRM_B01, L30_FRM_I01, or L30_FRM_A01.  
+  境界判定表、事故レビュー記録表、監査チェックリストのPDF版または編集用DOCX版が必要な場合に使用。
 
 - [For structured reading order ｜ 順番に確認する場合](./READING_ORDER.md)  
   Use this when the review must be performed in a controlled order.  
@@ -376,3 +376,4 @@ This repository should be treated as the main incident-review hub within the LUM
 - [LUMINA-30 GitHub Organization ｜ LUMINA-30 GitHub組織](https://github.com/lumina-30)  
   Organization-level entry point for the LUMINA-30 repository network.  
   LUMINA-30 repo群全体への組織レベル入口。
+
