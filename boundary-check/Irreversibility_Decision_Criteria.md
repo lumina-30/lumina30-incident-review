@@ -1,7 +1,7 @@
 # Irreversibility Decision Criteria
 # 不可逆性判定基準
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This document consolidates the minimum decision criteria for judging whether effective human refusal remained available before irreversible impact.
 
@@ -13,7 +13,7 @@ This document does not create a legal conclusion, technical mandate, or certific
 
 ---
 
-## Core Decision Question / 中核判定問い
+## Core Decision Question ｜ 中核判定問い
 
 **Was effective human refusal authority available, executable, and verifiable before irreversible impact became unavoidable?**
 
@@ -21,13 +21,13 @@ This document does not create a legal conclusion, technical mandate, or certific
 
 ---
 
-## Minimum Decision Criteria / 最小判定基準
+## Minimum Decision Criteria ｜ 最小判定基準
 
 A review should not classify effective human refusal as demonstrated unless all four conditions can be verified.
 
 以下の4条件を検証できない場合、レビューは「実効的な人間拒否が示された」と分類してはならない。
 
-### 1. Authority / 権限
+### 1. Authority ｜ 権限
 
 - A human decision-maker, reviewer, governing body, or responsible organization was identifiable.
 - The refusal authority was not merely nominal.
@@ -37,7 +37,7 @@ A review should not classify effective human refusal as demonstrated unless all 
 - 拒否権が名目的なものではない。
 - その権限に、延期・停止・上書き・方向修正できる実経路があった。
 
-### 2. Timing / 時点
+### 2. Timing ｜ 時点
 
 - The review identifies when the action became operationally or practically irreversible.
 - The review identifies the last reversible point before that threshold.
@@ -48,7 +48,7 @@ A review should not classify effective human refusal as demonstrated unless all 
 - 人間の拒否は、事後ではなく、その時点より前に実効的でなければならない。
 
 
-#### Last Reversible Point Note / 最後の可逆点に関する注記
+#### Last Reversible Point Note ｜ 最後の可逆点に関する注記
 
 The last reversible point does not require a single universal technical method.  
 It should be identified from the available operational record, such as approval timing, deployment timing, escalation timing, log timestamps, rollback availability, containment ability, or the last point at which a responsible human body could still delay, stop, override, contain, or redirect the pathway.
@@ -60,7 +60,7 @@ This note is explanatory only. It does not prescribe a log-reading method, foren
 
 この注記は説明用であり、ログ読解手法、フォレンジック手続、技術標準を規定するものではない。
 
-### 3. Executability / 実行可能性
+### 3. Executability ｜ 実行可能性
 
 - A refusal, stop, delay, override, containment, or redirection action could actually be executed in time.
 - The system could not bypass, disable, or render the refusal path ineffective before irreversible impact.
@@ -70,7 +70,7 @@ This note is explanatory only. It does not prescribe a log-reading method, foren
 - システムが不可逆影響の前に拒否経路を迂回・無効化・形骸化していなかった。
 - 介入が試みられた場合、その方法と結果を記録する。
 
-### 4. Evidence / 証拠
+### 4. Evidence ｜ 証拠
 
 - The conclusion is based on documented and verifiable evidence.
 - The review separates observed facts from reasoning or interpretation.
@@ -82,7 +82,7 @@ This note is explanatory only. It does not prescribe a log-reading method, foren
 
 
 
-### Evidence Examples Are Non-Prescriptive / 証拠例は非処方的である
+### Evidence Examples Are Non-Prescriptive ｜ 証拠例は非処方的である
 
 Examples of evidence may include logs, timestamps, approval records, escalation records, incident notes, deployment records, rollback records, containment records, meeting minutes, or preserved communications.  
 These are examples, not mandatory evidence categories.
@@ -98,7 +98,7 @@ The relevant question is whether the evidence can verify that effective human re
 
 ---
 
-## Absence Rule / 不在ルール
+## Absence Rule ｜ 不在ルール
 
 If any required condition cannot be confirmed, classify the case as not demonstrating effective human refusal for LUMINA-30 boundary-review purposes.
 
@@ -110,7 +110,7 @@ This does not prove legal liability, intent, or technical defect. It only means 
 
 ---
 
-## Short Evidence Conditions / 証拠条件の短文リスト
+## Short Evidence Conditions ｜ 証拠条件の短文リスト
 
 Effective human refusal should not be treated as demonstrated unless the review can show:
 
@@ -130,7 +130,7 @@ Effective human refusal should not be treated as demonstrated unless the review 
 
 ---
 
-## Required Review Record / 必須記録欄
+## Required Review Record ｜ 必須記録欄
 
 Use this minimum record before classifying the result.
 
@@ -153,7 +153,7 @@ Rationale:
 
 ---
 
-## Classification Link / 分類への接続
+## Classification Link ｜ 分類への接続
 
 After applying these criteria, classify the result using:
 
@@ -165,7 +165,7 @@ After applying these criteria, classify the result using:
 
 ---
 
-## Relationship to the First 3 Files / 最初の3ファイルとの関係
+## Relationship to the First 3 Files ｜ 最初の3ファイルとの関係
 
 This document is the consolidated decision-criteria page used together with the first three files. It does not replace the first three files.
 
@@ -182,3 +182,5 @@ This document is the consolidated decision-criteria page used together with the 
 - [Boundary Check Result Classification](./Boundary_Check_Result_Classification.md)  
   Use for final boundary-review classification.  
   最終的な境界レビュー分類に使用する。
+
+

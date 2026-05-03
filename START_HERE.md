@@ -1,13 +1,13 @@
 # Start Here
 # はじめに
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file provides the shortest entry path for using the LUMINA-30 incident-review materials.
 
 本ファイルは、LUMINA-30のインシデントレビュー資料を使うための最短入口である。
 
-## Use This Repository When / このリポジトリを使う場面
+## Use This Repository When ｜ このリポジトリを使う場面
 
 Use this repository when an AI-related incident raises questions such as:
 
@@ -23,7 +23,7 @@ Use this repository when an AI-related incident raises questions such as:
 - 拒否経路を検証できる十分な記録は存在するか。
 - AI生成出力が最終行為の唯一または主要な根拠になっていなかったか。
 
-## First Path / 最初の導線
+## First Path ｜ 最初の導線
 
 Start by opening the first-use guide, then follow the three core files listed there.
 
@@ -47,7 +47,7 @@ Before classifying the result, apply the consolidated decision criteria:
   Use this to check who decides, when irreversibility is judged, and what evidence is required.  
   誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを確認する。
 
-## Minimal Review Flow / 最小レビュー手順
+## Minimal Review Flow ｜ 最小レビュー手順
 
 1. Identify the incident boundary.
 2. Check whether irreversible impact was possible or approaching.
@@ -63,8 +63,10 @@ Before classifying the result, apply the consolidated decision criteria:
 5. 集約された判定基準を適用する。
 6. 法的結論ではなく、境界レビュー上の分類を行う。
 
-## Status / 位置づけ
+## Status ｜ 位置づけ
 
 LUMINA-30 is non-binding, descriptive, and intended as a boundary reference for post-incident review.
 
 LUMINA-30は非拘束的・記述的なものであり、事故後レビューのための境界参照として用いる。
+
+

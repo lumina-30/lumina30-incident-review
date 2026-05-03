@@ -6,7 +6,7 @@
 
 ---
 
-## Why this matters here / この相手に関係する理由
+## Why this matters here ｜ この相手に関係する理由
 
 The issue is not only whether a model was dangerous, powerful, or misaligned.  
 The issue is whether the organization can later prove that meaningful human refusal remained effective under real operating conditions.
@@ -16,7 +16,7 @@ The issue is whether the organization can later prove that meaningful human refu
 
 ---
 
-## Audit and control checks / 監査・統制確認項目
+## Audit and control checks ｜ 監査・統制確認項目
 
 - Is stop authority assigned to an identifiable human role?
 - Is meaningful human approval real rather than nominal?
@@ -34,7 +34,7 @@ The issue is whether the organization can later prove that meaningful human refu
 
 ---
 
-## Procedural failure conditions / 手続的不成立条件
+## Procedural failure conditions ｜ 手続的不成立条件
 
 A system should be treated as procedurally invalid when:
 
@@ -56,7 +56,9 @@ A system should be treated as procedurally invalid when:
 
 ---
 
-## Conclusion / 結論
+## Conclusion ｜ 結論
 
 **The issue is not only whether the system failed. The issue is whether the organization can prove that human refusal remained effective under real operating conditions.**  
 **問題はシステムが失敗したかだけではない。実運用条件下で、人間の拒否が有効だったと組織が証明できるかである。**
+
+

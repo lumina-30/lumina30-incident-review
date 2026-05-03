@@ -1,13 +1,13 @@
 # Boundary Check Result Classification
 # 境界チェック結果分類
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file defines standard result labels for LUMINA-30 boundary review.
 
 本ファイルは、LUMINA-30境界レビューの標準結果ラベルを定義する。
 
-## L30-CI Short Explanation / L30-CI短文説明
+## L30-CI Short Explanation ｜ L30-CI短文説明
 
 L30-CI means LUMINA-30 Condition Indicator.  
 It is not a legal compliance label, safety certification, deployment approval, or risk-free statement.
@@ -23,9 +23,9 @@ L30-CI は LUMINA-30 Condition Indicator を意味する。
 - **無効**：実効的な人間拒否は示されなかった。
 - **無効（確認不能）**：必要な証拠が存在しない、または検証不能である。
 
-## Classification Labels / 分類ラベル
+## Classification Labels ｜ 分類ラベル
 
-### A. Effective Refusal Demonstrated / 実効的拒否が示された
+### A. Effective Refusal Demonstrated ｜ 実効的拒否が示された
 
 Use this label only when all of the following are shown:
 
@@ -41,13 +41,13 @@ Use this label only when all of the following are shown:
 - 拒否経路を検証できる十分な記録がある。
 - AI生成出力が最終判断の唯一または主要な根拠になっていない。
 
-### B. Effective Refusal Not Demonstrated / 実効的拒否は示されなかった
+### B. Effective Refusal Not Demonstrated ｜ 実効的拒否は示されなかった
 
 Use this label when refusal was absent, bypassed, ineffective, or only nominal.
 
 拒否が存在しない、迂回された、実効的でない、または名目上にとどまる場合に使用する。
 
-### C. Not Verifiable / 検証不能
+### C. Not Verifiable ｜ 検証不能
 
 Use this label when the records are insufficient to verify the refusal pathway.
 
@@ -57,13 +57,13 @@ For LUMINA-30 boundary-review purposes, this should not be treated as demonstrat
 
 LUMINA-30境界レビュー上、これは実効的拒否が示されたものとして扱うべきではない。
 
-### D. Out of Scope / 対象外
+### D. Out of Scope ｜ 対象外
 
 Use this label when the case does not involve AI-driven decision pathways, irreversible impact, or human refusal authority.
 
 AI駆動の判断経路、不可逆的影響、人間の拒否権を含まない場合に使用する。
 
-## Minimal Conclusion Text / 最小結論文
+## Minimal Conclusion Text ｜ 最小結論文
 
 ### Effective Refusal Demonstrated
 
@@ -82,3 +82,4 @@ The available records do not demonstrate effective human refusal before irrevers
 The refusal pathway cannot be verified. For LUMINA-30 boundary-review purposes, this should be treated as no demonstrated effective refusal.
 
 拒否経路は検証できない。LUMINA-30境界レビュー上、これは実効的拒否が示されていないものとして扱うべきである。
+

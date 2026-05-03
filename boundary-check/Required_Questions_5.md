@@ -1,13 +1,13 @@
 # Required Questions 5
 # 必須5問
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file provides the shortest reusable question set for LUMINA-30 post-incident boundary review.
 
 本ファイルは、LUMINA-30の事故後境界レビューで再利用しやすい最短の質問セットである。
 
-## Required Questions / 必須質問
+## Required Questions ｜ 必須質問
 
 1. Was human final refusal available before irreversible impact?
 2. Was that refusal operationally effective, not merely nominal?
@@ -21,7 +21,7 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 4. 記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。
 5. AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
 
-## Recommended Answer Format / 推奨回答形式
+## Recommended Answer Format ｜ 推奨回答形式
 
 - Yes
 - No
@@ -35,8 +35,10 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 - 根拠
 - レビュー担当者メモ
 
-## Minimal Conclusion / 最小結論
+## Minimal Conclusion ｜ 最小結論
 
 If any required question cannot be verified, the review should not claim that effective human refusal was demonstrated.
 
 必須質問のいずれかが検証不能である場合、そのレビューは「実効的な人間の拒否が示された」と主張すべきではない。
+
+

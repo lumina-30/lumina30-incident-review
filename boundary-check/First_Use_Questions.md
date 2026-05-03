@@ -1,13 +1,13 @@
 # First Use Questions
 # 初回使用質問
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file provides the first questions to ask before applying the full LUMINA-30 boundary review.
 
 本ファイルは、LUMINA-30境界レビュー全体を適用する前に最初に確認する質問を示す。
 
-## Gate 1: Is this relevant? / ゲート1：対象か
+## Gate 1: Is this relevant? ｜ ゲート1：対象か
 
 1. Did the case involve an AI system or AI-generated output?
 2. Did the case involve a decision, action, recommendation, automation, or approval pathway?
@@ -21,7 +21,7 @@ If all answers are No, LUMINA-30 boundary review may not be necessary.
 
 すべてNoの場合、LUMINA-30境界レビューは不要な可能性がある。
 
-## Gate 2: Was refusal relevant? / ゲート2：拒否は関係するか
+## Gate 2: Was refusal relevant? ｜ ゲート2：拒否は関係するか
 
 1. Was there a point where a human could have refused, stopped, or overridden the process?
 2. Was that point before irreversible impact?
@@ -31,7 +31,7 @@ If all answers are No, LUMINA-30 boundary review may not be necessary.
 2. その時点は不可逆的影響の前だったか。
 3. 人間の拒否経路は運用上利用可能だったか。
 
-## Gate 3: Can it be verified? / ゲート3：検証できるか
+## Gate 3: Can it be verified? ｜ ゲート3：検証できるか
 
 1. Are logs available?
 2. Are approval records available?
@@ -45,7 +45,7 @@ If all answers are No, LUMINA-30 boundary review may not be necessary.
 4. 拒否経路は文書化されているか。
 5. 記録は事後的再構成から保護されているか。
 
-## Proceed If / 進む条件
+## Proceed If ｜ 進む条件
 
 Proceed to the full Boundary Check if:
 
@@ -60,3 +60,5 @@ Proceed to the full Boundary Check if:
 - 不可逆的または回復困難な影響の可能性がある。
 - 人間の拒否権が関係する。
 - 記録の検証が必要である。
+
+

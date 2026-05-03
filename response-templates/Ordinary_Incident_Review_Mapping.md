@@ -1,13 +1,13 @@
 # Mapping to Ordinary Incident Review
 # 通常インシデントレビューとの対応
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This document maps ordinary incident-review questions to LUMINA-30 boundary-review questions.
 
 本書は、通常のインシデントレビュー項目とLUMINA-30の境界レビュー項目を対応させる。
 
-## Mapping / 対応表
+## Mapping ｜ 対応表
 
 | Ordinary Incident Review | LUMINA-30 Boundary Review |
 |---|---|
@@ -29,8 +29,10 @@ This document maps ordinary incident-review questions to LUMINA-30 boundary-revi
 | 失敗原因は何か | AI出力が最終根拠化していなかったか |
 | 是正措置は何か | 再開前にどの境界条件を回復すべきか |
 
-## Use / 用途
+## Use ｜ 用途
 
 Use this mapping when reviewers are familiar with ordinary incident review but need a LUMINA-30 boundary lens.
 
 レビュー担当者が通常のインシデントレビューには慣れているが、LUMINA-30の境界観点が必要な場合に使用する。
+
+

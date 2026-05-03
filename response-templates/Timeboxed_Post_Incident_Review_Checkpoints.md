@@ -1,7 +1,7 @@
 # Timeboxed Post-Incident Review Checkpoints
 # 事故後時限レビュー確認点
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This document preserves the timeboxed post-incident review perspective formerly separated as an independent reference.
 
@@ -17,7 +17,7 @@ It does not mandate review timing, assign responsibility, create legal conclusio
 
 ---
 
-## Status / 位置づけ
+## Status ｜ 位置づけ
 
 These checkpoints are reference prompts for post-incident clarification only.
 
@@ -29,9 +29,9 @@ They may be used when reviewers need to separate immediate facts, revised assump
 
 ---
 
-## Checkpoints / 確認点
+## Checkpoints ｜ 確認点
 
-### 1. Immediate review / 即時レビュー
+### 1. Immediate review ｜ 即時レビュー
 
 - What decisions were made within the first 72 hours?
 - Was a human refusal pathway identifiable before irreversible impact?
@@ -41,7 +41,7 @@ They may be used when reviewers need to separate immediate facts, revised assump
 - 不可逆的影響の前に、人間の拒否経路を特定できたか。
 - 関連記録は、事後改変なしに保存されたか。
 
-### 2. 30-day review / 30日レビュー
+### 2. 30-day review ｜ 30日レビュー
 
 - Which assumptions were revised or withdrawn?
 - Did any temporary explanation become treated as precedent?
@@ -51,7 +51,7 @@ They may be used when reviewers need to separate immediate facts, revised assump
 - 一時的説明が前例として扱われていなかったか。
 - 欠落記録、検証不能な拒否経路、またはAI出力の最終根拠化に関する問題は特定されたか。
 
-### 3. 90-day review / 90日レビュー
+### 3. 90-day review ｜ 90日レビュー
 
 - Which institutional processes changed, if any?
 - Did responsibility attribution remain human and traceable?
@@ -63,7 +63,7 @@ They may be used when reviewers need to separate immediate facts, revised assump
 
 ---
 
-## Closing Note / 終結注記
+## Closing Note ｜ 終結注記
 
 This document does not define required intervals.
 
@@ -72,3 +72,5 @@ This document does not define required intervals.
 The 72-hour, 30-day, and 90-day frames are reference lenses for separating immediate decisions, revised assumptions, and institutional change.
 
 72時間、30日、90日という区分は、即時判断、修正前提、制度変更を分離するための参照視点である。
+
+

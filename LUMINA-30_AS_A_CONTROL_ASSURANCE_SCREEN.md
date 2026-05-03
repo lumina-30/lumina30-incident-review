@@ -6,7 +6,7 @@
 
 ---
 
-## Why this matters here / この相手に関係する理由
+## Why this matters here ｜ この相手に関係する理由
 
 For high-capability AI systems, the issue is not only failure probability.  
 The issue is whether loss structures become difficult to reverse once human refusal is no longer practically effective.
@@ -16,7 +16,7 @@ The issue is whether loss structures become difficult to reverse once human refu
 
 ---
 
-## Screening questions / 審査質問
+## Screening questions ｜ 審査質問
 
 - Who can stop the system?
 - Is that stop authority technically and organizationally effective?
@@ -34,7 +34,7 @@ The issue is whether loss structures become difficult to reverse once human refu
 
 ---
 
-## Contract and underwriting implications / 契約・引受上の示唆
+## Contract and underwriting implications ｜ 契約・引受上の示唆
 
 - Inability to demonstrate effective refusal indicates elevated control risk.
 - Missing records are a major adverse factor.
@@ -48,7 +48,9 @@ The issue is whether loss structures become difficult to reverse once human refu
 
 ---
 
-## Conclusion / 結論
+## Conclusion ｜ 結論
 
 **LUMINA-30 provides a practical screen for whether human intervention remains real before losses become structurally irreversible.**  
 **LUMINA-30は、損失が構造的に不可逆化する前に、人間介入が現実に残っているかを確認する実務的スクリーニングを提供する。**
+
+

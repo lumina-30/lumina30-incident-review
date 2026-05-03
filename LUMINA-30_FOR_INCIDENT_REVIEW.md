@@ -6,7 +6,7 @@
 
 ---
 
-## Why this matters here / この相手に関係する理由
+## Why this matters here ｜ この相手に関係する理由
 
 Ordinary incident review may explain what happened, why it happened, and how recurrence might be reduced.  
 That remains necessary.  
@@ -18,7 +18,7 @@ However, AI incidents may remain insufficiently evaluated if review does not ask
 
 ---
 
-## Minimum review checks / 最低確認項目
+## Minimum review checks ｜ 最低確認項目
 
 - Did effective human refusal authority remain available before irreversible impact?
 - Did meaningful human judgment retain the practical ability to delay, reject, override, or redirect execution?
@@ -32,7 +32,7 @@ However, AI incidents may remain insufficiently evaluated if review does not ask
 
 ---
 
-## Procedural invalidity triggers / 手続的不成立条件
+## Procedural invalidity triggers ｜ 手続的不成立条件
 
 A review should treat the system as procedurally invalid when any of the following applies:
 
@@ -52,7 +52,9 @@ A review should treat the system as procedurally invalid when any of the followi
 
 ---
 
-## Conclusion / 結論
+## Conclusion ｜ 結論
 
 **LUMINA-30 does not ask only whether harm occurred. It asks whether human refusal remained real before the system crossed into irreversible impact.**  
 **LUMINA-30は被害発生の有無だけを問わない。不可逆的影響に至る前に、人間の拒否が現実に機能していたかを問う。**
+
+

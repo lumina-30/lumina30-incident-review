@@ -6,7 +6,7 @@
 
 ---
 
-## Why this matters here / この相手に関係する理由
+## Why this matters here ｜ この相手に関係する理由
 
 Capability evaluation and safety evaluation are necessary, but they do not always provide a common language for reviewing whether human refusal remained effective before boundary loss.
 
@@ -15,7 +15,7 @@ Capability evaluation and safety evaluation are necessary, but they do not alway
 
 ---
 
-## Policy-friendly features / 政策実務で使いやすい点
+## Policy-friendly features ｜ 政策実務で使いやすい点
 
 - not tied to a specific technical stack
 - not tied to a specific company
@@ -33,7 +33,7 @@ Capability evaluation and safety evaluation are necessary, but they do not alway
 
 ---
 
-## Usable expressions / 採用しやすい表現
+## Usable expressions ｜ 採用しやすい表現
 
 - human refusal remained effective
 - procedural invalidity
@@ -49,7 +49,9 @@ Capability evaluation and safety evaluation are necessary, but they do not alway
 
 ---
 
-## Conclusion / 結論
+## Conclusion ｜ 結論
 
 **LUMINA-30 is not a prescriptive ethics code. It is a review language for determining whether meaningful human refusal still existed before irreversible autonomy conditions emerged.**  
 **LUMINA-30は規範命令型の倫理規程ではない。不可逆的自律条件の出現前に、有意味な人間拒否がなお存在していたかを判定するためのレビュー言語である。**
+
+

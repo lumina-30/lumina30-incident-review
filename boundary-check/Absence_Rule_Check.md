@@ -1,19 +1,19 @@
 # Absence Rule Check
 # 不在ルール・チェック
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This document prevents unverifiable review records from being treated as evidence of effective human refusal.
 
 本書は、検証不能なレビュー記録が実効的な人間の拒否の証拠として扱われることを防ぐ。
 
-## Rule / ルール
+## Rule ｜ ルール
 
 If evidence, logs, authorization records, or refusal pathways are absent or unverifiable, the case should be treated as no effective refusal for LUMINA-30 boundary-review purposes.
 
 証拠、ログ、承認記録、拒否経路が存在しない、または検証不能な場合、LUMINA-30の境界レビュー上は、実効的拒否なしとして扱う。
 
-## External Explanation / 外部説明
+## External Explanation ｜ 外部説明
 
 The Absence Rule prevents a review from treating missing records as proof that human refusal was effective.  
 If the refusal path cannot be verified, LUMINA-30 does not allow the case to be described as demonstrated effective refusal.
@@ -21,39 +21,39 @@ If the refusal path cannot be verified, LUMINA-30 does not allow the case to be 
 Absence Rule は、記録がない状態を「人間拒否が実効的だった証拠」として扱うことを防ぐ。  
 拒否経路を検証できない場合、LUMINA-30では「実効的拒否が示された」とは記述しない。
 
-## Check Items / 確認項目
+## Check Items ｜ 確認項目
 
-### 1. Decision Record / 判断記録
+### 1. Decision Record ｜ 判断記録
 
 Is there a record showing who made the final decision?
 
 誰が最終判断を行ったかを示す記録はあるか。
 
-### 2. Refusal Pathway / 拒否経路
+### 2. Refusal Pathway ｜ 拒否経路
 
 Is there a record showing how a human could refuse, stop, or override the action?
 
 人間が拒否、停止、上書きできた経路を示す記録はあるか。
 
-### 3. Timing / 時点
+### 3. Timing ｜ 時点
 
 Is there evidence that refusal could have occurred before irreversible impact?
 
 不可逆的影響の前に拒否できたことを示す証拠はあるか。
 
-### 4. Independence / 独立性
+### 4. Independence ｜ 独立性
 
 Was the human refusal pathway independent from AI-generated recommendations or self-validation?
 
 人間の拒否経路は、AI生成の推奨や自己検証から独立していたか。
 
-### 5. Preservation / 保全
+### 5. Preservation ｜ 保全
 
 Were logs preserved in a way that prevents retrospective reconstruction or alteration?
 
 ログは、事後的な再構成や改変を防ぐ形で保全されていたか。
 
-## Outcome / 結果
+## Outcome ｜ 結果
 
 - Verified effective refusal
 - No effective refusal
@@ -62,3 +62,4 @@ Were logs preserved in a way that prevents retrospective reconstruction or alter
 - 実効的拒否を検証済み
 - 実効的拒否なし
 - 検証不能。実効的拒否なしとして扱う
+

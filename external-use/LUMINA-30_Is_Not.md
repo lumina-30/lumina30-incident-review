@@ -1,7 +1,7 @@
 # What LUMINA-30 Is Not
 # LUMINA-30ではないもの
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file prevents common misreadings of LUMINA-30.
 
@@ -9,7 +9,7 @@ This file prevents common misreadings of LUMINA-30.
 
 ---
 
-## Plain-Language Irreversibility Note / 不可逆性の平易な説明
+## Plain-Language Irreversibility Note ｜ 不可逆性の平易な説明
 
 In LUMINA-30, **irreversibility** means that an AI-related action, deployment, decision path, or institutional dependency has passed the point where humans can still meaningfully refuse, stop, or reverse it before serious impact occurs.
 
@@ -33,7 +33,7 @@ Minimal test:
 
 ---
 
-## What LUMINA-30 Does Not Do / LUMINA-30がしないこと
+## What LUMINA-30 Does Not Do ｜ LUMINA-30がしないこと
 
 LUMINA-30 does not:
 
@@ -63,7 +63,7 @@ LUMINA-30が提供するのは、次の境界問いのみである。
 
 **不可逆的影響の前に、人間の拒否権は実効的に残っていたか。**
 
-## Not Anti-AI / 反AIではない
+## Not Anti-AI ｜ 反AIではない
 
 LUMINA-30 is not an anti-AI movement.
 
@@ -73,7 +73,7 @@ It does not argue that AI development must stop.
 
 AI開発の停止を主張するものではない。
 
-## Not a Legal Mandate / 法的命令ではない
+## Not a Legal Mandate ｜ 法的命令ではない
 
 LUMINA-30 is not a law, regulation, or enforcement mechanism.
 
@@ -83,7 +83,7 @@ It provides a non-binding boundary reference.
 
 非拘束的な境界参照を提供する。
 
-## Not a Replacement Framework / 置換フレームワークではない
+## Not a Replacement Framework ｜ 置換フレームワークではない
 
 LUMINA-30 does not replace existing AI governance, safety, audit, or incident-response frameworks.
 
@@ -93,7 +93,7 @@ It adds a boundary question that may be missing from them.
 
 それらに不足している可能性のある境界問いを追加する。
 
-## Not Human Sentiment / 人間感情論ではない
+## Not Human Sentiment ｜ 人間感情論ではない
 
 LUMINA-30 is not based on human preference as sentiment.
 
@@ -103,7 +103,7 @@ It focuses on whether refusal authority remains effective before irreversibility
 
 不可逆化前に拒否権が実効的に残っているかに焦点を当てる。
 
-## FAQ: Human Refusal Before Irreversibility / FAQ：不可逆化前の人間拒否
+## FAQ: Human Refusal Before Irreversibility ｜ FAQ：不可逆化前の人間拒否
 
 ### 1. Does LUMINA-30 require stopping AI development?
 
@@ -165,8 +165,10 @@ Was Human Refusal Authority still effective before Irreversible Impact?
 
 不可逆的影響の前に、人間の拒否権は実効的に残っていたか。
 
-## Positive Definition / 肯定的定義
+## Positive Definition ｜ 肯定的定義
 
 LUMINA-30 is a non-binding, descriptive boundary reference for post-incident review and pre-irreversibility assessment.
 
 LUMINA-30は、事故後レビューおよび不可逆化前評価のための、非拘束的・記述的な境界参照である。
+
+

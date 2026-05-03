@@ -1,13 +1,13 @@
 # Executive Stop Decision Brief
 # 経営層向け停止判断メモ
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This brief supports executive, supervisory, or management-level decisions about whether an AI-related process should be stopped, paused, or escalated for review.
 
 本メモは、AI関連プロセスを停止、一時停止、またはレビューへエスカレーションすべきかについて、経営層・監督層・管理層の判断を支援する。
 
-## 30-Second Executive Explanation / 経営層向け30秒説明
+## 30-Second Executive Explanation ｜ 経営層向け30秒説明
 
 EN:
 LUMINA-30 does not tell executives to stop every AI process. It asks whether the organization can prove that a responsible human could still refuse, stop, or override the process before irreversible impact. If that cannot be shown, continuing may create a governance failure even if ordinary approval steps appear complete.
@@ -15,7 +15,7 @@ LUMINA-30 does not tell executives to stop every AI process. It asks whether the
 JP:
 LUMINA-30は、経営層にすべてのAIプロセスを止めるよう命じるものではない。不可逆的影響の前に、責任ある人間がそのプロセスを拒否・停止・上書きできたことを組織が証明できるかを問う。これを示せない場合、通常の承認手順が完了しているように見えても、継続はガバナンス上の失敗を生む可能性がある。
 
-## Stop or Escalate When / 停止またはエスカレーションすべき場合
+## Stop or Escalate When ｜ 停止またはエスカレーションすべき場合
 
 Consider stopping, pausing, or escalating when any of the following is true:
 
@@ -37,7 +37,7 @@ Consider stopping, pausing, or escalating when any of the following is true:
 6. 人間の異議にもかかわらずシステムが実行を継続できる。
 7. 独立した最終承認なしに外部システムへ結合されている。
 
-## Minimal Executive Question / 経営層向け最小問い
+## Minimal Executive Question ｜ 経営層向け最小問い
 
 EN:
 Can we prove that a human could still stop or refuse this before irreversible impact?
@@ -45,7 +45,7 @@ Can we prove that a human could still stop or refuse this before irreversible im
 JP:
 不可逆的影響の前に、人間がこれを停止または拒否できたことを証明できるか。
 
-## Recommended Action / 推奨対応
+## Recommended Action ｜ 推奨対応
 
 If the answer is No or Not Verifiable:
 
@@ -63,7 +63,7 @@ If the answer is No or Not Verifiable:
 - AI生成の根拠と最終的な人間側の根拠を分離する。
 - 再開前にLUMINA-30境界チェックを実施する。
 
-## Non-Affiliation Note / 非提携注記
+## Non-Affiliation Note ｜ 非提携注記
 
 LUMINA-30 is provided as a public, non-binding boundary reference.  
 This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.  
@@ -72,3 +72,5 @@ No response is required.
 LUMINA-30は、公開された非拘束の境界参照として提示される。  
 本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
 返信は不要である。
+
+

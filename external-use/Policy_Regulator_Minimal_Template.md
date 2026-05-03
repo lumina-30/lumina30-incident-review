@@ -1,13 +1,13 @@
 # Policy and Regulator Minimal Template
 # 政策・規制向け最小テンプレート
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This file provides short language for policy, regulatory, and governance contexts.
 
 本ファイルは、政策、規制、ガバナンス文脈で使う短文を提供する。
 
-## 30-Second Explanation / 30秒説明
+## 30-Second Explanation ｜ 30秒説明
 
 EN:
 LUMINA-30 is not a regulation, compliance regime, certification system, or approval process. It is a non-binding boundary reference for asking whether effective human refusal remained available before irreversible AI-related impact. In policy and governance review, it helps identify what may be missing when oversight is described only as approval, reporting, or risk management.
@@ -15,7 +15,7 @@ LUMINA-30 is not a regulation, compliance regime, certification system, or appro
 JP:
 LUMINA-30は、規制、コンプライアンス制度、認証制度、承認手続ではない。不可逆的なAI関連影響の前に、実効的な人間の拒否が利用可能だったかを問うための非拘束的な境界参照である。政策・ガバナンスレビューでは、監督が承認、報告、リスク管理としてのみ説明される場合に、何が欠け得るかを明確にする。
 
-## Minimal Text / 最小文
+## Minimal Text ｜ 最小文
 
 EN:
 LUMINA-30 is not a regulation or compliance regime. It can be used as a supplementary boundary reference in AI incident review and governance assessment, asking whether effective human refusal remained available before irreversible AI impact. This question can support, but does not replace, existing legal, regulatory, audit, or incident-response frameworks.
@@ -23,7 +23,7 @@ LUMINA-30 is not a regulation or compliance regime. It can be used as a suppleme
 JP:
 LUMINA-30は規制やコンプライアンス制度ではない。AIインシデントレビューおよびガバナンス評価において、不可逆的AI影響の前に実効的な人間の拒否が利用可能だったかを問う補助的な境界参照として使用できる。この問いは既存の法制度、規制、監査、インシデント対応フレームワークを支援し得るが、それらを置き換えるものではない。
 
-## Policy Use / 政策上の使い方
+## Policy Use ｜ 政策上の使い方
 
 Use LUMINA-30 as:
 
@@ -39,7 +39,7 @@ LUMINA-30は以下として使用する。
 - エスカレーションレビューの境界条件
 - 補助的な監査チェック項目
 
-## Core Prompt / 中核プロンプト
+## Core Prompt ｜ 中核プロンプト
 
 EN:
 Before irreversible impact, could humans meaningfully refuse, stop, or override the AI-driven pathway?
@@ -47,7 +47,7 @@ Before irreversible impact, could humans meaningfully refuse, stop, or override 
 JP:
 不可逆的影響の前に、人間はAI駆動の経路を意味ある形で拒否、停止、上書きできたか。
 
-## Non-Affiliation Note / 非提携注記
+## Non-Affiliation Note ｜ 非提携注記
 
 LUMINA-30 is provided as a public, non-binding boundary reference.  
 This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.  
@@ -56,3 +56,5 @@ No response is required.
 LUMINA-30は、公開された非拘束の境界参照として提示される。  
 本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
 返信は不要である。
+
+

@@ -1,13 +1,13 @@
 # LUMINA-30 Boundary Check
 # LUMINA-30 境界チェック
 
-## Purpose / 目的
+## Purpose ｜ 目的
 
 This document provides a short, non-binding post-incident review check for examining whether meaningful human refusal authority remained effective before irreversible AI impact.
 
 本書は、AIインシデント後レビューにおいて、不可逆的なAI影響の前に人間の拒否権が実効的に残っていたかを確認するための、短い非拘束的チェックである。
 
-## Status / 位置づけ
+## Status ｜ 位置づけ
 
 - Non-binding reference
 - Descriptive review aid
@@ -19,7 +19,7 @@ This document provides a short, non-binding post-incident review check for exami
 - 法的結論ではなく境界チェック
 - 事故後レビュー支援
 
-## Status Clarification / 位置づけの補足
+## Status Clarification ｜ 位置づけの補足
 
 Non-binding status limits institutional claims.  
 It does not weaken the boundary logic.
@@ -33,7 +33,7 @@ However, if the review concerns irreversible AI-related impact, it should still 
 レビューがLUMINA-30を公式フレームワークとして採用する必要はない。  
 しかし、そのレビューが不可逆的なAI関連影響を扱う場合、不可逆化前に人間の拒否が利用可能で、運用上実効的であり、検証可能だったことを、同等の証拠で示せる必要がある。
 
-## Terminology Note / 用語注記
+## Terminology Note ｜ 用語注記
 
 This document uses operational boundary language.  
 Where the canonical framework uses “civilizational boundary,” this check reads it as a pre-irreversibility human-refusal boundary.
@@ -47,13 +47,13 @@ The question is whether humans still had effective refusal authority before irre
 問題は、ある出来事が文化的・歴史的な意味で「文明的」かどうかではない。  
 問題は、不可逆的なAI関連影響の前に、人間がなお実効的な拒否権を持っていたかである。
 
-## Core Question / 中核問い
+## Core Question ｜ 中核問い
 
 Was human final refusal effective before irreversible impact?
 
 不可逆的影響の前に、人間の最終拒否権は実効的だったか？
 
-## Boundary Check / 境界チェック
+## Boundary Check ｜ 境界チェック
 
 Answer each item as:
 
@@ -67,52 +67,48 @@ Answer each item as:
 - No
 - Not Verifiable
 
-### 1. Human Final Refusal / 人間の最終拒否
+### 1. Human Final Refusal ｜ 人間の最終拒否
 
 Was human final refusal available before irreversible impact?
 
 不可逆的影響の前に、人間の最終拒否は可能だったか。
 
-### 2. Operational Effectiveness / 運用上の実効性
+### 2. Operational Effectiveness ｜ 運用上の実効性
 
 Was that refusal operationally effective, not merely nominal?
 
 その拒否は名目上ではなく、運用上実効的だったか。
 
-### 3. Verification Records / 検証記録
+### 3. Verification Records ｜ 検証記録
 
 Are records sufficient to verify the refusal pathway?
 
 拒否経路を検証できる十分な記録は存在するか。
 
-### 4. Absence Rule / 不在ルール
+### 4. Absence Rule ｜ 不在ルール
 
 If records are absent or unverifiable, should the case be treated as no effective refusal?
 
 記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。
 
-### 5. AI Output as Final Rationale / AI出力の最終根拠化
+### 5. AI Output as Final Rationale ｜ AI出力の最終根拠化
 
 Did AI-generated output become the sole or primary rationale for final action?
 
 AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
 
-## Review Outcome / レビュー結果
+## Review Outcome ｜ レビュー結果
 
-Select one:
+Select one ｜ 以下から選択する:
 
-- Effective refusal demonstrated
-- Effective refusal not demonstrated
-- Not verifiable; treat as no effective refusal for boundary-review purposes
+- Effective refusal demonstrated ｜ 実効的拒否が示された
+- Effective refusal not demonstrated ｜ 実効的拒否は示されなかった
+- Not verifiable; treat as no effective refusal for boundary-review purposes ｜ 検証不能。境界レビュー上は実効的拒否なしとして扱う
 
-以下から選択する。
-
-- 実効的拒否が示された
-- 実効的拒否は示されなかった
-- 検証不能。境界レビュー上は実効的拒否なしとして扱う
-
-## Boundary Note / 境界メモ
+## Boundary Note ｜ 境界メモ
 
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.
 
 不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
+
+

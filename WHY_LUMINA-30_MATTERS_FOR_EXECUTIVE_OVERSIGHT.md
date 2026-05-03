@@ -6,7 +6,7 @@
 
 ---
 
-## Why this matters here / この相手に関係する理由
+## Why this matters here ｜ この相手に関係する理由
 
 The central question is not only whether the system performs well.  
 The central question is whether the organization can prove that meaningful human refusal remained real while the system was being advanced.
@@ -16,7 +16,7 @@ The central question is whether the organization can prove that meaningful human
 
 ---
 
-## What is at risk if this is not checked / これを見ない場合の経営リスク
+## What is at risk if this is not checked ｜ これを見ない場合の経営リスク
 
 - post-incident explanation failure
 - missing stop pathway
@@ -36,7 +36,7 @@ The central question is whether the organization can prove that meaningful human
 
 ---
 
-## What LUMINA-30 provides / LUMINA-30が与えるもの
+## What LUMINA-30 provides ｜ LUMINA-30が与えるもの
 
 - a reviewable proof frame for human refusal
 - a boundary check before irreversible escalation
@@ -50,7 +50,9 @@ The central question is whether the organization can prove that meaningful human
 
 ---
 
-## Conclusion / 結論
+## Conclusion ｜ 結論
 
 **LUMINA-30 is not about slowing innovation by default. It is about ensuring that innovation does not outrun the organization’s ability to prove that human refusal remained real.**  
 **LUMINA-30は、無条件にイノベーションを遅らせるためのものではない。人間の拒否が現実に残っていたことを組織が証明する能力を、イノベーションが追い越さないようにするためのものである。**
+
+
