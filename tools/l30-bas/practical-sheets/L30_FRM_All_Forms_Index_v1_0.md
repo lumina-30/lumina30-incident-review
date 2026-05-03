@@ -6,7 +6,7 @@ Version: 1.0
 Date: May 2026  
 Repository path: `lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index_v1_0.md`
 
-[Document ID System](./L30_FRM_Document_ID_System_v1_0.md) ｜ [Current Forms](#current-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
+[Document ID System](./L30_FRM_Document_ID_System.md) ｜ [Current Forms](#current-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
 
 ---
 
@@ -81,9 +81,9 @@ These forms do not relax, replace, or postpone PCR-C.
 
 | Document ID | Title | Primary use | Default DOCX | Default PDF | JP DOCX | JP PDF |
 |---|---|---|---|---|---|---|
-| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | Minimum boundary determination ｜ 最小境界判定 | [DOCX](./L30_FRM_B01_Boundary_Check_v1_0.docx) | [PDF](./L30_FRM_B01_Boundary_Check_v1_0.pdf) | [DOCX](./L30_FRM_B01_Boundary_Check_v1_0_JP.docx) | [PDF](./L30_FRM_B01_Boundary_Check_v1_0_JP.pdf) |
-| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | Post-incident review record ｜ 事故後レビュー記録 | [DOCX](./L30_FRM_I01_Incident_Review_Template_v1_0.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template_v1_0.pdf) | [DOCX](./L30_FRM_I01_Incident_Review_Template_v1_0_JP.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template_v1_0_JP.pdf) |
-| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | Audit and governance review ｜ 監査・ガバナンス確認 | [DOCX](./L30_FRM_A01_Audit_Checklist_v1_0.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_v1_0.pdf) | [DOCX](./L30_FRM_A01_Audit_Checklist_v1_0_JP.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_v1_0_JP.pdf) |
+| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | Minimum boundary determination ｜ 最小境界判定 | [DOCX](./L30_FRM_B01_Boundary_Check.docx) | [PDF](./L30_FRM_B01_Boundary_Check.pdf) | [DOCX](./L30_FRM_B01_Boundary_Check_JP.docx) | [PDF](./L30_FRM_B01_Boundary_Check_JP.pdf) |
+| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | Post-incident review record ｜ 事故後レビュー記録 | [DOCX](./L30_FRM_I01_Incident_Review_Template.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template.pdf) | [DOCX](./L30_FRM_I01_Incident_Review_Template_JP.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template_JP.pdf) |
+| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | Audit and governance review ｜ 監査・ガバナンス確認 | [DOCX](./L30_FRM_A01_Audit_Checklist.docx) | [PDF](./L30_FRM_A01_Audit_Checklist.pdf) | [DOCX](./L30_FRM_A01_Audit_Checklist_JP.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_JP.pdf) |
 
 ---
 
@@ -120,7 +120,7 @@ Use for governance, deployment, procurement, internal review, or external audit 
 The full numbering rules are maintained in:  
 詳細な採番ルールは、以下で管理します。
 
-- [L30_FRM Document ID System](./L30_FRM_Document_ID_System_v1_0.md)
+- [L30_FRM Document ID System](./L30_FRM_Document_ID_System.md)
 
 Current filename format:  
 現行ファイル名形式：

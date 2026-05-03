@@ -7,7 +7,7 @@ Date: May 2026
 Repository path: `lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_Document_ID_System_v1_0.md`  
 License: CC0 1.0 Universal (Public Domain)
 
-[All Forms Index](./L30_FRM_All_Forms_Index_v1_0.md) ｜ [ID Format](#filename-format) ｜ [Language Rule](#language-rule) ｜ [Current Register](#current-form-register)
+[All Forms Index](./L30_FRM_All_Forms_Index.md) ｜ [ID Format](#filename-format) ｜ [Language Rule](#language-rule) ｜ [Current Register](#current-form-register)
 
 ---
 
