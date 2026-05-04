@@ -380,3 +380,6 @@ This repository should be treated as the main incident-review hub within the LUM
   Organization-level entry point for the LUMINA-30 repository network.  
   LUMINA-30 repo群全体への組織レベル入口。
 
+---
+Keywords: irreversible escalation, boundary condition, effective human refusal, structural invalidity, post-incident review
+
