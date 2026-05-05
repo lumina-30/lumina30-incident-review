@@ -6,7 +6,7 @@ Current Version: 1.0.1
 Last Updated: May 2026  
 Repository path: `lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md`
 
-[Document ID System](./L30_FRM_Document_ID_System.md) ｜ [Current Forms](#current-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
+[Document ID System](./L30_FRM_Document_ID_System.md) ｜ [Which Form First](#which-form-first) ｜ [Current Forms](#current-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
 
 ---
 
@@ -80,6 +80,21 @@ Primary boundary requirement:
 
 These forms do not relax, replace, or postpone PCR-C.  
 これらの帳票は PCR-C を緩和・代替・延期しません。
+
+---
+
+<a id="which-form-first"></a>
+## Which form should I use first? ｜ 最初に使う帳票の選び方
+
+If you are not sure which document to open, start here.  
+どの文書を開くべきか迷う場合は、まずこの表から選んでください。
+
+| Situation ｜ 状況 | Use first ｜ 最初に使うもの | Purpose ｜ 目的 |
+|---|---|---|
+| I only need a minimum boundary determination. ｜ 最小限の境界判定だけを行いたい | `L30_FRM_B01` Boundary Check ｜ 境界判定表 | Check whether effective human refusal remained possible before irreversibility ｜ 不可逆化前に有効な人間拒否が残っていたかを確認する |
+| An incident, near-incident, or boundary-failure concern has already occurred. ｜ 事故・準事故・境界失敗懸念がすでにある | `L30_FRM_I01` Incident Review Template ｜ 事故レビュー記録表 | Record timeline, refusal conditions, control conditions, evidence, and findings ｜ 時系列・拒否条件・制御条件・証拠・所見を記録する |
+| The context is governance, deployment, procurement, internal review, or external audit. ｜ ガバナンス・導入・調達・内部レビュー・外部監査の文脈である | `L30_FRM_A01` Audit Checklist ｜ 監査チェックリスト | Review whether refusal authority and control conditions remain institutionally traceable ｜ 拒否権と制御条件が制度上追跡可能かを確認する |
+| I need background theory or conceptual explanation. ｜ 背景理論や概念説明を確認したい | LUMINA-30 Core / Reference documents ｜ LUMINA-30本体・参照文書 | Understand the boundary framework before using the forms ｜ 帳票利用前に境界フレームワークを理解する |
 
 ---
 
