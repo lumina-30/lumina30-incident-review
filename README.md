@@ -1,4 +1,4 @@
-authority## LUMINA-30 Incident Review
+# LUMINA-30 Incident Review
 
 This repository provides a minimal operational structure
 for reviewing AI incidents under the LUMINA-30 framework.
@@ -382,4 +382,5 @@ This repository should be treated as the main incident-review hub within the LUM
 
 ---
 Keywords: irreversible escalation, boundary condition, effective human refusal, structural invalidity, post-incident review
+
 
