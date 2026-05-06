@@ -54,11 +54,11 @@ L30_FRM_A01
 English files are the default and do not use a language suffix.  
 英語版ファイルは標準版として扱い、言語接尾辞を付けません。
 
-Japanese files use `_JP` immediately before the file extension.  
-日本語版ファイルは、拡張子の直前に `_JP` を付けます。
+Japanese files use the `_JA` language suffix immediately before the file extension.  
+日本語版ファイルは、拡張子の直前に `_JA` 言語接尾辞を付けます。
 
-The `_JP` suffix is not part of the document ID.  
-`_JP` は文書IDの一部ではありません。
+The `_JA` language suffix is not part of the document ID.  
+`_JA` 言語接尾辞は文書IDの一部ではありません。
 
 The practical form body should show only the document ID and should not show language code as part of the ID.  
 実務帳票本文では文書IDのみを表示し、言語コードをIDの一部として表示しません。
@@ -69,7 +69,7 @@ Examples:
 ```text
 Document ID: L30_FRM_B01
 Default English file: L30_FRM_B01_Boundary_Check.docx
-Japanese file: L30_FRM_B01_Boundary_Check_JP.docx
+Japanese file: L30_FRM_B01_Boundary_Check_JA.docx
 ```
 
 ---
@@ -77,15 +77,15 @@ Japanese file: L30_FRM_B01_Boundary_Check_JP.docx
 <a id="filename-format"></a>
 ## Filename format ｜ ファイル名形式
 
-Public filenames do not include version numbers. English files use the default filename. Japanese files use `_JP` before the file extension.  
-公開ファイル名にはバージョン番号を入れません。英語版は標準ファイル名を使用し、日本語版は拡張子の直前に`_JP`を付けます。
+Public filenames do not include version numbers. English files use the default filename. Japanese files use the `_JA` language suffix before the file extension.  
+公開ファイル名にはバージョン番号を入れません。英語版は標準ファイル名を使用し、日本語版は拡張子の直前に`_JA`を付けます。
 
 
 ```text
 L30_FRM_[Category][Number]_[English_Title].docx
 L30_FRM_[Category][Number]_[English_Title].pdf
-L30_FRM_[Category][Number]_[English_Title]_JP.docx
-L30_FRM_[Category][Number]_[English_Title]_JP.pdf
+L30_FRM_[Category][Number]_[English_Title]_JA.docx
+L30_FRM_[Category][Number]_[English_Title]_JA.pdf
 ```
 
 Public filenames do not include version numbers. Version information is stored inside the document, footer, Git history, releases/tags, and review-candidate ZIP names.  
@@ -95,7 +95,7 @@ Public filenames do not include version numbers. Version information is stored i
 |---|---|
 | `L30_FRM_[Category][Number]` | Official document ID |
 | `[English_Title]` | Underscore-separated English title |
-| `_JP` | Japanese-language suffix, not part of the document ID |
+| `_JA` | Japanese-language suffix, not part of the document ID |
 
 ---
 
@@ -121,9 +121,9 @@ A new category should be created only when the form has a clearly different oper
 
 | Document ID | Default English file base | Japanese file base | Primary use |
 |---|---|---|---|
-| `L30_FRM_B01` | `L30_FRM_B01_Boundary_Check` | `L30_FRM_B01_Boundary_Check_JP` | Minimum boundary judgment sheet for effective human refusal before irreversibility |
-| `L30_FRM_I01` | `L30_FRM_I01_Incident_Review_Template` | `L30_FRM_I01_Incident_Review_Template_JP` | Incident or near-incident review record aligned with the LUMINA-30 Boundary Kernel |
-| `L30_FRM_A01` | `L30_FRM_A01_Audit_Checklist` | `L30_FRM_A01_Audit_Checklist_JP` | Audit checklist for pre-critical control readiness and refusal validity |
+| `L30_FRM_B01` | `L30_FRM_B01_Boundary_Check` | `L30_FRM_B01_Boundary_Check_JA` | Minimum boundary judgment sheet for effective human refusal before irreversibility |
+| `L30_FRM_I01` | `L30_FRM_I01_Incident_Review_Template` | `L30_FRM_I01_Incident_Review_Template_JA` | Incident or near-incident review record aligned with the LUMINA-30 Boundary Kernel |
+| `L30_FRM_A01` | `L30_FRM_A01_Audit_Checklist` | `L30_FRM_A01_Audit_Checklist_JA` | Audit checklist for pre-critical control readiness and refusal validity |
 
 ---
 
@@ -171,3 +171,4 @@ Do not assign a form ID to a theoretical paper, README, diagram, slide, or gener
 理論論文、README、図版、スライド、一般説明文書には帳票IDを付与しません。
 
 [⬆ TOP](#top)
+

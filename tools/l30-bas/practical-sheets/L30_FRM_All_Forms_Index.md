@@ -43,11 +43,11 @@ Each DOCX/PDF form contains review-use fields for Review Date, Reviewer / Organi
 English practical form files are the default and do not use a language suffix.  
 英語版の実務帳票ファイルは標準版として扱い、言語接尾辞を付けません。
 
-Japanese practical form files use `_JP` immediately before the file extension.  
-日本語版の実務帳票ファイルは、拡張子の直前に `_JP` を付けます。
+Japanese practical form files use the `_JA` language suffix immediately before the file extension.  
+日本語版の実務帳票ファイルは、拡張子の直前に `_JA` 言語接尾辞を付けます。
 
-The `_JP` suffix is not part of the document ID.  
-`_JP` は文書IDの一部ではありません。
+The `_JA` language suffix is not part of the document ID.  
+`_JA` 言語接尾辞は文書IDの一部ではありません。
 
 The practical form body should show only the document ID, such as `L30_FRM_B01`, and should not show a language code as part of the ID.  
 実務帳票本文では、`L30_FRM_B01` のような文書IDのみを表示し、言語コードをIDの一部として表示しません。
@@ -58,7 +58,7 @@ Examples:
 ```text
 Document ID: L30_FRM_B01
 Default English file: L30_FRM_B01_Boundary_Check.docx
-Japanese file: L30_FRM_B01_Boundary_Check_JP.docx
+Japanese file: L30_FRM_B01_Boundary_Check_JA.docx
 ```
 
 GitHub-facing index and management documents may remain bilingual because they are navigation and maintenance documents.  
@@ -101,11 +101,11 @@ If you are not sure which document to open, start here.
 <a id="current-forms"></a>
 ## Current forms ｜ 現行帳票
 
-| Document ID | Title | Primary use | Default DOCX | Default PDF | JP DOCX | JP PDF |
+| Document ID | Title | Primary use | Default DOCX | Default PDF | JA DOCX | JA PDF |
 |---|---|---|---|---|---|---|
-| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | Minimum boundary determination ｜ 最小境界判定 | [DOCX](./L30_FRM_B01_Boundary_Check.docx) | [PDF](./L30_FRM_B01_Boundary_Check.pdf) | [DOCX](./L30_FRM_B01_Boundary_Check_JP.docx) | [PDF](./L30_FRM_B01_Boundary_Check_JP.pdf) |
-| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | Post-incident review record ｜ 事故後レビュー記録 | [DOCX](./L30_FRM_I01_Incident_Review_Template.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template.pdf) | [DOCX](./L30_FRM_I01_Incident_Review_Template_JP.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template_JP.pdf) |
-| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | Audit and governance review ｜ 監査・ガバナンス確認 | [DOCX](./L30_FRM_A01_Audit_Checklist.docx) | [PDF](./L30_FRM_A01_Audit_Checklist.pdf) | [DOCX](./L30_FRM_A01_Audit_Checklist_JP.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_JP.pdf) |
+| `L30_FRM_B01` | Boundary Check ｜ 境界判定表 | Minimum boundary determination ｜ 最小境界判定 | [DOCX](./L30_FRM_B01_Boundary_Check.docx) | [PDF](./L30_FRM_B01_Boundary_Check.pdf) | [DOCX](./L30_FRM_B01_Boundary_Check_JA.docx) | [PDF](./L30_FRM_B01_Boundary_Check_JA.pdf) |
+| `L30_FRM_I01` | Incident Review Template ｜ 事故レビュー記録表 | Post-incident review record ｜ 事故後レビュー記録 | [DOCX](./L30_FRM_I01_Incident_Review_Template.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template.pdf) | [DOCX](./L30_FRM_I01_Incident_Review_Template_JA.docx) | [PDF](./L30_FRM_I01_Incident_Review_Template_JA.pdf) |
+| `L30_FRM_A01` | Audit Checklist ｜ 監査チェックリスト | Audit and governance review ｜ 監査・ガバナンス確認 | [DOCX](./L30_FRM_A01_Audit_Checklist.docx) | [PDF](./L30_FRM_A01_Audit_Checklist.pdf) | [DOCX](./L30_FRM_A01_Audit_Checklist_JA.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_JA.pdf) |
 
 ---
 
@@ -118,7 +118,7 @@ Use `L30_FRM_B01`, `L30_FRM_I01`, or `L30_FRM_A01` first when a minimum practica
 以下の帳票は、L30-BAS実務帳票群の一部ですが、多くの利用者にとって最初の入口ではありません。  
 最小限の実務入口が必要な場合は、まず `L30_FRM_B01`、`L30_FRM_I01`、または `L30_FRM_A01` を使用します。より詳細な拒否権保全確認または事故レビュー分析が必要な場合に、補助・詳細帳票を使用します。
 
-| Document ID | Title | Primary use | Default DOCX | Default PDF | JP DOCX | JP PDF |
+| Document ID | Title | Primary use | Default DOCX | Default PDF | JA DOCX | JA PDF |
 |---|---|---|---|---|---|---|
 | `L30_FRM_B02` | Operational Refusal Preservation Minimum ｜ 運用上の拒否権保全ミニマム | Pre-incident operational refusal-preservation check ｜ 事故前の運用上の拒否権保全確認 | [DOCX](./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.docx) | [PDF](./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf) | — | — |
 | `L30_FRM_I02` | Incident Review Protocol ｜ 事故レビュープロトコル | Detailed post-incident review protocol ｜ 詳細事故後レビュープロトコル | [DOCX](./L30_FRM_I02_Incident_Review_Protocol.docx) | [PDF](./L30_FRM_I02_Incident_Review_Protocol.pdf) | — | — |
@@ -167,7 +167,7 @@ Current filename format:
 
 ```text
 L30_FRM_[Category][Number]_[English_Title].docx
-L30_FRM_[Category][Number]_[English_Title]_JP.docx
+L30_FRM_[Category][Number]_[English_Title]_JA.docx
 ```
 
 Examples:  
@@ -175,7 +175,7 @@ Examples:
 
 ```text
 L30_FRM_B01_Boundary_Check.pdf
-L30_FRM_B01_Boundary_Check_JP.pdf
+L30_FRM_B01_Boundary_Check_JA.pdf
 ```
 
 ---
@@ -239,3 +239,4 @@ The following short references may be used in review comments, issues, handoff n
 | `I03` | `L30_FRM_I03: Incident Review Protocol Extended` |
 
 [⬆ TOP](#top)
+
