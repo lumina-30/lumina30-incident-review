@@ -114,26 +114,26 @@ Choose the entry point by role and review stage.
   誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。
 
 - [For L30_FRM practical forms ｜ L30_FRM実務帳票を使う場合](./tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
-  Use this when the review needs downloadable PDF or editable DOCX forms for L30_FRM_B01, L30_FRM_I01, or L30_FRM_A01.  
-  境界判定表、事故レビュー記録表、監査チェックリストのPDF版または編集用DOCX版が必要な場合に使用。
+  Use this when the review needs downloadable PDF or editable DOCX forms for L30_FRM_B01, L30_FRM_I01, L30_FRM_A01, or supporting forms.  
+  境界判定表、事故レビュー記録表、監査チェックリスト、または補助帳票のPDF版・編集用DOCX版が必要な場合に使用。
 
 - [For structured reading order ｜ 順番に確認する場合](./READING_ORDER.md)  
   Use this when the review must be performed in a controlled order.  
   管理された順番でレビューする場合に使用。
 
-- [For immediate incident response ｜ 事故直後の初動](./LUMINA-30_Incident_Review_Protocol.pdf)  
+- [For immediate incident response ｜ 事故直後の初動](./tools/l30-bas/practical-sheets/L30_FRM_I02_Incident_Review_Protocol.pdf)  
   Use this for the initial post-incident review path.  
   事故直後の初動レビューに使用。
 
-- [For deeper structural review ｜ 詳細な構造分析](./LUMINA-30_Incident_Review_Protocol_Extended.pdf)  
+- [For deeper structural review ｜ 詳細な構造分析](./tools/l30-bas/practical-sheets/L30_FRM_I03_Incident_Review_Protocol_Extended.pdf)  
   Use this when the initial review is insufficient and structural analysis is needed.  
   初動レビューだけでは不足し、構造分析が必要な場合に使用。
 
-- [For ready-to-fill review workflow ｜ 記入式レビュー](./LUMINA-30_Incident_Review_Template.pdf)  
+- [For ready-to-fill review workflow ｜ 記入式レビュー](./tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf)  
   Use this when review findings must be recorded in a fillable workflow format.  
   レビュー結果を記入形式で記録する場合に使用。
 
-- [For minimum refusal-preservation conditions ｜ 拒否権保全の最小条件確認](./LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf)  
+- [For minimum refusal-preservation conditions ｜ 拒否権保全の最小条件確認](./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf)  
   Use this to check the minimum conditions for reviewable refusal authority.  
   レビュー可能な拒否権保全の最小条件を確認する場合に使用。
 
@@ -323,13 +323,13 @@ These short documents translate the LUMINA-30 review axis into role-specific wor
 ## Open Documents ｜ PDF文書
 
 ### ▶ Basic Protocol
-[Open LUMINA-30_Incident_Review_Protocol.pdf](./LUMINA-30_Incident_Review_Protocol.pdf)
+[Open L30_FRM_I02_Incident_Review_Protocol.pdf](./tools/l30-bas/practical-sheets/L30_FRM_I02_Incident_Review_Protocol.pdf)
 
 ### ▶ Extended Protocol
-[Open LUMINA-30_Incident_Review_Protocol_Extended.pdf](./LUMINA-30_Incident_Review_Protocol_Extended.pdf)
+[Open L30_FRM_I03_Incident_Review_Protocol_Extended.pdf](./tools/l30-bas/practical-sheets/L30_FRM_I03_Incident_Review_Protocol_Extended.pdf)
 
 ### ▶ Incident Review Template
-[Open LUMINA-30_Incident_Review_Template.pdf](./LUMINA-30_Incident_Review_Template.pdf)
+[Open L30_FRM_I01_Incident_Review_Template.pdf](./tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf)
 
 ---
 
@@ -338,7 +338,7 @@ These short documents translate the LUMINA-30 review axis into role-specific wor
 ### ▶ Operational Refusal Preservation Minimum
 Minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact.
 
-[Open LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf](./LUMINA-30_Operational_Refusal_Preservation_Minimum.pdf)
+[Open L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf](./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf)
 
 ---
 

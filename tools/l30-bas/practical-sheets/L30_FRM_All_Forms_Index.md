@@ -6,7 +6,7 @@ Current Version: 1.0.1
 Last Updated: May 2026  
 Repository path: `lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md`
 
-[Document ID System](./L30_FRM_Document_ID_System.md) ｜ [Which Form First](#which-form-first) ｜ [Current Forms](#current-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
+[Document ID System](./L30_FRM_Document_ID_System.md) ｜ [Which Form First](#which-form-first) ｜ [Current Forms](#current-forms) ｜ [Supporting Forms](#supporting-detailed-forms) ｜ [Use Order](#recommended-use-order) ｜ [Boundary Relation](#relationship-to-boundary-kernel)
 
 ---
 
@@ -109,6 +109,23 @@ If you are not sure which document to open, start here.
 
 ---
 
+<a id="supporting-detailed-forms"></a>
+## Supporting / Detailed Forms ｜ 補助・詳細帳票
+
+The following forms are part of the L30-BAS practical form family, but they are not the first entry point for most users.  
+Use `L30_FRM_B01`, `L30_FRM_I01`, or `L30_FRM_A01` first when a minimum practical entry point is needed. Use the supporting forms when more detailed refusal-preservation or incident-review analysis is required.
+
+以下の帳票は、L30-BAS実務帳票群の一部ですが、多くの利用者にとって最初の入口ではありません。  
+最小限の実務入口が必要な場合は、まず `L30_FRM_B01`、`L30_FRM_I01`、または `L30_FRM_A01` を使用します。より詳細な拒否権保全確認または事故レビュー分析が必要な場合に、補助・詳細帳票を使用します。
+
+| Document ID | Title | Primary use | Default DOCX | Default PDF | JP DOCX | JP PDF |
+|---|---|---|---|---|---|---|
+| `L30_FRM_B02` | Operational Refusal Preservation Minimum ｜ 運用上の拒否権保全ミニマム | Pre-incident operational refusal-preservation check ｜ 事故前の運用上の拒否権保全確認 | [DOCX](./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.docx) | [PDF](./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf) | — | — |
+| `L30_FRM_I02` | Incident Review Protocol ｜ 事故レビュープロトコル | Detailed post-incident review protocol ｜ 詳細事故後レビュープロトコル | [DOCX](./L30_FRM_I02_Incident_Review_Protocol.docx) | [PDF](./L30_FRM_I02_Incident_Review_Protocol.pdf) | — | — |
+| `L30_FRM_I03` | Incident Review Protocol Extended ｜ 拡張事故レビュープロトコル | Extended post-incident structural analysis ｜ 拡張事故後構造分析 | [DOCX](./L30_FRM_I03_Incident_Review_Protocol_Extended.docx) | [PDF](./L30_FRM_I03_Incident_Review_Protocol_Extended.pdf) | — | — |
+
+---
+
 <a id="recommended-use-order"></a>
 ## Recommended use order ｜ 推奨使用順
 
@@ -117,6 +134,7 @@ Use the forms in this order when possible:
 
 ```text
 L30_FRM_B01 -> L30_FRM_I01 -> L30_FRM_A01
+Optional detail / 必要時の詳細: B02 / I02 / I03
 ```
 
 ### 1. `L30_FRM_B01`: Boundary Check ｜ 境界判定表
@@ -216,5 +234,8 @@ The following short references may be used in review comments, issues, handoff n
 | `B01` | `L30_FRM_B01: Boundary Check` |
 | `I01` | `L30_FRM_I01: Incident Review Template` |
 | `A01` | `L30_FRM_A01: Audit Checklist` |
+| `B02` | `L30_FRM_B02: Operational Refusal Preservation Minimum` |
+| `I02` | `L30_FRM_I02: Incident Review Protocol` |
+| `I03` | `L30_FRM_I03: Incident Review Protocol Extended` |
 
 [⬆ TOP](#top)
