@@ -113,9 +113,9 @@ Choose the entry point by role and review stage.
   Use this to check who decides, when irreversibility is judged, and what evidence is required.  
   誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。
 
-- [For L30_FRM practical forms ｜ L30_FRM実務帳票を使う場合](./tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
-  Use this when the review needs downloadable PDF or editable DOCX forms for L30_FRM_B01, L30_FRM_I01, L30_FRM_A01, or supporting forms.  
-  境界判定表、事故レビュー記録表、監査チェックリスト、または補助帳票のPDF版・編集用DOCX版が必要な場合に使用。
+- [For L30-FRM practical forms ｜ L30-FRM実務帳票を使う場合](./tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.md)  
+  Use this when the review needs downloadable PDF or editable DOCX forms for L30-FRM-B01, L30-FRM-I01, L30-FRM-A01, G01, R01, S01, or supporting forms.  
+  境界判定表、事故レビュー記録表、監査チェックリスト、G/R/S区分別基本パターン、または補助帳票のPDF版・編集用DOCX版が必要な場合に使用。
 
 - [For structured reading order ｜ 順番に確認する場合](./READING_ORDER.md)  
   Use this when the review must be performed in a controlled order.  
@@ -136,6 +136,18 @@ Choose the entry point by role and review stage.
 - [For minimum refusal-preservation conditions ｜ 拒否権保全の最小条件確認](./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf)  
   Use this to check the minimum conditions for reviewable refusal authority.  
   レビュー可能な拒否権保全の最小条件を確認する場合に使用。
+
+- [For governance review pattern ｜ ガバナンスレビュー雛形](./tools/l30-bas/practical-sheets/L30_FRM_G01_Governance_Review_Template.pdf)  
+  Use this when approval flow, escalation governance, or institutional process integrity must be reviewed.  
+  承認経路、エスカレーション統治、制度的プロセスの健全性を確認する場合に使用。
+
+- [For responsibility and accountability review ｜ 責任・説明責任レビュー](./tools/l30-bas/practical-sheets/L30_FRM_R01_Responsibility_Accountability_Review.pdf)  
+  Use this when responsibility paths, reviewer attribution, or accountability traceability must be mapped.  
+  責任経路、判定帰属、説明責任の追跡可能性を確認する場合に使用。
+
+- [For stabilization and containment review ｜ 初動安定化・封じ込めレビュー](./tools/l30-bas/practical-sheets/L30_FRM_S01_Stabilization_Checklist.pdf)  
+  Use this for post-incident stabilization, containment, evidence preservation, and recovery tracking.  
+  事故後の安定化、封じ込め、証拠保全、回復追跡に使用。
 
 - [For internal escalation and record integrity ｜ 内部エスカレーション・記録保全](./LUMINA-30_FOR_INTERNAL_ESCALATION_AND_RECORD_INTEGRITY.md)  
   Use this when explaining review escalation and preserving the refusal record.  
@@ -340,6 +352,21 @@ Minimum operational conditions for preserving reviewable human refusal authority
 
 [Open L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf](./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf)
 
+### ▶ Governance Review Template
+Baseline English pattern for approval flow, escalation governance, and institutional process integrity.
+
+[Open L30_FRM_G01_Governance_Review_Template.pdf](./tools/l30-bas/practical-sheets/L30_FRM_G01_Governance_Review_Template.pdf)
+
+### ▶ Responsibility / Accountability Review
+Baseline English pattern for responsibility mapping, reviewer attribution, and accountability traceability.
+
+[Open L30_FRM_R01_Responsibility_Accountability_Review.pdf](./tools/l30-bas/practical-sheets/L30_FRM_R01_Responsibility_Accountability_Review.pdf)
+
+### ▶ Stabilization Checklist
+Baseline English pattern for post-incident stabilization, containment, evidence preservation, and recovery tracking.
+
+[Open L30_FRM_S01_Stabilization_Checklist.pdf](./tools/l30-bas/practical-sheets/L30_FRM_S01_Stabilization_Checklist.pdf)
+
 ---
 
 ## What this repository provides ｜ このrepoが提供するもの
@@ -348,6 +375,7 @@ Minimum operational conditions for preserving reviewable human refusal authority
 - An extended protocol for deeper structural analysis
 - A ready-to-use incident review template
 - A supplementary document defining minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact
+- Baseline English category-pattern forms for governance, responsibility, and stabilization review
 - Stakeholder-specific one-page briefs for review, audit, governance, risk, internal escalation, and executive oversight
 
 ---
