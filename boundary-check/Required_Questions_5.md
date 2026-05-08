@@ -21,6 +21,27 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 4. 記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。
 5. AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
 
+
+## Boundary Responsibility Add-On ｜ 境界責任追加確認
+
+The five questions above remain the shortest core set.  
+For cases involving optimization pressure, automation-driven displacement, institutional lock-in, market pressure, or responsibility diffusion, add the following responsibility questions before reaching a conclusion.
+
+上記5問は、最短の中核質問セットとして維持する。  
+最適化圧、自動化による置換、制度固定化、市場圧、または責任拡散を含む事例では、結論前に以下の責任質問を追加する。
+
+6. Who was responsible for designing the friction required to preserve effective refusal before irreversibility?
+7. Who was responsible for operating that friction in practice?
+8. Who was responsible for preserving evidence before affected humans lost voice, position, or re-entry capacity?
+9. Who was responsible for verifying that the friction was effective and not merely nominal?
+10. Who was responsible for correction if the boundary condition failed?
+
+6. 不可逆化前に実効的拒否を保存するための摩擦を設計する責任主体は誰だったか。
+7. その摩擦を実務上運用する責任主体は誰だったか。
+8. 影響を受ける人間が声・地位・再参入能力を失う前に証拠を保存する責任主体は誰だったか。
+9. その摩擦が名目的ではなく実効的だったことを検証する責任主体は誰だったか。
+10. 境界条件が失敗した場合の是正責任主体は誰だったか。
+
 ## Recommended Answer Format ｜ 推奨回答形式
 
 - Yes
@@ -40,5 +61,3 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 If any required question cannot be verified, the review should not claim that effective human refusal was demonstrated.
 
 必須質問のいずれかが検証不能である場合、そのレビューは「実効的な人間の拒否が示された」と主張すべきではない。
-
-

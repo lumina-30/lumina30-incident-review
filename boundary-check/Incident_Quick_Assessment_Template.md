@@ -127,7 +127,54 @@ Evidence ｜ 根拠:
 
 - _Evidence to be added._ ｜ _根拠を記入_
 
-## 7. Preliminary Classification ｜ 予備分類
+
+## 7. Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦
+
+### Was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned? ｜ 摩擦の設計・運用・証拠保存・検証・是正の責任主体は明示されていたか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+### Did the friction depend only on voluntary restraint by one actor, or was it symmetric across the relevant market, institution, sector, procurement, audit, or governance layer? ｜ 摩擦は単一主体の自発的自制だけに依存していたか、それとも関連する市場・制度・分野・調達・監査・統治の層で対称的だったか
+
+- Symmetric / institutionally assigned
+- Voluntary only
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+### Could the friction or refusal pathway be bypassed through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion? ｜ 摩擦または拒否経路は、組織再編・外注化・高速化・技術的不透明性・法人変更・責任拡散によって迂回可能だったか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+### Were reviewable records preserved before affected humans lost voice, position, evidence access, or re-entry capacity? ｜ 影響を受ける人間が声・地位・証拠アクセス・再参入能力を失う前に、検証可能な記録は保存されていたか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+## 8. Preliminary Classification ｜ 予備分類
 
 Select one ｜ 以下から選択する:
 
@@ -136,8 +183,6 @@ Select one ｜ 以下から選択する:
 - Not verifiable; treat as no effective refusal for boundary-review purposes ｜ 検証不能。境界レビュー上は実効的拒否なしとして扱う
 - Not applicable to LUMINA-30 boundary review ｜ LUMINA-30境界レビューの対象外
 
-## 8. Reviewer Note ｜ レビューメモ
+## 9. Reviewer Note ｜ レビューメモ
 
 - _To be completed._ ｜ _記入欄_
-
-

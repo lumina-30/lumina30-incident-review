@@ -97,6 +97,43 @@ Did AI-generated output become the sole or primary rationale for final action?
 
 AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
 
+
+## Boundary Responsibility Add-On ｜ 境界責任追加確認
+
+For cases involving optimization pressure, institutional friction, market pressure, automation-driven displacement, or responsibility diffusion, also answer the following items.
+
+最適化圧、制度的摩擦、市場圧、自動化による置換、または責任拡散を含む事例では、以下も確認する。
+
+### 6. Responsibility Assignment ｜ 責任主体の割当
+
+Before irreversible impact, was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned?
+
+不可逆的影響の前に、摩擦の設計・運用・証拠保存・検証・是正の責任主体は明示されていたか。
+
+### 7. Symmetric Friction ｜ 対称摩擦
+
+Was the friction placed at a market, institutional, sectoral, procurement, audit, or governance layer so that preserving effective refusal did not depend only on one actor's voluntary restraint?
+
+実効的拒否の保持が単一主体の自発的自制だけに依存しないよう、摩擦は市場・制度・分野・調達・監査・統治の層に置かれていたか。
+
+### 8. Anti-Bypass ｜ 迂回防止
+
+Could the refusal pathway or friction mechanism be bypassed through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?
+
+拒否経路または摩擦メカニズムは、組織再編・外注化・高速化・技術的不透明性・法人変更・責任拡散によって迂回可能だったか。
+
+### 9. Evidence Before Voice Loss ｜ 声を失う前の証拠保存
+
+Were reviewable records preserved before affected humans lost voice, position, evidence access, or practical re-entry capacity?
+
+影響を受ける人間が、声・地位・証拠アクセス・実効的な再参入能力を失う前に、検証可能な記録は保存されていたか。
+
+### 10. Correction Owner ｜ 是正責任主体
+
+If the boundary condition failed, was a responsible actor identified for suspension, redesign, correction, or renewed review?
+
+境界条件が失敗した場合、停止・再設計・是正・再レビューを担う責任主体は特定されていたか。
+
 ## Review Outcome ｜ レビュー結果
 
 Select one ｜ 以下から選択する:
@@ -110,5 +147,3 @@ Select one ｜ 以下から選択する:
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.
 
 不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
-
-

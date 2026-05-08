@@ -98,6 +98,35 @@ The relevant question is whether the evidence can verify that effective human re
 
 ---
 
+
+## Boundary Responsibility Screen ｜ 境界責任確認
+
+For cases involving optimization pressure, automation-driven displacement, institutional lock-in, market pressure, or responsibility diffusion, the review should also confirm whether boundary responsibility was explicitly assigned before irreversibility.
+
+最適化圧、自動化による置換、制度固定化、市場圧、または責任拡散を含む事例では、レビューは不可逆化前に境界責任が明示的に割り当てられていたかも確認する。
+
+A review should identify:
+
+- who was responsible for designing friction before irreversibility;
+- who was responsible for operating that friction;
+- who was responsible for preserving evidence before affected humans lost voice, position, or re-entry capacity;
+- who was responsible for verifying that friction was effective and not merely nominal;
+- who was responsible for correction if the boundary condition failed.
+
+レビューは以下を特定する。
+
+- 不可逆化前に摩擦を設計する責任主体。
+- その摩擦を運用する責任主体。
+- 影響を受ける人間が声・地位・再参入能力を失う前に証拠を保存する責任主体。
+- 摩擦が名目的ではなく実効的だったことを検証する責任主体。
+- 境界条件が失敗した場合の是正責任主体。
+
+A missing responsibility assignment should not be used to support a conclusion that effective refusal was demonstrated.
+
+責任主体の割当が欠落している場合、それを「実効的拒否が示された」とする結論の根拠に用いてはならない。
+
+---
+
 ## Absence Rule ｜ 不在ルール
 
 If any required condition cannot be confirmed, classify the case as not demonstrating effective human refusal for LUMINA-30 boundary-review purposes.
@@ -147,6 +176,11 @@ Available refusal / stop / delay path:
 Evidence used:
 Missing or unverifiable records:
 Intervention attempt, if any:
+Boundary responsibility assignment:
+Friction design / operation owner:
+Evidence preservation owner:
+Verification / correction owner:
+Anti-bypass concern:
 Classification:
 Rationale:
 ```
@@ -182,5 +216,3 @@ This document is the consolidated decision-criteria page used together with the 
 - [Boundary Check Result Classification](./Boundary_Check_Result_Classification.md)  
   Use for final boundary-review classification.  
   最終的な境界レビュー分類に使用する。
-
-
