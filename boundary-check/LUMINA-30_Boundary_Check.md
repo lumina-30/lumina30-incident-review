@@ -100,9 +100,9 @@ AI生成出力が、最終行為の唯一または主要な根拠になってい
 
 ## Boundary Responsibility Add-On ｜ 境界責任追加確認
 
-For cases involving optimization pressure, institutional friction, market pressure, automation-driven displacement, or responsibility diffusion, also answer the following items.
+For cases involving optimization pressure, institutional friction, optimization-driven displacement, or responsibility diffusion, also answer the following items.
 
-最適化圧、制度的摩擦、市場圧、自動化による置換、または責任拡散を含む事例では、以下も確認する。
+最適化圧、制度的摩擦、最適化による置換、または責任拡散を含む事例では、以下も確認する。
 
 ### 6. Responsibility Assignment ｜ 責任主体の割当
 
@@ -147,3 +147,4 @@ Select one ｜ 以下から選択する:
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.
 
 不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
+

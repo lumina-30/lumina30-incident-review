@@ -101,9 +101,9 @@ The relevant question is whether the evidence can verify that effective human re
 
 ## Boundary Responsibility Screen ｜ 境界責任確認
 
-For cases involving optimization pressure, automation-driven displacement, institutional lock-in, market pressure, or responsibility diffusion, the review should also confirm whether boundary responsibility was explicitly assigned before irreversibility.
+For cases involving optimization pressure, optimization-driven displacement, institutional lock-in, or responsibility diffusion, the review should also confirm whether boundary responsibility was explicitly assigned before irreversibility.
 
-最適化圧、自動化による置換、制度固定化、市場圧、または責任拡散を含む事例では、レビューは不可逆化前に境界責任が明示的に割り当てられていたかも確認する。
+最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、レビューは不可逆化前に境界責任が明示的に割り当てられていたかも確認する。
 
 A review should identify:
 
@@ -216,3 +216,4 @@ This document is the consolidated decision-criteria page used together with the 
 - [Boundary Check Result Classification](./Boundary_Check_Result_Classification.md)  
   Use for final boundary-review classification.  
   最終的な境界レビュー分類に使用する。
+

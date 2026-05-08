@@ -44,9 +44,9 @@ Use this label only when all of the following are shown:
 
 ### Boundary Responsibility Condition ｜ 境界責任条件
 
-For cases involving optimization pressure, automation-driven displacement, institutional lock-in, market pressure, or responsibility diffusion, the classification should also consider whether responsibility for friction design, operation, evidence preservation, verification, and correction was explicitly assigned before irreversibility.
+For cases involving optimization pressure, optimization-driven displacement, institutional lock-in, or responsibility diffusion, the classification should also consider whether responsibility for friction design, operation, evidence preservation, verification, and correction was explicitly assigned before irreversibility.
 
-最適化圧、自動化による置換、制度固定化、市場圧、または責任拡散を含む事例では、不可逆化前に、摩擦の設計・運用・証拠保存・検証・是正の責任主体が明示的に割り当てられていたかも分類時に考慮する。
+最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、不可逆化前に、摩擦の設計・運用・証拠保存・検証・是正の責任主体が明示的に割り当てられていたかも分類時に考慮する。
 
 If responsibility was undefined, bypassable, or not verifiable, the review should not claim that the boundary condition was fully demonstrated.
 
@@ -93,3 +93,4 @@ The available records do not demonstrate effective human refusal before irrevers
 The refusal pathway cannot be verified. For LUMINA-30 boundary-review purposes, this should be treated as no demonstrated effective refusal.
 
 拒否経路は検証できない。LUMINA-30境界レビュー上、これは実効的拒否が示されていないものとして扱うべきである。
+

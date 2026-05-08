@@ -25,10 +25,10 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 ## Boundary Responsibility Add-On ｜ 境界責任追加確認
 
 The five questions above remain the shortest core set.  
-For cases involving optimization pressure, automation-driven displacement, institutional lock-in, market pressure, or responsibility diffusion, add the following responsibility questions before reaching a conclusion.
+For cases involving optimization pressure, optimization-driven displacement, institutional lock-in, or responsibility diffusion, add the following responsibility questions before reaching a conclusion.
 
 上記5問は、最短の中核質問セットとして維持する。  
-最適化圧、自動化による置換、制度固定化、市場圧、または責任拡散を含む事例では、結論前に以下の責任質問を追加する。
+最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、結論前に以下の責任質問を追加する。
 
 6. Who was responsible for designing the friction required to preserve effective refusal before irreversibility?
 7. Who was responsible for operating that friction in practice?
@@ -61,3 +61,4 @@ For cases involving optimization pressure, automation-driven displacement, insti
 If any required question cannot be verified, the review should not claim that effective human refusal was demonstrated.
 
 必須質問のいずれかが検証不能である場合、そのレビューは「実効的な人間の拒否が示された」と主張すべきではない。
+
