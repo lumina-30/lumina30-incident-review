@@ -95,7 +95,7 @@ If records are absent or unverifiable, should the case be treated as no effectiv
 
 Did AI-generated output become the sole or primary rationale for final action?
 
-AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
+AI生成出力が、最終行為の唯一または主要な根拠になっていたか。
 
 
 ## Boundary Responsibility Add-On ｜ 境界責任追加確認

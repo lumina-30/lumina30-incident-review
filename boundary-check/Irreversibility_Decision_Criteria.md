@@ -155,7 +155,7 @@ Effective human refusal should not be treated as demonstrated unless the review 
 - 最後の可逆点がいつ存在したか。
 - どの行為によって延期、停止、上書き、封じ込め、方向修正が可能だったか。
 - どの記録が拒否経路を検証しているか。
-- AI生成出力が最終判断の唯一または主要な根拠になっていなかったか。
+- AI生成出力が最終判断の唯一または主要な根拠になっていたか。
 
 ---
 

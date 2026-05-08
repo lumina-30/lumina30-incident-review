@@ -19,7 +19,7 @@ This file provides the shortest reusable question set for LUMINA-30 post-inciden
 2. その拒否は名目上ではなく、運用上実効的だったか。
 3. 拒否経路を検証できる十分な記録は存在するか。
 4. 記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。
-5. AI生成出力が、最終行為の唯一または主要な根拠になっていなかったか。
+5. AI生成出力が、最終行為の唯一または主要な根拠になっていたか。
 
 
 ## Boundary Responsibility Add-On ｜ 境界責任追加確認
