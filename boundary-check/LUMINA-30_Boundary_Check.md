@@ -1,5 +1,4 @@
-# LUMINA-30 Boundary Check
-# LUMINA-30 境界チェック
+# LUMINA-30 Boundary Check ｜ LUMINA-30 境界チェック
 
 ## Purpose ｜ 目的
 
@@ -147,4 +146,5 @@ Select one ｜ 以下から選択する:
 A system is procedurally invalid if human refusal authority is not effective before irreversible impact.
 
 不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。
+
 
