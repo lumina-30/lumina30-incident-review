@@ -232,6 +232,30 @@ The following Markdown documents provide short, reusable tools for post-incident
   Context note for connecting LUMINA-30 to existing incident, safety, audit, and governance discussions.  
   既存のインシデント、安全性、監査、ガバナンス議論へLUMINA-30を接続するための文脈メモ。
 
+- [External Governance Use Routes](./external-use/External_Governance_Use_Routes.md)  
+  Routing note for selecting the appropriate external governance, incident-response, standards, or human-oversight connection memo.  
+  外部ガバナンス、インシデント対応、標準化、人間監督の接続メモを選ぶための導線メモ。
+
+- [Boundary Check for AI Incident Response](./external-use/Boundary_Check_for_AI_Incident_Response.md)  
+  Common post-incident boundary-check note for AI incident-response contexts.  
+  AIインシデント対応文脈向けの共通事故後境界チェックメモ。
+
+- [Japan AISI / AI-IRS Boundary Check Note](./external-use/Japan_AISI_AI_IRS_Boundary_Check_Note.md)  
+  Context note for explaining LUMINA-30 near AI incident-response discussions in Japan.  
+  日本のAIインシデント対応議論へLUMINA-30を接続説明するための文脈メモ。
+
+- [OECD AIM Incident Taxonomy Boundary Note](./external-use/OECD_AIM_Incident_Taxonomy_Boundary_Note.md)  
+  Supplementary taxonomy note for incident-monitoring and evidence-base discussions.  
+  インシデント監視・証拠基盤議論向けの補助的分類メモ。
+
+- [ISO / IEC / ITU Standards Terminology Boundary Note](./external-use/ISO_IEC_ITU_Standards_Terminology_Boundary_Note.md)  
+  Standards-adjacent terminology note for audit, assurance, and governance discussions.  
+  監査、保証、ガバナンス議論向けの標準化周辺用語メモ。
+
+- [UNESCO Human Oversight and Effective Refusal Note](./external-use/UNESCO_Human_Oversight_Effective_Refusal_Note.md)  
+  Human-oversight note distinguishing formal oversight from effective refusal.  
+  形式的人間監督と実効的拒否を区別するための人間監督メモ。
+
 - [What LUMINA-30 Is Not](./external-use/LUMINA-30_Is_Not.md)  
   Misreading-prevention note for non-binding and descriptive use.  
   非拘束的・記述的な利用を守るための誤読防止メモ。
@@ -410,5 +434,3 @@ This repository should be treated as the main incident-review hub within the LUM
 
 ---
 Keywords: irreversible escalation, boundary condition, effective human refusal, structural invalidity, post-incident review
-
-

@@ -48,14 +48,18 @@ Use this route when facts are incomplete and a first boundary review must be sta
 ## Researcher Path ｜ 研究者向け
 
 1. [Minimal External Explanation](./external-use/Minimal_External_Explanation.md)
-2. [OECD / AISI / EU AI Act Connection Note](./external-use/OECD_AISI_EU_AI_Act_Connection_Note.md)
-3. [Mapping to Ordinary Incident Review](./response-templates/Ordinary_Incident_Review_Mapping.md)
+2. [External Governance Use Routes](./external-use/External_Governance_Use_Routes.md)
+3. [OECD / AISI / EU AI Act Connection Note](./external-use/OECD_AISI_EU_AI_Act_Connection_Note.md)
+4. [Boundary Check for AI Incident Response](./external-use/Boundary_Check_for_AI_Incident_Response.md)
+5. [Mapping to Ordinary Incident Review](./response-templates/Ordinary_Incident_Review_Mapping.md)
 
 ## Policy / Governance Path ｜ 政策・ガバナンス向け
 
-1. [OECD / AISI / EU AI Act Connection Note](./external-use/OECD_AISI_EU_AI_Act_Connection_Note.md)
-2. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
-3. [What LUMINA-30 Is Not](./external-use/LUMINA-30_Is_Not.md)
+1. [External Governance Use Routes](./external-use/External_Governance_Use_Routes.md)
+2. [OECD / AISI / EU AI Act Connection Note](./external-use/OECD_AISI_EU_AI_Act_Connection_Note.md)
+3. [Boundary Check for AI Incident Response](./external-use/Boundary_Check_for_AI_Incident_Response.md)
+4. [LUMINA-30 Boundary Check](./boundary-check/LUMINA-30_Boundary_Check.md)
+5. [What LUMINA-30 Is Not](./external-use/LUMINA-30_Is_Not.md)
 
 ## Executive Path ｜ 経営・監督向け
 
@@ -68,4 +72,3 @@ Use this route when facts are incomplete and a first boundary review must be sta
 This reading order is a navigation aid. It does not create obligations, legal conclusions, or enforcement requirements.
 
 この読書順はナビゲーション補助である。義務、法的結論、執行要件を作るものではない。
-
