@@ -1,5 +1,11 @@
 # LUMINA-30 Incident Review
 
+**Incident Review Floor ｜ インシデントレビュー・フロア**
+
+This floor name is a navigation label for readers. It does not imply certification, institutional status, official adoption, affiliation, or a change to repository names or file paths.
+
+このフロア名は、読者の移動を助けるための案内名です。認証、制度的地位、公式採用、提携、またはリポジトリ名・ファイルパスの変更を意味しません。
+
 This repository provides a minimal operational structure
 for reviewing AI incidents under the LUMINA-30 framework.
 
@@ -8,9 +14,13 @@ remained effective before irreversible impact.
 
 This repository is intended to be used together with:
 
-- [Conceptual Overview ｜ 概念概要](https://github.com/lumina-30/lumina-30-overview)  
+- [Main Floor ｜ メインフロア](https://github.com/lumina-30/lumina-30-overview)  
   Use this when you need the conceptual structure before applying incident-review tools.  
   incident-review ツールを使う前に、概念構造を確認する場合に使用。
+
+- [Boundary Review Floor ｜ 境界レビューフロア](https://github.com/lumina-30/lumina-30-overview/blob/main/reference/boundary-review-floor/index.md)  
+  Use this when you need to distinguish formal oversight from effective human refusal before applying incident-review tools.  
+  incident-review ツールを使う前に、形式的監督と実効的人間拒否の違いを確認する場合に使用。
 
 This review structure corresponds to G06 (Integrity and Verification),
 which determines procedural validity based on verifiable refusal effectiveness.
@@ -98,12 +108,16 @@ If they are omitted, incident explanation may remain structurally incomplete.
 
 ## Quick Use Guide ｜ 最初に開く文書
 
-Choose the entry point by role and review stage.  
-役割とレビュー段階に応じて、入口を選択してください。
+Choose the entry point within this Incident Review Floor by role and review stage.  
+このインシデントレビュー・フロア内で、役割とレビュー段階に応じた入口を選択してください。
 
 - [For first-time incident reviewers ｜ 初めて事故レビューを行う場合](./START_HERE.md)  
   Use this to understand the repository role before using templates.  
   テンプレート使用前に、このrepoの役割を確認する入口。
+
+- [For external governance or institutional connection ｜ 外部制度・団体接続](./external-use/External_Governance_Use_Routes.md)  
+  Use this when connecting the boundary question to external governance, standards, incident-response, or human-oversight contexts.  
+  境界質問を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する場合に使用。
 
 - [For reviewers who need the shortest path ｜ 最短導線が必要な場合](./FIRST_3_FILES.md)  
   Use this when you need the minimum three files for boundary checking.  
