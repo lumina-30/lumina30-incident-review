@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Start Here
 # はじめに
 
@@ -68,5 +69,3 @@ Before classifying the result, apply the consolidated decision criteria:
 LUMINA-30 is non-binding, descriptive, and intended as a boundary reference for post-incident review.
 
 LUMINA-30は非拘束的・記述的なものであり、事故後レビューのための境界参照として用いる。
-
-

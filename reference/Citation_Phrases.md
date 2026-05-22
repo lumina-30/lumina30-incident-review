@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Citation Phrases
 # 引用用短文
 
@@ -118,7 +119,3 @@ LUMINA-30を以下として説明しない。
 - 法的コンプライアンス制度
 - 規制の置換
 - AI開発停止命令
-
-
-
-

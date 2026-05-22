@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Check for AI Incident Response ｜ AIインシデント対応のための境界チェック
 
 ## Purpose ｜ 目的

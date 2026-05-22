@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # PCR-C Calibration and H-Measurement Note
 
 This note defines how PCR-C threshold values and intervention capacity H should be interpreted in operational review contexts.

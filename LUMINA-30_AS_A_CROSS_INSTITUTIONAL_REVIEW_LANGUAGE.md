@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 as a Cross-Institutional Review Language
 # 機関横断で共有可能なAI境界判定言語
 
@@ -53,5 +54,3 @@ Capability evaluation and safety evaluation are necessary, but they do not alway
 
 **LUMINA-30 is not a prescriptive ethics code. It is a review language for determining whether meaningful human refusal still existed before irreversible autonomy conditions emerged.**  
 **LUMINA-30は規範命令型の倫理規程ではない。不可逆的自律条件の出現前に、有意味な人間拒否がなお存在していたかを判定するためのレビュー言語である。**
-
-

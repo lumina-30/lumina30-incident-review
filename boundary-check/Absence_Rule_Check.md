@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Absence Rule Check
 # 不在ルール・チェック
 
@@ -62,4 +63,3 @@ Were logs preserved in a way that prevents retrospective reconstruction or alter
 - 実効的拒否を検証済み
 - 実効的拒否なし
 - 検証不能。実効的拒否なしとして扱う
-

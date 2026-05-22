@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # What LUMINA-30 Is Not
 # LUMINA-30ではないもの
 
@@ -170,5 +171,3 @@ Was Human Refusal Authority still effective before Irreversible Impact?
 LUMINA-30 is a non-binding, descriptive boundary reference for post-incident review and pre-irreversibility assessment.
 
 LUMINA-30は、事故後レビューおよび不可逆化前評価のための、非拘束的・記述的な境界参照である。
-
-

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Irreversibility Decision Criteria ｜ 不可逆性判定基準
 
 ## Purpose ｜ 目的
@@ -215,5 +216,3 @@ This document is the consolidated decision-criteria page used together with the 
 - [Boundary Check Result Classification](./Boundary_Check_Result_Classification.md)  
   Use for final boundary-review classification.  
   最終的な境界レビュー分類に使用する。
-
-

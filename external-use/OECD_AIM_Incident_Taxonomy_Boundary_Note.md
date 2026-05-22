@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # OECD AIM Incident Taxonomy Boundary Note ｜ OECD AIM・インシデント分類境界メモ
 
 ## Purpose ｜ 目的

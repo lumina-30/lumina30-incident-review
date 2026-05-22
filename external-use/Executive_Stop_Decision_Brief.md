@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Executive Stop Decision Brief
 # 経営層向け停止判断メモ
 
@@ -72,5 +73,3 @@ No response is required.
 LUMINA-30は、公開された非拘束の境界参照として提示される。  
 本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。  
 返信は不要である。
-
-

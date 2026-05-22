@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Research Landscape Mapping
 # 研究地図上の位置づけ
 
@@ -176,5 +177,3 @@ It must not be used to claim that LUMINA-30 is adopted, endorsed, required, or r
 
 本節は記述的な位置づけに限る。
 OECD、EU機関、AI Safety Institute群、その他外部枠組みによってLUMINA-30が採用、承認、要求、認定されていると主張するために使用してはならない。
-
-

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # Irreversibility Boundary Kernel
 
 This document provides a minimal reference for evaluating whether effective human refusal remains possible before irreversible escalation.

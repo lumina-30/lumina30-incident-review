@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 as a Control Assurance Screen
 # 引受・契約審査における拒否実効性の確認
 
@@ -52,5 +53,3 @@ The issue is whether loss structures become difficult to reverse once human refu
 
 **LUMINA-30 provides a practical screen for whether human intervention remains real before losses become structurally irreversible.**  
 **LUMINA-30は、損失が構造的に不可逆化する前に、人間介入が現実に残っているかを確認する実務的スクリーニングを提供する。**
-
-

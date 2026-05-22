@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <a id="top"></a>
 
 # L30-FRM All Forms Index ｜ L30-FRM 全帳票インデックス
@@ -288,4 +289,3 @@ The following short references may be used in review comments, issues, handoff n
 | `I03` | `L30-FRM-I03: Incident Review Protocol Extended` |
 
 [⬆ TOP](#top)
-

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 for Legal, Audit, and Risk Control
 # AI運用の手続的有効性を確認する最小基準
 
@@ -60,5 +61,3 @@ A system should be treated as procedurally invalid when:
 
 **The issue is not only whether the system failed. The issue is whether the organization can prove that human refusal remained effective under real operating conditions.**  
 **問題はシステムが失敗したかだけではない。実運用条件下で、人間の拒否が有効だったと組織が証明できるかである。**
-
-

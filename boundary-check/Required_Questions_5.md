@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Required Questions 5 ｜ 必須5問
 
 ## Purpose ｜ 目的
@@ -60,5 +61,3 @@ For cases involving optimization pressure, optimization-driven displacement, ins
 If any required question cannot be verified, the review should not claim that effective human refusal was demonstrated.
 
 必須質問のいずれかが検証不能である場合、そのレビューは「実効的な人間の拒否が示された」と主張すべきではない。
-
-

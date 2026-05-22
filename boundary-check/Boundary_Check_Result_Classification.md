@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Check Result Classification
 # 境界チェック結果分類
 
@@ -93,4 +94,3 @@ The available records do not demonstrate effective human refusal before irrevers
 The refusal pathway cannot be verified. For LUMINA-30 boundary-review purposes, this should be treated as no demonstrated effective refusal.
 
 拒否経路は検証できない。LUMINA-30境界レビュー上、これは実効的拒否が示されていないものとして扱うべきである。
-

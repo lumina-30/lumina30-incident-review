@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # External Paste Templates
 # 外部貼付テンプレート
 
@@ -199,5 +200,3 @@ JP:
 参照: https://github.com/lumina-30/lumina-30-overview
 
 LUMINA-30は、公開された非拘束の境界参照として提示されている。本記載は、支持、採用、提携、認証、適合、法的権限を主張するものではない。返信は不要である。
-
-

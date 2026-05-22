@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # ISO / IEC / ITU Standards Terminology Boundary Note ｜ ISO / IEC / ITU 標準化周辺用語境界メモ
 
 ## Purpose ｜ 目的

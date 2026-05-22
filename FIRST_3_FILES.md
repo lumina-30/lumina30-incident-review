@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # First 3 Files
 # 最初に読む3ファイル
 
@@ -56,5 +57,3 @@ Use this to classify the review result without overclaiming.
 If effective human refusal cannot be verified, do not claim that effective human refusal was demonstrated.
 
 実効的な人間の拒否を検証できない場合、「実効的な人間の拒否が示された」と主張しない。
-
-

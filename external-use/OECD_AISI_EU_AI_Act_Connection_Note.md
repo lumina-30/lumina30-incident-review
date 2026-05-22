@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Connection Note: OECD / AISI / EU AI Act Context
 # 接続メモ：OECD / AISI / EU AI Act 文脈
 
@@ -168,5 +169,3 @@ Its role is narrower:
 - European Commission GPAI obligations under the AI Act: https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act
 - European Commission General-Purpose AI Code of Practice: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
 - International AI Safety Report 2026: https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026
-
-

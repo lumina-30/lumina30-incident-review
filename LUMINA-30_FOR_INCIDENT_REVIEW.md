@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 for Incident Review
 # AIインシデント評価における拒否有効性の確認軸
 
@@ -56,5 +57,3 @@ A review should treat the system as procedurally invalid when any of the followi
 
 **LUMINA-30 does not ask only whether harm occurred. It asks whether human refusal remained real before the system crossed into irreversible impact.**  
 **LUMINA-30は被害発生の有無だけを問わない。不可逆的影響に至る前に、人間の拒否が現実に機能していたかを問う。**
-
-

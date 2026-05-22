@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 <a id="top"></a>
 
 # L30-FRM Document ID System ｜ LUMINA-30 帳票ID体系
@@ -201,4 +202,3 @@ Do not assign a form ID to a theoretical paper, README, diagram, slide, or gener
 理論論文、README、図版、スライド、一般説明文書には帳票IDを付与しません。
 
 [⬆ TOP](#top)
-

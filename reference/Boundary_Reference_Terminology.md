@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Reference Terminology
 # 境界参照用語
 
@@ -98,5 +99,3 @@ LUMINA-30 is a non-binding, descriptive boundary reference for reviewing whether
 
 JP:
 LUMINA-30は、不可逆的なAI影響の前に実効的な人間の拒否が利用可能だったかを確認するための、非拘束的・記述的な境界参照である。
-
-

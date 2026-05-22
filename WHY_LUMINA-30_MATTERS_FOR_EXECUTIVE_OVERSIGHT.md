@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Why LUMINA-30 Matters for Executive Oversight
 # なぜ経営監督に拒否有効性確認が必要か
 
@@ -54,5 +55,3 @@ The central question is whether the organization can prove that meaningful human
 
 **LUMINA-30 is not about slowing innovation by default. It is about ensuring that innovation does not outrun the organization’s ability to prove that human refusal remained real.**  
 **LUMINA-30は、無条件にイノベーションを遅らせるためのものではない。人間の拒否が現実に残っていたことを組織が証明する能力を、イノベーションが追い越さないようにするためのものである。**
-
-

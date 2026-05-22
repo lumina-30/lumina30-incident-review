@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # External Governance Use Routes ｜ 外部ガバナンス接続導線
 
 ## Purpose ｜ 目的

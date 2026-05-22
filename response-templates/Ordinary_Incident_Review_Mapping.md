@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Mapping to Ordinary Incident Review
 # 通常インシデントレビューとの対応
 
@@ -34,5 +35,3 @@ This document maps ordinary incident-review questions to LUMINA-30 boundary-revi
 Use this mapping when reviewers are familiar with ordinary incident review but need a LUMINA-30 boundary lens.
 
 レビュー担当者が通常のインシデントレビューには慣れているが、LUMINA-30の境界観点が必要な場合に使用する。
-
-

@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Japan AISI / AI-IRS Boundary Check Note ｜ Japan AISI / AI-IRS 境界チェック接続メモ
 
 ## Purpose ｜ 目的

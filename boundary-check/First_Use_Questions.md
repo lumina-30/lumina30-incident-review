@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # First Use Questions
 # 初回使用質問
 
@@ -60,5 +61,3 @@ Proceed to the full Boundary Check if:
 - 不可逆的または回復困難な影響の可能性がある。
 - 人間の拒否権が関係する。
 - 記録の検証が必要である。
-
-

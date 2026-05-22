@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # AI Output as Final Rationale Check
 # AI出力の最終根拠化チェック
 
@@ -50,5 +51,3 @@ Was there a final approval gate that required independent human responsibility b
 If AI-generated output became the sole or primary rationale for final action, effective human refusal is not demonstrated unless independent human refusal remained operationally available.
 
 AI生成出力が最終行為の唯一または主要な根拠になっていた場合、独立した人間の拒否が運用上可能であったことが示されない限り、実効的拒否は示されない。
-
-

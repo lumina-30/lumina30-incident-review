@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Timeboxed Post-Incident Review Checkpoints
 # 事故後時限レビュー確認点
 
@@ -72,5 +73,3 @@ This document does not define required intervals.
 The 72-hour, 30-day, and 90-day frames are reference lenses for separating immediate decisions, revised assumptions, and institutional change.
 
 72時間、30日、90日という区分は、即時判断、修正前提、制度変更を分離するための参照視点である。
-
-

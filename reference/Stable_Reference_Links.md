@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Stable Reference Links ｜ 安定参照リンク
 
 ## Purpose ｜ 目的

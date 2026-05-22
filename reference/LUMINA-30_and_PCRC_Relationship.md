@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 and PCR-C Relationship
 # LUMINA-30とPCR-Cの関係
 
@@ -118,9 +119,3 @@ LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-lay
 
 JP:
 LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。
-
-
-
-
-
-

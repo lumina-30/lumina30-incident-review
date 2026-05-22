@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # Boundary Check Scoring Guide
 # 境界チェック採点ガイド
 
@@ -88,5 +89,3 @@ When a final result is recorded, use the Boundary Check Result Classification an
 Do not use this score to claim legal liability, regulatory compliance, or institutional certification.
 
 このスコアを、法的責任、規制適合、制度認証の主張に使用してはならない。
-
-

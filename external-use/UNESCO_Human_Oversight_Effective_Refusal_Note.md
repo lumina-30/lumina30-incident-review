@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # UNESCO Human Oversight and Effective Refusal Note ｜ UNESCO・人間監督と実効的拒否メモ
 
 ## Purpose ｜ 目的

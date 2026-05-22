@@ -1,3 +1,4 @@
+<!-- L30_LANG_LOCK: EN_ONLY -->
 # L30-FRM Code System for Claude Review
 
 This file summarizes the document ID, filename, and localization system used in this review package.
