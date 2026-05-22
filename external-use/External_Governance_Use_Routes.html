@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="External Governance Use Routes ｜ 外部ガバナンス接続導線" />
+  <title>External Governance Use Routes ｜ 外部ガバナンス接続導線</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="External_Governance_Use_Routes.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>External Governance Use Routes ｜ 外部ガバナンス接続導線</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This file provides a short routing layer for connecting LUMINA-30
+incident-review materials to current AI governance, incident-response,
+standards, and human-oversight discussions. It is intended for readers
+who need to decide which external-context note to open first.</p>
+<p>本ファイルは、LUMINA-30のインシデントレビュー資料を、現在のAIガバナンス、インシデント対応、標準化、人間監督の議論へ接続するための短い導線である。
+どの外部文脈メモから開くべきかを判断する読者向けである。</p>
+<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
+<p>This note is non-binding, descriptive, and unaffiliated with any
+external institution. It does not claim endorsement, adoption,
+recognition, approval, certification, compliance, legal effect, or
+institutional use by any external organization.</p>
+<p>本メモは、非拘束的・記述的であり、いかなる外部機関とも提携していない。
+外部機関による承認、採用、認定、承諾、認証、準拠、法的効力、または制度利用を主張しない。</p>
+<h2 id="use-order--使用順">Use Order ｜ 使用順</h2>
+<ol type="1">
+<li><p><a href="./Boundary_Check_for_AI_Incident_Response.html">Boundary
+Check for AI Incident Response</a><br />
+Use this as the common entry point for post-incident review.<br />
+事故後レビューの共通入口として使用する。</p></li>
+<li><p><a href="./Japan_AISI_AI_IRS_Boundary_Check_Note.html">Japan AISI
+/ AI-IRS Boundary Check Note</a><br />
+Use this when connecting LUMINA-30 to AI incident-response discussions
+in Japan.<br />
+日本のAIインシデント対応文脈へ接続する場合に使用する。</p></li>
+<li><p><a href="./OECD_AIM_Incident_Taxonomy_Boundary_Note.html">OECD
+AIM Incident Taxonomy Boundary Note</a><br />
+Use this when connecting LUMINA-30 to incident-monitoring and taxonomy
+discussions.<br />
+インシデント監視・分類文脈へ接続する場合に使用する。</p></li>
+<li><p><a
+href="./ISO_IEC_ITU_Standards_Terminology_Boundary_Note.html">ISO / IEC
+/ ITU Standards Terminology Boundary Note</a><br />
+Use this when connecting LUMINA-30 to standards-adjacent
+terminology.<br />
+標準化周辺の用語整理へ接続する場合に使用する。</p></li>
+<li><p><a
+href="./UNESCO_Human_Oversight_Effective_Refusal_Note.html">UNESCO Human
+Oversight and Effective Refusal Note</a><br />
+Use this when connecting LUMINA-30 to human oversight, human dignity,
+and responsibility discussions.<br />
+人間監督、人間の尊厳、責任の議論へ接続する場合に使用する。</p></li>
+</ol>
+<h2 id="common-boundary-question--共通境界問い">Common Boundary Question
+｜ 共通境界問い</h2>
+<blockquote>
+<p>Was effective human refusal still exercisable before irreversible
+AI-related impact?</p>
+</blockquote>
+<blockquote>
+<p>不可逆的なAI関連影響の前に、実効的な人間拒否はなお行使可能だったか。</p>
+</blockquote>
+<h2
+id="relationship-to-existing-materials--既存資料との関係">Relationship
+to Existing Materials ｜ 既存資料との関係</h2>
+<p>These notes do not replace the core review documents. They provide
+external-context framing for the following existing materials:</p>
+<p>これらのメモは、中核レビュー文書を置き換えない。
+以下の既存資料に外部文脈上の位置づけを与えるためのものである。</p>
+<ul>
+<li><a href="../boundary-check/LUMINA-30_Boundary_Check.html">LUMINA-30
+Boundary Check</a></li>
+<li><a
+href="../boundary-check/Irreversibility_Decision_Criteria.html">Irreversibility
+Decision Criteria</a></li>
+<li><a href="../boundary-check/Absence_Rule_Check.html">Absence Rule
+Check</a></li>
+<li><a
+href="../boundary-check/Boundary_Check_Result_Classification.html">Boundary
+Check Result Classification</a></li>
+<li><a href="./OECD_AISI_EU_AI_Act_Connection_Note.html">OECD / AISI /
+EU AI Act Connection Note</a></li>
+</ul>
+<h2 id="external-use-rule--外部利用ルール">External Use Rule ｜
+外部利用ルール</h2>
+<p>Use these notes as supplementary context only. Do not present
+LUMINA-30 as an official tool, compliance route, certification scheme,
+legal test, institutional standard, or replacement for any existing
+framework.</p>
+<p>これらのメモは補助的文脈としてのみ使用する。
+LUMINA-30を公式ツール、準拠経路、認証制度、法的テスト、制度標準、または既存枠組みの代替として提示してはならない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

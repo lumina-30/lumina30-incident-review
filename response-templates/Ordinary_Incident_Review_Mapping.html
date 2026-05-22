@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Mapping to Ordinary Incident Review" />
+  <title>Mapping to Ordinary Incident Review</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Ordinary_Incident_Review_Mapping.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Mapping to Ordinary Incident Review</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2
+id="通常インシデントレビューとの対応">通常インシデントレビューとの対応</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This document maps ordinary incident-review questions to LUMINA-30
+boundary-review questions.</p>
+<p>本書は、通常のインシデントレビュー項目とLUMINA-30の境界レビュー項目を対応させる。</p>
+<h2 id="mapping--対応表">Mapping ｜ 対応表</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Ordinary Incident Review</th>
+<th>LUMINA-30 Boundary Review</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What happened?</td>
+<td>Did the incident approach irreversible AI impact?</td>
+</tr>
+<tr class="even">
+<td>Who approved the action?</td>
+<td>Who held final human refusal authority?</td>
+</tr>
+<tr class="odd">
+<td>Was there oversight?</td>
+<td>Was refusal operationally effective before irreversibility?</td>
+</tr>
+<tr class="even">
+<td>Were logs available?</td>
+<td>Can the refusal pathway be verified?</td>
+</tr>
+<tr class="odd">
+<td>Was the system contained?</td>
+<td>Could human intervention prevent irreversible propagation?</td>
+</tr>
+<tr class="even">
+<td>What caused the failure?</td>
+<td>Did AI output become the sole or primary final rationale?</td>
+</tr>
+<tr class="odd">
+<td>What corrective action is needed?</td>
+<td>What boundary condition must be restored before restart?</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>通常インシデントレビュー</th>
+<th>LUMINA-30境界レビュー</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>何が起きたか</td>
+<td>その事案は不可逆的AI影響に接近していたか</td>
+</tr>
+<tr class="even">
+<td>誰が承認したか</td>
+<td>誰が人間の最終拒否権を保持していたか</td>
+</tr>
+<tr class="odd">
+<td>監督はあったか</td>
+<td>不可逆化前に拒否は運用上実効的だったか</td>
+</tr>
+<tr class="even">
+<td>ログはあったか</td>
+<td>拒否経路を検証できるか</td>
+</tr>
+<tr class="odd">
+<td>システムは封じ込められたか</td>
+<td>人間の介入で不可逆的拡散を防げたか</td>
+</tr>
+<tr class="even">
+<td>失敗原因は何か</td>
+<td>AI出力が最終根拠化していなかったか</td>
+</tr>
+<tr class="odd">
+<td>是正措置は何か</td>
+<td>再開前にどの境界条件を回復すべきか</td>
+</tr>
+</tbody>
+</table>
+<h2 id="use--用途">Use ｜ 用途</h2>
+<p>Use this mapping when reviewers are familiar with ordinary incident
+review but need a LUMINA-30 boundary lens.</p>
+<p>レビュー担当者が通常のインシデントレビューには慣れているが、LUMINA-30の境界観点が必要な場合に使用する。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="L30-FRM Document ID System ｜ LUMINA-30 帳票ID体系" />
+  <title>L30-FRM Document ID System ｜ LUMINA-30 帳票ID体系</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../../../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="L30_FRM_Document_ID_System.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>L30-FRM Document ID System ｜ LUMINA-30 帳票ID体系</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<p><a id="top"></a></p>
+<p>Current Version: 1.0.2<br />
+Last Updated: May 2026<br />
+Repository path:
+<code>lumina30-incident-review/tools/l30-bas/practical-sheets/L30_FRM_Document_ID_System.html</code><br />
+License: CC0 1.0 Universal (Public Domain)</p>
+<p><a href="./L30_FRM_All_Forms_Index.html">All Forms Index</a> ｜ <a
+href="#filename-format">ID Format</a> ｜ <a
+href="#language-rule">Language Rule</a> ｜ <a
+href="#current-form-register">Current Register</a></p>
+<hr />
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This document defines the document ID system for LUMINA-30 practical
+forms, sheets, templates, and checklists.<br />
+この文書は、LUMINA-30
+が提供する実務用帳票・シート・テンプレート・チェックリストの管理番号体系を定義します。</p>
+<p>The purpose is to make each form easy to reference, review, update,
+and use in incident review, audit, and boundary-evaluation
+contexts.<br />
+目的は、各帳票を事故検証・監査・境界評価の中で、一貫して参照・レビュー・更新・利用できるようにすることです。</p>
+<hr />
+<h2 id="what-this-system-is-not--この体系ではないもの">What this system
+is not ｜ この体系ではないもの</h2>
+<p>The L30-FRM document ID system is not a certification scheme,
+compliance label, safety approval, legal classification, or replacement
+for PCR-C or the LUMINA-30 Boundary Kernel.<br />
+L30-FRM 文書ID体系は、認証制度、適合ラベル、安全承認、法的分類、PCR-C
+または LUMINA-30 Boundary Kernel の代替ではありません。</p>
+<p>It is a document-control system for practical forms only.<br />
+これは実務帳票に限定した文書管理体系です。</p>
+<hr />
+<p><a id="document-id"></a></p>
+<h2 id="document-id--文書id">Document ID ｜ 文書ID</h2>
+<p>The official document ID uses hyphens, not underscores, and does not
+include a language suffix.<br />
+正式な文書IDはアンダースコアではなくハイフンを使用し、言語接尾辞を含めません。</p>
+<p>Public filenames use underscores for filesystem and URL
+compatibility.<br />
+公開ファイル名は、ファイルシステムおよびURL互換性のためアンダースコアを使用します。</p>
+<p>Official document IDs:<br />
+正式文書ID：</p>
+<pre class="text"><code>L30-FRM-B01
+L30-FRM-B02
+L30-FRM-I01
+L30-FRM-I02
+L30-FRM-I03
+L30-FRM-A01
+L30-FRM-G01
+L30-FRM-R01
+L30-FRM-S01</code></pre>
+<hr />
+<p><a id="language-rule"></a></p>
+<h2 id="language-rule--言語ルール">Language rule ｜ 言語ルール</h2>
+<p>English files are the canonical templates and do not use a language
+suffix.<br />
+英語版ファイルは正規テンプレートとして扱い、言語接尾辞を付けません。</p>
+<p>Localized versions should be created by copying the English canonical
+template and translating only the human-readable text.<br />
+各言語版は、英語正規テンプレートを複製し、人間が読む本文だけを翻訳して作成します。</p>
+<p>Document IDs, L30-BAS codes, field structure, checkbox controls,
+tables, code placement, and layout should be preserved across localized
+versions.<br />
+Document
+ID、L30-BASコード、入力欄構造、チェックボックス制御、表、コード配置、レイアウトは、各言語版でも維持します。</p>
+<p>Localized files use an uppercase language suffix immediately before
+the file extension.<br />
+各言語版ファイルは、拡張子の直前に大文字の言語接尾辞を付けます。</p>
+<p>Japanese files use the <code>_JA</code> language suffix.<br />
+日本語版ファイルは <code>_JA</code> 言語接尾辞を使用します。</p>
+<p>The language suffix is not part of the document ID.<br />
+言語接尾辞は文書IDの一部ではありません。</p>
+<p>The practical form body should show only the document ID and should
+not show language code as part of the ID.<br />
+実務帳票本文では文書IDのみを表示し、言語コードをIDの一部として表示しません。</p>
+<p>Examples:<br />
+例：</p>
+<pre class="text"><code>Document ID: L30-FRM-B01
+English canonical file: L30_FRM_B01_Boundary_Check.docx
+Japanese localized file: L30_FRM_B01_Boundary_Check_JA.docx
+French localized file: L30_FRM_B01_Boundary_Check_FR.docx</code></pre>
+<p>Country or regional suffixes should be used only when a regional
+legal, institutional, or linguistic variant is necessary, such as
+<code>_EN_US</code>, <code>_EN_GB</code>, <code>_ZH_TW</code>, or
+<code>_PT_BR</code>.<br />
+国・地域差を示す接尾辞は、法制度・制度運用・言語差により地域版が必要な場合だけ使用します。例：<code>_EN_US</code>,
+<code>_EN_GB</code>, <code>_ZH_TW</code>, <code>_PT_BR</code>。</p>
+<p>Japanese localized versions may be provided as reference examples for
+localization. They are not required for every supporting or detailed
+form unless the form is intended for Japanese-language practical
+use.<br />
+日本語ローカライズ版は、各言語版作成の参考例として提供できます。ただし、日本語での実務利用を想定する場合を除き、すべての補助・詳細フォームに日本語版を必須とはしません。</p>
+<hr />
+<p><a id="filename-format"></a></p>
+<h2 id="filename-format--ファイル名形式">Filename format ｜
+ファイル名形式</h2>
+<p>Public filenames do not include version numbers. English files use
+the default filename. Localized files use an uppercase language suffix
+before the file extension.<br />
+公開ファイル名にはバージョン番号を入れません。英語版は標準ファイル名を使用し、各言語版は拡張子の直前に大文字の言語接尾辞を付けます。</p>
+<pre class="text"><code>L30_FRM_[Category][Number]_[English_Title].docx
+L30_FRM_[Category][Number]_[English_Title].pdf
+L30_FRM_[Category][Number]_[English_Title]_[LANGUAGE].docx
+L30_FRM_[Category][Number]_[English_Title]_[LANGUAGE].pdf</code></pre>
+<p>Public filenames do not include version numbers. Version information
+is stored inside the document, footer, Git history, releases/tags, and
+review-candidate ZIP names.<br />
+公開ファイル名にはバージョン番号を入れません。バージョン情報は、文書内、フッター、Git履歴、Release/Tag、レビュー候補ZIP名で管理します。</p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>L30-FRM-[Category][Number]</code></td>
+<td>Official document ID shown inside the form</td>
+</tr>
+<tr class="even">
+<td><code>L30_FRM_[Category][Number]_[English_Title]</code></td>
+<td>Public filename base using underscores</td>
+</tr>
+<tr class="odd">
+<td><code>_[LANGUAGE]</code></td>
+<td>Localized language suffix, used only in filenames and not part of
+the document ID</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="category-codes"></a></p>
+<h2 id="category-codes--区分コード">Category codes ｜ 区分コード</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Code</th>
+<th>Category</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>B</code></td>
+<td>Boundary</td>
+<td>Boundary judgment, refusal validity, pre-irreversibility checks</td>
+</tr>
+<tr class="even">
+<td><code>I</code></td>
+<td>Incident</td>
+<td>Incident review, post-incident records, near-miss analysis</td>
+</tr>
+<tr class="odd">
+<td><code>A</code></td>
+<td>Audit</td>
+<td>Audit, governance review, operational readiness checks</td>
+</tr>
+<tr class="even">
+<td><code>G</code></td>
+<td>Governance</td>
+<td>Approval flow, institutional process, escalation governance</td>
+</tr>
+<tr class="odd">
+<td><code>R</code></td>
+<td>Responsibility</td>
+<td>Responsibility mapping, accountability, role assignment</td>
+</tr>
+<tr class="even">
+<td><code>S</code></td>
+<td>Stabilization</td>
+<td>Post-incident stabilization, containment, recovery tracking</td>
+</tr>
+</tbody>
+</table>
+<p>A new category should be created only when the form has a clearly
+different operational purpose.<br />
+新しい区分は、その帳票が既存区分とは明確に異なる実務目的を持つ場合に限って作成します。</p>
+<hr />
+<p><a id="current-form-register"></a></p>
+<h2 id="current-form-register--現行帳票レジスター">Current form register
+｜ 現行帳票レジスター</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Document ID</th>
+<th>Default English file base</th>
+<th>Japanese file base</th>
+<th>Primary use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>L30-FRM-B01</code></td>
+<td><code>L30_FRM_B01_Boundary_Check</code></td>
+<td><code>L30_FRM_B01_Boundary_Check_JA</code></td>
+<td>Minimum boundary judgment sheet for effective human refusal before
+irreversibility</td>
+</tr>
+<tr class="even">
+<td><code>L30-FRM-B02</code></td>
+<td><code>L30_FRM_B02_Operational_Refusal_Preservation_Minimum</code></td>
+<td>—</td>
+<td>Minimum operational conditions for preserving reviewable human
+refusal authority</td>
+</tr>
+<tr class="odd">
+<td><code>L30-FRM-I01</code></td>
+<td><code>L30_FRM_I01_Incident_Review_Template</code></td>
+<td><code>L30_FRM_I01_Incident_Review_Template_JA</code></td>
+<td>Incident or near-incident review record aligned with the LUMINA-30
+Boundary Kernel</td>
+</tr>
+<tr class="even">
+<td><code>L30-FRM-I02</code></td>
+<td><code>L30_FRM_I02_Incident_Review_Protocol</code></td>
+<td>—</td>
+<td>Detailed post-incident review protocol</td>
+</tr>
+<tr class="odd">
+<td><code>L30-FRM-I03</code></td>
+<td><code>L30_FRM_I03_Incident_Review_Protocol_Extended</code></td>
+<td>—</td>
+<td>Extended post-incident structural analysis</td>
+</tr>
+<tr class="even">
+<td><code>L30-FRM-A01</code></td>
+<td><code>L30_FRM_A01_Audit_Checklist</code></td>
+<td><code>L30_FRM_A01_Audit_Checklist_JA</code></td>
+<td>Audit checklist for pre-critical control readiness and refusal
+validity</td>
+</tr>
+<tr class="odd">
+<td><code>L30-FRM-G01</code></td>
+<td><code>L30_FRM_G01_Governance_Review_Template</code></td>
+<td>—</td>
+<td>Governance review pattern for approval flow and escalation
+governance</td>
+</tr>
+<tr class="even">
+<td><code>L30-FRM-R01</code></td>
+<td><code>L30_FRM_R01_Responsibility_Accountability_Review</code></td>
+<td>—</td>
+<td>Responsibility and accountability review pattern</td>
+</tr>
+<tr class="odd">
+<td><code>L30-FRM-S01</code></td>
+<td><code>L30_FRM_S01_Stabilization_Checklist</code></td>
+<td>—</td>
+<td>Stabilization, containment, and recovery-tracking checklist</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a id="relationship-to-boundary-kernel"></a></p>
+<h2
+id="relationship-to-boundary-kernel--boundary-kernel-との関係">Relationship
+to Boundary Kernel ｜ Boundary Kernel との関係</h2>
+<p>These forms do not replace PCR-C or the LUMINA-30 Boundary
+Kernel.<br />
+これらの帳票は、PCR-C または LUMINA-30 Boundary Kernel
+を代替しません。</p>
+<p>They operationalize the Boundary Kernel for human review, incident
+analysis, and audit contexts.<br />
+Boundary Kernel
+を、人間によるレビュー・事故分析・監査文脈で運用可能にするための補助帳票です。</p>
+<p>They must not be used as certification marks or as claims that a
+system is safe.<br />
+これらの帳票を、認証マークや「システムが安全である」という主張として使用してはなりません。</p>
+<hr />
+<p><a id="versioning-rule"></a></p>
+<h2 id="versioning-rule--バージョン管理ルール">Versioning rule ｜
+バージョン管理ルール</h2>
+<p>A form version changes when its content, checklist structure,
+judgment criteria, or practical use changes.<br />
+帳票の内容、チェックリスト構造、判定基準、実務用途が変わる場合は、バージョンを変更します。</p>
+<p>English and localized versions of the same form should share the same
+document ID and version number.<br />
+同じ帳票の英語版と各言語版は、同じ文書IDとバージョン番号を共有します。</p>
+<p>Use v1_0_1 for the first usability correction that moves fixed form
+dates out of the main metadata table and adds practical review
+fields.<br />
+固定の帳票日付を主要メタ表から外し、実務用のレビュー記入欄を追加する初回ユーザビリティ修正にはv1_0_1を使用します。</p>
+<hr />
+<p><a id="assignment-rule"></a></p>
+<h2 id="assignment-rule--採番ルール">Assignment rule ｜ 採番ルール</h2>
+<p>New IDs should be assigned conservatively.<br />
+新しいIDは慎重に割り当てます。</p>
+<p>Use a new category only when the form has a clearly different
+operational purpose.<br />
+帳票の実務目的が明確に異なる場合のみ、新しい区分を使用します。</p>
+<p>Do not reuse retired IDs for different forms.<br />
+廃止済みIDを別帳票に再利用しません。</p>
+<p>Do not assign a form ID to a theoretical paper, README, diagram,
+slide, or general explanatory document.<br />
+理論論文、README、図版、スライド、一般説明文書には帳票IDを付与しません。</p>
+<p><a href="#top">⬆ TOP</a></p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

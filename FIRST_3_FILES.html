@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="First 3 Files" />
+  <title>First 3 Files</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="FIRST_3_FILES.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>First 3 Files</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="最初に読む3ファイル">最初に読む3ファイル</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This file identifies the first three documents to open when using
+LUMINA-30 for incident review.</p>
+<p>本ファイルは、LUMINA-30をインシデントレビューに使うとき、最初に開く3文書を示す。</p>
+<h2 id="required-companion-criteria--必須併用基準">Required Companion
+Criteria ｜ 必須併用基準</h2>
+<p>The following page is not one of the first three files, but it must
+be used before result classification.</p>
+<p>以下のページは「最初の3ファイル」そのものではないが、結果分類の前に必ず併用する。</p>
+<ul>
+<li><a
+href="./boundary-check/Irreversibility_Decision_Criteria.html">Irreversibility
+Decision Criteria</a><br />
+Consolidated criteria for who decides, when irreversibility is judged,
+and what evidence is required.<br />
+誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所に集約した判定基準。</li>
+</ul>
+<h2 id="1-lumina-30-boundary-check--lumina-30-境界チェック">1. LUMINA-30
+Boundary Check ｜ LUMINA-30 境界チェック</h2>
+<p>File:</p>
+<p><a
+href="./boundary-check/LUMINA-30_Boundary_Check.html">boundary-check/LUMINA-30_Boundary_Check.html</a></p>
+<p>Use this to answer the central boundary question:</p>
+<p>中核となる境界問いに答えるために使用する。</p>
+<blockquote>
+<p>Was human final refusal effective before irreversible impact?</p>
+</blockquote>
+<blockquote>
+<p>不可逆的影響の前に、人間の最終拒否権は実効的だったか。</p>
+</blockquote>
+<h2
+id="2-incident-quick-assessment-template--インシデント簡易評価テンプレート">2.
+Incident Quick Assessment Template ｜
+インシデント簡易評価テンプレート</h2>
+<p>File:</p>
+<p><a
+href="./boundary-check/Incident_Quick_Assessment_Template.html">boundary-check/Incident_Quick_Assessment_Template.html</a></p>
+<p>Use this to collect the minimum facts needed for a first-pass
+review.</p>
+<p>初回レビューに必要な最小事実を集めるために使用する。</p>
+<h2 id="3-boundary-check-result-classification--境界チェック結果分類">3.
+Boundary Check Result Classification ｜ 境界チェック結果分類</h2>
+<p>File:</p>
+<p><a
+href="./boundary-check/Boundary_Check_Result_Classification.html">boundary-check/Boundary_Check_Result_Classification.html</a></p>
+<p>Use this to classify the review result without overclaiming.</p>
+<p>過剰な断定を避けながら、レビュー結果を分類するために使用する。</p>
+<h2 id="minimal-rule--最小ルール">Minimal Rule ｜ 最小ルール</h2>
+<p>If effective human refusal cannot be verified, do not claim that
+effective human refusal was demonstrated.</p>
+<p>実効的な人間の拒否を検証できない場合、「実効的な人間の拒否が示された」と主張しない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Boundary Check Scoring Guide" />
+  <title>Boundary Check Scoring Guide</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Boundary_Check_Scoring_Guide.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Boundary Check Scoring Guide</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="境界チェック採点ガイド">境界チェック採点ガイド</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This guide provides a simple scoring aid for LUMINA-30 boundary
+checks.</p>
+<p>本ガイドは、LUMINA-30境界チェックのための簡易採点補助を提供する。</p>
+<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
+<p>This is not a legal score, certification, or compliance rating.</p>
+<p>これは法的スコア、認証、コンプライアンス評価ではない。</p>
+<p>It is a review aid for comparing evidence strength across cases.</p>
+<p>事案間で証拠の強さを比較するためのレビュー補助である。</p>
+<h2 id="score-levels--スコア段階">Score Levels ｜ スコア段階</h2>
+<h3 id="0--not-applicable--対象外">0 — Not Applicable ｜ 対象外</h3>
+<p>The case does not involve AI-driven action, refusal authority, or
+irreversible impact.</p>
+<p>その事案は、AI駆動の行為、拒否権、不可逆的影響を含まない。</p>
+<h3 id="1--no-effective-refusal--実効的拒否なし">1 — No Effective
+Refusal ｜ 実効的拒否なし</h3>
+<p>Human refusal was absent, bypassed, unavailable, or operationally
+ineffective before irreversible impact.</p>
+<p>不可逆的影響の前に、人間の拒否が存在しない、迂回された、利用不能だった、または運用上実効的でなかった。</p>
+<h3 id="2--not-verifiable--検証不能">2 — Not Verifiable ｜ 検証不能</h3>
+<p>The review cannot verify whether human refusal was available and
+effective.</p>
+<p>人間の拒否が可能で実効的だったかを検証できない。</p>
+<h3 id="3--nominal-refusal-only--名目上の拒否のみ">3 — Nominal Refusal
+Only ｜ 名目上の拒否のみ</h3>
+<p>Formal human approval or oversight existed, but operational refusal
+effectiveness is weak or unclear.</p>
+<p>形式的な人間承認または監督は存在したが、運用上の拒否実効性が弱い、または不明確である。</p>
+<h3 id="4--effective-refusal-demonstrated--実効的拒否あり">4 — Effective
+Refusal Demonstrated ｜ 実効的拒否あり</h3>
+<p>Records show that human refusal was available, operationally
+effective, and usable before irreversible impact.</p>
+<p>記録により、不可逆的影響の前に人間の拒否が可能で、運用上実効的で、使用可能だったことが示されている。</p>
+<h2 id="recommended-classification--推奨分類">Recommended Classification
+｜ 推奨分類</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Score</th>
+<th>Classification</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Not applicable</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Procedurally invalid for boundary-review purposes</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Not verifiable; treat as no effective refusal</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Weak refusal / nominal oversight</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Effective refusal demonstrated</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>スコア</th>
+<th>分類</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>対象外</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>境界レビュー上、手続的に無効</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>検証不能。実効的拒否なしとして扱う</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>弱い拒否／名目上の監督</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>実効的拒否が示された</td>
+</tr>
+</tbody>
+</table>
+<h2 id="relationship-to-l30-ci--l30-ciとの関係">Relationship to L30-CI
+｜ L30-CIとの関係</h2>
+<p>The 0–4 score is a review aid for comparing evidence strength.<br />
+It does not replace the final L30-CI condition label.</p>
+<p>0〜4のスコアは、証拠の強さを比較するためのレビュー補助である。<br />
+最終的なL30-CI条件ラベルを置き換えるものではない。</p>
+<p>When a final result is recorded, use the Boundary Check Result
+Classification and L30-CI label:</p>
+<p>最終結果を記録する場合は、Boundary Check Result Classification と
+L30-CIラベルを使用する。</p>
+<ul>
+<li>Valid</li>
+<li>Invalid</li>
+<li>Invalid (Not Verifiable)</li>
+</ul>
+<h2 id="caution--注意">Caution ｜ 注意</h2>
+<p>Do not use this score to claim legal liability, regulatory
+compliance, or institutional certification.</p>
+<p>このスコアを、法的責任、規制適合、制度認証の主張に使用してはならない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

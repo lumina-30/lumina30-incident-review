@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Absence Rule Check" />
+  <title>Absence Rule Check</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Absence_Rule_Check.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Absence Rule Check</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="不在ルールチェック">不在ルール・チェック</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This document prevents unverifiable review records from being treated
+as evidence of effective human refusal.</p>
+<p>本書は、検証不能なレビュー記録が実効的な人間の拒否の証拠として扱われることを防ぐ。</p>
+<h2 id="rule--ルール">Rule ｜ ルール</h2>
+<p>If evidence, logs, authorization records, or refusal pathways are
+absent or unverifiable, the case should be treated as no effective
+refusal for LUMINA-30 boundary-review purposes.</p>
+<p>証拠、ログ、承認記録、拒否経路が存在しない、または検証不能な場合、LUMINA-30の境界レビュー上は、実効的拒否なしとして扱う。</p>
+<h2 id="external-explanation--外部説明">External Explanation ｜
+外部説明</h2>
+<p>The Absence Rule prevents a review from treating missing records as
+proof that human refusal was effective.<br />
+If the refusal path cannot be verified, LUMINA-30 does not allow the
+case to be described as demonstrated effective refusal.</p>
+<p>Absence Rule
+は、記録がない状態を「人間拒否が実効的だった証拠」として扱うことを防ぐ。<br />
+拒否経路を検証できない場合、LUMINA-30では「実効的拒否が示された」とは記述しない。</p>
+<h2 id="check-items--確認項目">Check Items ｜ 確認項目</h2>
+<h3 id="1-decision-record--判断記録">1. Decision Record ｜ 判断記録</h3>
+<p>Is there a record showing who made the final decision?</p>
+<p>誰が最終判断を行ったかを示す記録はあるか。</p>
+<h3 id="2-refusal-pathway--拒否経路">2. Refusal Pathway ｜ 拒否経路</h3>
+<p>Is there a record showing how a human could refuse, stop, or override
+the action?</p>
+<p>人間が拒否、停止、上書きできた経路を示す記録はあるか。</p>
+<h3 id="3-timing--時点">3. Timing ｜ 時点</h3>
+<p>Is there evidence that refusal could have occurred before
+irreversible impact?</p>
+<p>不可逆的影響の前に拒否できたことを示す証拠はあるか。</p>
+<h3 id="4-independence--独立性">4. Independence ｜ 独立性</h3>
+<p>Was the human refusal pathway independent from AI-generated
+recommendations or self-validation?</p>
+<p>人間の拒否経路は、AI生成の推奨や自己検証から独立していたか。</p>
+<h3 id="5-preservation--保全">5. Preservation ｜ 保全</h3>
+<p>Were logs preserved in a way that prevents retrospective
+reconstruction or alteration?</p>
+<p>ログは、事後的な再構成や改変を防ぐ形で保全されていたか。</p>
+<h2 id="outcome--結果">Outcome ｜ 結果</h2>
+<ul>
+<li><p>Verified effective refusal</p></li>
+<li><p>No effective refusal</p></li>
+<li><p>Not verifiable; treat as no effective refusal</p></li>
+<li><p>実効的拒否を検証済み</p></li>
+<li><p>実効的拒否なし</p></li>
+<li><p>検証不能。実効的拒否なしとして扱う</p></li>
+</ul>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

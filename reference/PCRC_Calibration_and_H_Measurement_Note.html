@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="PCR-C Calibration and H-Measurement Note" />
+  <title>PCR-C Calibration and H-Measurement Note</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="PCRC_Calibration_and_H_Measurement_Note.html">↻ Reload</a>
+    </nav>
+    <header>
+      <h1>PCR-C Calibration and H-Measurement Note</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
+    </header>
+    <main>
+<p>This note defines how PCR-C threshold values and intervention
+capacity H should be interpreted in operational review contexts.</p>
+<p>PCR-C thresholds are not empirically fixed constants.<br />
+They are normalized reference levels used to trigger staged review and
+control actions.</p>
+<p>The purpose of this note is to prevent two errors:</p>
+<ol type="1">
+<li>treating PCR-C thresholds as universal empirical risk
+constants;</li>
+<li>treating the absence of direct empirical calibration as a reason to
+ignore intervention-capacity failure.</li>
+</ol>
+<hr />
+<h2 id="1-status">1. Status</h2>
+<p>PCR-C is a structural control framework, not an empirical prediction
+model.</p>
+<p>The threshold values:</p>
+<ul>
+<li>YELLOW = 5</li>
+<li>ORANGE = 7</li>
+<li>RED = 9</li>
+</ul>
+<p>should be read as normalized reference exposure levels within a
+bounded scoring model.</p>
+<p>They indicate when review, throttling, isolation, or cutoff should be
+considered.<br />
+They do not claim that all systems become unsafe at identical numerical
+values.</p>
+<hr />
+<h2 id="2-calibration-principle">2. Calibration Principle</h2>
+<p>PCR-C calibration should be performed relative to the operational
+environment.</p>
+<p>At minimum, calibration should consider:</p>
+<ul>
+<li>historical baseline variance;</li>
+<li>deployment speed;</li>
+<li>privilege expansion rate;</li>
+<li>infrastructure coupling;</li>
+<li>human approval latency;</li>
+<li>stop-command propagation delay;</li>
+<li>rollback feasibility;</li>
+<li>audit visibility;</li>
+<li>cross-region or distributed execution behavior;</li>
+<li>restart governance strength.</li>
+</ul>
+<p>A system with faster execution, broader connectivity, higher
+privilege, or weaker human response capacity should use stricter
+thresholds.</p>
+<hr />
+<h2 id="3-intervention-capacity-h">3. Intervention Capacity H</h2>
+<p>In PCR-C, H denotes effective intervention capacity.</p>
+<p>H is not a single directly observable quantity.<br />
+It represents the practical ability of humans and institutions to
+detect, decide, stop, isolate, or reverse a system pathway before
+irreversible impact.</p>
+<p>H should be treated as a bounded operational estimate, not as a
+precise physical constant.</p>
+<hr />
+<h2 id="4-proxy-measurements-for-h">4. Proxy Measurements for H</h2>
+<p>H may be approximated using repeated operational measurements,
+including:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Proxy</th>
+<th>What it measures</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Detection latency</td>
+<td>Time required to detect escalation or boundary-relevant
+behavior</td>
+</tr>
+<tr class="even">
+<td>Approval-chain latency</td>
+<td>Time required for authorized humans to decide and issue stop
+action</td>
+</tr>
+<tr class="odd">
+<td>Stop-command propagation delay</td>
+<td>Time required for stop/isolation commands to reach relevant
+infrastructure</td>
+</tr>
+<tr class="even">
+<td>Rollback feasibility</td>
+<td>Whether system state can be restored or contained after
+intervention</td>
+</tr>
+<tr class="odd">
+<td>Privilege freeze time</td>
+<td>Time required to prevent additional permission or tool
+expansion</td>
+</tr>
+<tr class="even">
+<td>Cross-region synchronization delay</td>
+<td>Time required to enforce containment across distributed
+infrastructure</td>
+</tr>
+<tr class="odd">
+<td>Audit-log availability</td>
+<td>Whether reviewers can verify what happened before intervention</td>
+</tr>
+<tr class="even">
+<td>Restart governance delay</td>
+<td>Time and authority required before the system can resume
+operation</td>
+</tr>
+</tbody>
+</table>
+<p>These measurements do not prove that H is exact.<br />
+They provide operational bounds for assessing whether human refusal
+authority is still effective.</p>
+<hr />
+<h2 id="5-stop-drill-method">5. Stop-Drill Method</h2>
+<p>A stop-drill is a controlled exercise used to estimate whether humans
+can still intervene before escalation becomes irreversible.</p>
+<p>A minimal stop-drill should record:</p>
+<ol type="1">
+<li>detection time;</li>
+<li>escalation classification time;</li>
+<li>decision authorization time;</li>
+<li>command execution time;</li>
+<li>infrastructure propagation time;</li>
+<li>confirmation time;</li>
+<li>rollback or isolation status;</li>
+<li>audit-log completeness.</li>
+</ol>
+<p>If these values exceed the expected escalation window, effective
+intervention capacity should be treated as degraded.</p>
+<hr />
+<h2 id="6-threshold-adjustment-rule">6. Threshold Adjustment Rule</h2>
+<p>PCR-C thresholds should be adjusted downward when:</p>
+<ul>
+<li>execution speed increases;</li>
+<li>autonomous tool access expands;</li>
+<li>privilege levels increase;</li>
+<li>deployment becomes distributed;</li>
+<li>audit visibility decreases;</li>
+<li>human approval paths become slower;</li>
+<li>rollback becomes uncertain;</li>
+<li>previous stop-drills fail or exceed expected escalation
+windows.</li>
+</ul>
+<p>PCR-C thresholds may be treated as less restrictive only when
+repeated stop-drills show that detection, decision, containment, and
+verification remain effective within the relevant escalation window.</p>
+<hr />
+<h2 id="7-review-interpretation">7. Review Interpretation</h2>
+<p>A PCR-C review should not ask:</p>
+<p>“Are the numbers 5, 7, and 9 empirically universal?”</p>
+<p>It should ask:</p>
+<p>“Given this system’s capability, connectivity, privilege, speed, and
+measured intervention capacity, were humans still able to refuse or stop
+the pathway before irreversible impact?”</p>
+<p>If this cannot be demonstrated, the review should treat effective
+human refusal as not verified.</p>
+<hr />
+<h2 id="8-relationship-to-lumina-30">8. Relationship to LUMINA-30</h2>
+<p>This note does not modify the LUMINA-30 canonical boundary.</p>
+<p>It operationalizes one measurement question:</p>
+<p>Can effective human refusal be exercised before irreversible
+AI-related impact?</p>
+<p>PCR-C provides the infrastructure-layer scoring and gating
+model.<br />
+LUMINA-30 provides the boundary condition: human refusal must remain
+effective before irreversibility.</p>
+<hr />
+<h2 id="9-non-guarantee">9. Non-Guarantee</h2>
+<p>PCR-C calibration does not guarantee safety.</p>
+<p>It provides a structured method for identifying when human
+intervention capacity may be falling behind system amplification.</p>
+<p>A calibrated PCR-C review strengthens procedural visibility, but it
+does not replace alignment research, legal compliance, institutional
+governance, security evaluation, or incident investigation.</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="What LUMINA-30 Is Not" />
+  <title>What LUMINA-30 Is Not</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="LUMINA-30_Is_Not.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>What LUMINA-30 Is Not</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="lumina-30ではないもの">LUMINA-30ではないもの</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This file prevents common misreadings of LUMINA-30.</p>
+<p>本ファイルは、LUMINA-30の一般的な誤読を防ぐためのものである。</p>
+<hr />
+<h2
+id="plain-language-irreversibility-note--不可逆性の平易な説明">Plain-Language
+Irreversibility Note ｜ 不可逆性の平易な説明</h2>
+<p>In LUMINA-30, <strong>irreversibility</strong> means that an
+AI-related action, deployment, decision path, or institutional
+dependency has passed the point where humans can still meaningfully
+refuse, stop, or reverse it before serious impact occurs.</p>
+<p>LUMINA-30における<strong>不可逆性</strong>とは、AIに関わる行為・展開・意思決定経路・制度依存が、重大な影響の前に人間が意味ある形で拒否・停止・取り戻しを行える地点を越えた状態を指す。</p>
+<p>A review is incomplete if it only asks whether a system performed
+well, complied with rules, or produced useful outputs, but does not ask
+whether humans could still refuse before the outcome became
+irreversible.</p>
+<p>システムがうまく動いたか、規則に従ったか、有用な出力を出したかだけを確認し、結果が不可逆になる前に人間がまだ拒否できたかを確認しないレビューは不完全である。</p>
+<p>Minimal test:</p>
+<ul>
+<li>Could a human still say no?</li>
+<li>Could that refusal stop the relevant pathway in time?</li>
+<li>Can that be verified by preserved evidence?</li>
+</ul>
+<p>最小確認:</p>
+<ul>
+<li>人間はまだ「拒否」できたか。</li>
+<li>その拒否は、該当する経路を時間内に止められたか。</li>
+<li>それを保全された証拠で確認できるか。</li>
+</ul>
+<hr />
+<h2 id="what-lumina-30-does-not-do--lumina-30がしないこと">What
+LUMINA-30 Does Not Do ｜ LUMINA-30がしないこと</h2>
+<p>LUMINA-30 does not:</p>
+<ul>
+<li>certify systems,</li>
+<li>approve deployments,</li>
+<li>grant compliance status,</li>
+<li>replace law, regulation, safety evaluation, audit, or
+incident-response practice,</li>
+<li>require AI development to stop,</li>
+<li>claim affiliation with public institutions, research bodies, or
+standards organizations,</li>
+<li>decide liability, legality, or ethical adequacy.</li>
+</ul>
+<p>LUMINA-30は以下を行わない。</p>
+<ul>
+<li>システム認証、</li>
+<li>展開承認、</li>
+<li>適合状態の付与、</li>
+<li>法律・規制・安全性評価・監査・事故対応実務の置換、</li>
+<li>AI開発停止の要求、</li>
+<li>公的機関・研究機関・標準化組織との提携主張、</li>
+<li>責任・合法性・倫理的妥当性の決定。</li>
+</ul>
+<p>It provides only a boundary question:</p>
+<p><strong>Was Human Refusal Authority still effective before
+Irreversible Impact?</strong></p>
+<p>LUMINA-30が提供するのは、次の境界問いのみである。</p>
+<p><strong>不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</strong></p>
+<h2 id="not-anti-ai--反aiではない">Not Anti-AI ｜ 反AIではない</h2>
+<p>LUMINA-30 is not an anti-AI movement.</p>
+<p>LUMINA-30は反AI運動ではない。</p>
+<p>It does not argue that AI development must stop.</p>
+<p>AI開発の停止を主張するものではない。</p>
+<h2 id="not-a-legal-mandate--法的命令ではない">Not a Legal Mandate ｜
+法的命令ではない</h2>
+<p>LUMINA-30 is not a law, regulation, or enforcement mechanism.</p>
+<p>LUMINA-30は法律、規制、執行メカニズムではない。</p>
+<p>It provides a non-binding boundary reference.</p>
+<p>非拘束的な境界参照を提供する。</p>
+<h2 id="not-a-replacement-framework--置換フレームワークではない">Not a
+Replacement Framework ｜ 置換フレームワークではない</h2>
+<p>LUMINA-30 does not replace existing AI governance, safety, audit, or
+incident-response frameworks.</p>
+<p>LUMINA-30は、既存のAIガバナンス、安全性、監査、インシデント対応フレームワークを置き換えるものではない。</p>
+<p>It adds a boundary question that may be missing from them.</p>
+<p>それらに不足している可能性のある境界問いを追加する。</p>
+<h2 id="not-human-sentiment--人間感情論ではない">Not Human Sentiment ｜
+人間感情論ではない</h2>
+<p>LUMINA-30 is not based on human preference as sentiment.</p>
+<p>LUMINA-30は感情としての人間選好に基づくものではない。</p>
+<p>It focuses on whether refusal authority remains effective before
+irreversibility.</p>
+<p>不可逆化前に拒否権が実効的に残っているかに焦点を当てる。</p>
+<h2
+id="faq-human-refusal-before-irreversibility--faq不可逆化前の人間拒否">FAQ:
+Human Refusal Before Irreversibility ｜ FAQ：不可逆化前の人間拒否</h2>
+<h3 id="1-does-lumina-30-require-stopping-ai-development">1. Does
+LUMINA-30 require stopping AI development?</h3>
+<p>No. LUMINA-30 does not require stopping AI development. It asks
+whether meaningful human refusal remained effective before irreversible
+impact.</p>
+<p>いいえ。LUMINA-30はAI開発の停止を要求しない。不可逆的影響の前に、有意な人間の拒否が実効的に残っていたかを問う。</p>
+<h3 id="2-is-lumina-30-a-certification-or-compliance-system">2. Is
+LUMINA-30 a certification or compliance system?</h3>
+<p>No. LUMINA-30 does not certify systems, grant approval, or create
+compliance status.</p>
+<p>いいえ。LUMINA-30はシステムを認証せず、承認を与えず、適合状態を作らない。</p>
+<h3 id="3-why-is-human-refusal-central">3. Why is human refusal
+central?</h3>
+<p>Because oversight is incomplete if humans cannot refuse, stop, or
+override before the impact becomes irreversible.</p>
+<p>影響が不可逆になる前に人間が拒否・停止・上書きできないなら、監督は不完全になるためである。</p>
+<h3 id="4-what-is-missing-if-lumina-30-is-not-used">4. What is missing
+if LUMINA-30 is not used?</h3>
+<p>A review may miss whether refusal authority was real, timely,
+independent, and evidenced before irreversibility.</p>
+<p>LUMINA-30を用いない場合、不可逆化前の拒否権が実在し、間に合い、独立し、証拠で確認できるものだったかを見落とす可能性がある。</p>
+<h3 id="5-does-a-human-signature-prove-effective-refusal">5. Does a
+human signature prove effective refusal?</h3>
+<p>No. A signature alone is insufficient if the human could not
+realistically refuse, stop, or override the pathway.</p>
+<p>いいえ。人間の署名だけでは不十分である。人間が現実に拒否・停止・上書きできなかった場合、実効的拒否は示されない。</p>
+<h3 id="6-what-if-the-records-are-missing">6. What if the records are
+missing?</h3>
+<p>If refusal authority cannot be verified by records, LUMINA-30
+boundary review should not treat it as demonstrated.</p>
+<p>記録で拒否権を確認できない場合、LUMINA-30境界レビューでは、それが示されたものとして扱わない。</p>
+<h3 id="7-is-lumina-30-legally-binding">7. Is LUMINA-30 legally
+binding?</h3>
+<p>No. It is a non-binding boundary reference.</p>
+<p>いいえ。LUMINA-30は非拘束の境界参照である。</p>
+<h3 id="8-when-is-lumina-30-most-useful">8. When is LUMINA-30 most
+useful?</h3>
+<p>It is most useful in AI incident review, audit, governance
+assessment, policy discussion, and research evaluation where
+irreversible impact may be relevant.</p>
+<p>LUMINA-30は、不可逆的影響が関係し得るAI事故レビュー、監査、ガバナンス評価、政策検討、研究評価で有用である。</p>
+<h3 id="9-does-lumina-30-replace-existing-frameworks">9. Does LUMINA-30
+replace existing frameworks?</h3>
+<p>No. It adds a boundary question that existing frameworks may
+omit.</p>
+<p>いいえ。LUMINA-30は既存フレームワークを置き換えず、そこから抜け落ち得る境界問いを追加する。</p>
+<h3 id="10-what-is-the-minimal-lumina-30-question">10. What is the
+minimal LUMINA-30 question?</h3>
+<p>Was Human Refusal Authority still effective before Irreversible
+Impact?</p>
+<p>不可逆的影響の前に、人間の拒否権は実効的に残っていたか。</p>
+<h2 id="positive-definition--肯定的定義">Positive Definition ｜
+肯定的定義</h2>
+<p>LUMINA-30 is a non-binding, descriptive boundary reference for
+post-incident review and pre-irreversibility assessment.</p>
+<p>LUMINA-30は、事故後レビューおよび不可逆化前評価のための、非拘束的・記述的な境界参照である。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

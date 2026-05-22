@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="AI Output as Final Rationale Check" />
+  <title>AI Output as Final Rationale Check</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="AI_Output_As_Final_Rationale_Check.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>AI Output as Final Rationale Check</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="ai出力の最終根拠化チェック">AI出力の最終根拠化チェック</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This document checks whether AI-generated output became the sole or
+primary rationale for a final action, decision, or approval.</p>
+<p>本書は、AI生成出力が最終行為、判断、承認の唯一または主要な根拠になっていないかを確認する。</p>
+<h2 id="core-concern--中核懸念">Core Concern ｜ 中核懸念</h2>
+<p>Human approval is not sufficient if the human decision merely
+ratifies AI-generated reasoning without independent refusal
+capacity.</p>
+<p>人間の承認が存在しても、人間の判断がAI生成の理由付けを独立した拒否能力なしに追認しているだけなら十分ではない。</p>
+<h2 id="check-items--確認項目">Check Items ｜ 確認項目</h2>
+<h3 id="1-sole-rationale--唯一根拠">1. Sole Rationale ｜ 唯一根拠</h3>
+<p>Was the final decision based solely on AI-generated output?</p>
+<p>最終判断はAI生成出力のみに基づいていたか。</p>
+<h3 id="2-primary-rationale--主要根拠">2. Primary Rationale ｜
+主要根拠</h3>
+<p>Was AI-generated output the primary rationale even if a human
+formally approved it?</p>
+<p>人間が形式的に承認していても、AI生成出力が主要な根拠になっていたか。</p>
+<h3 id="3-independent-human-reasoning--独立した人間判断">3. Independent
+Human Reasoning ｜ 独立した人間判断</h3>
+<p>Was there an independent human rationale recorded before final
+action?</p>
+<p>最終行為の前に、独立した人間側の判断理由が記録されていたか。</p>
+<h3 id="4-refusal-option--拒否選択肢">4. Refusal Option ｜
+拒否選択肢</h3>
+<p>Could the human decision-maker reject the AI-generated rationale
+without procedural penalty or practical impossibility?</p>
+<p>人間の判断者は、手続き上の不利益や実務上の不可能性なしに、AI生成の理由付けを拒否できたか。</p>
+<h3 id="5-final-approval-gate--最終承認ゲート">5. Final Approval Gate ｜
+最終承認ゲート</h3>
+<p>Was there a final approval gate that required independent human
+responsibility before action?</p>
+<p>行為の前に、独立した人間責任を必要とする最終承認ゲートは存在したか。</p>
+<h2 id="boundary-assessment--境界評価">Boundary Assessment ｜
+境界評価</h2>
+<p>If AI-generated output became the sole or primary rationale for final
+action, effective human refusal is not demonstrated unless independent
+human refusal remained operationally available.</p>
+<p>AI生成出力が最終行為の唯一または主要な根拠になっていた場合、独立した人間の拒否が運用上可能であったことが示されない限り、実効的拒否は示されない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

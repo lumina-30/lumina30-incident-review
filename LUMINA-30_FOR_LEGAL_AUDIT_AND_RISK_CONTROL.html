@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="LUMINA-30 for Legal, Audit, and Risk Control" />
+  <title>LUMINA-30 for Legal, Audit, and Risk Control</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="LUMINA-30_FOR_LEGAL_AUDIT_AND_RISK_CONTROL.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>LUMINA-30 for Legal, Audit, and Risk Control</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2
+id="ai運用の手続的有効性を確認する最小基準">AI運用の手続的有効性を確認する最小基準</h2>
+<p><strong>LUMINA-30 is a boundary framework for determining whether
+human refusal remained effective before irreversible AI autonomy
+emerged.</strong><br />
+<strong>LUMINA-30は、人間の拒否が不可逆的AI自律化の前に有効だったかを判定するための境界フレームワークである。</strong></p>
+<hr />
+<h2 id="why-this-matters-here--この相手に関係する理由">Why this matters
+here ｜ この相手に関係する理由</h2>
+<p>The issue is not only whether a model was dangerous, powerful, or
+misaligned.<br />
+The issue is whether the organization can later prove that meaningful
+human refusal remained effective under real operating conditions.</p>
+<p>問題は、モデルが危険だったか、高性能だったか、整合していなかったかだけではない。<br />
+問題は、実運用条件下で、有意味な人間拒否がなお有効だったと組織が後から証明できるかである。</p>
+<hr />
+<h2 id="audit-and-control-checks--監査統制確認項目">Audit and control
+checks ｜ 監査・統制確認項目</h2>
+<ul>
+<li><p>Is stop authority assigned to an identifiable human
+role?</p></li>
+<li><p>Is meaningful human approval real rather than nominal?</p></li>
+<li><p>Are authority separation and escalation routes
+documented?</p></li>
+<li><p>Are logs complete, durable, and reviewable?</p></li>
+<li><p>Can dissent or refusal be preserved?</p></li>
+<li><p>Was intervention still feasible before irreversibility?</p></li>
+<li><p>停止権限は識別可能な人間役割に割り当てられているか</p></li>
+<li><p>有意味な人間承認は名目的ではなく実在しているか</p></li>
+<li><p>権限分離とエスカレーション経路は記録されているか</p></li>
+<li><p>ログは完全で、耐久的で、レビュー可能か</p></li>
+<li><p>異議や拒否は保存できるか</p></li>
+<li><p>不可逆化前に介入可能性は残っていたか</p></li>
+</ul>
+<hr />
+<h2 id="procedural-failure-conditions--手続的不成立条件">Procedural
+failure conditions ｜ 手続的不成立条件</h2>
+<p>A system should be treated as procedurally invalid when:</p>
+<ul>
+<li>records are missing or modifiable</li>
+<li>approval exists only in form</li>
+<li>AI output is the sole or primary basis for the decision</li>
+<li>only closed-loop self-evaluation remains</li>
+<li>dissenting actors are functionally excluded</li>
+<li>refusal effectiveness cannot be demonstrated</li>
+</ul>
+<p>次の場合、そのシステムは手続的不成立として扱うべきである。</p>
+<ul>
+<li>記録が欠落している、または改変可能である</li>
+<li>承認が形式的にしか存在しない</li>
+<li>AI出力が唯一または主要な判断根拠である</li>
+<li>閉ループ自己評価しか残っていない</li>
+<li>異議を出す主体が実質的に排除されている</li>
+<li>拒否の有効性を示せない</li>
+</ul>
+<hr />
+<h2 id="conclusion--結論">Conclusion ｜ 結論</h2>
+<p><strong>The issue is not only whether the system failed. The issue is
+whether the organization can prove that human refusal remained effective
+under real operating conditions.</strong><br />
+<strong>問題はシステムが失敗したかだけではない。実運用条件下で、人間の拒否が有効だったと組織が証明できるかである。</strong></p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

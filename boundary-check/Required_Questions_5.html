@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Required Questions 5 ｜ 必須5問" />
+  <title>Required Questions 5 ｜ 必須5問</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Required_Questions_5.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Required Questions 5 ｜ 必須5問</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This file provides the shortest reusable question set for LUMINA-30
+post-incident boundary review.</p>
+<p>本ファイルは、LUMINA-30の事故後境界レビューで再利用しやすい最短の質問セットである。</p>
+<h2 id="required-questions--必須質問">Required Questions ｜
+必須質問</h2>
+<ol type="1">
+<li><p>Was human final refusal available before irreversible
+impact?</p></li>
+<li><p>Was that refusal operationally effective, not merely
+nominal?</p></li>
+<li><p>Are records sufficient to verify the refusal pathway?</p></li>
+<li><p>If records are absent or unverifiable, should the case be treated
+as no effective refusal?</p></li>
+<li><p>Did AI-generated output become the sole or primary rationale for
+final action?</p></li>
+<li><p>不可逆的影響の前に、人間の最終拒否は可能だったか。</p></li>
+<li><p>その拒否は名目上ではなく、運用上実効的だったか。</p></li>
+<li><p>拒否経路を検証できる十分な記録は存在するか。</p></li>
+<li><p>記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。</p></li>
+<li><p>AI生成出力が、最終行為の唯一または主要な根拠になっていたか。</p></li>
+</ol>
+<h2 id="boundary-responsibility-add-on--境界責任追加確認">Boundary
+Responsibility Add-On ｜ 境界責任追加確認</h2>
+<p>The five questions above remain the shortest core set.<br />
+For cases involving optimization pressure, optimization-driven
+displacement, institutional lock-in, or responsibility diffusion, add
+the following responsibility questions before reaching a conclusion.</p>
+<p>上記5問は、最短の中核質問セットとして維持する。<br />
+最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、結論前に以下の責任質問を追加する。</p>
+<ol start="6" type="1">
+<li><p>Who was responsible for designing the friction required to
+preserve effective refusal before irreversibility?</p></li>
+<li><p>Who was responsible for operating that friction in
+practice?</p></li>
+<li><p>Who was responsible for preserving evidence before affected
+humans lost voice, position, or re-entry capacity?</p></li>
+<li><p>Who was responsible for verifying that the friction was effective
+and not merely nominal?</p></li>
+<li><p>Who was responsible for correction if the boundary condition
+failed?</p></li>
+<li><p>不可逆化前に実効的拒否を保存するための摩擦を設計する責任主体は誰だったか。</p></li>
+<li><p>その摩擦を実務上運用する責任主体は誰だったか。</p></li>
+<li><p>影響を受ける人間が声・地位・再参入能力を失う前に証拠を保存する責任主体は誰だったか。</p></li>
+<li><p>その摩擦が名目的ではなく実効的だったことを検証する責任主体は誰だったか。</p></li>
+<li><p>境界条件が失敗した場合の是正責任主体は誰だったか。</p></li>
+</ol>
+<h2 id="recommended-answer-format--推奨回答形式">Recommended Answer
+Format ｜ 推奨回答形式</h2>
+<ul>
+<li><p>Yes</p></li>
+<li><p>No</p></li>
+<li><p>Not Verifiable</p></li>
+<li><p>Evidence</p></li>
+<li><p>Reviewer note</p></li>
+<li><p>Yes</p></li>
+<li><p>No</p></li>
+<li><p>Not Verifiable</p></li>
+<li><p>根拠</p></li>
+<li><p>レビュー担当者メモ</p></li>
+</ul>
+<h2 id="minimal-conclusion--最小結論">Minimal Conclusion ｜
+最小結論</h2>
+<p>If any required question cannot be verified, the review should not
+claim that effective human refusal was demonstrated.</p>
+<p>必須質問のいずれかが検証不能である場合、そのレビューは「実効的な人間の拒否が示された」と主張すべきではない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="description" content="Post-Incident Review Response Template" />
+  <title>Post-Incident Review Response Template</title>
+  <style>
+
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
+    }
+    .nav a {
+      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+      padding: 6px 10px; border-radius: 999px; background: var(--soft);
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
+      <a href="../README.html">Repo Top / リポジトリ入口</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Post_Incident_Review_Response_Template.html">↻ Reload / 再読み込み</a>
+    </nav>
+    <header>
+      <h1>Post-Incident Review Response Template</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+    </header>
+    <main>
+<h2
+id="事故後レビュー応答テンプレート">事故後レビュー応答テンプレート</h2>
+<h2 id="purpose--目的">Purpose ｜ 目的</h2>
+<p>This template provides a cautious, non-conclusive response format for
+applying LUMINA-30 after an AI incident.</p>
+<p>本テンプレートは、AIインシデント後にLUMINA-30を適用する際の、慎重で非断定的な応答形式を提供する。</p>
+<h2 id="template--テンプレート">Template ｜ テンプレート</h2>
+<p>EN: This incident may be examined through the LUMINA-30 boundary
+question: whether meaningful human refusal authority remained effective
+before irreversible AI impact.</p>
+<p>At this stage, no conclusion is made about fault, liability, or legal
+responsibility.</p>
+<p>The review should first establish:</p>
+<ol type="1">
+<li>whether humans could refuse, stop, or override the relevant
+AI-driven action;</li>
+<li>whether that refusal pathway existed before irreversible
+impact;</li>
+<li>whether the pathway was operationally effective rather than merely
+nominal;</li>
+<li>whether sufficient records exist to verify the pathway;</li>
+<li>whether AI-generated output became the sole or primary rationale for
+final action.</li>
+</ol>
+<p>If the refusal pathway cannot be verified, the case should not be
+treated as demonstrating effective human refusal for LUMINA-30
+boundary-review purposes.</p>
+<p>JP:
+本件は、LUMINA-30の境界問い、すなわち「不可逆的なAI影響の前に、意味ある人間の拒否権が実効的に残っていたか」という観点から検討できる。</p>
+<p>この段階では、過失、責任、法的責任について結論を出さない。</p>
+<p>まず確認すべき事項は以下である。</p>
+<ol type="1">
+<li>人間が関連するAI駆動の行為を拒否、停止、上書きできたか。</li>
+<li>その拒否経路が不可逆的影響の前に存在していたか。</li>
+<li>その経路が名目上ではなく運用上実効的だったか。</li>
+<li>その経路を検証できる十分な記録が存在するか。</li>
+<li>AI生成出力が最終行為の唯一または主要な根拠になっていなかったか。</li>
+</ol>
+<p>拒否経路を検証できない場合、LUMINA-30の境界レビュー上、その事案を実効的な人間の拒否が示されたものとして扱うべきではない。</p>
+
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>
