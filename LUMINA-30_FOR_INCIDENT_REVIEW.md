@@ -19,6 +19,16 @@ However, AI incidents may remain insufficiently evaluated if review does not ask
 
 ---
 
+## Reversible Prosperity Path ｜ 可逆的繁栄の道
+
+Incident review is not merely a retrospective record of failure. In LUMINA-30, it is a mechanism for stopping, refusing, reviewing, correcting, and continuing before irreversible loss becomes normalized.
+
+インシデントレビューは、失敗を後から記録するだけのものではない。LUMINA-30では、それは不可逆的喪失が既成事実化する前に、止まり、拒否し、検証し、修正し、前進を続けるための仕組みである。
+
+See also: [Reversible Prosperity Path](https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html) ｜ [可逆的繁栄の道](https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html)
+
+---
+
 ## Minimum review checks ｜ 最低確認項目
 
 - Did effective human refusal authority remain available before irreversible impact?
