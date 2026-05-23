@@ -42,6 +42,11 @@ Use the implementation checklist when the review must turn this guidance into co
 
 レビューを具体的な実務確認項目へ落とし込む必要がある場合は、実装チェックリストを使用する：[Return-to-Reversibility Implementation Checklist](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html)
 
+
+When the review needs to assign who can maintain the stop, preserve evidence, challenge re-entry, and monitor renewed stop conditions, use the [Return-to-Reversibility Role and Evidence Matrix](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) ｜ [可逆復帰 役割・証拠マトリクス](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html).
+
+停止維持、証拠保全、再進行への異議、再停止条件の監視について責任者を割り当てる必要がある場合は、[Return-to-Reversibility Role and Evidence Matrix](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) ｜ [可逆復帰 役割・証拠マトリクス](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html) を使用する。
+
 ---
 
 ## Minimum review checks ｜ 最低確認項目
