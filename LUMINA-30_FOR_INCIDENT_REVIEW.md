@@ -20,6 +20,15 @@ However, AI incidents may remain insufficiently evaluated if review does not ask
 
 ---
 
+
+## Practical Tools Quick Access ｜ 実務ツール・クイックアクセス
+
+For repeated operational use, open the practical tools directly: [EN Practical Tools Quick Access](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html) ｜ [JP 実務ツール・クイックアクセス](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html).
+
+反復的な実務利用では、実務ツールを直接開けます：[EN Practical Tools Quick Access](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html) ｜ [JP 実務ツール・クイックアクセス](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html)。
+
+---
+
 ## Reversible Prosperity Path ｜ 可逆的繁栄の道
 
 Incident review is not merely a retrospective record of failure. In LUMINA-30, it is a mechanism for stopping, refusing, reviewing, correcting, and continuing before irreversible loss becomes normalized.
