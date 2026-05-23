@@ -1,3 +1,4 @@
+
 <!-- L30_LANG_LOCK: EN_JP_PAIRED -->
 # LUMINA-30 for Incident Review
 # AIインシデント評価における拒否有効性の確認軸
@@ -36,6 +37,10 @@ Incident review should not end when failure is identified. When review finds wea
 インシデントレビューは、失敗を特定して終わるものではない。レビューによって、拒否の弱体化、証拠欠落、介入不能、または不可逆的エスカレーションへの移行が確認された場合、次の実務上の問いは、実効的人間拒否と可逆性が回復された条件へ戻せるかである。
 
 See also: [Return-to-Reversibility Guidance](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html)
+
+Use the implementation checklist when the review must turn this guidance into concrete operational checkpoints: [Return-to-Reversibility Implementation Checklist](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html)
+
+レビューを具体的な実務確認項目へ落とし込む必要がある場合は、実装チェックリストを使用する：[Return-to-Reversibility Implementation Checklist](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html)
 
 ---
 
@@ -77,3 +82,4 @@ A review should treat the system as procedurally invalid when any of the followi
 
 **LUMINA-30 does not ask only whether harm occurred. It asks whether human refusal remained real before the system crossed into irreversible impact.**  
 **LUMINA-30は被害発生の有無だけを問わない。不可逆的影響に至る前に、人間の拒否が現実に機能していたかを問う。**
+
