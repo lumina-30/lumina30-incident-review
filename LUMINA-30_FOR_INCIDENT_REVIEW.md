@@ -38,6 +38,11 @@ Incident review should not end when failure is identified. When review finds wea
 
 See also: [Return-to-Reversibility Guidance](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html)
 
+For the recommended operational order after a boundary concern or incident review, use the [Return-to-Reversibility Practical Use Sequence](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) ｜ [可逆復帰 実務利用手順](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html).
+
+境界懸念やインシデントレビュー後に、指針・チェックリスト・役割証拠マトリクスをどの順番で使うか迷う場合は、[Return-to-Reversibility Practical Use Sequence](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) ｜ [可逆復帰 実務利用手順](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html) を使用する。
+
+
 Use the implementation checklist when the review must turn this guidance into concrete operational checkpoints: [Return-to-Reversibility Implementation Checklist](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html)
 
 レビューを具体的な実務確認項目へ落とし込む必要がある場合は、実装チェックリストを使用する：[Return-to-Reversibility Implementation Checklist](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html) ｜ [可逆復帰実装チェックリスト](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html)
