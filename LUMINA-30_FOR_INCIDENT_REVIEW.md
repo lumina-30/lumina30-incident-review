@@ -29,6 +29,16 @@ See also: [Reversible Prosperity Path](https://lumina-30.github.io/lumina-30-ove
 
 ---
 
+## Return-to-Reversibility Guidance ｜ 可逆復帰指針
+
+Incident review should not end when failure is identified. When review finds weakened refusal, missing evidence, ineffective intervention, or drift toward irreversible escalation, the next operational question is whether the trajectory can return to a condition where effective human refusal and reversibility are restored.
+
+インシデントレビューは、失敗を特定して終わるものではない。レビューによって、拒否の弱体化、証拠欠落、介入不能、または不可逆的エスカレーションへの移行が確認された場合、次の実務上の問いは、実効的人間拒否と可逆性が回復された条件へ戻せるかである。
+
+See also: [Return-to-Reversibility Guidance](https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html) ｜ [可逆復帰指針](https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html)
+
+---
+
 ## Minimum review checks ｜ 最低確認項目
 
 - Did effective human refusal authority remain available before irreversible impact?
