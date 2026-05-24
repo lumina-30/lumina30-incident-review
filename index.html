@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="Reader-facing HTML entry for LUMINA-30 Incident Review." />
+  <title>LUMINA-30 Incident Review Floor</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 1080px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav, .notice, .card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); display: inline-block; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin: 0 0 .55em; }
+    a { color: var(--accent); }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .notice { padding: 14px 16px; margin: 18px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { padding: 16px; }
+    .card p { margin: .3em 0 .85em; }
+    .muted { color: var(--muted); }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="index.html">Incident Review Floor</a>
+      <a href="index-ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+    </nav>
+
+    <header>
+      <h1>LUMINA-30 Incident Review Floor</h1>
+      <p class="subtitle">Reader-facing HTML entry for boundary checks, incident review, evidence preservation, and post-incident stabilization.</p>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="Status and scope">
+        <strong>Status and scope.</strong> This page is a reader-facing navigation entry. It does not create certification, legal authority, regulatory force, official adoption, institutional endorsement, approval, or safety assurance.
+      </section>
+
+      <section id="start">
+        <h2>Start here</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>First-time incident reviewer</h3>
+            <p>Understand the repository role before using templates or boundary checks.</p>
+            <a class="button" href="START_HERE.html">Open START_HERE</a>
+          </article>
+          <article class="card">
+            <h3>Immediate incident route</h3>
+            <p>Use the minimum working route for an AI-related incident, near miss, or boundary concern.</p>
+            <a class="button" href="FIRST_3_FILES.html">Open First 3 Files</a>
+          </article>
+          <article class="card">
+            <h3>Structured reading order</h3>
+            <p>Use a controlled reading path when the repository feels too large.</p>
+            <a class="button" href="READING_ORDER.html">Open Reading Order</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="review-tools">
+        <h2>Core review tools</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Incident review overview</h3>
+            <p>Apply the boundary question to AI incidents, oversight failure, and post-incident review.</p>
+            <a class="button" href="LUMINA-30_FOR_INCIDENT_REVIEW.html">Open Incident Review Guide</a>
+          </article>
+          <article class="card">
+            <h3>Irreversibility decision criteria</h3>
+            <p>Check who decides, when irreversibility is judged, and what evidence is required.</p>
+            <a class="button" href="boundary-check/Irreversibility_Decision_Criteria.html">Open Criteria</a>
+          </article>
+          <article class="card">
+            <h3>Absence Rule check</h3>
+            <p>If evidence is absent or unverifiable, do not infer effective refusal existed.</p>
+            <a class="button" href="boundary-check/Absence_Rule_Check.html">Open Absence Rule Check</a>
+          </article>
+          <article class="card">
+            <h3>Boundary result classification</h3>
+            <p>Classify the review result after checking irreversibility, evidence, and refusal authority.</p>
+            <a class="button" href="boundary-check/Boundary_Check_Result_Classification.html">Open Classification</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="forms">
+        <h2>Forms and stabilization</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>L30-FRM practical forms</h3>
+            <p>Use downloadable or editable forms when the review needs a structured record.</p>
+            <a class="button" href="tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">Open Forms Index</a>
+          </article>
+          <article class="card">
+            <h3>Stabilization and containment</h3>
+            <p>Use this for post-incident stabilization, containment, evidence preservation, and recovery tracking.</p>
+            <a class="button" href="tools/l30-bas/practical-sheets/L30_FRM_S01_Stabilization_Checklist.html">Open Stabilization Checklist</a>
+          </article>
+          <article class="card">
+            <h3>External-use notes</h3>
+            <p>Connect LUMINA-30 to governance, standards, incident-response, and oversight contexts without claiming endorsement.</p>
+            <a class="button" href="external-use/External_Governance_Use_Routes.html">Open External Use Routes</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="fallback">
+        <h2>Source and preservation</h2>
+        <p>The Markdown files are retained for text preservation, search discoverability, existing links, source review, and comparison. For reading and navigation, prefer the HTML pages.</p>
+        <p><a href="README.html">Open the full HTML README</a> ｜ <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/README.md">View Markdown source on GitHub</a></p>
+      </section>
+    </main>
+
+    <p class="footer">LUMINA-30 Incident Review is a non-binding public reference layer for evaluating whether effective human refusal remained available before irreversible impact.</p>
+  </div>
+</body>
+</html>
