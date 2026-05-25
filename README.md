@@ -10,8 +10,8 @@
 > 読みやすさ、戻り導線、初回閲覧にはHTML版を使用してください：  
 > [インシデントレビュー・フロアHTML版を開く](https://lumina-30.github.io/lumina30-incident-review/)  
 >
-> This Markdown file is retained for text preservation, search discoverability, existing links, and source review.  
-> 本Markdownは、文章保管、検索到達性、既存リンク維持、ソース確認のために残しています。
+> This Markdown file is retained for text preservation, search discoverability, existing links, and source review. GitHub Markdown is weaker for long-form navigation, return paths, and reader orientation; the HTML floor is the preferred reader-facing route.  
+> 本Markdownは、文章保管、検索到達性、既存リンク維持、ソース確認のために残しています。GitHub Markdownは、長文移動、戻り導線、現在地維持に弱いため、読者向け導線ではHTMLフロアを優先してください。
 
 This floor name is a navigation label for readers. It does not imply certification, legal authority, regulatory force, institutional status, official adoption, endorsement, affiliation, or a change to repository names or file paths.
 
