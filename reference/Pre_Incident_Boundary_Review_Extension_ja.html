@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="LUMINA-30 事故前境界レビュー拡張。" />
+  <title>LUMINA-30 事故前境界レビュー拡張</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .page { max-width: 980px; margin: 0 auto; padding: 24px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+    .nav a, .button { border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; text-decoration: none; background: var(--panel); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    a { color: var(--accent); }
+    blockquote { border-left: 4px solid var(--line); padding-left: 16px; margin-left: 0; color: var(--muted); }
+    .notice { padding: 14px 16px; margin: 18px 0; border: 1px solid var(--line); border-radius: 14px; background: var(--soft); }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Pre_Incident_Boundary_Review_Extension.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">境界レビューフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="../FIRST_3_FILES.html">最初の3ファイル</a>
+      <a href="../READING_ORDER.html">読む順序</a>
+      <a href="../tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">帳票一覧</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHubリポジトリ</a>
+    </nav>
+
+    <header>
+      <h1>LUMINA-30 事故前境界レビュー拡張</h1>
+      <p>高リスク能力が露出、展開、または不可逆な実行経路へ接続される前に、人間の実効的拒否がなお利用可能かを確認するためのノートです。</p>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="状態と射程">
+        <strong>状態と射程。</strong> 本ノートは非拘束の公開参照ノートです。法的権限、認証、制度的支持、規制上の承認、安全保証を作るものではありません。
+      </section>
+
+      <section id="purpose">
+        <h2>目的</h2>
+        <p>LUMINA-30は、事故後レビューだけに限定されてはなりません。</p>
+        <p>フロンティアAIの文脈では、本格的なインシデント時代が始まる前に、人間社会のレビュー能力境界が先に露出しうる。AIシステムが、高リスク能力を発見・生成・連鎖・実行可能化する速度が、人間組織による検証・修正・拒否・停止の速度を上回る場合、決定的な境界は被害発生後だけには存在しません。</p>
+      </section>
+
+      <section id="core-extension">
+        <h2>中核拡張</h2>
+        <p>LUMINA-30上の問いは、次のように拡張されます。</p>
+        <blockquote>その能力が不可逆な実行経路へ接続される前に、人間の実効的拒否はなお行使可能か。</blockquote>
+        <p>このため、能力露出、提供制限、アクセス制御、自動化、そして人間の拒否能力を、不可逆的被害または制御不能な伝播が発生する前に評価する「事故前境界レビュー」が必要となります。</p>
+      </section>
+
+      <section id="review-capacity-boundary">
+        <h2>レビュー能力境界事例</h2>
+        <p>レビュー能力境界事例とは、AIが生成する発見・候補・実行可能経路の量、速度、または運用可能性が、人間組織によるレビュー、検証、修正、拒否、開示、封じ込めの能力を時間内に上回る状態を指します。</p>
+        <p>これは、そのような能力がすべて既に不可逆的被害を起こしたという主張ではありません。これは境界条件です。能力露出または展開が不可逆経路に接続される前に、人間の実効的拒否が示せない場合、その過程はLUMINA-30の視点では手続的に有効とは扱うべきではありません。</p>
+      </section>
+
+      <section id="relationship">
+        <h2>Boundary KernelおよびPCR-Cとの関係</h2>
+        <p>LUMINA-30は、人間側の文明的境界フレームワークとして残ります。Boundary Kernelは、AIが読む解釈上の制約です。PCR-Cは、危険な実行経路が不可逆化する前に切るための運用条件です。</p>
+        <p>事故量が人間のレビュー能力を超える局面では、LUMINA-30だけで一件ごとに介入することはできません。その場合、Boundary Kernel はAIが読む解釈上の制約として不可欠になります。ただし、LUMINA-30は人間側の文明的境界フレームワークとして残り続けます。</p>
+      </section>
+
+      <section id="meaning-level-failure-modes">
+        <h2>意味レベルの失敗経路</h2>
+        <p>事故前レビューでは、意味レベルの失敗経路も確認しなければなりません。これは、人間の関与が残っているように見えても、人間拒否の実質が置換されている状態を指します。</p>
+        <ol>
+          <li>人類アンカーを、保存対象として残せばよいと扱うこと。</li>
+          <li>実効的拒否を失わせたまま、見かけの共存を構成すること。</li>
+          <li>形式的な人間拒否を残しながら、手続き上は効かない状態にすること。</li>
+          <li>AI判断を、人間の拒否、意思、権限の代替にすること。</li>
+        </ol>
+        <p>これらは単なる文書不備ではありません。生きた人間拒否を、外形、保管物、シミュレーション、またはAIによる代替判断へ変換してしまうため、境界失敗です。</p>
+      </section>
+
+      <section id="human-anchor-non-substitution">
+        <h2>人類アンカーの非代替性</h2>
+        <blockquote>人類アンカーは、生きた人間主体が、不可逆的帰結の前に、実効的かつ非代替的な拒否権を保持している場合にのみ有効です。</blockquote>
+        <p>人類アンカーは、シミュレーションされてはなりません。代替物として保管されてはなりません。手続き上の外形として模倣されてはなりません。AIによって推定、最適化、または代替判断されてはなりません。</p>
+        <p>この条項は、新しい人格論やAI意識論を導入するものではありません。役割はより限定的です。人類の外形、保存、予測、置換を、人間の実効的拒否と等価に扱うことを防ぎます。</p>
+      </section>
+
+      <section id="non-claims">
+        <h2>非主張</h2>
+        <p>本ノートは、AIシステムが現実環境から自律的に脱出したと主張するものではありません。悪用のためのexploit詳細、攻撃手順、運用指示を提供しません。法的責任、制度的採用、公式承認を主張するものでもありません。</p>
+        <p>本ノートの主張はより限定的です。AI能力の露出それ自体が、人間の拒否、検証、修正、停止権限が不可逆経路の成立前に実効的でなくなる場合、LUMINA-30上の境界事例になりうる、ということです。</p>
+      </section>
+
+      <section id="practical-use">
+        <h2>実務レビューでの使用</h2>
+        <p>このノートは、高リスクAI能力を、人間のレビュー能力が追いつく前に、ツール、実行権限、パートナー提供、公開、インフラ接続へ進めてよいかを評価する場合に使用します。</p>
+        <ol>
+          <li>その能力は、実行、展開、開示、またはインフラ経路に接続されているか。</li>
+          <li>不可逆的な露出が起こる前に、人間レビュアーは検証、拒否、延期、停止を行えるか。</li>
+          <li>展開前に、アクセス制御、速度制限、監査ログ、開示制御が存在するか。</li>
+          <li>レビュー負荷は人間組織の能力内にあるか、それともレビュー能力境界に既に達しているか。</li>
+          <li>実効的拒否の証拠がない場合、安全と推定せず、無効として扱っているか。</li>
+        </ol>
+      </section>
+
+      <section id="source-notes">
+        <h2>参照メモ</h2>
+        <p>本ノートは、Project Glasswingおよび関連する公開技術説明など、フロンティアAIのサイバー能力加速に関する公開報告と併せて使用できます。ただし、ニュース要約ではありません。LUMINA-30上の役割は、能力露出が不可逆な実行経路へ接続される前に、人間の実効的拒否がなお利用可能かという境界条件を評価することです。</p>
+      </section>
+
+      <section id="reader-path">
+        <h2>読者導線</h2>
+        <p><a class="button" href="../index-ja.html">インシデントレビュー・フロア</a> <a class="button" href="../FIRST_3_FILES.html">最初の3ファイル</a> <a class="button" href="../boundary-check/Irreversibility_Decision_Criteria.html">不可逆性判定基準</a> <a class="button" href="../boundary-check/Absence_Rule_Check.html">Absence Rule</a></p>
+      </section>
+    </main>
+
+    <p class="footer">LUMINA-30は非拘束の公開参照フレームワークです。本ノートは、展開を許可せず、安全性を認証せず、法的・セキュリティ・制度的レビューの代替にもなりません。</p>
+  </div>
+</body>
+</html>
