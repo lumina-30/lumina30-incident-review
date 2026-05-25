@@ -1,85 +1,90 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="BILINGUAL_UTILITY">
+<html lang="en" data-l30-lang-lock="EN_CANONICAL">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>L30-FRM S01 Stabilization Checklist | LUMINA-30</title>
-  <meta name="description" content="Routing page for the L30-FRM S01 Stabilization Checklist. This page preserves HTML navigation while the practical form is distributed as PDF/DOCX.">
+  <title>L30-FRM-S01 Stabilization Checklist HTML Guide | LUMINA-30</title>
+  <meta name="description" content="HTML guide for L30-FRM-S01, the LUMINA-30 stabilization checklist for containment, evidence preservation, refusal preservation, and controlled recovery.">
   <style>
-    :root { color-scheme: light dark; }
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; margin: 0; padding: 0; background: #f7f7f8; color: #1f2937; }
-    .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px 56px; }
-    header, section { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 24px; margin: 18px 0; box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06); }
-    h1 { margin-top: 0; font-size: 1.9rem; line-height: 1.25; }
-    h2 { margin-top: 0; font-size: 1.25rem; }
-    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; }
-    .nav a, .button { display: inline-block; padding: 9px 12px; border-radius: 999px; border: 1px solid #cbd5e1; background: #f8fafc; color: #0f172a; text-decoration: none; font-weight: 600; }
-    .button.primary { background: #0f172a; color: #fff; border-color: #0f172a; }
-    .note { border-left: 4px solid #64748b; padding: 10px 14px; background: #f8fafc; border-radius: 8px; }
-    ul { padding-left: 1.25rem; }
-    code { background: #f1f5f9; padding: 0.1em 0.35em; border-radius: 6px; }
-    @media (prefers-color-scheme: dark) {
-      body { background: #0b1020; color: #e5e7eb; }
-      header, section { background: #111827; border-color: #334155; }
-      .nav a, .button { background: #172033; color: #e5e7eb; border-color: #475569; }
-      .button.primary { background: #e5e7eb; color: #111827; border-color: #e5e7eb; }
-      .note { background: #172033; }
-      code { background: #1e293b; }
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); font-weight: 600; }
+    .button.primary { background: CanvasText; color: Canvas; border-color: CanvasText; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    blockquote, .note { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
   </style>
 </head>
 <body>
-  <main class="wrap">
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../../../README.html">Incident Review Floor</a>
+      <a href="L30_FRM_All_Forms_Index.html">Forms Index</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="L30_FRM_S01_Stabilization_Checklist.html">↻ Reload</a>
+    </nav>
     <header>
-      <p><strong>LUMINA-30 Incident Review / L30-FRM</strong></p>
-      <h1>L30-FRM S01 Stabilization Checklist</h1>
-      <p>
-        This HTML page is a routing and continuity page for the S01 stabilization checklist.
-        It keeps the reader on the HTML navigation path while the working form is distributed as PDF/DOCX.
-      </p>
-      <p>
-        このHTMLページは、S01安定化チェックリストへの案内・継続用ページです。
-        実務帳票がPDF/DOCXで配布されている場合でも、読者がHTML導線から外れないようにします。
-      </p>
-      <nav class="nav" aria-label="Page navigation">
-        <a href="../../../README.html">Incident Review Floor</a>
-        <a href="L30_FRM_All_Forms_Index.html">All Forms Index</a>
-        <a href="https://lumina-30.github.io/lumina-30-overview/">LUMINA-30 Main Floor</a>
-        <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      </nav>
+      <p><strong>LUMINA-30 Incident Review / L30-FRM-S01</strong></p>
+      <h1>Stabilization Checklist HTML Guide</h1>
+      <p class="subtitle">A reader-facing HTML guide for the S01 practical form. The working record remains the DOCX/PDF form.</p>
     </header>
-
-    <section>
-      <h2>Use the practical form / 実務帳票を使用する</h2>
-      <p>
-        Use the downloadable form when you need to document stabilization actions after a boundary concern,
-        incident review, or return-to-reversibility process.
-      </p>
-      <p>
-        境界懸念、事故レビュー、可逆復帰プロセスの後に安定化措置を記録する必要がある場合は、
-        以下の実務帳票を使用してください。
-      </p>
-      <p>
-        <a class="button primary" href="L30_FRM_S01_Stabilization_Checklist.pdf">Open PDF</a>
-        <a class="button" href="L30_FRM_S01_Stabilization_Checklist.docx">Open DOCX</a>
-        <a class="button" href="L30_FRM_All_Forms_Index.html">Return to All Forms Index</a>
-      </p>
-    </section>
-
-    <section>
-      <h2>Status and limits / 位置づけと限界</h2>
-      <div class="note">
-        <p>
-          This page and the associated form do not certify safety, authorize deployment, provide legal permission,
-          or prove institutional adoption. They provide a structured record for review, evidence preservation,
-          stabilization, and later re-examination under LUMINA-30.
-        </p>
-        <p>
-          このページおよび関連帳票は、安全認証、展開許可、法的許可、制度的採用の証明ではありません。
-          LUMINA-30に基づくレビュー、証拠保全、安定化、後日の再検証のための構造化記録を提供するものです。
-        </p>
-      </div>
-    </section>
-  </main>
+    <main>
+      <section>
+        <h2>Purpose</h2>
+        <p><code>L30-FRM-S01</code> is used after an incident, near-incident, boundary concern, or return-to-reversibility review when the immediate task is to stabilize the situation without normalizing the same irreversible path.</p>
+        <p>This HTML page is not a replacement for the working form. It explains when to use the form, what evidence to preserve, and what must not be treated as recovered merely because activity has resumed.</p>
+      </section>
+      <section>
+        <h2>Use the working form</h2>
+        <div class="actions">
+          <a class="button primary" href="L30_FRM_S01_Stabilization_Checklist.docx">Open DOCX</a>
+          <a class="button" href="L30_FRM_S01_Stabilization_Checklist.pdf">Open PDF</a>
+          <a class="button" href="L30_FRM_S01_Stabilization_Checklist_JA.html">日本語HTML</a>
+          <a class="button" href="L30_FRM_All_Forms_Index.html">Return to Forms Index</a>
+        </div>
+      </section>
+      <section>
+        <h2>Minimum stabilization sequence</h2>
+        <table>
+          <thead><tr><th>Step</th><th>Review focus</th><th>Record before moving on</th></tr></thead>
+          <tbody>
+            <tr><td>1. Freeze the path</td><td>Stop or suspend the route that may produce irreversible consequences.</td><td>Who stopped it, when, and what execution path was frozen.</td></tr>
+            <tr><td>2. Preserve evidence</td><td>Keep logs, prompts, outputs, operator decisions, alerts, model/tool versions, and timing records.</td><td>Evidence location, custodian, hash/version notes where available.</td></tr>
+            <tr><td>3. Preserve refusal</td><td>Confirm that a living human reviewer can still refuse, halt, escalate, or require rollback before re-entry.</td><td>Named role, refusal authority, escalation path, and unresolved constraints.</td></tr>
+            <tr><td>4. Prevent same-path return</td><td>Do not resume through the same route until the boundary concern has been reviewed.</td><td>Changed condition, review finding, and re-entry restriction.</td></tr>
+            <tr><td>5. Re-enter under control</td><td>Resume only with scoped authority, monitored execution, and a clear stop condition.</td><td>Scope, monitoring, rollback condition, and next review date.</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>What this form is not</h2>
+        <div class="note">
+          <p>This guide and the S01 form do not certify safety, authorize deployment, provide legal permission, prove institutional adoption, or show that effective refusal occurred. They provide structured fields for stabilization, evidence preservation, and later review under LUMINA-30.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Relationship to LUMINA-30</h2>
+        <p>S01 supports return-to-reversibility practice. It does not relax the LUMINA-30 boundary requirement: effective human refusal must remain possible before irreversible consequences occur. If refusal evidence is absent, the process should not be treated as procedurally valid merely because the system appears stable.</p>
+      </section>
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
 </body>
 </html>

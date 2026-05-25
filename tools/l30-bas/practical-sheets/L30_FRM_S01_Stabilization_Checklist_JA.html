@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JA_LOCALIZED">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L30-FRM-S01 初動安定化チェックリスト HTML案内 | LUMINA-30</title>
+  <meta name="description" content="L30-FRM-S01 初動安定化チェックリストの日本語HTML案内。封じ込め、証拠保全、拒否権保全、制御された復帰のための参照ページです。">
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); font-weight: 600; }
+    .button.primary { background: CanvasText; color: Canvas; border-color: CanvasText; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    blockquote, .note { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページナビゲーション">
+      <a href="../../../index-ja.html">事故レビューフロア</a>
+      <a href="L30_FRM_All_Forms_Index.html">帳票一覧</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="L30_FRM_S01_Stabilization_Checklist_JA.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <p><strong>LUMINA-30 Incident Review / L30-FRM-S01</strong></p>
+      <h1>初動安定化チェックリスト HTML案内</h1>
+      <p class="subtitle">S01実務帳票の読者向けHTML案内です。正式な作業記録はDOCX/PDF帳票に残します。</p>
+    </header>
+    <main>
+      <section>
+        <h2>目的</h2>
+        <p><code>L30-FRM-S01</code> は、事故、準事故、境界懸念、または可逆復帰レビューの後に、同じ不可逆化経路を常態化させずに状況を安定させるために使用します。</p>
+        <p>このHTMLページは作業帳票の代替ではありません。いつ帳票を使うか、どの証拠を残すか、単に運用を再開しただけで何を「回復」と扱ってはいけないかを示します。</p>
+      </section>
+      <section>
+        <h2>実務帳票を開く</h2>
+        <div class="actions">
+          <a class="button primary" href="L30_FRM_S01_Stabilization_Checklist.docx">DOCXを開く</a>
+          <a class="button" href="L30_FRM_S01_Stabilization_Checklist.pdf">PDFを開く</a>
+          <a class="button" href="L30_FRM_S01_Stabilization_Checklist.html">English HTML</a>
+          <a class="button" href="L30_FRM_All_Forms_Index.html">帳票一覧へ戻る</a>
+        </div>
+      </section>
+      <section>
+        <h2>最小安定化手順</h2>
+        <table>
+          <thead><tr><th>手順</th><th>確認観点</th><th>次へ進む前に記録すること</th></tr></thead>
+          <tbody>
+            <tr><td>1. 経路を凍結する</td><td>不可逆的帰結を生み得る経路を停止または保留する。</td><td>誰が、いつ、どの実行経路を止めたか。</td></tr>
+            <tr><td>2. 証拠を保全する</td><td>ログ、プロンプト、出力、運用判断、警告、モデル/ツール版、時刻記録を保持する。</td><td>証拠の所在、保全担当、可能ならハッシュや版情報。</td></tr>
+            <tr><td>3. 拒否権を保全する</td><td>生きた人間のレビュー担当者が、再進行前に拒否・停止・エスカレーション・巻き戻し要求を行えるか確認する。</td><td>役割名、拒否権限、エスカレーション経路、未解決制約。</td></tr>
+            <tr><td>4. 同一経路復帰を防ぐ</td><td>境界懸念がレビューされるまで、同じ経路で再開しない。</td><td>変更条件、レビュー所見、再進行制限。</td></tr>
+            <tr><td>5. 制御下で再進行する</td><td>限定された権限、監視された実行、明確な停止条件のもとでのみ再開する。</td><td>範囲、監視条件、巻き戻し条件、次回レビュー日。</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>この帳票ではないもの</h2>
+        <div class="note">
+          <p>この案内およびS01帳票は、安全認証、展開許可、法的許可、制度的採用の証明、有効な拒否が実際に行われたことの証明ではありません。LUMINA-30のもとで、安定化、証拠保全、後日のレビューのための構造化された記録欄を提供するものです。</p>
+        </div>
+      </section>
+      <section>
+        <h2>LUMINA-30との関係</h2>
+        <p>S01は、可逆復帰の実務を支える帳票です。LUMINA-30の境界要件、すなわち不可逆的帰結の前に人間の実効的拒否が可能でなければならない、という条件を緩和しません。拒否の証拠がない場合、システムが安定して見えるだけで手続き的に有効だったとは扱いません。</p>
+      </section>
+    </main>
+    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+  </div>
+</body>
+</html>
