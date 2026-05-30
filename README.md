@@ -3,15 +3,15 @@
 
 **Incident Review Floor ｜ インシデントレビュー・フロア**
 
-> **Reader-facing HTML version ｜ 読者向けHTML版**  
-> For navigation, return paths, and first-time reading, use the HTML version:  
+> **Use the HTML floor for reading ｜ 閲覧にはHTMLフロアを使用してください**  
+> For navigation, return paths, and first-time reading, do not stay on this README.md; use the Incident Review HTML floor:  
 > [Open the Incident Review Floor HTML](https://lumina-30.github.io/lumina30-incident-review/)  
 >
-> 読みやすさ、戻り導線、初回閲覧にはHTML版を使用してください：  
-> [インシデントレビュー・フロアHTML版を開く](https://lumina-30.github.io/lumina30-incident-review/)  
+> 日本語で読む場合も、このREADME.mdに留まらず、日本語HTMLフロアを使用してください：  
+> [インシデントレビュー・フロア 日本語HTML版を開く](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
 >
-> This Markdown file is retained for text preservation, search discoverability, existing links, and source review. GitHub Markdown is weaker for long-form navigation, return paths, and reader orientation; the HTML floor is the preferred reader-facing route.  
-> 本Markdownは、文章保管、検索到達性、既存リンク維持、ソース確認のために残しています。GitHub Markdownは、長文移動、戻り導線、現在地維持に弱いため、読者向け導線ではHTMLフロアを優先してください。
+> This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.  
+> 本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLフロアを使用してください。
 
 This floor name is a navigation label for readers. It does not imply certification, legal authority, regulatory force, institutional status, official adoption, endorsement, affiliation, or a change to repository names or file paths.
 
