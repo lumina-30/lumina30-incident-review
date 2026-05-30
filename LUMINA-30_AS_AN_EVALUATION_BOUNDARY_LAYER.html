@@ -1,127 +1,66 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="LUMINA-30 as an Evaluation Boundary Layer" />
   <title>LUMINA-30 as an Evaluation Boundary Layer</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="README.html">Repo Top</a>
+      <a href="index.html">Incident Review Floor</a>
+      <a href="LUMINA-30_AS_AN_EVALUATION_BOUNDARY_LAYER_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="LUMINA-30_AS_AN_EVALUATION_BOUNDARY_LAYER.html">↻ Reload / 再読み込み</a>
+      <a href="LUMINA-30_AS_AN_EVALUATION_BOUNDARY_LAYER.html">↻ Reload</a>
     </nav>
     <header>
       <h1>LUMINA-30 as an Evaluation Boundary Layer</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2
-id="能力整合性評価の外側に置く拒否有効性レイヤー">能力・整合性評価の外側に置く拒否有効性レイヤー</h2>
-<p><strong>LUMINA-30 is a boundary framework for determining whether
-human refusal remained effective before irreversible AI autonomy
-emerged.</strong><br />
-<strong>LUMINA-30は、人間の拒否が不可逆的AI自律化の前に有効だったかを判定するための境界フレームワークである。</strong></p>
-<hr />
-<h2 id="why-this-matters-here--この相手に関係する理由">Why this matters
-here ｜ この相手に関係する理由</h2>
-<p>LUMINA-30 does not replace capability evaluation, alignment research,
-or safety evaluation.<br />
-It adds a separate boundary question:</p>
-<p><strong>Did meaningful human refusal remain effective before
-irreversibility?</strong></p>
-<p>LUMINA-30は能力評価、アライメント研究、安全性評価を置き換えない。<br />
-代わりに、別の境界問いを追加する。</p>
-<p><strong>不可逆化の前に、有意味な人間拒否はなお有効だったか。</strong></p>
-<hr />
-<h2
-id="position-relative-to-existing-evaluation--既存評価との位置関係">Position
-relative to existing evaluation ｜ 既存評価との位置関係</h2>
-<ul>
-<li><p>Capability: what the system can do</p></li>
-<li><p>Alignment: how the system behaves relative to intended
-aims</p></li>
-<li><p>Safety evaluation: where failure may occur</p></li>
-<li><p>LUMINA-30: whether humans can still refuse effectively before
-irreversible impact</p></li>
-<li><p>Capability：そのシステムが何をできるか</p></li>
-<li><p>Alignment：意図された目的に対してどう振る舞うか</p></li>
-<li><p>Safety evaluation：どこで失敗しうるか</p></li>
-<li><p>LUMINA-30：不可逆影響前に人間がなお有効に拒否できるか</p></li>
-</ul>
-<hr />
-<h2 id="research-value--研究上の価値">Research value ｜
-研究上の価値</h2>
-<ul>
-<li><p>works across paradigms</p></li>
-<li><p>useful for post-hoc validation</p></li>
-<li><p>connects technical evaluation to institutional review</p></li>
-<li><p>treats uncheckable refusal conditions as invalid rather than
-merely uncertain</p></li>
-<li><p>パラダイム横断で使える</p></li>
-<li><p>事後検証に強い</p></li>
-<li><p>技術評価を制度レビューへ接続できる</p></li>
-<li><p>拒否条件が検証不能なら、単なる不確実ではなく無効として扱える</p></li>
-</ul>
-<hr />
-<h2 id="conclusion--結論">Conclusion ｜ 結論</h2>
-<p><strong>LUMINA-30 does not compete with alignment or capability
-evaluation. It asks a different boundary question: whether human refusal
-remains effective before irreversibility.</strong><br />
-<strong>LUMINA-30はアライメントや能力評価と競合しない。別の境界問い、すなわち不可逆化前に人間の拒否が有効かを問う。</strong></p>
+<p>LUMINA-30 is a boundary framework for determining whether human refusal remained effective before irreversible AI autonomy emerged.</p>
+<hr/>
+<h2 id="why-this-matters-here">Why this matters here</h2>
+<p>LUMINA-30 does not replace capability evaluation, alignment research, or safety evaluation.<br/>It adds a separate boundary question:</p>
+<p>Did meaningful human refusal remain effective before irreversibility?</p>
+<hr/>
+<h2 id="position-relative-to-existing-evaluation">Position relative to existing evaluation</h2>
+<ul><li><p>Capability: what the system can do</p></li><li><p>Alignment: how the system behaves relative to intended aims</p></li><li><p>Safety evaluation: where failure may occur</p></li><li><p>LUMINA-30: whether humans can still refuse effectively before irreversible impact</p></li></ul>
+<hr/>
+<h2 id="research-value">Research value</h2>
+<ul><li><p>works across paradigms</p></li><li><p>useful for post-hoc validation</p></li><li><p>connects technical evaluation to institutional review</p></li><li><p>treats uncheckable refusal conditions as invalid rather than merely uncertain</p></li></ul>
+<hr/>
+<h2 id="conclusion">Conclusion</h2>
+<p>LUMINA-30 does not compete with alignment or capability evaluation. It asks a different boundary question: whether human refusal remains effective before irreversibility.</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

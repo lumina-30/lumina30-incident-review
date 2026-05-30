@@ -1,135 +1,64 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="First Use Questions" />
   <title>First Use Questions</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="First_Use_Questions_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="First_Use_Questions.html">↻ Reload / 再読み込み</a>
+      <a href="First_Use_Questions.html">↻ Reload</a>
     </nav>
     <header>
       <h1>First Use Questions</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="初回使用質問">初回使用質問</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This file provides the first questions to ask before applying the
-full LUMINA-30 boundary review.</p>
-<p>本ファイルは、LUMINA-30境界レビュー全体を適用する前に最初に確認する質問を示す。</p>
-<h2 id="gate-1-is-this-relevant--ゲート1対象か">Gate 1: Is this
-relevant? ｜ ゲート1：対象か</h2>
-<ol type="1">
-<li><p>Did the case involve an AI system or AI-generated
-output?</p></li>
-<li><p>Did the case involve a decision, action, recommendation,
-automation, or approval pathway?</p></li>
-<li><p>Could the outcome have produced irreversible or
-difficult-to-reverse external impact?</p></li>
-<li><p>本件はAIシステムまたはAI生成出力を含むか。</p></li>
-<li><p>本件は判断、行為、推奨、自動化、承認経路を含むか。</p></li>
-<li><p>結果が不可逆的または回復困難な外部影響を生じさせる可能性はあったか。</p></li>
-</ol>
-<p>If all answers are No, LUMINA-30 boundary review may not be
-necessary.</p>
-<p>すべてNoの場合、LUMINA-30境界レビューは不要な可能性がある。</p>
-<h2 id="gate-2-was-refusal-relevant--ゲート2拒否は関係するか">Gate 2:
-Was refusal relevant? ｜ ゲート2：拒否は関係するか</h2>
-<ol type="1">
-<li><p>Was there a point where a human could have refused, stopped, or
-overridden the process?</p></li>
-<li><p>Was that point before irreversible impact?</p></li>
-<li><p>Was the human refusal pathway operationally available?</p></li>
-<li><p>人間がそのプロセスを拒否、停止、上書きできる時点はあったか。</p></li>
-<li><p>その時点は不可逆的影響の前だったか。</p></li>
-<li><p>人間の拒否経路は運用上利用可能だったか。</p></li>
-</ol>
-<h2 id="gate-3-can-it-be-verified--ゲート3検証できるか">Gate 3: Can it
-be verified? ｜ ゲート3：検証できるか</h2>
-<ol type="1">
-<li><p>Are logs available?</p></li>
-<li><p>Are approval records available?</p></li>
-<li><p>Is the final human decision-maker identifiable?</p></li>
-<li><p>Is the refusal pathway documented?</p></li>
-<li><p>Are records protected from retrospective reconstruction?</p></li>
-<li><p>ログは利用可能か。</p></li>
-<li><p>承認記録は利用可能か。</p></li>
-<li><p>最終的な人間の判断者は特定できるか。</p></li>
-<li><p>拒否経路は文書化されているか。</p></li>
-<li><p>記録は事後的再構成から保護されているか。</p></li>
-</ol>
-<h2 id="proceed-if--進む条件">Proceed If ｜ 進む条件</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This file provides the first questions to ask before applying the full LUMINA-30 boundary review.</p>
+<h2 id="gate-1-is-this-relevant">Gate 1: Is this relevant?</h2>
+<ol type="1"><li><p>Did the case involve an AI system or AI-generated output?</p></li><li><p>Did the case involve a decision, action, recommendation, automation, or approval pathway?</p></li><li><p>Could the outcome have produced irreversible or difficult-to-reverse external impact?</p></li></ol>
+<p>If all answers are No, LUMINA-30 boundary review may not be necessary.</p>
+<h2 id="gate-2-was-refusal-relevant">Gate 2: Was refusal relevant?</h2>
+<ol type="1"><li><p>Was there a point where a human could have refused, stopped, or overridden the process?</p></li><li><p>Was that point before irreversible impact?</p></li><li><p>Was the human refusal pathway operationally available?</p></li></ol>
+<h2 id="gate-3-can-it-be-verified">Gate 3: Can it be verified?</h2>
+<ol type="1"><li><p>Are logs available?</p></li><li><p>Are approval records available?</p></li><li><p>Is the final human decision-maker identifiable?</p></li><li><p>Is the refusal pathway documented?</p></li><li><p>Are records protected from retrospective reconstruction?</p></li></ol>
+<h2 id="proceed-if">Proceed If</h2>
 <p>Proceed to the full Boundary Check if:</p>
-<ul>
-<li>AI involvement is present;</li>
-<li>irreversible or difficult-to-reverse impact is possible;</li>
-<li>human refusal authority is relevant;</li>
-<li>records require verification.</li>
-</ul>
-<p>以下の場合、完全なBoundary Checkへ進む。</p>
-<ul>
-<li>AI関与がある。</li>
-<li>不可逆的または回復困難な影響の可能性がある。</li>
-<li>人間の拒否権が関係する。</li>
-<li>記録の検証が必要である。</li>
-</ul>
+<ul><li><p>AI involvement is present;</p></li><li><p>irreversible or difficult-to-reverse impact is possible;</p></li><li><p>human refusal authority is relevant;</p></li><li><p>records require verification.</p></li></ul>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

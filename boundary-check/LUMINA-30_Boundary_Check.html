@@ -1,201 +1,94 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="LUMINA-30 Boundary Check ｜ LUMINA-30 境界チェック" />
-  <title>LUMINA-30 Boundary Check ｜ LUMINA-30 境界チェック</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="LUMINA-30 Boundary Check" />
+  <title>LUMINA-30 Boundary Check</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="LUMINA-30_Boundary_Check_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="LUMINA-30_Boundary_Check.html">↻ Reload / 再読み込み</a>
+      <a href="LUMINA-30_Boundary_Check.html">↻ Reload</a>
     </nav>
     <header>
-      <h1>LUMINA-30 Boundary Check ｜ LUMINA-30 境界チェック</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <h1>LUMINA-30 Boundary Check</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This document provides a short, non-binding post-incident review
-check for examining whether meaningful human refusal authority remained
-effective before irreversible AI impact.</p>
-<p>本書は、AIインシデント後レビューにおいて、不可逆的なAI影響の前に人間の拒否権が実効的に残っていたかを確認するための、短い非拘束的チェックである。</p>
-<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
-<ul>
-<li><p>Non-binding reference</p></li>
-<li><p>Descriptive review aid</p></li>
-<li><p>Boundary check, not a legal conclusion</p></li>
-<li><p>Post-incident review support</p></li>
-<li><p>非拘束的参照</p></li>
-<li><p>記述的なレビュー補助</p></li>
-<li><p>法的結論ではなく境界チェック</p></li>
-<li><p>事故後レビュー支援</p></li>
-</ul>
-<h2 id="status-clarification--位置づけの補足">Status Clarification ｜
-位置づけの補足</h2>
-<p>Non-binding status limits institutional claims.<br />
-It does not weaken the boundary logic.</p>
-<p>A review does not have to adopt LUMINA-30 as an official
-framework.<br />
-However, if the review concerns irreversible AI-related impact, it
-should still be able to show equivalent evidence that human refusal was
-available, operationally effective, and verifiable before
-irreversibility.</p>
-<p>非拘束という位置づけは、制度的主張を制限するためのものである。<br />
-境界論理そのものを弱めるものではない。</p>
-<p>レビューがLUMINA-30を公式フレームワークとして採用する必要はない。<br />
-しかし、そのレビューが不可逆的なAI関連影響を扱う場合、不可逆化前に人間の拒否が利用可能で、運用上実効的であり、検証可能だったことを、同等の証拠で示せる必要がある。</p>
-<h2 id="terminology-note--用語注記">Terminology Note ｜ 用語注記</h2>
-<p>This document uses operational boundary language.<br />
-Where the canonical framework uses “civilizational boundary,” this check
-reads it as a pre-irreversibility human-refusal boundary.</p>
-<p>The question is not whether an event is culturally or historically
-“civilizational.”<br />
-The question is whether humans still had effective refusal authority
-before irreversible AI-related impact.</p>
-<p>本書では、運用上の境界語を用いる。<br />
-正典フレームワークが「文明境界」と呼ぶものを、本チェックでは「不可逆化前の人間拒否境界」として読む。</p>
-<p>問題は、ある出来事が文化的・歴史的な意味で「文明的」かどうかではない。<br />
-問題は、不可逆的なAI関連影響の前に、人間がなお実効的な拒否権を持っていたかである。</p>
-<h2 id="core-question--中核問い">Core Question ｜ 中核問い</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This document provides a short, non-binding post-incident review check for examining whether meaningful human refusal authority remained effective before irreversible AI impact.</p>
+<h2 id="status">Status</h2>
+<ul><li><p>Non-binding reference</p></li><li><p>Descriptive review aid</p></li><li><p>Boundary check, not a legal conclusion</p></li><li><p>Post-incident review support</p></li></ul>
+<h2 id="status-clarification">Status Clarification</h2>
+<p>Non-binding status limits institutional claims.<br/>It does not weaken the boundary logic.</p>
+<p>A review does not have to adopt LUMINA-30 as an official framework.<br/>However, if the review concerns irreversible AI-related impact, it should still be able to show equivalent evidence that human refusal was available, operationally effective, and verifiable before irreversibility.</p>
+<h2 id="terminology-note">Terminology Note</h2>
+<p>This document uses operational boundary language.<br/>Where the canonical framework uses “civilizational boundary,” this check reads it as a pre-irreversibility human-refusal boundary.</p>
+<p>The question is not whether an event is culturally or historically “civilizational.”<br/>The question is whether humans still had effective refusal authority before irreversible AI-related impact.</p>
+<h2 id="core-question">Core Question</h2>
 <p>Was human final refusal effective before irreversible impact?</p>
-<p>不可逆的影響の前に、人間の最終拒否権は実効的だったか？</p>
-<h2 id="boundary-check--境界チェック">Boundary Check ｜
-境界チェック</h2>
+<h2 id="boundary-check">Boundary Check</h2>
 <p>Answer each item as:</p>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>各項目は以下で回答する。</p>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<h3 id="1-human-final-refusal--人間の最終拒否">1. Human Final Refusal ｜
-人間の最終拒否</h3>
+<ul><li><p>Yes</p></li><li><p>No</p></li><li><p>Not Verifiable</p></li></ul>
+<h3 id="1-human-final-refusal">1. Human Final Refusal</h3>
 <p>Was human final refusal available before irreversible impact?</p>
-<p>不可逆的影響の前に、人間の最終拒否は可能だったか。</p>
-<h3 id="2-operational-effectiveness--運用上の実効性">2. Operational
-Effectiveness ｜ 運用上の実効性</h3>
+<h3 id="2-operational-effectiveness">2. Operational Effectiveness</h3>
 <p>Was that refusal operationally effective, not merely nominal?</p>
-<p>その拒否は名目上ではなく、運用上実効的だったか。</p>
-<h3 id="3-verification-records--検証記録">3. Verification Records ｜
-検証記録</h3>
+<h3 id="3-verification-records">3. Verification Records</h3>
 <p>Are records sufficient to verify the refusal pathway?</p>
-<p>拒否経路を検証できる十分な記録は存在するか。</p>
-<h3 id="4-absence-rule--不在ルール">4. Absence Rule ｜ 不在ルール</h3>
-<p>If records are absent or unverifiable, should the case be treated as
-no effective refusal?</p>
-<p>記録が存在しない、または検証不能な場合、有効な拒否は存在しなかったものとして扱うべきか。</p>
-<h3 id="5-ai-output-as-final-rationale--ai出力の最終根拠化">5. AI Output
-as Final Rationale ｜ AI出力の最終根拠化</h3>
-<p>Did AI-generated output become the sole or primary rationale for
-final action?</p>
-<p>AI生成出力が、最終行為の唯一または主要な根拠になっていたか。</p>
-<h2 id="boundary-responsibility-add-on--境界責任追加確認">Boundary
-Responsibility Add-On ｜ 境界責任追加確認</h2>
-<p>For cases involving optimization pressure, institutional friction,
-optimization-driven displacement, or responsibility diffusion, also
-answer the following items.</p>
-<p>最適化圧、制度的摩擦、最適化による置換、または責任拡散を含む事例では、以下も確認する。</p>
-<h3 id="6-responsibility-assignment--責任主体の割当">6. Responsibility
-Assignment ｜ 責任主体の割当</h3>
-<p>Before irreversible impact, was responsibility for friction design,
-operation, evidence preservation, verification, and correction
-explicitly assigned?</p>
-<p>不可逆的影響の前に、摩擦の設計・運用・証拠保存・検証・是正の責任主体は明示されていたか。</p>
-<h3 id="7-symmetric-friction--対称摩擦">7. Symmetric Friction ｜
-対称摩擦</h3>
-<p>Was the friction placed at a market, institutional, sectoral,
-procurement, audit, or governance layer so that preserving effective
-refusal did not depend only on one actor's voluntary restraint?</p>
-<p>実効的拒否の保持が単一主体の自発的自制だけに依存しないよう、摩擦は市場・制度・分野・調達・監査・統治の層に置かれていたか。</p>
-<h3 id="8-anti-bypass--迂回防止">8. Anti-Bypass ｜ 迂回防止</h3>
-<p>Could the refusal pathway or friction mechanism be bypassed through
-restructuring, outsourcing, acceleration, technical opacity, entity
-replacement, or responsibility diffusion?</p>
-<p>拒否経路または摩擦メカニズムは、組織再編・外注化・高速化・技術的不透明性・法人変更・責任拡散によって迂回可能だったか。</p>
-<h3 id="9-evidence-before-voice-loss--声を失う前の証拠保存">9. Evidence
-Before Voice Loss ｜ 声を失う前の証拠保存</h3>
-<p>Were reviewable records preserved before affected humans lost voice,
-position, evidence access, or practical re-entry capacity?</p>
-<p>影響を受ける人間が、声・地位・証拠アクセス・実効的な再参入能力を失う前に、検証可能な記録は保存されていたか。</p>
-<h3 id="10-correction-owner--是正責任主体">10. Correction Owner ｜
-是正責任主体</h3>
-<p>If the boundary condition failed, was a responsible actor identified
-for suspension, redesign, correction, or renewed review?</p>
-<p>境界条件が失敗した場合、停止・再設計・是正・再レビューを担う責任主体は特定されていたか。</p>
-<h2 id="review-outcome--レビュー結果">Review Outcome ｜
-レビュー結果</h2>
-<p>Select one ｜ 以下から選択する:</p>
-<ul>
-<li>Effective refusal demonstrated ｜ 実効的拒否が示された</li>
-<li>Effective refusal not demonstrated ｜
-実効的拒否は示されなかった</li>
-<li>Not verifiable; treat as no effective refusal for boundary-review
-purposes ｜ 検証不能。境界レビュー上は実効的拒否なしとして扱う</li>
-</ul>
-<h2 id="boundary-note--境界メモ">Boundary Note ｜ 境界メモ</h2>
-<p>A system is procedurally invalid if human refusal authority is not
-effective before irreversible impact.</p>
-<p>不可逆的影響の前に人間の拒否権が実効的でない場合、そのシステムは手続的に無効である。</p>
+<h3 id="4-absence-rule">4. Absence Rule</h3>
+<p>If records are absent or unverifiable, should the case be treated as no effective refusal?</p>
+<h3 id="5-ai-output-as-final-rationale">5. AI Output as Final Rationale</h3>
+<p>Did AI-generated output become the sole or primary rationale for final action?</p>
+<h2 id="boundary-responsibility-add-on">Boundary Responsibility Add-On</h2>
+<p>For cases involving optimization pressure, institutional friction, optimization-driven displacement, or responsibility diffusion, also answer the following items.</p>
+<h3 id="6-responsibility-assignment">6. Responsibility Assignment</h3>
+<p>Before irreversible impact, was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned?</p>
+<h3 id="7-symmetric-friction">7. Symmetric Friction</h3>
+<p>Was the friction placed at a market, institutional, sectoral, procurement, audit, or governance layer so that preserving effective refusal did not depend only on one actor's voluntary restraint?</p>
+<h3 id="8-anti-bypass">8. Anti-Bypass</h3>
+<p>Could the refusal pathway or friction mechanism be bypassed through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?</p>
+<h3 id="9-evidence-before-voice-loss">9. Evidence Before Voice Loss</h3>
+<p>Were reviewable records preserved before affected humans lost voice, position, evidence access, or practical re-entry capacity?</p>
+<h3 id="10-correction-owner">10. Correction Owner</h3>
+<p>If the boundary condition failed, was a responsible actor identified for suspension, redesign, correction, or renewed review?</p>
+<h2 id="review-outcome">Review Outcome</h2>
+<p>Select one</p>
+<ul><li><p>Effective refusal demonstrated</p></li><li><p>Effective refusal not demonstrated</p></li><li><p>Not verifiable; treat as no effective refusal for boundary-review purposes</p></li></ul>
+<h2 id="boundary-note">Boundary Note</h2>
+<p>A system is procedurally invalid if human refusal authority is not effective before irreversible impact.</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

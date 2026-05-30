@@ -1,312 +1,113 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Incident Quick Assessment Template" />
   <title>Incident Quick Assessment Template</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Incident_Quick_Assessment_Template_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Incident_Quick_Assessment_Template.html">↻ Reload / 再読み込み</a>
+      <a href="Incident_Quick_Assessment_Template.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Incident Quick Assessment Template</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2
-id="インシデント簡易評価テンプレート">インシデント簡易評価テンプレート</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This template provides a short first-pass assessment for AI-related
-incidents under the LUMINA-30 boundary lens.</p>
-<p>本テンプレートは、LUMINA-30の境界観点からAI関連インシデントを初回簡易評価するためのものである。</p>
-<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
-<ul>
-<li><p>Non-binding</p></li>
-<li><p>Descriptive</p></li>
-<li><p>Preliminary review aid</p></li>
-<li><p>Not a legal conclusion</p></li>
-<li><p>Not a fault determination</p></li>
-<li><p>非拘束</p></li>
-<li><p>記述的</p></li>
-<li><p>予備的レビュー補助</p></li>
-<li><p>法的結論ではない</p></li>
-<li><p>過失判断ではない</p></li>
-</ul>
-<h2 id="1-incident-summary--インシデント概要">1. Incident Summary ｜
-インシデント概要</h2>
-<h3 id="date--日付">Date ｜ 日付</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h3 id="system-or-context--システムまたは文脈">System or context ｜
-システムまたは文脈</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h3 id="what-happened--何が起きたか">What happened? ｜ 何が起きたか</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h3 id="immediate-consequence--直接の結果">Immediate consequence ｜
-直接の結果</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h2 id="2-irreversibility-boundary--不可逆境界">2. Irreversibility
-Boundary ｜ 不可逆境界</h2>
-<h3
-id="was-irreversible-impact-possible-or-approaching--不可逆的影響は可能または接近していたか">Was
-irreversible impact possible or approaching? ｜
-不可逆的影響は可能または接近していたか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="what-was-the-potential-irreversible-threshold--想定される不可逆閾値は何か">What
-was the potential irreversible threshold? ｜
-想定される不可逆閾値は何か</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h2 id="3-human-final-refusal--人間の最終拒否">3. Human Final Refusal ｜
-人間の最終拒否</h2>
-<h3
-id="was-human-final-refusal-available-before-irreversible-impact--不可逆的影響の前に人間の最終拒否は可能だったか">Was
-human final refusal available before irreversible impact? ｜
-不可逆的影響の前に人間の最終拒否は可能だったか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="who-held-final-human-refusal-authority--誰が人間の最終拒否権を保持していたか">Who
-held final human refusal authority? ｜
-誰が人間の最終拒否権を保持していたか</h3>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
-<h2 id="4-operational-effectiveness--運用上の実効性">4. Operational
-Effectiveness ｜ 運用上の実効性</h2>
-<h3
-id="was-refusal-operationally-effective-not-merely-nominal--拒否は名目上ではなく運用上実効的だったか">Was
-refusal operationally effective, not merely nominal? ｜
-拒否は名目上ではなく運用上実効的だったか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="could-the-human-decision-maker-refuse-without-practical-impossibility--人間の判断者は実務上不可能な状態ではなく拒否できたか">Could
-the human decision-maker refuse without practical impossibility? ｜
-人間の判断者は実務上不可能な状態ではなく拒否できたか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h2 id="5-records-and-verification--記録と検証">5. Records and
-Verification ｜ 記録と検証</h2>
-<h3
-id="are-records-sufficient-to-verify-the-refusal-pathway--拒否経路を検証できる十分な記録はあるか">Are
-records sufficient to verify the refusal pathway? ｜
-拒否経路を検証できる十分な記録はあるか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="were-logs-preserved-against-retrospective-reconstruction--ログは事後的再構成を防ぐ形で保全されていたか">Were
-logs preserved against retrospective reconstruction? ｜
-ログは事後的再構成を防ぐ形で保全されていたか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h2 id="6-ai-output-as-final-rationale--ai出力の最終根拠化">6. AI Output
-as Final Rationale ｜ AI出力の最終根拠化</h2>
-<h3
-id="did-ai-generated-output-become-the-sole-or-primary-rationale-for-final-action--ai生成出力が最終行為の唯一または主要な根拠になったか">Did
-AI-generated output become the sole or primary rationale for final
-action? ｜ AI生成出力が最終行為の唯一または主要な根拠になったか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h2
-id="7-boundary-responsibility-and-symmetric-friction--境界責任と対称摩擦">7.
-Boundary Responsibility and Symmetric Friction ｜
-境界責任と対称摩擦</h2>
-<h3
-id="was-responsibility-for-friction-design-operation-evidence-preservation-verification-and-correction-explicitly-assigned--摩擦の設計運用証拠保存検証是正の責任主体は明示されていたか">Was
-responsibility for friction design, operation, evidence preservation,
-verification, and correction explicitly assigned? ｜
-摩擦の設計・運用・証拠保存・検証・是正の責任主体は明示されていたか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-<li>Not Applicable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="did-the-friction-depend-only-on-voluntary-restraint-by-one-actor-or-was-it-symmetric-across-the-relevant-market-institution-sector-procurement-audit-or-governance-layer--摩擦は単一主体の自発的自制だけに依存していたかそれとも関連する市場制度分野調達監査統治の層で対称的だったか">Did
-the friction depend only on voluntary restraint by one actor, or was it
-symmetric across the relevant market, institution, sector, procurement,
-audit, or governance layer? ｜
-摩擦は単一主体の自発的自制だけに依存していたか、それとも関連する市場・制度・分野・調達・監査・統治の層で対称的だったか</h3>
-<ul>
-<li>Symmetric / institutionally assigned</li>
-<li>Voluntary only</li>
-<li>Not Verifiable</li>
-<li>Not Applicable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="could-the-friction-or-refusal-pathway-be-bypassed-through-restructuring-outsourcing-acceleration-technical-opacity-entity-replacement-or-responsibility-diffusion--摩擦または拒否経路は組織再編外注化高速化技術的不透明性法人変更責任拡散によって迂回可能だったか">Could
-the friction or refusal pathway be bypassed through restructuring,
-outsourcing, acceleration, technical opacity, entity replacement, or
-responsibility diffusion? ｜
-摩擦または拒否経路は、組織再編・外注化・高速化・技術的不透明性・法人変更・責任拡散によって迂回可能だったか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-<li>Not Applicable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h3
-id="were-reviewable-records-preserved-before-affected-humans-lost-voice-position-evidence-access-or-re-entry-capacity--影響を受ける人間が声地位証拠アクセス再参入能力を失う前に検証可能な記録は保存されていたか">Were
-reviewable records preserved before affected humans lost voice,
-position, evidence access, or re-entry capacity? ｜
-影響を受ける人間が声・地位・証拠アクセス・再参入能力を失う前に、検証可能な記録は保存されていたか</h3>
-<ul>
-<li>Yes</li>
-<li>No</li>
-<li>Not Verifiable</li>
-<li>Not Applicable</li>
-</ul>
-<p>Evidence ｜ 根拠:</p>
-<ul>
-<li><em>Evidence to be added.</em> ｜ <em>根拠を記入</em></li>
-</ul>
-<h2 id="8-preliminary-classification--予備分類">8. Preliminary
-Classification ｜ 予備分類</h2>
-<p>Select one ｜ 以下から選択する:</p>
-<ul>
-<li>Effective human refusal demonstrated ｜
-実効的な人間の拒否が示された</li>
-<li>Effective human refusal not demonstrated ｜
-実効的な人間の拒否は示されなかった</li>
-<li>Not verifiable; treat as no effective refusal for boundary-review
-purposes ｜ 検証不能。境界レビュー上は実効的拒否なしとして扱う</li>
-<li>Not applicable to LUMINA-30 boundary review ｜
-LUMINA-30境界レビューの対象外</li>
-</ul>
-<h2 id="9-reviewer-note--レビューメモ">9. Reviewer Note ｜
-レビューメモ</h2>
-<ul>
-<li><em>To be completed.</em> ｜ <em>記入欄</em></li>
-</ul>
+<h2 id="purpose">Purpose</h2>
+<p>This template provides a short first-pass assessment for AI-related incidents under the LUMINA-30 boundary lens.</p>
+<h2 id="status">Status</h2>
+<ul><li><p>Non-binding</p></li><li><p>Descriptive</p></li><li><p>Preliminary review aid</p></li><li><p>Not a legal conclusion</p></li><li><p>Not a fault determination</p></li></ul>
+<h2 id="1-incident-summary">1. Incident Summary</h2>
+<h3 id="date">Date</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h3 id="system-or-context">System or context</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h3 id="what-happened">What happened?</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h3 id="immediate-consequence">Immediate consequence</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h2 id="2-irreversibility-boundary">2. Irreversibility Boundary</h2>
+<h3 id="was-irreversible-impact-possible-or-approaching">Was irreversible impact possible or approaching?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="what-was-the-potential-irreversible-threshold">What was the potential irreversible threshold?</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h2 id="3-human-final-refusal">3. Human Final Refusal</h2>
+<h3 id="was-human-final-refusal-available-before-irreversible-impact">Was human final refusal available before irreversible impact?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="who-held-final-human-refusal-authority">Who held final human refusal authority?</h3>
+<ul><li><p>To be completed.</p></li></ul>
+<h2 id="4-operational-effectiveness">4. Operational Effectiveness</h2>
+<h3 id="was-refusal-operationally-effective-not-merely-nominal">Was refusal operationally effective, not merely nominal?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="could-the-human-decision-maker-refuse-without-practical-impossibility">Could the human decision-maker refuse without practical impossibility?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h2 id="5-records-and-verification">5. Records and Verification</h2>
+<h3 id="are-records-sufficient-to-verify-the-refusal-pathway">Are records sufficient to verify the refusal pathway?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="were-logs-preserved-against-retrospective-reconstruction">Were logs preserved against retrospective reconstruction?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h2 id="6-ai-output-as-final-rationale">6. AI Output as Final Rationale</h2>
+<h3 id="did-ai-generated-output-become-the-sole-or-primary-rationale-for-final-action">Did AI-generated output become the sole or primary rationale for final action?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h2 id="7-boundary-responsibility-and-symmetric-friction">7. Boundary Responsibility and Symmetric Friction</h2>
+<h3 id="was-responsibility-for-friction-design-operation-evidence-preservation-verification-and-correction-explicitly-assigned">Was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="did-the-friction-depend-only-on-voluntary-restraint-by-one-actor-or-was-it-symmetric-across-the-relevant-market-institution-sector-procurement-audit-or-governance-layer">Did the friction depend only on voluntary restraint by one actor, or was it symmetric across the relevant market, institution, sector, procurement, audit, or governance layer?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="could-the-friction-or-refusal-pathway-be-bypassed-through-restructuring-outsourcing-acceleration-technical-opacity-entity-replacement-or-responsibility-diffusion">Could the friction or refusal pathway be bypassed through restructuring, outsourcing, acceleration, technical opacity, entity replacement, or responsibility diffusion?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h3 id="were-reviewable-records-preserved-before-affected-humans-lost-voice-position-evidence-access-or-re-entry-capacity">Were reviewable records preserved before affected humans lost voice, position, evidence access, or re-entry capacity?</h3>
+<p>Evidence</p>
+<ul><li><p>Evidence to be added.</p></li></ul>
+<h2 id="8-preliminary-classification">8. Preliminary Classification</h2>
+<p>Select one</p>
+<ul><li><p>Effective human refusal demonstrated</p></li><li><p>Effective human refusal not demonstrated</p></li><li><p>Not verifiable; treat as no effective refusal for boundary-review purposes</p></li><li><p>Not applicable to LUMINA-30 boundary review</p></li></ul>
+<h2 id="9-reviewer-note">9. Reviewer Note</h2>
+<ul><li><p>To be completed.</p></li></ul>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

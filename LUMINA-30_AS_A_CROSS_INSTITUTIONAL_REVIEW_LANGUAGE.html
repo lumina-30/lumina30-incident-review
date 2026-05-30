@@ -1,127 +1,64 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="LUMINA-30 as a Cross-Institutional Review Language" />
   <title>LUMINA-30 as a Cross-Institutional Review Language</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="README.html">Repo Top</a>
+      <a href="index.html">Incident Review Floor</a>
+      <a href="LUMINA-30_AS_A_CROSS_INSTITUTIONAL_REVIEW_LANGUAGE_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="LUMINA-30_AS_A_CROSS_INSTITUTIONAL_REVIEW_LANGUAGE.html">↻ Reload / 再読み込み</a>
+      <a href="LUMINA-30_AS_A_CROSS_INSTITUTIONAL_REVIEW_LANGUAGE.html">↻ Reload</a>
     </nav>
     <header>
       <h1>LUMINA-30 as a Cross-Institutional Review Language</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2
-id="機関横断で共有可能なai境界判定言語">機関横断で共有可能なAI境界判定言語</h2>
-<p><strong>LUMINA-30 is a boundary framework for determining whether
-human refusal remained effective before irreversible AI autonomy
-emerged.</strong><br />
-<strong>LUMINA-30は、人間の拒否が不可逆的AI自律化の前に有効だったかを判定するための境界フレームワークである。</strong></p>
-<hr />
-<h2 id="why-this-matters-here--この相手に関係する理由">Why this matters
-here ｜ この相手に関係する理由</h2>
-<p>Capability evaluation and safety evaluation are necessary, but they
-do not always provide a common language for reviewing whether human
-refusal remained effective before boundary loss.</p>
-<p>能力評価や安全性評価は必要である。<br />
-しかし、それだけでは、境界喪失前に人間拒否がなお有効だったかを確認する共通言語を常に与えるわけではない。</p>
-<hr />
-<h2
-id="policy-friendly-features--政策実務で使いやすい点">Policy-friendly
-features ｜ 政策実務で使いやすい点</h2>
-<ul>
-<li><p>not tied to a specific technical stack</p></li>
-<li><p>not tied to a specific company</p></li>
-<li><p>not tied to a specific ideology</p></li>
-<li><p>usable before visible harm occurs</p></li>
-<li><p>reusable in post-incident review</p></li>
-<li><p>translatable into supervisory language</p></li>
-<li><p>特定技術に依存しない</p></li>
-<li><p>特定企業に依存しない</p></li>
-<li><p>特定思想に依存しない</p></li>
-<li><p>被害発生前でも使える</p></li>
-<li><p>事後レビューにも再利用できる</p></li>
-<li><p>監督言語へ変換しやすい</p></li>
-</ul>
-<hr />
-<h2 id="usable-expressions--採用しやすい表現">Usable expressions ｜
-採用しやすい表現</h2>
-<ul>
-<li><p>human refusal remained effective</p></li>
-<li><p>procedural invalidity</p></li>
-<li><p>absence of verifiable refusal path</p></li>
-<li><p>loss of pre-irreversibility intervention</p></li>
-<li><p>boundary-condition warning</p></li>
-<li><p>human refusal remained effective</p></li>
-<li><p>procedural invalidity</p></li>
-<li><p>absence of verifiable refusal path</p></li>
-<li><p>loss of pre-irreversibility intervention</p></li>
-<li><p>boundary-condition warning</p></li>
-</ul>
-<hr />
-<h2 id="conclusion--結論">Conclusion ｜ 結論</h2>
-<p><strong>LUMINA-30 is not a prescriptive ethics code. It is a review
-language for determining whether meaningful human refusal still existed
-before irreversible autonomy conditions emerged.</strong><br />
-<strong>LUMINA-30は規範命令型の倫理規程ではない。不可逆的自律条件の出現前に、有意味な人間拒否がなお存在していたかを判定するためのレビュー言語である。</strong></p>
+<p>LUMINA-30 is a boundary framework for determining whether human refusal remained effective before irreversible AI autonomy emerged.</p>
+<hr/>
+<h2 id="why-this-matters-here">Why this matters here</h2>
+<p>Capability evaluation and safety evaluation are necessary, but they do not always provide a common language for reviewing whether human refusal remained effective before boundary loss.</p>
+<hr/>
+<h2 id="policy-friendly-features">Policy-friendly features</h2>
+<ul><li><p>not tied to a specific technical stack</p></li><li><p>not tied to a specific company</p></li><li><p>not tied to a specific ideology</p></li><li><p>usable before visible harm occurs</p></li><li><p>reusable in post-incident review</p></li><li><p>translatable into supervisory language</p></li></ul>
+<hr/>
+<h2 id="usable-expressions">Usable expressions</h2>
+<hr/>
+<h2 id="conclusion">Conclusion</h2>
+<p>LUMINA-30 is not a prescriptive ethics code. It is a review language for determining whether meaningful human refusal still existed before irreversible autonomy conditions emerged.</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>
