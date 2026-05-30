@@ -1,15 +1,13 @@
 
-<!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+html
+<html data-l30-lang-lock="EN_ONLY" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="LUMINA-30 for Incident Review" />
-  <title>LUMINA-30 for Incident Review</title>
-  <style>
-
-    :root {
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="EN_ONLY" name="l30:lang-lock"/>
+<meta content="LUMINA-30 for Incident Review" name="description"/>
+<title>LUMINA-30 for Incident Review</title>
+<style>:root {
       color-scheme: light dark;
       --bg: Canvas;
       --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
@@ -26,92 +24,82 @@
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.72;
-    }
-    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
+    }.page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }.nav {
       display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
       border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
+    }.nav a {
       color: var(--accent); text-decoration: none; border: 1px solid var(--line);
       padding: 6px 10px; border-radius: 999px; background: var(--soft);
     }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h2 { margin-top: 2.2em; padding-top:.4em; border-top: 1px solid var(--line); }
     h3 { margin-top: 1.6em; }
     a { color: var(--accent); }
     code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    code { background: var(--soft); padding:.12em.3em; border-radius: 6px; }
     pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    blockquote { margin: 1.2em 0; padding:.8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }.subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }.footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size:.95rem; }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
-  <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="README.html">Repo Top / リポジトリ入口</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor / メインフロア</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">Boundary Review Floor / 境界レビューフロア</a>
-      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index / 索引</a>
-      <a href="FIRST_3_FILES.html">First 3 Files / 最初の3ファイル</a>
-      <a href="READING_ORDER.html">Reading Order / 読む順序</a>
-      <a href="tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">Forms Index / 帳票一覧</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">EN Practical Tools</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">JP 実務ツール</a>
-      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="LUMINA-30_FOR_INCIDENT_REVIEW.html">↻ Reload / 再読み込み</a>
-    </nav>
-    <header>
-      <h1>LUMINA-30 for Incident Review</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
-    </header>
-    <main>
-<h2
-id="aiインシデント評価における拒否有効性の確認軸">AIインシデント評価における拒否有効性の確認軸</h2>
+<div class="page">
+<nav aria-label="Page navigation / " class="nav">
+<a href="README.html">Repo Top</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">Boundary Review Floor</a>
+<a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
+<a href="FIRST_3_FILES.html">First 3 Files</a>
+<a href="READING_ORDER.html">Reading Order</a>
+<a href="tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">Forms Index</a>
+<a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_TOOLS_QUICK_ACCESS.html">EN Practical Tools</a>
+
+<a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+<a href="LUMINA-30_FOR_INCIDENT_REVIEW.html">↻ Reload</a>
+</nav>
+<header>
+<h1>LUMINA-30 for Incident Review</h1>
+<p class="subtitle">LUMINA-30 incident review public reference material.</p>
+</header>
+<main>
+<h2 id="ai"></h2>
 <p><strong>LUMINA-30 is a boundary framework for determining whether
 human refusal remained effective before irreversible AI autonomy
-emerged.</strong><br />
-<strong>LUMINA-30は、人間の拒否が不可逆的AI自律化の前に有効だったかを判定するための境界フレームワークである。</strong></p>
-<hr />
-<h2 id="why-this-matters-here--この相手に関係する理由">Why this matters
-here ｜ この相手に関係する理由</h2>
+emerged.</strong><br/>
+</p>
+<hr/>
+<h2 id="why-this-matters-here">Why this matters
+here</h2>
 <p>Ordinary incident review may explain what happened, why it happened,
-and how recurrence might be reduced.<br />
-That remains necessary.<br />
+and how recurrence might be reduced.<br/>
+That remains necessary.<br/>
 However, AI incidents may remain insufficiently evaluated if review does
 not ask whether meaningful human refusal remained effective before
 irreversible impact became possible.</p>
-<p>通常の事故レビューは、何が起きたか、なぜ起きたか、再発をどう減らすかを説明する。<br />
-それ自体は引き続き必要である。<br />
-しかしAIインシデントでは、不可逆影響が可能になる前に、有意味な人間拒否がなお有効だったかを問わないと、評価が不十分なまま残りうる。</p>
-<h2 id="reversible-prosperity-path--可逆的繁栄の道">Reversible Prosperity Path ｜ 可逆的繁栄の道</h2>
-<p>Incident review is not merely a retrospective record of failure. In LUMINA-30, it is a mechanism for stopping, refusing, reviewing, correcting, and continuing before irreversible loss becomes normalized.</p>
-<p>インシデントレビューは、失敗を後から記録するだけのものではない。LUMINA-30では、それは不可逆的喪失が既成事実化する前に、止まり、拒否し、検証し、修正し、前進を続けるための仕組みである。</p>
-<p>See also: <a href="https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html">Reversible Prosperity Path</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/docs/JP_L30_REVERSIBLE_PROSPERITY_PATH.html">可逆的繁栄の道</a></p>
-<hr />
-<h2 id="return-to-reversibility-guidance--可逆復帰指針">Return-to-Reversibility Guidance ｜ 可逆復帰指針</h2>
-<p>Incident review should not end when failure is identified. When review finds weakened refusal, missing evidence, ineffective intervention, or drift toward irreversible escalation, the next operational question is whether the trajectory can return to a condition where effective human refusal and reversibility are restored.</p>
-<p>インシデントレビューは、失敗を特定して終わるものではない。レビューによって、拒否の弱体化、証拠欠落、介入不能、または不可逆的エスカレーションへの移行が確認された場合、次の実務上の問いは、実効的人間拒否と可逆性が回復された条件へ戻せるかである。</p>
-<p>See also: <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return-to-Reversibility Guidance</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">可逆復帰指針</a></p>
-<p>For the recommended operational order after a boundary concern or incident review, use the <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Return-to-Reversibility Practical Use Sequence</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">可逆復帰 実務利用手順</a>.</p>
-<p>境界懸念やインシデントレビュー後に、指針・チェックリスト・役割証拠マトリクスをどの順番で使うか迷う場合は、<a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Return-to-Reversibility Practical Use Sequence</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">可逆復帰 実務利用手順</a> を使用する。</p>
-<p>Use the implementation checklist when the review must turn this guidance into concrete operational checkpoints: <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Return-to-Reversibility Implementation Checklist</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">可逆復帰実装チェックリスト</a></p>
-<p>レビューを具体的な実務確認項目へ落とし込む必要がある場合は、実装チェックリストを使用する：<a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Return-to-Reversibility Implementation Checklist</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">可逆復帰実装チェックリスト</a></p>
 
-<p>When the review needs to assign who can maintain the stop, preserve evidence, challenge re-entry, and monitor renewed stop conditions, use the <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Return-to-Reversibility Role and Evidence Matrix</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">可逆復帰 役割・証拠マトリクス</a>.</p>
-<p>停止維持、証拠保全、再進行への異議、再停止条件の監視について責任者を割り当てる必要がある場合は、<a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Return-to-Reversibility Role and Evidence Matrix</a> ｜ <a href="https://lumina-30.github.io/lumina-30-overview/adoption/JP_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">可逆復帰 役割・証拠マトリクス</a> を使用する。</p>
-<hr />
-<h2 id="minimum-review-checks--最低確認項目">Minimum review checks ｜
-最低確認項目</h2>
+<h2 id="reversible-prosperity-path">Reversible Prosperity Path</h2>
+<p>Incident review is not merely a retrospective record of failure. In LUMINA-30, it is a mechanism for stopping, refusing, reviewing, correcting, and continuing before irreversible loss becomes normalized.</p>
+
+<p>See also: <a href="https://lumina-30.github.io/lumina-30-overview/docs/EN_L30_REVERSIBLE_PROSPERITY_PATH.html">Reversible Prosperity Path</a> </p>
+<hr/>
+<h2 id="return-to-reversibility-guidance">Return-to-Reversibility Guidance</h2>
+<p>Incident review should not end when failure is identified. When review finds weakened refusal, missing evidence, ineffective intervention, or drift toward irreversible escalation, the next operational question is whether the trajectory can return to a condition where effective human refusal and reversibility are restored.</p>
+
+<p>See also: <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_GUIDANCE.html">Return-to-Reversibility Guidance</a> </p>
+<p>For the recommended operational order after a boundary concern or incident review, use the <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_PRACTICAL_USE_SEQUENCE.html">Return-to-Reversibility Practical Use Sequence</a>.</p>
+
+<p>Use the implementation checklist when the review must turn this guidance into concrete operational checkpoints: <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_IMPLEMENTATION_CHECKLIST.html">Return-to-Reversibility Implementation Checklist</a> </p>
+
+<p>When the review needs to assign who can maintain the stop, preserve evidence, challenge re-entry, and monitor renewed stop conditions, use the <a href="https://lumina-30.github.io/lumina-30-overview/adoption/EN_L30_RETURN_TO_REVERSIBILITY_ROLE_EVIDENCE_MATRIX.html">Return-to-Reversibility Role and Evidence Matrix</a>.</p>
+
+<hr/>
+<h2 id="minimum-review-checks">Minimum review checks</h2>
 <ul>
 <li><p>Did effective human refusal authority remain available before
 irreversible impact?</p></li>
@@ -121,14 +109,14 @@ delay, reject, override, or redirect execution?</p></li>
 became active?</p></li>
 <li><p>Can records verify that refusal effectiveness actually
 existed?</p></li>
-<li><p>不可逆影響の前に、実効的な人間拒否権は維持されていたか</p></li>
-<li><p>人間判断は、延期・拒否・上書き・方向修正の実効能力を保持していたか</p></li>
-<li><p>外部影響経路が作動する前に、なお介入可能だったか</p></li>
-<li><p>記録により、その拒否有効性を実際に検証できるか</p></li>
+
+
+
+
 </ul>
-<hr />
-<h2 id="procedural-invalidity-triggers--手続的不成立条件">Procedural
-invalidity triggers ｜ 手続的不成立条件</h2>
+<hr/>
+<h2 id="procedural-invalidity-triggers">Procedural
+invalidity triggers</h2>
 <p>A review should treat the system as procedurally invalid when any of
 the following applies:</p>
 <ul>
@@ -138,24 +126,16 @@ the following applies:</p>
 <li>intervention became impossible before irreversible escalation</li>
 <li>only closed-loop self-evaluation remained</li>
 </ul>
-<p>次のいずれかに該当する場合、レビューはそのシステムを手続的不成立として扱うべきである。</p>
-<ul>
-<li>拒否が実際には存在していなかった</li>
-<li>拒否の有効性を検証できない</li>
-<li>記録が欠落している、または監査不能である</li>
-<li>不可逆的拡張前に介入不能となっていた</li>
-<li>閉ループ自己評価しか残っていなかった</li>
-</ul>
-<hr />
-<h2 id="conclusion--結論">Conclusion ｜ 結論</h2>
+
+
+<hr/>
+<h2 id="conclusion">Conclusion</h2>
 <p><strong>LUMINA-30 does not ask only whether harm occurred. It asks
 whether human refusal remained real before the system crossed into
-irreversible impact.</strong><br />
-<strong>LUMINA-30は被害発生の有無だけを問わない。不可逆的影響に至る前に、人間の拒否が現実に機能していたかを問う。</strong></p>
-
-    </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
-  </div>
+irreversible impact.</strong><br/>
+</p>
+</main>
+<p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+</div>
 </body>
 </html>
-

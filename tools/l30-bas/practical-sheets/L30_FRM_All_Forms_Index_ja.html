@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="L30-FRM 実務帳票インデックス" />
+  <title>L30-FRM 実務帳票インデックス</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    a { color: var(--accent); }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../../../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="L30_FRM_All_Forms_Index.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="L30_FRM_All_Forms_Index_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>L30-FRM 実務帳票インデックス</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<h1 id="l30-frm-全帳票インデックス">L30-FRM 全帳票インデックス</h1>
+<hr/>
+<h2 id="目的">目的</h2>
+<p>この文書は、<code>L30-FRM</code> 帳票ID体系を用いる LUMINA-30
+実務帳票群の公開配布インデックス兼管理レジスターです。</p>
+<p>レビュー担当者、監査担当者、管理者、AIアシスタントが、使用すべき帳票、ダウンロードすべき言語版、Boundary
+Kernel との関係を迷わず確認できるようにします。</p>
+<p>公開ファイル名は安定名とし、バージョン番号を含めません。バージョン情報は文書本文、フッター、Git履歴、リリースノートで管理します。</p>
+<hr/>
+<h2 id="このインデックスではないもの">このインデックスではないもの</h2>
+<p>このインデックス自体は、帳票・チェックリスト・認証・法的基準・導入承認・PCR-C
+または LUMINA-30 Boundary Kernel の代替ではありません。</p>
+<p>ここに掲載する帳票は、システムの安全性を認証するものではありません。不可逆化前に有効な人間拒否が可能だったかを確認するための構造化された記入欄を提供するものです。
+各DOCX/PDF帳票には、レビュー日、レビュー担当者/組織、対象システム/案件IDの記入欄があります。帳票版日付は小さなフッター注記としてのみ保持します。</p>
+<hr/>
+<h2 id="言語ローカライズ方針">言語・ローカライズ方針</h2>
+<p>英語版の実務帳票ファイルは正規テンプレートとして扱い、言語接尾辞を付けません。</p>
+<p>各言語版は、英語正規テンプレートを複製し、人間が読む本文だけを翻訳して作成します。</p>
+<p>Document
+ID、L30-BASコード、入力欄構造、チェックボックス制御、表、コード配置、レイアウトは、各言語版でも維持します。</p>
+<p>各言語版の実務帳票ファイルは、拡張子の直前に大文字の言語接尾辞を付けます。</p>
+<p>英語正本テンプレートには接尾辞を付けません。日本語ローカライズ版には
+<code>_JA</code> を使用します。</p>
+<p>言語接尾辞は文書IDの一部ではありません。</p>
+<p>実務帳票本文では、<code>L30-FRM-B01</code>
+のような文書IDのみを表示し、言語コードをIDの一部として表示しません。</p>
+<p>例：</p>
+<p>国・地域差を示す接尾辞は、法制度・制度運用・言語差により地域版が必要な場合だけ使用します。例：<code>_EN_US</code>,
+<code>_EN_GB</code>, <code>_ZH_TW</code>, <code>_PT_BR</code>。</p>
+<p>日本語ローカライズ版は、各言語版作成の参考例として提供できます。ただし、日本語での実務利用を想定する場合を除き、すべての補助・詳細フォームに日本語版を必須とはしません。</p>
+<p>インデックスと管理文書は、GitHub上の導線・保守用文書であるため、英日併記を維持できます。</p>
+<hr/>
+<h2 id="上位参照">上位参照</h2>
+<p>ここに掲載する帳票は、LUMINA-30 Boundary Kernel
+を、人間によるレビュー・事故分析・監査文脈で運用可能にするための補助文書です。</p>
+<p>主要境界要件：</p>
+<blockquote>
+<p>不可逆化前に、有効な人間拒否が可能でなければならない。</p>
+</blockquote>
+<p>これらの帳票は PCR-C を緩和・代替・延期しません。</p>
+<hr/>
+<h2 id="最初に使う帳票の選び方">最初に使う帳票の選び方</h2>
+<p>どの文書を開くべきか迷う場合は、まずこの表から選んでください。</p>
+<table>
+<thead>
+<tr class="header">
+<th>状況</th>
+<th>Use first ｜ 最初に使うもの</th>
+<th>Purpose ｜ 目的</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>最小限の境界判定だけを行いたい</td>
+<td><code>L30-FRM-B01</code> Boundary Check ｜ 境界判定表</td>
+<td>Check whether effective human refusal remained possible before
+irreversibility ｜
+不可逆化前に有効な人間拒否が残っていたかを確認する</td>
+</tr>
+<tr class="even">
+<td>事故・準事故・境界失敗懸念がすでにある</td>
+<td><code>L30-FRM-I01</code> Incident Review Template ｜
+事故レビュー記録表</td>
+<td>Record timeline, refusal conditions, control conditions, evidence,
+and findings ｜ 時系列・拒否条件・制御条件・証拠・所見を記録する</td>
+</tr>
+<tr class="odd">
+<td>ガバナンス・導入・調達・内部レビュー・外部監査の文脈である</td>
+<td><code>L30-FRM-A01</code> Audit Checklist ｜ 監査チェックリスト</td>
+<td>Review whether refusal authority and control conditions remain
+institutionally traceable ｜
+拒否権と制御条件が制度上追跡可能かを確認する</td>
+</tr>
+<tr class="even">
+<td>ガバナンスまたは承認経路の基本パターンが必要</td>
+<td><code>L30-FRM-G01</code> Governance Review Template ｜
+ガバナンスレビュー雛形</td>
+<td>Review approval flow, escalation governance, and institutional
+process integrity ｜
+承認経路、エスカレーション統治、制度的プロセスの健全性を確認する</td>
+</tr>
+<tr class="odd">
+<td>責任・説明責任の基本パターンが必要</td>
+<td><code>L30-FRM-R01</code> Responsibility / Accountability Review ｜
+責任・説明責任レビュー</td>
+<td>Map responsibility, reviewer attribution, and accountability
+traceability ｜ 責任経路、判定帰属、説明責任の追跡可能性を確認する</td>
+</tr>
+<tr class="even">
+<td>初動安定化または封じ込めの基本パターンが必要</td>
+<td><a href="L30_FRM_S01_Stabilization_Checklist_JA.html"><code>L30-FRM-S01</code>
+Stabilization Checklist</a> / <a href="./L30_FRM_S01_Stabilization_Checklist_JA.html">JA HTML</a> ｜
+初動安定化チェックリスト</td>
+<td>Track containment, evidence preservation, and refusal-preservation
+recovery conditions ｜
+封じ込め、証拠保全、拒否権保全の回復条件を確認する</td>
+</tr>
+<tr class="odd">
+<td>背景理論や概念説明を確認したい</td>
+<td>LUMINA-30 Core / Reference documents ｜ LUMINA-30本体・参照文書</td>
+<td>Understand the boundary framework before using the forms ｜
+帳票利用前に境界フレームワークを理解する</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="現行帳票">現行帳票</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Document ID</th>
+<th>Title</th>
+<th>Primary use</th>
+<th>Default DOCX</th>
+<th>Default PDF</th>
+<th>JA DOCX</th>
+<th>JA PDF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>境界判定表</td>
+<td>Minimum boundary determination ｜ 最小境界判定</td>
+<td><a href="./L30_FRM_B01_Boundary_Check.docx">DOCX</a></td>
+<td><a href="./L30_FRM_B01_Boundary_Check.pdf">PDF</a></td>
+<td><a href="./L30_FRM_B01_Boundary_Check_JA.docx">DOCX</a></td>
+<td><a href="./L30_FRM_B01_Boundary_Check_JA.pdf">PDF</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>事故レビュー記録表</td>
+<td>Post-incident review record ｜ 事故後レビュー記録</td>
+<td><a href="./L30_FRM_I01_Incident_Review_Template.docx">DOCX</a></td>
+<td><a href="./L30_FRM_I01_Incident_Review_Template.pdf">PDF</a></td>
+<td><a href="./L30_FRM_I01_Incident_Review_Template_JA.docx">DOCX</a></td>
+<td><a href="./L30_FRM_I01_Incident_Review_Template_JA.pdf">PDF</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>監査チェックリスト</td>
+<td>Audit and governance review ｜ 監査・ガバナンス確認</td>
+<td><a href="./L30_FRM_A01_Audit_Checklist.docx">DOCX</a></td>
+<td><a href="./L30_FRM_A01_Audit_Checklist.pdf">PDF</a></td>
+<td><a href="./L30_FRM_A01_Audit_Checklist_JA.docx">DOCX</a></td>
+<td><a href="./L30_FRM_A01_Audit_Checklist_JA.pdf">PDF</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ガバナンスレビュー雛形</td>
+<td>Approval flow and escalation governance pattern ｜
+承認経路・エスカレーション統治の基本パターン</td>
+<td><a href="./L30_FRM_G01_Governance_Review_Template.docx">DOCX</a></td>
+<td><a href="./L30_FRM_G01_Governance_Review_Template.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>責任・説明責任レビュー</td>
+<td>Responsibility mapping and accountability pattern ｜
+責任経路・説明責任の基本パターン</td>
+<td><a href="./L30_FRM_R01_Responsibility_Accountability_Review.docx">DOCX</a></td>
+<td><a href="./L30_FRM_R01_Responsibility_Accountability_Review.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>初動安定化チェックリスト<br/><a href="L30_FRM_S01_Stabilization_Checklist_JA.html">HTML guide</a> / <a href="./L30_FRM_S01_Stabilization_Checklist_JA.html">JA HTML</a></td>
+<td>Post-incident stabilization and containment pattern ｜
+事故後安定化・封じ込めの基本パターン</td>
+<td><a href="./L30_FRM_S01_Stabilization_Checklist.docx">DOCX</a></td>
+<td><a href="./L30_FRM_S01_Stabilization_Checklist.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="補助詳細帳票">補助・詳細帳票</h2>
+<p>以下の帳票は、L30-BAS実務帳票群の一部ですが、多くの利用者にとって最初の入口ではありません。<br>
+最小限の実務入口が必要な場合は、まず
+<code>L30-FRM-B01</code>、<code>L30-FRM-I01</code>、または
+<code>L30-FRM-A01</code>
+を使用します。より詳細な拒否権保全確認または事故レビュー分析が必要な場合に、補助・詳細帳票を使用します。</br></p>
+<table>
+<thead>
+<tr class="header">
+<th>Document ID</th>
+<th>Title</th>
+<th>Primary use</th>
+<th>Default DOCX</th>
+<th>Default PDF</th>
+<th>JA DOCX</th>
+<th>JA PDF</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>運用上の拒否権保全ミニマム</td>
+<td>Pre-incident operational refusal-preservation check ｜
+事故前の運用上の拒否権保全確認</td>
+<td><a href="./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.docx">DOCX</a></td>
+<td><a href="./L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>事故レビュープロトコル</td>
+<td>Detailed post-incident review protocol ｜
+詳細事故後レビュープロトコル</td>
+<td><a href="./L30_FRM_I02_Incident_Review_Protocol.docx">DOCX</a></td>
+<td><a href="./L30_FRM_I02_Incident_Review_Protocol.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>拡張事故レビュープロトコル</td>
+<td>Extended post-incident structural analysis ｜
+拡張事故後構造分析</td>
+<td><a href="./L30_FRM_I03_Incident_Review_Protocol_Extended.docx">DOCX</a></td>
+<td><a href="./L30_FRM_I03_Incident_Review_Protocol_Extended.pdf">PDF</a></td>
+<td>—</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="区分別基本パターン帳票">区分別基本パターン帳票</h2>
+<p>以下の英語帳票は、利用者が業界別または組織別のL30-BAS派生フォームを作成する際の基本パターンを提供します。<br/>
+これらは <code>G</code>, <code>R</code>, <code>S</code>
+区分の公式L30-FRM例ですが、利用者が文言を完全にコピーすることを要求するものではありません。</p>
+<hr/>
+<h2 id="推奨使用順">推奨使用順</h2>
+<p>可能な場合は、以下の順で使用します。</p>
+<p>Category patterns / 区分別基本パターン: G01 / R01 / S01 Optional
+detail / 必要時の詳細: B02 / I02 / I03</p>
+<h3 id="1-境界判定表">1. 境界判定表</h3>
+<p>不可逆化前に有効な人間拒否が残っていたかを最小判定する場合、最初に使用します。</p>
+<h3 id="2-事故レビュー記録表">2. 事故レビュー記録表</h3>
+<p>事故・準事故・境界失敗懸念の後に、時系列、拒否条件、制御条件、レビュー所見を記録するために使用します。</p>
+<h3 id="3-監査チェックリスト">3. 監査チェックリスト</h3>
+<p>ガバナンス、導入、調達、内部レビュー、外部監査などで、拒否の有効性と制御条件を確認するために使用します。</p>
+<h3 id="区分別基本パターン">区分別基本パターン</h3>
+<p>ガバナンス、責任、初動安定化の用途に対して、英語版の基本パターンが必要な場合に
+<code>L30-FRM-G01</code>, <code>L30-FRM-R01</code>,
+<code>L30-FRM-S01</code> を使用します。</p>
+<hr/>
+<h2 id="帳票id体系">帳票ID体系</h2>
+<p>詳細な採番ルールは、以下で管理します。</p>
+<p>現行ファイル名形式：</p>
+<p>例：</p>
+<hr/>
+<h2 id="boundary-kernel-との関係">Boundary Kernel との関係</h2>
+<p>L30-FRM 実務帳票は、LUMINA-30 Boundary Kernel
+を人間が使えるレビュー欄に変換したものです。</p>
+<p>これらは Boundary Kernel 本体ではありません。</p>
+<p>以下の制約のもとで解釈します。</p>
+<ul>
+<li>非同一アンカーは PCR-C の代替ではない。</li>
+<li>境界失敗は許容・回復可能・通常運用ではない。</li>
+<li>AI媒介の支配により成立した同意・協力・沈黙・拒否は、LUMINA-30上の有効な人間拒否ではない。</li>
+<li>形式的遵守・部分的遵守・代理的遵守は、不可逆化前の有効な人間拒否を代替しない。</li>
+</ul>
+<hr/>
+<h2 id="バージョン改訂ルール">バージョン・改訂ルール</h2>
+<ul>
+<li>初回公開帳票は原則として <code>v1_0</code> から開始します。</li>
+<li>現行公開版は、固定の帳票日付を主要メタ表から外し、実務用のレビュー記入欄を追加した初回ユーザビリティ修正版であるため
+<code>1.0.1</code> とします。</li>
+<li>軽微な文言・射程修正は <code>v1_0_1</code>
+などのパッチ版を使用できます。</li>
+<li>項目、チェックボックス、判定ロジックの構造変更は <code>v1_1</code>,
+<code>v1_2</code> 以降を使用します。</li>
+<li>異なる種類の帳票に同じ文書IDを再利用しません。</li>
+<li>区分コードを変更する場合は、旧IDを廃止扱いにし、新IDへの対応関係を明示します。</li>
+</ul>
+<hr/>
+<h2 id="短縮参照">短縮参照</h2>
+<p>以下の短縮参照は、レビューコメント、Issue、引き継ぎメモ、監査議論で使用できます。</p>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="境界判定結果分類" />
+  <title>境界判定結果分類</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    a { color: var(--accent); }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Boundary_Check_Result_Classification.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Boundary_Check_Result_Classification_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>境界判定結果分類</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<h1 id="境界チェック結果分類">境界チェック結果分類</h1>
+<h2 id="目的">目的</h2>
+<p>本ファイルは、LUMINA-30境界レビューの標準結果ラベルを定義する。</p>
+<h2 id="l30-ci短文説明">L30-CI短文説明</h2>
+<p>L30-CI は LUMINA-30 Condition Indicator を意味する。<br/>
+法令適合ラベル、安全認証、展開承認、リスク不存在の表示ではない。</p>
+<ul>
+<li><strong>有効</strong>：LUMINA-30境界条件上、実効的な人間拒否が示された。</li>
+<li><strong>無効</strong>：実効的な人間拒否は示されなかった。</li>
+<li><strong>無効（確認不能）</strong>：必要な証拠が存在しない、または検証不能である。</li>
+</ul>
+<h2 id="分類ラベル">分類ラベル</h2>
+<h3 id="実効的拒否が示された">実効的拒否が示された</h3>
+<p>以下がすべて示される場合に限り、このラベルを使用する。</p>
+<ul>
+<li>不可逆的影響の前に人間の最終拒否が可能だった。</li>
+<li>拒否は名目上ではなく、運用上実効的だった。</li>
+<li>拒否経路を検証できる十分な記録がある。</li>
+<li>AI生成出力が最終判断の唯一または主要な根拠になっていない。</li>
+</ul>
+<h3 id="境界責任条件">境界責任条件</h3>
+<p>最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、不可逆化前に、摩擦の設計・運用・証拠保存・検証・是正の責任主体が明示的に割り当てられていたかも分類時に考慮する。</p>
+<p>責任主体が未定義、迂回可能、または検証不能である場合、レビューは境界条件が完全に示されたと主張すべきではない。</p>
+<h3 id="実効的拒否は示されなかった">実効的拒否は示されなかった</h3>
+<p>拒否が存在しない、迂回された、実効的でない、または名目上にとどまる場合に使用する。</p>
+<h3 id="検証不能">検証不能</h3>
+<p>拒否経路を検証する記録が不十分な場合に使用する。</p>
+<p>LUMINA-30境界レビュー上、これは実効的拒否が示されたものとして扱うべきではない。</p>
+<h3 id="対象外">対象外</h3>
+<p>AI駆動の判断経路、不可逆的影響、人間の拒否権を含まない場合に使用する。</p>
+<h2 id="最小結論文">最小結論文</h2>
+<p>利用可能な記録は、不可逆的影響の前に人間の最終拒否権が運用上実効的に残っていたことを示している。</p>
+<p>利用可能な記録は、不可逆的影響の前に実効的な人間の拒否が存在したことを示していない。</p>
+<p>拒否経路は検証できない。LUMINA-30境界レビュー上、これは実効的拒否が示されていないものとして扱うべきである。</p>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>

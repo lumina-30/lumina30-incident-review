@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="不可逆性判定基準" />
+  <title>不可逆性判定基準</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    a { color: var(--accent); }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Irreversibility_Decision_Criteria.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Irreversibility_Decision_Criteria_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>不可逆性判定基準</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<h1 id="不可逆性判定基準">不可逆性判定基準</h1>
+<h2 id="目的">目的</h2>
+<p>本ファイルは、不可逆的影響の前に実効的な人間拒否が残っていたかを判定するための最小基準を一か所に集約する。</p>
+<p>本ファイルは、法的結論、技術義務、認証制度を作るものではない。</p>
+<hr/>
+<h2 id="中核判定問い">中核判定問い</h2>
+<p><strong>不可逆的影響が回避不能になる前に、実効的な人間拒否権は利用可能で、実行可能で、検証可能だったか。</strong></p>
+<hr/>
+<h2 id="最小判定基準">最小判定基準</h2>
+<p>以下の4条件を検証できない場合、レビューは「実効的な人間拒否が示された」と分類してはならない。</p>
+<h3 id="1-権限">1. 権限</h3>
+<ul>
+<li>人間の意思決定者、レビュー担当者、統治主体、または責任組織を特定できる。</li>
+<li>拒否権が名目的なものではない。</li>
+<li>その権限に、延期・停止・上書き・方向修正できる実経路があった。</li>
+</ul>
+<h3 id="2-時点">2. 時点</h3>
+<ul>
+<li>行為が運用上または実質上不可逆になった時点を特定する。</li>
+<li>その閾値の前に存在した最後の可逆点を特定する。</li>
+<li>人間の拒否は、事後ではなく、その時点より前に実効的でなければならない。</li>
+</ul>
+<h4 id="最後の可逆点に関する注記">最後の可逆点に関する注記</h4>
+<p>最後の可逆点は、単一の普遍的な技術手法で特定することを要求しない。<br/>
+承認時点、展開時点、エスカレーション時点、ログのタイムスタンプ、ロールバック可能性、封じ込め可能性、または責任ある人間主体がまだ延期・停止・上書き・封じ込め・方向修正できた最後の地点など、利用可能な運用記録から特定する。</p>
+<p>この注記は説明用であり、ログ読解手法、フォレンジック手続、技術標準を規定するものではない。</p>
+<h3 id="3-実行可能性">3. 実行可能性</h3>
+<ul>
+<li>拒否、停止、延期、上書き、封じ込め、方向修正のいずれかを時間内に実行できた。</li>
+<li>システムが不可逆影響の前に拒否経路を迂回・無効化・形骸化していなかった。</li>
+<li>介入が試みられた場合、その方法と結果を記録する。</li>
+</ul>
+<h3 id="4-証拠">4. 証拠</h3>
+<ul>
+<li>結論は、文書化され検証可能な証拠に基づく。</li>
+<li>レビューでは、観測事実と推論・解釈を分ける。</li>
+<li>記録欠落、上書き、匿名化、監査不能な記録を根拠に「実効的拒否あり」と主張してはならない。</li>
+</ul>
+<h3 id="証拠例は非処方的である">証拠例は非処方的である</h3>
+<p>証拠の例には、ログ、タイムスタンプ、承認記録、エスカレーション記録、インシデントメモ、展開記録、ロールバック記録、封じ込め記録、会議記録、保全された連絡記録などが含まれる。<br/>
+これらは例であり、必須の証拠分類ではない。</p>
+<p>技術的な成果物が存在するだけで、レビューを有効と扱ってはならない。<br/>
+重要なのは、その証拠が、不可逆的影響の前に実効的な人間の拒否が残っていたことを検証できるかである。</p>
+<hr/>
+<h2 id="境界責任確認">境界責任確認</h2>
+<p>最適化圧、最適化による置換、制度固定化、または責任拡散を含む事例では、レビューは不可逆化前に境界責任が明示的に割り当てられていたかも確認する。</p>
+<p>レビューは以下を特定する。</p>
+<ul>
+<li>不可逆化前に摩擦を設計する責任主体。</li>
+<li>その摩擦を運用する責任主体。</li>
+<li>影響を受ける人間が声・地位・再参入能力を失う前に証拠を保存する責任主体。</li>
+<li>摩擦が名目的ではなく実効的だったことを検証する責任主体。</li>
+<li>境界条件が失敗した場合の是正責任主体。</li>
+</ul>
+<p>責任主体の割当が欠落している場合、それを「実効的拒否が示された」とする結論の根拠に用いてはならない。</p>
+<hr/>
+<h2 id="不在ルール">不在ルール</h2>
+<p>必要条件のいずれかを確認できない場合、LUMINA-30境界レビュー上は「実効的な人間拒否を示していない」と分類する。</p>
+<p>これは法的責任、意図、技術欠陥を証明するものではない。境界レビュー条件が示されなかったことのみを意味する。</p>
+<hr/>
+<h2 id="証拠条件の短文リスト">証拠条件の短文リスト</h2>
+<p>実効的な人間拒否は、少なくとも以下を示せる場合に限り、示されたものとして扱う。</p>
+<ul>
+<li>誰が拒否または停止権限を持っていたか。</li>
+<li>最後の可逆点がいつ存在したか。</li>
+<li>どの行為によって延期、停止、上書き、封じ込め、方向修正が可能だったか。</li>
+<li>どの記録が拒否経路を検証しているか。</li>
+<li>AI生成出力が最終判断の唯一または主要な根拠になっていたか。</li>
+</ul>
+<hr/>
+<h2 id="必須記録欄">必須記録欄</h2>
+<p>結果分類の前に、少なくとも以下を記録する。</p>
+<hr/>
+<h2 id="分類への接続">分類への接続</h2>
+<p>この基準を適用した後、結果分類には以下を使用する。</p>
+<p>LUMINA-30境界レビューの標準結果ラベル。</p>
+<hr/>
+<h2 id="最初の3ファイルとの関係">最初の3ファイルとの関係</h2>
+<p>本ファイルは、最初の3ファイルと併用する判定基準の集約ページであり、最初の3ファイルを置き換えるものではない。</p>
+<p>中核境界問いの確認に使用する。</p>
+<p>最小事実収集に使用する。</p>
+<p>最終的な境界レビュー分類に使用する。</p>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>
