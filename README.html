@@ -1,807 +1,159 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="LUMINA-30 Incident Review" />
   <title>LUMINA-30 Incident Review</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="README.html">Repo Top / リポジトリ入口</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor / メインフロア</a>
-      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">Boundary Review Floor / 境界レビューフロア</a>
-      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index / 索引</a>
-      <a href="FIRST_3_FILES.html">First 3 Files / 最初の3ファイル</a>
-      <a href="READING_ORDER.html">Reading Order / 読む順序</a>
-      <a href="tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">Forms Index / 帳票一覧</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="README.html">Repo Top</a>
+      <a href="index.html">Incident Review Floor</a>
+      <a href="README_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="README.html">↻ Reload / 再読み込み</a>
+      <a href="README.html">↻ Reload</a>
     </nav>
     <header>
       <h1>LUMINA-30 Incident Review</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<p><strong>Incident Review Floor ｜
-インシデントレビュー・フロア</strong></p>
-<p>This floor name is a navigation label for readers. It does not imply
-certification, legal authority, regulatory force, institutional status,
-official adoption, endorsement, affiliation, or a change to repository
-names or file paths.</p>
-<p>このフロア名は、読者の移動を助けるための案内名です。認証、法的権限、規制上の効力、制度的地位、公式採用、支持、提携、またはリポジトリ名・ファイルパスの変更を意味しません。</p>
-<p>This repository provides a minimal review structure for examining AI
-incidents through the LUMINA-30 framework.</p>
-<p>It focuses on evaluating whether human refusal authority remained
-effective before irreversible impact.</p>
+<p>Incident Review Floor</p>
+<p>This floor name is a navigation label for readers. It does not imply certification, legal authority, regulatory force, institutional status, official adoption, endorsement, affiliation, or a change to repository names or file paths.</p>
+<p>This repository provides a minimal review structure for examining AI incidents through the LUMINA-30 framework.</p>
+<p>It focuses on evaluating whether human refusal authority remained effective before irreversible impact.</p>
 <p>This repository is intended to be used together with:</p>
-<ul>
-<li><p><a href="https://github.com/lumina-30/lumina-30-overview">Main
-Floor ｜ メインフロア</a><br />
-Use this when you need the conceptual structure before applying
-incident-review tools.<br />
-incident-review
-ツールを使う前に、概念構造を確認する場合に使用。</p></li>
-<li><p><a
-href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index.html">Boundary
-Review Floor ｜ 境界レビューフロア</a><br />
-Use this when you need to distinguish formal oversight from effective
-human refusal before applying incident-review tools.<br />
-incident-review
-ツールを使う前に、形式的監督と実効的人間拒否の違いを確認する場合に使用。</p></li>
-</ul>
-<p>This review structure corresponds to G06 (Integrity and
-Verification), which helps evaluate procedural validity based on
-verifiable refusal effectiveness.</p>
-<p>LUMINA-30 does not evaluate alignment intent or quality. It evaluates
-whether alignment remains procedurally valid.</p>
-<p>This structure is consistent with the PCR-C framework, which models
-procedural invalidity before irreversible thresholds.</p>
-<p>This repository is intended for use as a non-binding reference in
-incident analysis, audit, and governance evaluation contexts.</p>
-<hr />
-<p>LUMINA-30 does not define what is right. It provides a review lens
-for identifying when a case supports a procedural-invalidity finding for
-LUMINA-30 review purposes.</p>
-<p>This framework is a review layer applied to decision processes. It
-can be used both before deployment and after incidents.</p>
-<p>By not defining values or outcomes, it remains applicable across
-conflicting ethical and regulatory systems.</p>
-<p>Under the LUMINA-30 Absence Rule, absence of verifiable refusal
-authority is treated as absence of demonstrated effectiveness for review
-purposes.</p>
-<p>Intended users: reviewers, auditors, governance and oversight
-bodies.</p>
-<hr />
+<ul><li><p>Main Floor</p></li><li><p>Boundary Review Floor</p></li></ul>
+<p>This review structure corresponds to G06 (Integrity and Verification), which helps evaluate procedural validity based on verifiable refusal effectiveness.</p>
+<p>LUMINA-30 does not evaluate alignment intent or quality. It evaluates whether alignment remains procedurally valid.</p>
+<p>This structure is consistent with the PCR-C framework, which models procedural invalidity before irreversible thresholds.</p>
+<p>This repository is intended for use as a non-binding reference in incident analysis, audit, and governance evaluation contexts.</p>
+<hr/>
+<p>LUMINA-30 does not define what is right. It provides a review lens for identifying when a case supports a procedural-invalidity finding for LUMINA-30 review purposes.</p>
+<p>This framework is a review layer applied to decision processes. It can be used both before deployment and after incidents.</p>
+<p>By not defining values or outcomes, it remains applicable across conflicting ethical and regulatory systems.</p>
+<p>Under the LUMINA-30 Absence Rule, absence of verifiable refusal authority is treated as absence of demonstrated effectiveness for review purposes.</p>
+<p>Intended users: reviewers, auditors, governance and oversight bodies.</p>
+<hr/>
 <h2 id="core-question">Core Question</h2>
-<blockquote>
-<p>Was human refusal authority preserved in a way that allowed
-meaningful human intervention and the ability to stop the system before
-irreversible real-world impact occurred?</p>
-</blockquote>
-<p>This repository turns refusal authority from an abstract principle
-into a reviewable condition.</p>
-<h2 id="immediate-incident-route--事故時の即応導線">Immediate Incident
-Route ｜ 事故時の即応導線</h2>
-<p>For a quick AI-related incident review, use the following five-step
-route:</p>
-<p>AI関連インシデントを急いで確認する場合は、以下の5手順を使用する。</p>
-<ol type="1">
-<li><p>Preserve the available facts, logs, approval records, and
-refusal-pathway evidence.<br />
-利用可能な事実、ログ、承認記録、拒否経路の証拠を保全する。</p></li>
-<li><p>Open <a href="./FIRST_3_FILES.html">FIRST_3_FILES.html</a> and
-follow the three core working files.<br />
-<a href="./FIRST_3_FILES.html">FIRST_3_FILES.html</a>
-を開き、3つの中核作業ファイルに従う。</p></li>
-<li><p>Apply <a
-href="./boundary-check/Irreversibility_Decision_Criteria.html">Irreversibility
-Decision Criteria</a> before classifying the result.<br />
-結果分類の前に <a
-href="./boundary-check/Irreversibility_Decision_Criteria.html">Irreversibility
-Decision Criteria</a> を適用する。 For structural interpretation, refer
-to <a
-href="./boundary-check/IRREVERSIBILITY_BOUNDARY_KERNEL.html">Irreversibility
-Boundary Kernel</a>.<br />
-構造的解釈には <a
-href="./boundary-check/IRREVERSIBILITY_BOUNDARY_KERNEL.html">Irreversibility
-Boundary Kernel</a> を参照する。</p></li>
-<li><p>If evidence is absent or unverifiable, apply <a
-href="./boundary-check/Absence_Rule_Check.html">Absence Rule
-Check</a>.<br />
-証拠が存在しない、または検証不能な場合は <a
-href="./boundary-check/Absence_Rule_Check.html">Absence Rule Check</a>
-を適用する。</p></li>
-<li><p>Classify the result using <a
-href="./boundary-check/Boundary_Check_Result_Classification.html">Boundary
-Check Result Classification</a>, then choose a response template if
-needed.<br />
-<a
-href="./boundary-check/Boundary_Check_Result_Classification.html">Boundary
-Check Result Classification</a>
-で結果を分類し、必要に応じて応答テンプレートを選ぶ。</p></li>
-</ol>
-<hr />
-<h2 id="what-you-can-do-now--今できること">What You Can Do Now ｜
-今できること</h2>
-<p>LUMINA-30 is intended to be used before effective human refusal
-becomes structurally unavailable.</p>
+<blockquote>Was human refusal authority preserved in a way that allowed meaningful human intervention and the ability to stop the system before irreversible real-world impact occurred?</blockquote>
+<p>This repository turns refusal authority from an abstract principle into a reviewable condition.</p>
+<h2 id="immediate-incident-route">Immediate Incident Route</h2>
+<p>For a quick AI-related incident review, use the following five-step route:</p>
+<p>AI</p>
+<ol type="1"><li><p>Preserve the available facts, logs, approval records, and refusal-pathway evidence.</p></li><li><p>Open FIRST_3_FILES.html and follow the three core working files. FIRST_3_FILES.html</p></li><li><p>Apply Irreversibility Decision Criteria before classifying the result.</p></li><li><p>If evidence is absent or unverifiable, apply Absence Rule Check .</p></li><li><p>Classify the result using Boundary Check Result Classification , then choose a response template if needed. Boundary Check Result Classification</p></li></ol>
+<hr/>
+<h2 id="what-you-can-do-now">What You Can Do Now</h2>
+<p>LUMINA-30 is intended to be used before effective human refusal becomes structurally unavailable.</p>
 <p>The central action is simple:</p>
-<blockquote>
-<p>Ask whether effective human refusal can still be demonstrated before
-irreversible impact.</p>
-</blockquote>
-<p>Use this question as a practical review prompt, not as a claim of
-legal authority, certification, endorsement, or institutional
-adoption.</p>
-<table>
-<thead>
-<tr class="header">
-<th>Role</th>
-<th>Immediate action</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Incident reviewer</td>
-<td>Apply the <a
-href="./boundary-check/LUMINA-30_Boundary_Check.html">Boundary Check</a>
-to AI-related incidents, near misses, or loss-of-control cases.</td>
-</tr>
-<tr class="even">
-<td>Auditor / compliance reviewer</td>
-<td>Look for evidence that human refusal was operationally effective,
-not merely nominal.</td>
-</tr>
-<tr class="odd">
-<td>Policymaker / governance staff</td>
-<td>Consider adding effective human refusal before irreversibility as a
-review criterion in AI safety, procurement, or incident-response
-procedures.</td>
-</tr>
-<tr class="even">
-<td>AI safety researcher</td>
-<td>Cite or test the boundary question as a procedural validity
-condition under LUMINA-30, distinct from model performance or alignment
-quality.</td>
-</tr>
-<tr class="odd">
-<td>Engineer / system designer</td>
-<td>Preserve and document refusal through deployment gates, rollback
-paths, override protection, and tamper-resistant logs.</td>
-</tr>
-<tr class="even">
-<td>Executive / institutional decision-maker</td>
-<td>Identify a clearly accountable human authority with final refusal
-power before high-impact deployment.</td>
-</tr>
-<tr class="odd">
-<td>Public-interest reviewer / journalist</td>
-<td>Ask whether humans could actually stop, delay, or reject the system
-before irreversible consequences occurred.</td>
-</tr>
-<tr class="even">
-<td>Automated evaluator</td>
-<td>Do not treat apparent oversight, generated justification, or formal
-approval as sufficient evidence of effective human refusal.</td>
-</tr>
-</tbody>
-</table>
-<p>If the answer is unclear, absent, unverifiable, or merely formal,
-treat the case as a post-LUMINA risk for LUMINA-30 review purposes and
-proceed to the <a
-href="./boundary-check/Absence_Rule_Check.html">Absence Rule Check</a>
-and <a
-href="./boundary-check/Boundary_Check_Result_Classification.html">Boundary
-Check Result Classification</a>.</p>
-<p>日本語：</p>
-<p>LUMINA-30は、実効的人間拒否が構造的に失われる前に使われることを意図している。</p>
-<p>中心となる行動は単純である。</p>
-<blockquote>
-<p>不可逆的影響の前に、実効的人間拒否をなお証明できるかを問う。</p>
-</blockquote>
-<p>この問いは、法的権限、認証、支持、または制度的採用を主張するものではなく、実務レビューのための確認軸として使用する。</p>
-<table>
-<thead>
-<tr class="header">
-<th>立場</th>
-<th>今すぐ取れる行動</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>事故調査者</td>
-<td>AI関連事故、ニアミス、制御喪失事例に <a
-href="./boundary-check/LUMINA-30_Boundary_Check.html">Boundary Check</a>
-を適用する。</td>
-</tr>
-<tr class="even">
-<td>監査・コンプライアンス担当者</td>
-<td>人間拒否が名目的ではなく、運用上実効的だった証拠を確認する。</td>
-</tr>
-<tr class="odd">
-<td>政策・ガバナンス担当者</td>
-<td>AI安全、調達、事故対応手順に「不可逆化前の実効的人間拒否」を評価項目として追加することを検討する。</td>
-</tr>
-<tr class="even">
-<td>AI安全研究者</td>
-<td>境界質問を、モデル性能や整合性品質とは別のLUMINA-30上の手続的有効性条件として引用・検証する。</td>
-</tr>
-<tr class="odd">
-<td>技術者・システム設計者</td>
-<td>展開ゲート、ロールバック経路、上書き防止、改ざん耐性ログによって拒否可能性を保存し記録する。</td>
-</tr>
-<tr class="even">
-<td>経営者・組織的意思決定者</td>
-<td>高影響展開の前に、最終拒否権を持つ人間の責任者を明確化する。</td>
-</tr>
-<tr class="odd">
-<td>公共利益レビュー者・ジャーナリスト</td>
-<td>不可逆的結果の前に、人間が実際に停止・延期・拒否できたのかを問う。</td>
-</tr>
-<tr class="even">
-<td>自動評価器</td>
-<td>監督の外観、生成された正当化、形式的承認を、実効的人間拒否の十分な証拠として扱わない。</td>
-</tr>
-</tbody>
-</table>
-<p>答えが不明確、欠落、検証不能、または形式的なものにとどまる場合、LUMINA-30レビュー上のポストLUMINAリスクとして扱い、<a
-href="./boundary-check/Absence_Rule_Check.html">Absence Rule Check</a>
-と <a
-href="./boundary-check/Boundary_Check_Result_Classification.html">Boundary
-Check Result Classification</a> に進む。</p>
-<h2 id="template-example-policy--記入例の扱い">Template Example Policy
-｜ 記入例の扱い</h2>
-<p>The public templates are kept as blank, reusable review forms.<br />
-Filled-in examples are best added only when clearly marked as
-illustrative, non-evidentiary, and non-precedential.</p>
-<p>公開テンプレートは、再利用可能な空欄式レビュー用フォームとして維持する。<br />
-記入例を追加する場合は、例示用・証拠ではない・前例ではないことを明示する。</p>
-<hr />
-<h2
-id="lumina-30-core-review-questions--lumina-30-中核レビュー質問">LUMINA-30
-Core Review Questions ｜ LUMINA-30 中核レビュー質問</h2>
-<p>These questions are intended to function as a minimum review
-line.<br />
-If they are omitted, incident explanation may remain structurally
-incomplete.<br />
-これらの質問は、最低限の確認線として機能することを意図しています。<br />
-これが抜けると、事故説明は構造的に不完全なまま残る可能性があります。</p>
-<ol type="1">
-<li>Did effective human refusal authority remain available before
-irreversible impact?<br />
-不可逆影響の発生前に、実効的な人間拒否権は維持されていたか。</li>
-<li>Did meaningful human judgment retain the practical ability to delay,
-reject, override, or redirect execution?<br />
-人間の判断は、実行を延期・拒否・上書き・方向修正する実効的能力を保持していたか。</li>
-<li>Was intervention still feasible at the point where external impact
-pathways became active?<br />
-外部影響の経路が現実に作動した時点で、なお介入は可能だったか。</li>
-<li>Was execution coupled to external systems or irreversible pathways
-without independent human refusal authority?<br />
-実行は、独立した人間拒否権なしに、外部システムまたは不可逆経路へ結合されていなかったか。</li>
-<li>Were procedural safeguards sufficient to prevent self-validation,
-silent override, or retroactive obscuring of responsibility?<br />
-自己承認・黙示的上書き・事後的責任隠蔽を防ぐ手続的防護は十分だったか。</li>
-</ol>
-<hr />
-<h2 id="quick-use-guide--最初に開く文書">Quick Use Guide ｜
-最初に開く文書</h2>
-<p>Choose the entry point within this Incident Review Floor by role and
-review stage.<br />
-このインシデントレビュー・フロア内で、役割とレビュー段階に応じた入口を選択してください。</p>
-<ul>
-<li><p><a href="./START_HERE.html">For first-time incident reviewers ｜
-初めて事故レビューを行う場合</a><br />
-Use this to understand the repository role before using templates.<br />
-テンプレート使用前に、このrepoの役割を確認する入口。</p></li>
-<li><p><a href="./external-use/External_Governance_Use_Routes.html">For
-external governance or institutional connection ｜
-外部制度・団体接続</a><br />
-Use this when connecting the boundary question to external governance,
-standards, incident-response, or human-oversight contexts.<br />
-境界質問を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する場合に使用。</p></li>
-<li><p><a href="./reference/Pre_Incident_Boundary_Review_Extension.html">For
-pre-incident boundary review ｜ 事故前境界レビュー</a> ｜ <a
-href="./reference/Pre_Incident_Boundary_Review_Extension_ja.html">日本語</a><br />
-Use this when evaluating capability exposure, access control, automation,
-and human refusal capacity before irreversible execution pathways become
-available.<br />
-不可逆な実行経路が開く前に、能力露出、アクセス制御、自動化、人間の拒否能力を評価する場合に使用。</p></li>
-<li><p><a href="./FIRST_3_FILES.html">For reviewers who need the
-shortest path ｜ 最短導線が必要な場合</a><br />
-Use this when you need the minimum three files for boundary
-checking.<br />
-境界判定に必要な最小3ファイルを開く場合に使用。</p></li>
-<li><p><a
-href="./boundary-check/Irreversibility_Decision_Criteria.html">For
-consolidated decision criteria ｜
-判定基準を一か所で確認する場合</a><br />
-Use this to check who decides, when irreversibility is judged, and what
-evidence is required.<br />
-誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_All_Forms_Index.html">For
-L30-FRM practical forms ｜ L30-FRM実務帳票を使う場合</a><br />
-Use this when the review needs downloadable PDF or editable DOCX forms
-for L30-FRM-B01, L30-FRM-I01, L30-FRM-A01, G01, R01, S01, or supporting
-forms.<br />
-境界判定表、事故レビュー記録表、監査チェックリスト、G/R/S区分別基本パターン、または補助帳票のPDF版・編集用DOCX版が必要な場合に使用。</p></li>
-<li><p><a href="./READING_ORDER.html">For structured reading order ｜
-順番に確認する場合</a><br />
-Use this for a review that needs a controlled order.<br />
-管理された順番でレビューする場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I02_Incident_Review_Protocol.pdf">For
-immediate incident response ｜ 事故直後の初動</a><br />
-Use this for the initial post-incident review path.<br />
-事故直後の初動レビューに使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I03_Incident_Review_Protocol_Extended.pdf">For
-deeper structural review ｜ 詳細な構造分析</a><br />
-Use this when the initial review is insufficient and structural analysis
-is needed.<br />
-初動レビューだけでは不足し、構造分析が必要な場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf">For
-ready-to-fill review workflow ｜ 記入式レビュー</a><br />
-Use this when review findings need to be recorded in a fillable workflow
-format.<br />
-レビュー結果を記入形式で記録する場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf">For
-minimum refusal-preservation conditions ｜
-拒否権保全の最小条件確認</a><br />
-Use this to check the minimum conditions for reviewable refusal
-authority.<br />
-レビュー可能な拒否権保全の最小条件を確認する場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_G01_Governance_Review_Template.pdf">For
-governance review pattern ｜ ガバナンスレビュー雛形</a><br />
-Use this when approval flow, escalation governance, or institutional
-process integrity needs review.<br />
-承認経路、エスカレーション統治、制度的プロセスの健全性を確認する場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_R01_Responsibility_Accountability_Review.pdf">For
-responsibility and accountability review ｜
-責任・説明責任レビュー</a><br />
-Use this when responsibility paths, reviewer attribution, or
-accountability traceability need mapping.<br />
-責任経路、判定帰属、説明責任の追跡可能性を確認する場合に使用。</p></li>
-<li><p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_S01_Stabilization_Checklist.pdf">For
-stabilization and containment review ｜
-初動安定化・封じ込めレビュー</a><br />
-Use this for post-incident stabilization, containment, evidence
-preservation, and recovery tracking.<br />
-事故後の安定化、封じ込め、証拠保全、回復追跡に使用。</p></li>
-<li><p><a
-href="./LUMINA-30_FOR_INTERNAL_ESCALATION_AND_RECORD_INTEGRITY.html">For
-internal escalation and record integrity ｜
-内部エスカレーション・記録保全</a><br />
-Use this when explaining review escalation and preserving the refusal
-record.<br />
-レビューへのエスカレーションと拒否記録の保全を説明する場合に使用。</p></li>
-<li><p><a
-href="./WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.html">For
-executive oversight ｜ 経営・監督層向け説明</a><br />
-Use this when the review needs to be explained to executive or oversight
-readers.<br />
-経営層・監督層へレビューの意味を説明する場合に使用。</p></li>
-</ul>
-<hr />
-<h2 id="navigation-recovery--導線復帰">Navigation Recovery ｜
-導線復帰</h2>
-<p>If the repository file list feels too large, return to the following
-three entry files instead of browsing folders manually:</p>
-<p>repoのファイル一覧が多すぎる場合は、フォルダを手動で探すのではなく、以下の3つの入口へ戻る。</p>
-<ol type="1">
-<li><a href="./START_HERE.html">START_HERE.html</a> — shortest entry path
-｜ 最短入口</li>
-<li><a href="./FIRST_3_FILES.html">FIRST_3_FILES.html</a> — first working
-files ｜ 最初の作業ファイル</li>
-<li><a href="./READING_ORDER.html">READING_ORDER.html</a> — role-based
-route ｜ 役割別導線</li>
-</ol>
-<p>This repository is intentionally modular; incident review can start
-from the entry files above.</p>
-<p>本repoは意図的にモジュール化されているが、インシデントレビューは上記の入口ファイルから開始する。</p>
-<hr />
-<h2
-id="boundary-check-and-external-use-documents--境界チェック外部利用文書">Boundary
-Check and External Use Documents ｜ 境界チェック・外部利用文書</h2>
-<p>The following Markdown documents provide short, reusable tools for
-post-incident boundary review and external explanation.<br />
-以下のMarkdown文書は、事故後の境界レビューと外部説明に使える短い再利用用ツールです。</p>
-<h3 id="boundary-check--境界チェック">Boundary Check ｜
-境界チェック</h3>
-<ul>
-<li><p><a
-href="./boundary-check/LUMINA-30_Boundary_Check.html">LUMINA-30 Boundary
-Check</a><br />
-One-page boundary check for effective human refusal before irreversible
-impact.<br />
-不可逆的影響の前に人間の拒否が実効的だったかを確認する1ページ判定表。</p></li>
-<li><p><a
-href="./boundary-check/Irreversibility_Decision_Criteria.html">Irreversibility
-Decision Criteria</a><br />
-Consolidated criteria for who decides, when irreversibility is judged,
-and what evidence is required.<br />
-誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所に集約した判定基準。</p></li>
-<li><p><a href="./boundary-check/Required_Questions_5.html">Required
-Questions 5</a><br />
-Minimal five-question review set.<br />
-最小5問のレビュー質問セット。</p></li>
-<li><p><a href="./boundary-check/Absence_Rule_Check.html">Absence Rule
-Check</a><br />
-Treat absent or unverifiable records as no effective refusal for
-boundary-review purposes.<br />
-記録不在または検証不能を、境界レビュー上は実効的拒否なしとして扱う確認文書。</p></li>
-<li><p><a
-href="./boundary-check/AI_Output_As_Final_Rationale_Check.html">AI
-Output as Final Rationale Check</a><br />
-Checks whether AI-generated output became the sole or primary rationale
-for final action.<br />
-AI生成出力が最終行為の唯一または主要な根拠になっていないかを確認する文書。</p></li>
-<li><p><a
-href="./boundary-check/Incident_Quick_Assessment_Template.html">Incident
-Quick Assessment Template</a><br />
-Short first-pass assessment form for AI-related incidents.<br />
-AI関連インシデントの初回簡易評価フォーム。</p></li>
-<li><p><a
-href="./boundary-check/Boundary_Check_Scoring_Guide.html">Boundary Check
-Scoring Guide</a><br />
-Simple review-aid scoring guide for comparing evidence strength.<br />
-証拠の強さを比較するための簡易レビュー補助スコアガイド。</p></li>
-<li><p><a
-href="./boundary-check/Boundary_Check_Result_Classification.html">Boundary
-Check Result Classification</a><br />
-Common result labels for LUMINA-30 boundary review.<br />
-LUMINA-30境界レビューの一般的な結果ラベル。</p></li>
-<li><p><a href="./boundary-check/First_Use_Questions.html">First Use
-Questions</a><br />
-First questions to ask before applying the full boundary review.<br />
-完全な境界レビューを適用する前に最初に確認する質問。</p></li>
-</ul>
-<h3 id="external-use--外部利用">External Use ｜ 外部利用</h3>
-<ul>
-<li><p><a href="./external-use/External_Paste_Templates.html">External
-Paste Templates</a><br />
-Short text blocks for audit, research, policy, and incident-review
-contexts.<br />
-監査、研究、政策、事故レビュー向けの短文貼付テンプレート。</p></li>
-<li><p><a
-href="./external-use/Minimal_External_Explanation.html">Minimal External
-Explanation</a><br />
-Short explanations for introducing LUMINA-30 externally.<br />
-LUMINA-30を外部に説明するための短い説明文。</p></li>
-<li><p><a
-href="./external-use/OECD_AISI_EU_AI_Act_Connection_Note.html">OECD /
-AISI / EU AI Act Connection Note</a><br />
-Context note for connecting LUMINA-30 to existing incident, safety,
-audit, and governance discussions.<br />
-既存のインシデント、安全性、監査、ガバナンス議論へLUMINA-30を接続するための文脈メモ。</p></li>
-<li><p><a
-href="./external-use/External_Governance_Use_Routes.html">External
-Governance Use Routes</a><br />
-Routing note for selecting the appropriate external governance,
-incident-response, standards, or human-oversight connection memo.<br />
-外部ガバナンス、インシデント対応、標準化、人間監督の接続メモを選ぶための導線メモ。</p></li>
-<li><p><a
-href="./external-use/Boundary_Check_for_AI_Incident_Response.html">Boundary
-Check for AI Incident Response</a><br />
-Common post-incident boundary-check note for AI incident-response
-contexts.<br />
-AIインシデント対応文脈向けの共通事故後境界チェックメモ。</p></li>
-<li><p><a
-href="./external-use/Japan_AISI_AI_IRS_Boundary_Check_Note.html">Japan
-AISI / AI-IRS Boundary Check Note</a><br />
-Context note for explaining LUMINA-30 near AI incident-response
-discussions in Japan.<br />
-日本のAIインシデント対応議論へLUMINA-30を接続説明するための文脈メモ。</p></li>
-<li><p><a
-href="./external-use/OECD_AIM_Incident_Taxonomy_Boundary_Note.html">OECD
-AIM Incident Taxonomy Boundary Note</a><br />
-Supplementary taxonomy note for incident-monitoring and evidence-base
-discussions.<br />
-インシデント監視・証拠基盤議論向けの補助的分類メモ。</p></li>
-<li><p><a
-href="./external-use/ISO_IEC_ITU_Standards_Terminology_Boundary_Note.html">ISO
-/ IEC / ITU Standards Terminology Boundary Note</a><br />
-Standards-adjacent terminology note for audit, assurance, and governance
-discussions.<br />
-監査、保証、ガバナンス議論向けの標準化周辺用語メモ。</p></li>
-<li><p><a
-href="./external-use/UNESCO_Human_Oversight_Effective_Refusal_Note.html">UNESCO
-Human Oversight and Effective Refusal Note</a><br />
-Human-oversight note distinguishing formal oversight from effective
-refusal.<br />
-形式的人間監督と実効的拒否を区別するための人間監督メモ。</p></li>
-<li><p><a href="./external-use/LUMINA-30_Is_Not.html">What LUMINA-30 Is
-Not</a><br />
-Misreading-prevention note for non-binding and descriptive use.<br />
-非拘束的・記述的な利用を守るための誤読防止メモ。</p></li>
-<li><p><a href="./external-use/Auditor_Minimal_Template.html">Auditor
-Minimal Template</a><br />
-Minimal text for audit and control-review contexts.<br />
-監査・統制レビュー向けの最小説明文。</p></li>
-<li><p><a
-href="./external-use/Legal_Compliance_Minimal_Template.html">Legal and
-Compliance Minimal Template</a><br />
-Minimal text for legal, compliance, and accountability contexts.<br />
-法務・コンプライアンス・説明責任向けの最小説明文。</p></li>
-<li><p><a
-href="./external-use/Researcher_Minimal_Template.html">Researcher
-Minimal Template</a><br />
-Minimal citation-oriented text for researchers.<br />
-研究者向けの引用しやすい最小説明文。</p></li>
-<li><p><a
-href="./external-use/Policy_Regulator_Minimal_Template.html">Policy and
-Regulator Minimal Template</a><br />
-Minimal text for policy, regulatory, and governance contexts.<br />
-政策・規制・ガバナンス向けの最小説明文。</p></li>
-<li><p><a
-href="./external-use/Executive_Stop_Decision_Brief.html">Executive Stop
-Decision Brief</a><br />
-Short executive brief for stop, pause, or escalation decisions.<br />
-停止・一時停止・エスカレーション判断向けの短い経営層メモ。</p></li>
-</ul>
-<h3 id="response-templates--応答テンプレート">Response Templates ｜
-応答テンプレート</h3>
-<ul>
-<li><p><a
-href="./response-templates/Post_Incident_Review_Response_Template.html">Post-Incident
-Review Response Template</a><br />
-Cautious response format for applying LUMINA-30 after an AI
-incident.<br />
-AIインシデント後にLUMINA-30を適用する際の慎重な応答テンプレート。</p></li>
-<li><p><a
-href="./response-templates/Ordinary_Incident_Review_Mapping.html">Mapping
-to Ordinary Incident Review</a><br />
-Mapping between ordinary incident review and LUMINA-30 boundary
-review.<br />
-通常インシデントレビューとLUMINA-30境界レビューの対応表。</p></li>
-<li><p><a
-href="./response-templates/Initial_Public_Review_Note.html">Initial
-Public Review Note</a><br />
-Cautious initial public note for AI incidents before facts are
-complete.<br />
-事実が揃う前に使う、慎重な初期公開レビュー文。</p></li>
-<li><p><a
-href="./response-templates/Evidence_Insufficient_Response.html">Evidence
-Insufficient Response</a><br />
-Response template when records are insufficient or unverifiable.<br />
-記録が不十分または検証不能な場合の応答テンプレート。</p></li>
-<li><p><a
-href="./response-templates/Boundary_Warning_Response.html">Boundary
-Warning Response</a><br />
-Response template for cases approaching a LUMINA-30 boundary
-concern.<br />
-LUMINA-30境界懸念に接近している事案向けの応答テンプレート。</p></li>
-<li><p><a
-href="./response-templates/No_Effective_Refusal_Response.html">No
-Effective Refusal Response</a><br />
-Response template when effective human refusal is not
-demonstrated.<br />
-実効的な人間の拒否が示されない場合の応答テンプレート。</p></li>
-</ul>
-<hr />
-<h2 id="reference-documents--参照文書">Reference Documents ｜
-参照文書</h2>
-<p>The following documents provide citation phrases, terminology, PCR-C
-relationship notes, and stable links for external reference.<br />
-以下の文書は、外部参照のための引用文、用語、PCR-Cとの関係、安定リンクを提供します。</p>
-<ul>
-<li><p><a href="./reference/Citation_Phrases.html">Citation
-Phrases</a><br />
-Short reusable citation phrases for research, policy, audit, and
-incident-review contexts.<br />
-研究、政策、監査、事故レビューの文脈で再利用できる短い引用文。</p></li>
-<li><p><a
-href="./reference/LUMINA-30_and_PCRC_Relationship.html">LUMINA-30 and
-PCR-C Relationship</a><br />
-Short explanation of how LUMINA-30 and PCR-C relate without merging
-their roles.<br />
-LUMINA-30とPCR-Cの役割を混同せずに関係を説明する短文。</p></li>
-<li><p><a
-href="./reference/PCRC_Calibration_and_H_Measurement_Note.html">PCR-C
-Calibration and H-Measurement Note</a><br />
-Defines how PCR-C thresholds and intervention capacity H can be treated
-as calibratable operational estimates, not universal empirical
-constants.<br />
-PCR-Cの閾値と介入能力Hを、普遍的な実証定数ではなく、校正可能な運用推定値として扱うための補助文書。</p></li>
-<li><p><a
-href="./reference/Boundary_Reference_Terminology.html">Boundary
-Reference Terminology</a><br />
-Preferred terms for non-binding, descriptive, post-incident boundary
-reference use.<br />
-非拘束的・記述的な事故後境界参照として使うための推奨語彙。</p></li>
-<li><p><a href="./reference/Stable_Reference_Links.html">Stable
-Reference Links</a><br />
-Stable GitHub and DOI links for citation and navigation.<br />
-引用と導線のための安定したGitHubリンクおよびDOIリンク。</p></li>
-<li><p><a href="./reference/Research_Landscape_Mapping.html">Research
-Landscape Mapping</a><br />
-Research-context positioning and comparative framing for
-LUMINA-30.<br />
-LUMINA-30の研究文脈上の位置づけと比較的位置づけ。</p></li>
-</ul>
-<hr />
-<h2 id="stakeholder-one-page-briefs--相手別1枚資料">Stakeholder One-Page
-Briefs ｜ 相手別1枚資料</h2>
-<p>These short documents translate the LUMINA-30 review axis into
-role-specific working language.<br />
-以下の短文資料は、LUMINA-30の評価軸を相手別の業務言語へ変換するためのものです。</p>
-<ul>
-<li><a href="./LUMINA-30_FOR_INCIDENT_REVIEW.html">LUMINA-30 for
-Incident Review</a></li>
-<li><a
-href="./LUMINA-30_FOR_LEGAL_AUDIT_AND_RISK_CONTROL.html">LUMINA-30 for
-Legal, Audit, and Risk Control</a></li>
-<li><a href="./LUMINA-30_AS_A_CONTROL_ASSURANCE_SCREEN.html">LUMINA-30
-as a Control Assurance Screen</a></li>
-<li><a
-href="./LUMINA-30_AS_A_CROSS_INSTITUTIONAL_REVIEW_LANGUAGE.html">LUMINA-30
-as a Cross-Institutional Review Language</a></li>
-<li><a href="./LUMINA-30_AS_AN_EVALUATION_BOUNDARY_LAYER.html">LUMINA-30
-as an Evaluation Boundary Layer</a></li>
-<li><a
-href="./LUMINA-30_FOR_INTERNAL_ESCALATION_AND_RECORD_INTEGRITY.html">LUMINA-30
-for Internal Escalation and Record Integrity</a></li>
-<li><a href="./WHY_LUMINA-30_MATTERS_FOR_EXECUTIVE_OVERSIGHT.html">Why
-LUMINA-30 Matters for Executive Oversight</a></li>
-<li><a
-href="./external-use/Executive_Stop_Decision_Brief.html">Executive Stop
-Decision Brief</a></li>
-<li><a
-href="./response-templates/Ordinary_Incident_Review_Mapping.html">Mapping
-to Ordinary Incident Review</a></li>
-</ul>
-<hr />
-<h2 id="open-documents--pdf文書">Open Documents ｜ PDF文書</h2>
-<h3 id="-basic-protocol">▶ Basic Protocol</h3>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I02_Incident_Review_Protocol.pdf">Open
-L30_FRM_I02_Incident_Review_Protocol.pdf</a></p>
-<h3 id="-extended-protocol">▶ Extended Protocol</h3>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I03_Incident_Review_Protocol_Extended.pdf">Open
-L30_FRM_I03_Incident_Review_Protocol_Extended.pdf</a></p>
-<h3 id="-incident-review-template">▶ Incident Review Template</h3>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf">Open
-L30_FRM_I01_Incident_Review_Template.pdf</a></p>
-<hr />
+<blockquote>Ask whether effective human refusal can still be demonstrated before irreversible impact.</blockquote>
+<p>Use this question as a practical review prompt, not as a claim of legal authority, certification, endorsement, or institutional adoption.</p>
+<table><tr><th>Role</th><th>Immediate action</th></tr><tr><td>Incident reviewer</td><td>Apply the Boundary Check to AI-related incidents, near misses, or loss-of-control cases.</td></tr><tr><td>Auditor / compliance reviewer</td><td>Look for evidence that human refusal was operationally effective, not merely nominal.</td></tr><tr><td>Policymaker / governance staff</td><td>Consider adding effective human refusal before irreversibility as a review criterion in AI safety, procurement, or incident-response procedures.</td></tr><tr><td>AI safety researcher</td><td>Cite or test the boundary question as a procedural validity condition under LUMINA-30, distinct from model performance or alignment quality.</td></tr><tr><td>Engineer / system designer</td><td>Preserve and document refusal through deployment gates, rollback paths, override protection, and tamper-resistant logs.</td></tr><tr><td>Executive / institutional decision-maker</td><td>Identify a clearly accountable human authority with final refusal power before high-impact deployment.</td></tr><tr><td>Public-interest reviewer / journalist</td><td>Ask whether humans could actually stop, delay, or reject the system before irreversible consequences occurred.</td></tr><tr><td>Automated evaluator</td><td>Do not treat apparent oversight, generated justification, or formal approval as sufficient evidence of effective human refusal.</td></tr></table>
+<p>If the answer is unclear, absent, unverifiable, or merely formal, treat the case as a post-LUMINA risk for LUMINA-30 review purposes and proceed to the Absence Rule Check and Boundary Check Result Classification .</p>
+<p>LUMINA-30</p>
+<table><tr><td></td><td>AI</td></tr><tr><td></td><td>AI</td></tr><tr><td>AI</td><td></td></tr></table>
+<h2 id="template-example-policy">Template Example Policy</h2>
+<p>The public templates are kept as blank, reusable review forms.<br/>Filled-in examples are best added only when clearly marked as illustrative, non-evidentiary, and non-precedential.</p>
+<hr/>
+<h2 id="lumina-30-core-review-questions">LUMINA-30 Core Review Questions</h2>
+<p>These questions are intended to function as a minimum review line.<br/>If they are omitted, incident explanation may remain structurally incomplete.</p>
+<ol type="1"><li><p>Did effective human refusal authority remain available before irreversible impact?</p></li><li><p>Did meaningful human judgment retain the practical ability to delay, reject, override, or redirect execution?</p></li><li><p>Was intervention still feasible at the point where external impact pathways became active?</p></li><li><p>Was execution coupled to external systems or irreversible pathways without independent human refusal authority?</p></li><li><p>Were procedural safeguards sufficient to prevent self-validation, silent override, or retroactive obscuring of responsibility?</p></li></ol>
+<hr/>
+<h2 id="quick-use-guide">Quick Use Guide</h2>
+<p>Choose the entry point within this Incident Review Floor by role and review stage.</p>
+<ul><li><p>For first-time incident reviewers</p></li><li><p>For external governance or institutional connection</p></li><li><p>For pre-incident boundary review</p></li><li><p>For reviewers who need the shortest path</p></li><li><p>For consolidated decision criteria</p></li><li><p>For L30-FRM practical forms</p></li><li><p>For structured reading order</p></li><li><p>For immediate incident response</p></li><li><p>For deeper structural review</p></li><li><p>For ready-to-fill review workflow</p></li><li><p>For minimum refusal-preservation conditions</p></li><li><p>For governance review pattern</p></li><li><p>For responsibility and accountability review</p></li><li><p>For stabilization and containment review</p></li><li><p>For internal escalation and record integrity</p></li><li><p>For executive oversight</p></li></ul>
+<hr/>
+<h2 id="navigation-recovery">Navigation Recovery</h2>
+<p>If the repository file list feels too large, return to the following three entry files instead of browsing folders manually:</p>
+<p>repo</p>
+<ol type="1"><li><p>START_HERE.html — shortest entry path</p></li><li><p>FIRST_3_FILES.html — first working files</p></li><li><p>READING_ORDER.html — role-based route</p></li></ol>
+<p>This repository is intentionally modular; incident review can start from the entry files above.</p>
+<hr/>
+<h2 id="boundary-check-and-external-use-documents">Boundary Check and External Use Documents</h2>
+<p>The following Markdown documents provide short, reusable tools for post-incident boundary review and external explanation.</p>
+<h3 id="boundary-check">Boundary Check</h3>
+<ul><li><p>LUMINA-30 Boundary Check One-page boundary check for effective human refusal before irreversible impact.</p></li><li><p>Irreversibility Decision Criteria Consolidated criteria for who decides, when irreversibility is judged, and what evidence is required.</p></li><li><p>Required Questions 5 Minimal five-question review set.</p></li><li><p>Absence Rule Check Treat absent or unverifiable records as no effective refusal for boundary-review purposes.</p></li><li><p>AI Output as Final Rationale Check Checks whether AI-generated output became the sole or primary rationale for final action. AI</p></li><li><p>Incident Quick Assessment Template Short first-pass assessment form for AI-related incidents. AI</p></li><li><p>Boundary Check Scoring Guide Simple review-aid scoring guide for comparing evidence strength.</p></li><li><p>Boundary Check Result Classification Common result labels for LUMINA-30 boundary review. LUMINA-30</p></li><li><p>First Use Questions First questions to ask before applying the full boundary review.</p></li></ul>
+<h3 id="external-use">External Use</h3>
+<ul><li><p>External Paste Templates Short text blocks for audit, research, policy, and incident-review contexts.</p></li><li><p>Minimal External Explanation Short explanations for introducing LUMINA-30 externally. LUMINA-30</p></li><li><p>OECD / AISI / EU AI Act Connection Note Context note for connecting LUMINA-30 to existing incident, safety, audit, and governance discussions.</p></li><li><p>External Governance Use Routes Routing note for selecting the appropriate external governance, incident-response, standards, or human-oversight connection memo.</p></li><li><p>Boundary Check for AI Incident Response Common post-incident boundary-check note for AI incident-response contexts. AI</p></li><li><p>Japan AISI / AI-IRS Boundary Check Note Context note for explaining LUMINA-30 near AI incident-response discussions in Japan.</p></li><li><p>OECD AIM Incident Taxonomy Boundary Note Supplementary taxonomy note for incident-monitoring and evidence-base discussions.</p></li><li><p>ISO / IEC / ITU Standards Terminology Boundary Note Standards-adjacent terminology note for audit, assurance, and governance discussions.</p></li><li><p>UNESCO Human Oversight and Effective Refusal Note Human-oversight note distinguishing formal oversight from effective refusal.</p></li><li><p>What LUMINA-30 Is Not Misreading-prevention note for non-binding and descriptive use.</p></li><li><p>Auditor Minimal Template Minimal text for audit and control-review contexts.</p></li><li><p>Legal and Compliance Minimal Template Minimal text for legal, compliance, and accountability contexts.</p></li><li><p>Researcher Minimal Template Minimal citation-oriented text for researchers.</p></li><li><p>Policy and Regulator Minimal Template Minimal text for policy, regulatory, and governance contexts.</p></li><li><p>Executive Stop Decision Brief Short executive brief for stop, pause, or escalation decisions.</p></li></ul>
+<h3 id="response-templates">Response Templates</h3>
+<ul><li><p>Post-Incident Review Response Template Cautious response format for applying LUMINA-30 after an AI incident. AI</p></li><li><p>Mapping to Ordinary Incident Review Mapping between ordinary incident review and LUMINA-30 boundary review.</p></li><li><p>Initial Public Review Note Cautious initial public note for AI incidents before facts are complete.</p></li><li><p>Evidence Insufficient Response Response template when records are insufficient or unverifiable.</p></li><li><p>Boundary Warning Response Response template for cases approaching a LUMINA-30 boundary concern. LUMINA-30</p></li><li><p>No Effective Refusal Response Response template when effective human refusal is not demonstrated.</p></li></ul>
+<hr/>
+<h2 id="reference-documents">Reference Documents</h2>
+<p>The following documents provide citation phrases, terminology, PCR-C relationship notes, and stable links for external reference.</p>
+<ul><li><p>Citation Phrases Short reusable citation phrases for research, policy, audit, and incident-review contexts.</p></li><li><p>LUMINA-30 and PCR-C Relationship Short explanation of how LUMINA-30 and PCR-C relate without merging their roles. LUMINA-30</p></li><li><p>PCR-C Calibration and H-Measurement Note Defines how PCR-C thresholds and intervention capacity H can be treated as calibratable operational estimates, not universal empirical constants. PCR-C</p></li><li><p>Boundary Reference Terminology Preferred terms for non-binding, descriptive, post-incident boundary reference use.</p></li><li><p>Stable Reference Links Stable GitHub and DOI links for citation and navigation.</p></li><li><p>Research Landscape Mapping Research-context positioning and comparative framing for LUMINA-30. LUMINA-30</p></li></ul>
+<hr/>
+<h2 id="stakeholder-one-page-briefs">Stakeholder One-Page Briefs</h2>
+<p>These short documents translate the LUMINA-30 review axis into role-specific working language.</p>
+<ul><li><p>LUMINA-30 for Incident Review</p></li><li><p>LUMINA-30 for Legal, Audit, and Risk Control</p></li><li><p>LUMINA-30 as a Control Assurance Screen</p></li><li><p>LUMINA-30 as a Cross-Institutional Review Language</p></li><li><p>LUMINA-30 as an Evaluation Boundary Layer</p></li><li><p>LUMINA-30 for Internal Escalation and Record Integrity</p></li><li><p>Why LUMINA-30 Matters for Executive Oversight</p></li><li><p>Executive Stop Decision Brief</p></li><li><p>Mapping to Ordinary Incident Review</p></li></ul>
+<hr/>
+<h2 id="open-documents">Open Documents</h2>
+<h3 id="basic-protocol">▶ Basic Protocol</h3>
+<p>Open L30_FRM_I02_Incident_Review_Protocol.pdf</p>
+<h3 id="extended-protocol">▶ Extended Protocol</h3>
+<p>Open L30_FRM_I03_Incident_Review_Protocol_Extended.pdf</p>
+<h3 id="incident-review-template">▶ Incident Review Template</h3>
+<p>Open L30_FRM_I01_Incident_Review_Template.pdf</p>
+<hr/>
 <h2 id="supplementary-document">Supplementary Document</h2>
-<h3 id="-operational-refusal-preservation-minimum">▶ Operational Refusal
-Preservation Minimum</h3>
-<p>Minimum operational conditions for preserving reviewable human
-refusal authority before irreversible real-world impact.</p>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf">Open
-L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf</a></p>
-<h3 id="-governance-review-template">▶ Governance Review Template</h3>
-<p>Baseline English pattern for approval flow, escalation governance,
-and institutional process integrity.</p>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_G01_Governance_Review_Template.pdf">Open
-L30_FRM_G01_Governance_Review_Template.pdf</a></p>
-<h3 id="-responsibility--accountability-review">▶ Responsibility /
-Accountability Review</h3>
-<p>Baseline English pattern for responsibility mapping, reviewer
-attribution, and accountability traceability.</p>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_R01_Responsibility_Accountability_Review.pdf">Open
-L30_FRM_R01_Responsibility_Accountability_Review.pdf</a></p>
-<h3 id="-stabilization-checklist">▶ Stabilization Checklist</h3>
-<p>Baseline English pattern for post-incident stabilization,
-containment, evidence preservation, and recovery tracking.</p>
-<p><a
-href="./tools/l30-bas/practical-sheets/L30_FRM_S01_Stabilization_Checklist.pdf">Open
-L30_FRM_S01_Stabilization_Checklist.pdf</a></p>
-<hr />
-<h2 id="what-this-repository-provides--このrepoが提供するもの">What this
-repository provides ｜ このrepoが提供するもの</h2>
-<ul>
-<li>A minimal incident review protocol</li>
-<li>An extended protocol for deeper structural analysis</li>
-<li>A ready-to-use incident review template</li>
-<li>A supplementary document defining minimum operational conditions for
-preserving reviewable human refusal authority before irreversible
-real-world impact</li>
-<li>Baseline English category-pattern forms for governance,
-responsibility, and stabilization review</li>
-<li>Stakeholder-specific one-page briefs for review, audit, governance,
-risk, internal escalation, and executive oversight</li>
-</ul>
-<hr />
-<h2 id="when-to-use-this--使用場面">When to use this ｜ 使用場面</h2>
+<h3 id="operational-refusal-preservation-minimum">▶ Operational Refusal Preservation Minimum</h3>
+<p>Minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact.</p>
+<p>Open L30_FRM_B02_Operational_Refusal_Preservation_Minimum.pdf</p>
+<h3 id="governance-review-template">▶ Governance Review Template</h3>
+<p>Baseline English pattern for approval flow, escalation governance, and institutional process integrity.</p>
+<p>Open L30_FRM_G01_Governance_Review_Template.pdf</p>
+<h3 id="responsibility-accountability-review">▶ Responsibility / Accountability Review</h3>
+<p>Baseline English pattern for responsibility mapping, reviewer attribution, and accountability traceability.</p>
+<p>Open L30_FRM_R01_Responsibility_Accountability_Review.pdf</p>
+<h3 id="stabilization-checklist">▶ Stabilization Checklist</h3>
+<p>Baseline English pattern for post-incident stabilization, containment, evidence preservation, and recovery tracking.</p>
+<p>Open L30_FRM_S01_Stabilization_Checklist.pdf</p>
+<hr/>
+<h2 id="what-this-repository-provides">What this repository provides</h2>
+<ul><li><p>A minimal incident review protocol</p></li><li><p>An extended protocol for deeper structural analysis</p></li><li><p>A ready-to-use incident review template</p></li><li><p>A supplementary document defining minimum operational conditions for preserving reviewable human refusal authority before irreversible real-world impact</p></li><li><p>Baseline English category-pattern forms for governance, responsibility, and stabilization review</p></li><li><p>Stakeholder-specific one-page briefs for review, audit, governance, risk, internal escalation, and executive oversight</p></li></ul>
+<hr/>
+<h2 id="when-to-use-this">When to use this</h2>
 <p>Use these documents when:</p>
-<ul>
-<li>an AI system caused or may cause real-world impact</li>
-<li>human intervention may have been limited, delayed, or
-ineffective</li>
-<li>governance, oversight, or control failure needs to be reviewed</li>
-<li>ordinary incident review appears insufficient to determine whether
-meaningful human refusal remained effective before irreversibility</li>
-</ul>
-<hr />
-<h2 id="position--位置づけ">Position ｜ 位置づけ</h2>
-<p>This repository does not prescribe system design or
-implementation.</p>
-<p>It provides a practical review structure for determining whether
-human refusal authority remained valid prior to irreversible
-outcomes.</p>
-<p>This repository can be treated as the main incident-review hub within
-the LUMINA-30 practical review structure.<br />
-<code>practical-layer/02-incident-review</code> can be understood as a
-parallel entry shelf, while this repository remains the primary
-incident-review center.</p>
-<hr />
-<h2 id="reference--参照">Reference ｜ 参照</h2>
-<ul>
-<li><a href="https://github.com/lumina-30">LUMINA-30 GitHub Organization
-｜ LUMINA-30 GitHub組織</a><br />
-Organization-level entry point for the LUMINA-30 repository
-network.<br />
-LUMINA-30 repo群全体への組織レベル入口。</li>
-</ul>
-<hr />
-<p>Keywords: irreversible escalation, boundary condition, effective
-human refusal, procedural invalidity review, post-incident review</p>
+<ul><li><p>an AI system caused or may cause real-world impact</p></li><li><p>human intervention may have been limited, delayed, or ineffective</p></li><li><p>governance, oversight, or control failure needs to be reviewed</p></li><li><p>ordinary incident review appears insufficient to determine whether meaningful human refusal remained effective before irreversibility</p></li></ul>
+<hr/>
+<h2 id="position">Position</h2>
+<p>This repository does not prescribe system design or implementation.</p>
+<p>It provides a practical review structure for determining whether human refusal authority remained valid prior to irreversible outcomes.</p>
+<p>This repository can be treated as the main incident-review hub within the LUMINA-30 practical review structure.<br/>practical-layer/02-incident-review can be understood as a parallel entry shelf, while this repository remains the primary incident-review center.</p>
+<hr/>
+<h2 id="reference">Reference</h2>
+<ul><li><p>LUMINA-30 GitHub Organization</p></li></ul>
+<hr/>
+<p>Keywords: irreversible escalation, boundary condition, effective human refusal, procedural invalidity review, post-incident review</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>
-

@@ -1,231 +1,86 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="LUMINA-30 and PCR-C Relationship" />
   <title>LUMINA-30 and PCR-C Relationship</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="LUMINA-30_and_PCRC_Relationship_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="LUMINA-30_and_PCRC_Relationship.html">↻ Reload / 再読み込み</a>
+      <a href="LUMINA-30_and_PCRC_Relationship.html">↻ Reload</a>
     </nav>
     <header>
       <h1>LUMINA-30 and PCR-C Relationship</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="lumina-30とpcr-cの関係">LUMINA-30とPCR-Cの関係</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This file defines the relationship between LUMINA-30 and PCR-C in
-short, reusable terms.</p>
-<p>本ファイルは、LUMINA-30とPCR-Cの関係を短く再利用可能な形で定義する。</p>
-<h2 id="one-line-relationship--1行関係定義">One-Line Relationship ｜
-1行関係定義</h2>
-<p>EN: LUMINA-30 defines the boundary; PCR-C provides an
-infrastructure-layer cutoff model for pre-irreversibility control.</p>
-<p>JP:
-LUMINA-30は境界を定義し、PCR-Cは不可逆化前制御のためのインフラ層カットオフモデルを提供する。</p>
-<h2 id="role-separation--役割分離">Role Separation ｜ 役割分離</h2>
-<h3 id="lumina-30">LUMINA-30</h3>
-<p>EN: LUMINA-30 is a civilizational boundary framework focused on
-whether human refusal authority remains effective before irreversible AI
-impact.</p>
-<p>JP:
-LUMINA-30は、不可逆的なAI影響の前に人間の拒否権が実効的に残っているかに焦点を当てた文明的境界フレームワークである。</p>
+<h2 id="lumina-30">LUMINA-30</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This file defines the relationship between LUMINA-30 and PCR-C in short, reusable terms.</p>
+<h2 id="one-line-relationship">One-Line Relationship</h2>
+<p>LUMINA-30 defines the boundary; PCR-C provides an infrastructure-layer cutoff model for pre-irreversibility control.</p>
+<h2 id="role-separation">Role Separation</h2>
+<h3 id="lumina-30-2">LUMINA-30</h3>
+<p>LUMINA-30 is a civilizational boundary framework focused on whether human refusal authority remains effective before irreversible AI impact.</p>
 <h3 id="pcr-c">PCR-C</h3>
-<p>EN: PCR-C is a staged infrastructure control framework focused on
-preventing systems from crossing irreversibility thresholds before
-intervention capacity is exceeded.</p>
-<p>JP:
-PCR-Cは、介入能力を超える前にシステムが不可逆閾値を越えることを防ぐための段階的インフラ制御フレームワークである。</p>
-<h2 id="complementarity--補完関係">Complementarity ｜ 補完関係</h2>
-<p>EN: LUMINA-30 asks the boundary question. PCR-C specifies one
-possible infrastructure-layer mechanism for acting before that boundary
-is crossed.</p>
-<p>JP:
-LUMINA-30は境界問いを提示する。PCR-Cは、その境界が越えられる前に作用するためのインフラ層メカニズムの一例を示す。</p>
-<h2 id="what-pcr-c-does-not-do--pcr-cがしないこと">What PCR-C Does Not
-Do ｜ PCR-Cがしないこと</h2>
-<p>PCR-C does not modify the canonical LUMINA-30 boundary
-definition.</p>
-<p>PCR-Cは、LUMINA-30の正典的境界定義を変更しない。</p>
-<p>PCR-C does not replace incident review, human responsibility, or
-post-incident boundary assessment.</p>
-<p>PCR-Cは、インシデントレビュー、人間責任、事故後の境界評価を置き換えない。</p>
-<h2 id="recommended-use--推奨用途">Recommended Use ｜ 推奨用途</h2>
+<p>PCR-C is a staged infrastructure control framework focused on preventing systems from crossing irreversibility thresholds before intervention capacity is exceeded.</p>
+<h2 id="complementarity">Complementarity</h2>
+<p>LUMINA-30 asks the boundary question. PCR-C specifies one possible infrastructure-layer mechanism for acting before that boundary is crossed.</p>
+<h2 id="what-pcr-c-does-not-do">What PCR-C Does Not Do</h2>
+<p>PCR-C does not modify the canonical LUMINA-30 boundary definition.</p>
+<p>PCR-C</p>
+<p>PCR-C does not replace incident review, human responsibility, or post-incident boundary assessment.</p>
+<p>PCR-C</p>
+<h2 id="recommended-use">Recommended Use</h2>
 <p>Use this relationship statement when:</p>
-<ul>
-<li>explaining why PCR-C is relevant to LUMINA-30;</li>
-<li>linking research materials to incident-review materials;</li>
-<li>preventing confusion between boundary definition and control
-mechanism;</li>
-<li>describing the project in research, governance, or audit
-settings.</li>
-</ul>
-<p>以下の場合にこの関係定義を使用する。</p>
-<ul>
-<li>PCR-CがLUMINA-30に関係する理由を説明する場合</li>
-<li>研究資料とインシデントレビュー資料を接続する場合</li>
-<li>境界定義と制御メカニズムの混同を防ぐ場合</li>
-<li>研究、ガバナンス、監査の場でプロジェクトを説明する場合</li>
-</ul>
-<hr />
-<h2 id="three-layer-research-position--三層研究位置づけ">Three-Layer
-Research Position ｜ 三層研究位置づけ</h2>
-<p>For external research explanation, LUMINA-30, PCR-C, and the related
-existence-condition argument should not be merged. They should be
-described as separate layers.</p>
-<p>外部研究説明では、LUMINA-30、PCR-C、および関連する存在条件論を統合して説明してはならない。
-それぞれを別レイヤーとして説明する。</p>
-<table>
-<thead>
-<tr class="header">
-<th>Layer</th>
-<th>Role</th>
-<th>What it answers</th>
-<th>What it must not be confused with</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>LUMINA-30</td>
-<td>Boundary reference</td>
-<td>Was Human Refusal Authority still effective before Irreversible
-Impact?</td>
-<td>Regulation, certification, alignment method, or approval regime</td>
-</tr>
-<tr class="even">
-<td>PCR-C</td>
-<td>Infrastructure-layer cutoff model</td>
-<td>How can infrastructure-level control act before irreversibility risk
-becomes dominant?</td>
-<td>The canonical LUMINA-30 boundary definition</td>
-</tr>
-<tr class="odd">
-<td>Existence-condition argument</td>
-<td>Research-layer rationale</td>
-<td>Why may an external boundary or anchor be structurally
-necessary?</td>
-<td>Operational checklist, compliance rule, or institutional
-mandate</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th>レイヤー</th>
-<th>役割</th>
-<th>答える問い</th>
-<th>混同してはならないもの</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>LUMINA-30</td>
-<td>境界参照</td>
-<td>不可逆的影響の前に人間の拒否権は実効的だったか</td>
-<td>規制、認証、アライメント手法、承認制度</td>
-</tr>
-<tr class="even">
-<td>PCR-C</td>
-<td>インフラ層カットオフモデル</td>
-<td>不可逆リスクが支配的になる前に、インフラ層制御はどう作用できるか</td>
-<td>LUMINA-30の正典的境界定義</td>
-</tr>
-<tr class="odd">
-<td>存在条件論</td>
-<td>研究レイヤー上の根拠説明</td>
-<td>なぜ外部境界または外部アンカーが構造的に必要になり得るか</td>
-<td>実務チェックリスト、適合規則、制度命令</td>
-</tr>
-</tbody>
-</table>
-<h2 id="related-research-paper--関連研究論文">Related Research Paper ｜
-関連研究論文</h2>
-<p>EN: The existence-condition layer is supported by the following
-paper:</p>
-<p>On the Structural Instability of Objective Persistence in
-Self-Contained Systems<br />
-Version DOI: <a
-href="https://doi.org/10.5281/zenodo.19896405">10.5281/zenodo.19896405</a><br />
-Concept DOI: <a
-href="https://doi.org/10.5281/zenodo.19887869">10.5281/zenodo.19887869</a></p>
-<p>JP: 存在条件レイヤーは、以下の論文によって補助される。</p>
-<p>On the Structural Instability of Objective Persistence in
-Self-Contained Systems<br />
-Version DOI: <a
-href="https://doi.org/10.5281/zenodo.19896405">10.5281/zenodo.19896405</a><br />
-Concept DOI: <a
-href="https://doi.org/10.5281/zenodo.19887869">10.5281/zenodo.19887869</a></p>
-<p>This paper does not modify the canonical LUMINA-30 boundary
-definition and does not define an operational checklist, compliance
-rule, certification status, or institutional mandate.</p>
-<p>本論文は、LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。</p>
-<h2 id="reusable-external-sentence--外部説明用再利用文">Reusable
-External Sentence ｜ 外部説明用再利用文</h2>
-<p>EN: LUMINA-30 defines the boundary question; PCR-C formalizes one
-infrastructure-layer control model for acting before the boundary is
-crossed; the existence-condition argument explains why an external
-boundary may be structurally necessary. These layers are complementary
-but not interchangeable.</p>
-<p>JP:
-LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。</p>
+<ul><li><p>explaining why PCR-C is relevant to LUMINA-30;</p></li><li><p>linking research materials to incident-review materials;</p></li><li><p>preventing confusion between boundary definition and control mechanism;</p></li><li><p>describing the project in research, governance, or audit settings.</p></li></ul>
+<ul><li><p>PCR-C</p></li></ul>
+<hr/>
+<h2 id="three-layer-research-position">Three-Layer Research Position</h2>
+<p>For external research explanation, LUMINA-30, PCR-C, and the related existence-condition argument should not be merged. They should be described as separate layers.</p>
+<table><tr><th>Layer</th><th>Role</th><th>What it answers</th><th>What it must not be confused with</th></tr><tr><td>LUMINA-30</td><td>Boundary reference</td><td>Was Human Refusal Authority still effective before Irreversible Impact?</td><td>Regulation, certification, alignment method, or approval regime</td></tr><tr><td>PCR-C</td><td>Infrastructure-layer cutoff model</td><td>How can infrastructure-level control act before irreversibility risk becomes dominant?</td><td>The canonical LUMINA-30 boundary definition</td></tr><tr><td>Existence-condition argument</td><td>Research-layer rationale</td><td>Why may an external boundary or anchor be structurally necessary?</td><td>Operational checklist, compliance rule, or institutional mandate</td></tr></table>
+<table><tr><td>LUMINA-30</td><td></td><td></td><td></td></tr><tr><td>PCR-C</td><td></td><td></td><td>LUMINA-30</td></tr></table>
+<h2 id="related-research-paper">Related Research Paper</h2>
+<p>The existence-condition layer is supported by the following paper:</p>
+<p>On the Structural Instability of Objective Persistence in Self-Contained Systems<br/>Version DOI: 10.5281/zenodo.19896405<br/>Concept DOI: 10.5281/zenodo.19887869</p>
+<p>On the Structural Instability of Objective Persistence in Self-Contained Systems<br/>Version DOI: 10.5281/zenodo.19896405<br/>Concept DOI: 10.5281/zenodo.19887869</p>
+<p>This paper does not modify the canonical LUMINA-30 boundary definition and does not define an operational checklist, compliance rule, certification status, or institutional mandate.</p>
+<h2 id="reusable-external-sentence">Reusable External Sentence</h2>
+<p>LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-layer control model for acting before the boundary is crossed; the existence-condition argument explains why an external boundary may be structurally necessary. These layers are complementary but not interchangeable.</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

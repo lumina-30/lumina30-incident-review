@@ -1,111 +1,63 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Initial Public Review Note" />
   <title>Initial Public Review Note</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Initial_Public_Review_Note_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Initial_Public_Review_Note.html">↻ Reload / 再読み込み</a>
+      <a href="Initial_Public_Review_Note.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Initial Public Review Note</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="初期公開レビュー文">初期公開レビュー文</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This template provides a cautious public note for AI incidents before
-facts are complete.</p>
-<p>本テンプレートは、事実が揃う前のAIインシデントについて、慎重な公開レビュー文を提供する。</p>
-<h2 id="immediate-use-note--即時使用時の注意">Immediate Use Note ｜
-即時使用時の注意</h2>
-<p>Use this note only as an initial boundary-review statement.<br />
-It should not claim fault, liability, legal violation, technical cause,
-adoption, or certification status.</p>
-<p>本文は初期の境界レビュー文としてのみ使用する。<br />
-過失、責任、法令違反、技術原因、採用、認証状態を断定してはならない。</p>
-<p>Before using this note, preserve available evidence and check whether
-the case should first be classified as Not Verifiable under the Absence
-Rule.</p>
-<p>この文を使う前に、利用可能な証拠を保全し、Absence
-Rule上で先に確認不能として分類すべき事案かを確認する。</p>
-<h2 id="template--テンプレート">Template ｜ テンプレート</h2>
-<p>EN: At this stage, the available information is insufficient to reach
-a conclusion about responsibility, legality, or technical cause.</p>
+<h2 id="purpose">Purpose</h2>
+<p>This template provides a cautious public note for AI incidents before facts are complete.</p>
+<h2 id="immediate-use-note">Immediate Use Note</h2>
+<p>Use this note only as an initial boundary-review statement.<br/>It should not claim fault, liability, legal violation, technical cause, adoption, or certification status.</p>
+<p>Before using this note, preserve available evidence and check whether the case should first be classified as Not Verifiable under the Absence Rule.</p>
+<h2 id="template">Template</h2>
+<p>At this stage, the available information is insufficient to reach a conclusion about responsibility, legality, or technical cause.</p>
 <p>However, the case raises a LUMINA-30 boundary question:</p>
-<blockquote>
-<p>Was meaningful human refusal authority still effective before any
-irreversible AI-driven impact?</p>
-</blockquote>
-<p>A first review should identify who held final human refusal
-authority, whether refusal could have been exercised before irreversible
-impact, whether logs and approval records are sufficient, and whether
-AI-generated output became the sole or primary rationale for final
-action.</p>
-<p>JP:
-現時点では、責任、法的評価、技術的原因について結論を出すには情報が不十分である。</p>
-<p>ただし、本件はLUMINA-30の境界問いを提起する。</p>
-<blockquote>
-<p>不可逆的なAI駆動影響の前に、意味ある人間の拒否権はなお実効的だったか。</p>
-</blockquote>
-<p>初期レビューでは、誰が最終的な人間の拒否権を保持していたか、不可逆的影響の前に拒否を行使できたか、ログと承認記録が十分か、AI生成出力が最終行為の唯一または主要な根拠になっていなかったかを確認すべきである。</p>
+<blockquote>Was meaningful human refusal authority still effective before any irreversible AI-driven impact?</blockquote>
+<p>A first review should identify who held final human refusal authority, whether refusal could have been exercised before irreversible impact, whether logs and approval records are sufficient, and whether AI-generated output became the sole or primary rationale for final action.</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

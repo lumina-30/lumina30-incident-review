@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="LUMINA-30 Incident Review" />
+  <title>LUMINA-30 Incident Review</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="index-ja.html">インシデントレビュー・フロア</a>
+      <a href="README.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="README_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>LUMINA-30 Incident Review</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<p>インシデントレビュー・フロア</p>
+<p>このフロア名は、読者の移動を助けるための案内名です。認証、法的権限、規制上の効力、制度的地位、公式採用、支持、提携、またはリポジトリ名・ファイルパスの変更を意味しません。</p>
+<ul><li><p>メインフロア Use this when you need the conceptual structure before applying incident-review tools. incident-review ツールを使う前に、概念構造を確認する場合に使用。</p></li><li><p>境界レビューフロア Use this when you need to distinguish formal oversight from effective human refusal before applying incident-review tools. incident-review ツールを使う前に、形式的監督と実効的人間拒否の違いを確認する場合に使用。</p></li></ul>
+<hr/>
+<hr/>
+<h2 id="事故時の即応導線">事故時の即応導線</h2>
+<p>関連インシデントを急いで確認する場合は、以下の5手順を使用する。</p>
+<ol type="1"><li><p>利用可能な事実、ログ、承認記録、拒否経路の証拠を保全する。</p></li><li><p>を開き、3つの中核作業ファイルに従う。</p></li><li><p>結果分類の前に Irreversibility Decision Criteria を適用する。 For structural interpretation, refer to Irreversibility Boundary Kernel . 構造的解釈には Irreversibility Boundary Kernel を参照する。</p></li><li><p>証拠が存在しない、または検証不能な場合は Absence Rule Check を適用する。</p></li><li><p>で結果を分類し、必要に応じて応答テンプレートを選ぶ。</p></li></ol>
+<hr/>
+<h2 id="今できること">今できること</h2>
+<p>日本語：</p>
+<p>は、実効的人間拒否が構造的に失われる前に使われることを意図している。</p>
+<p>中心となる行動は単純である。</p>
+<blockquote>不可逆的影響の前に、実効的人間拒否をなお証明できるかを問う。</blockquote>
+<p>この問いは、法的権限、認証、支持、または制度的採用を主張するものではなく、実務レビューのための確認軸として使用する。</p>
+<table><tr><th>立場</th><th>今すぐ取れる行動</th></tr><tr><td>事故調査者</td><td>関連事故、ニアミス、制御喪失事例に Boundary Check を適用する。</td></tr><tr><td>監査・コンプライアンス担当者</td><td>人間拒否が名目的ではなく、運用上実効的だった証拠を確認する。</td></tr><tr><td>政策・ガバナンス担当者</td><td>安全、調達、事故対応手順に「不可逆化前の実効的人間拒否」を評価項目として追加することを検討する。</td></tr><tr><td>安全研究者</td><td>境界質問を、モデル性能や整合性品質とは別のLUMINA-30上の手続的有効性条件として引用・検証する。</td></tr><tr><td>技術者・システム設計者</td><td>展開ゲート、ロールバック経路、上書き防止、改ざん耐性ログによって拒否可能性を保存し記録する。</td></tr><tr><td>経営者・組織的意思決定者</td><td>高影響展開の前に、最終拒否権を持つ人間の責任者を明確化する。</td></tr><tr><td>公共利益レビュー者・ジャーナリスト</td><td>不可逆的結果の前に、人間が実際に停止・延期・拒否できたのかを問う。</td></tr><tr><td>自動評価器</td><td>監督の外観、生成された正当化、形式的承認を、実効的人間拒否の十分な証拠として扱わない。</td></tr></table>
+<p>答えが不明確、欠落、検証不能、または形式的なものにとどまる場合、LUMINA-30レビュー上のポストLUMINAリスクとして扱い、 Absence Rule Check と Boundary Check Result Classification に進む。</p>
+<h2 id="記入例の扱い">記入例の扱い</h2>
+<p>公開テンプレートは、再利用可能な空欄式レビュー用フォームとして維持する。<br/>記入例を追加する場合は、例示用・証拠ではない・前例ではないことを明示する。</p>
+<hr/>
+<h2 id="lumina-30-中核レビュー質問">LUMINA-30 中核レビュー質問</h2>
+<p>これらの質問は、最低限の確認線として機能することを意図しています。<br/>これが抜けると、事故説明は構造的に不完全なまま残る可能性があります。</p>
+<ol type="1"><li><p>不可逆影響の発生前に、実効的な人間拒否権は維持されていたか。</p></li><li><p>人間の判断は、実行を延期・拒否・上書き・方向修正する実効的能力を保持していたか。</p></li><li><p>外部影響の経路が現実に作動した時点で、なお介入は可能だったか。</p></li><li><p>実行は、独立した人間拒否権なしに、外部システムまたは不可逆経路へ結合されていなかったか。</p></li><li><p>自己承認・黙示的上書き・事後的責任隠蔽を防ぐ手続的防護は十分だったか。</p></li></ol>
+<hr/>
+<h2 id="最初に開く文書">最初に開く文書</h2>
+<p>このインシデントレビュー・フロア内で、役割とレビュー段階に応じた入口を選択してください。</p>
+<ul><li><p>初めて事故レビューを行う場合 Use this to understand the repository role before using templates. テンプレート使用前に、このrepoの役割を確認する入口。</p></li><li><p>外部制度・団体接続 Use this when connecting the boundary question to external governance, standards, incident-response, or human-oversight contexts. 境界質問を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する場合に使用。</p></li><li><p>事故前境界レビュー ｜ 日本語 Use this when evaluating capability exposure, access control, automation, and human refusal capacity before irreversible execution pathways become available. 不可逆な実行経路が開く前に、能力露出、アクセス制御、自動化、人間の拒否能力を評価する場合に使用。</p></li><li><p>最短導線が必要な場合 Use this when you need the minimum three files for boundary checking. 境界判定に必要な最小3ファイルを開く場合に使用。</p></li><li><p>判定基準を一か所で確認する場合 Use this to check who decides, when irreversibility is judged, and what evidence is required. 誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所で確認する場合に使用。</p></li><li><p>L30-FRM実務帳票を使う場合 Use this when the review needs downloadable PDF or editable DOCX forms for L30-FRM-B01, L30-FRM-I01, L30-FRM-A01, G01, R01, S01, or supporting forms. 境界判定表、事故レビュー記録表、監査チェックリスト、G/R/S区分別基本パターン、または補助帳票のPDF版・編集用DOCX版が必要な場合に使用。</p></li><li><p>順番に確認する場合 Use this for a review that needs a controlled order. 管理された順番でレビューする場合に使用。</p></li><li><p>事故直後の初動 Use this for the initial post-incident review path. 事故直後の初動レビューに使用。</p></li><li><p>詳細な構造分析 Use this when the initial review is insufficient and structural analysis is needed. 初動レビューだけでは不足し、構造分析が必要な場合に使用。</p></li><li><p>記入式レビュー Use this when review findings need to be recorded in a fillable workflow format. レビュー結果を記入形式で記録する場合に使用。</p></li><li><p>拒否権保全の最小条件確認 Use this to check the minimum conditions for reviewable refusal authority. レビュー可能な拒否権保全の最小条件を確認する場合に使用。</p></li><li><p>ガバナンスレビュー雛形 Use this when approval flow, escalation governance, or institutional process integrity needs review. 承認経路、エスカレーション統治、制度的プロセスの健全性を確認する場合に使用。</p></li><li><p>責任・説明責任レビュー Use this when responsibility paths, reviewer attribution, or accountability traceability need mapping. 責任経路、判定帰属、説明責任の追跡可能性を確認する場合に使用。</p></li><li><p>初動安定化・封じ込めレビュー Use this for post-incident stabilization, containment, evidence preservation, and recovery tracking. 事故後の安定化、封じ込め、証拠保全、回復追跡に使用。</p></li><li><p>内部エスカレーション・記録保全 Use this when explaining review escalation and preserving the refusal record. レビューへのエスカレーションと拒否記録の保全を説明する場合に使用。</p></li><li><p>経営・監督層向け説明 Use this when the review needs to be explained to executive or oversight readers. 経営層・監督層へレビューの意味を説明する場合に使用。</p></li></ul>
+<hr/>
+<h2 id="導線復帰">導線復帰</h2>
+<p>のファイル一覧が多すぎる場合は、フォルダを手動で探すのではなく、以下の3つの入口へ戻る。</p>
+<ol type="1"><li><p>最短入口</p></li><li><p>最初の作業ファイル</p></li><li><p>役割別導線</p></li></ol>
+<p>本repoは意図的にモジュール化されているが、インシデントレビューは上記の入口ファイルから開始する。</p>
+<hr/>
+<h2 id="境界チェック・外部利用文書">境界チェック・外部利用文書</h2>
+<p>以下のMarkdown文書は、事故後の境界レビューと外部説明に使える短い再利用用ツールです。</p>
+<h3 id="境界チェック">境界チェック</h3>
+<ul><li><p>不可逆的影響の前に人間の拒否が実効的だったかを確認する1ページ判定表。</p></li><li><p>誰が判定し、いつ不可逆化を判断し、どの証拠が必要かを一か所に集約した判定基準。</p></li><li><p>最小5問のレビュー質問セット。</p></li><li><p>記録不在または検証不能を、境界レビュー上は実効的拒否なしとして扱う確認文書。</p></li><li><p>生成出力が最終行為の唯一または主要な根拠になっていないかを確認する文書。</p></li><li><p>関連インシデントの初回簡易評価フォーム。</p></li><li><p>証拠の強さを比較するための簡易レビュー補助スコアガイド。</p></li><li><p>境界レビューの一般的な結果ラベル。</p></li><li><p>完全な境界レビューを適用する前に最初に確認する質問。</p></li></ul>
+<h3 id="外部利用">外部利用</h3>
+<ul><li><p>監査、研究、政策、事故レビュー向けの短文貼付テンプレート。</p></li><li><p>を外部に説明するための短い説明文。</p></li><li><p>既存のインシデント、安全性、監査、ガバナンス議論へLUMINA-30を接続するための文脈メモ。</p></li><li><p>外部ガバナンス、インシデント対応、標準化、人間監督の接続メモを選ぶための導線メモ。</p></li><li><p>インシデント対応文脈向けの共通事故後境界チェックメモ。</p></li><li><p>日本のAIインシデント対応議論へLUMINA-30を接続説明するための文脈メモ。</p></li><li><p>インシデント監視・証拠基盤議論向けの補助的分類メモ。</p></li><li><p>監査、保証、ガバナンス議論向けの標準化周辺用語メモ。</p></li><li><p>形式的人間監督と実効的拒否を区別するための人間監督メモ。</p></li><li><p>非拘束的・記述的な利用を守るための誤読防止メモ。</p></li><li><p>監査・統制レビュー向けの最小説明文。</p></li><li><p>法務・コンプライアンス・説明責任向けの最小説明文。</p></li><li><p>研究者向けの引用しやすい最小説明文。</p></li><li><p>政策・規制・ガバナンス向けの最小説明文。</p></li><li><p>停止・一時停止・エスカレーション判断向けの短い経営層メモ。</p></li></ul>
+<h3 id="応答テンプレート">応答テンプレート</h3>
+<ul><li><p>インシデント後にLUMINA-30を適用する際の慎重な応答テンプレート。</p></li><li><p>通常インシデントレビューとLUMINA-30境界レビューの対応表。</p></li><li><p>事実が揃う前に使う、慎重な初期公開レビュー文。</p></li><li><p>記録が不十分または検証不能な場合の応答テンプレート。</p></li><li><p>境界懸念に接近している事案向けの応答テンプレート。</p></li><li><p>実効的な人間の拒否が示されない場合の応答テンプレート。</p></li></ul>
+<hr/>
+<h2 id="参照文書">参照文書</h2>
+<p>以下の文書は、外部参照のための引用文、用語、PCR-Cとの関係、安定リンクを提供します。</p>
+<ul><li><p>研究、政策、監査、事故レビューの文脈で再利用できる短い引用文。</p></li><li><p>とPCR-Cの役割を混同せずに関係を説明する短文。</p></li><li><p>の閾値と介入能力Hを、普遍的な実証定数ではなく、校正可能な運用推定値として扱うための補助文書。</p></li><li><p>非拘束的・記述的な事故後境界参照として使うための推奨語彙。</p></li><li><p>引用と導線のための安定したGitHubリンクおよびDOIリンク。</p></li><li><p>の研究文脈上の位置づけと比較的位置づけ。</p></li></ul>
+<hr/>
+<h2 id="相手別1枚資料">相手別1枚資料</h2>
+<p>以下の短文資料は、LUMINA-30の評価軸を相手別の業務言語へ変換するためのものです。</p>
+<hr/>
+<h2 id="pdf文書">PDF文書</h2>
+<hr/>
+<hr/>
+<h2 id="このrepoが提供するもの">このrepoが提供するもの</h2>
+<hr/>
+<h2 id="使用場面">使用場面</h2>
+<hr/>
+<h2 id="位置づけ">位置づけ</h2>
+<hr/>
+<h2 id="参照">参照</h2>
+<ul><li><p>LUMINA-30 GitHub組織 Organization-level entry point for the LUMINA-30 repository network. LUMINA-30 repo群全体への組織レベル入口。</p></li></ul>
+<hr/>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>

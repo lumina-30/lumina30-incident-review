@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="LUMINA-30 帳票ID体系" />
+  <title>LUMINA-30 帳票ID体系</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../../../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="L30_FRM_Document_ID_System.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="L30_FRM_Document_ID_System_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>LUMINA-30 帳票ID体系</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<p>ID Format ｜ Language Rule ｜ Current Register</p>
+<hr/>
+<h2 id="目的">目的</h2>
+<p>この文書は、LUMINA-30 が提供する実務用帳票・シート・テンプレート・チェックリストの管理番号体系を定義します。</p>
+<p>目的は、各帳票を事故検証・監査・境界評価の中で、一貫して参照・レビュー・更新・利用できるようにすることです。</p>
+<hr/>
+<h2 id="この体系ではないもの">この体系ではないもの</h2>
+<p>文書ID体系は、認証制度、適合ラベル、安全承認、法的分類、PCR-C または LUMINA-30 Boundary Kernel の代替ではありません。</p>
+<p>これは実務帳票に限定した文書管理体系です。</p>
+<hr/>
+<h2 id="文書id">文書ID</h2>
+<p>正式な文書IDはアンダースコアではなくハイフンを使用し、言語接尾辞を含めません。</p>
+<p>公開ファイル名は、ファイルシステムおよびURL互換性のためアンダースコアを使用します。</p>
+<p>正式文書ID：</p>
+<hr/>
+<h2 id="言語ルール">言語ルール</h2>
+<p>英語版ファイルは正規テンプレートとして扱い、言語接尾辞を付けません。</p>
+<p>各言語版は、英語正規テンプレートを複製し、人間が読む本文だけを翻訳して作成します。</p>
+<p>、L30-BASコード、入力欄構造、チェックボックス制御、表、コード配置、レイアウトは、各言語版でも維持します。</p>
+<p>各言語版ファイルは、拡張子の直前に大文字の言語接尾辞を付けます。</p>
+<p>日本語版ファイルは _JA 言語接尾辞を使用します。</p>
+<p>言語接尾辞は文書IDの一部ではありません。</p>
+<p>実務帳票本文では文書IDのみを表示し、言語コードをIDの一部として表示しません。</p>
+<p>例：</p>
+<p>国・地域差を示す接尾辞は、法制度・制度運用・言語差により地域版が必要な場合だけ使用します。例： _EN_US , _EN_GB , _ZH_TW , _PT_BR 。</p>
+<p>日本語ローカライズ版は、各言語版作成の参考例として提供できます。ただし、日本語での実務利用を想定する場合を除き、すべての補助・詳細フォームに日本語版を必須とはしません。</p>
+<hr/>
+<h2 id="ファイル名形式">ファイル名形式</h2>
+<p>公開ファイル名にはバージョン番号を入れません。英語版は標準ファイル名を使用し、各言語版は拡張子の直前に大文字の言語接尾辞を付けます。</p>
+<p>公開ファイル名にはバージョン番号を入れません。バージョン情報は、文書内、フッター、Git履歴、Release/Tag、レビュー候補ZIP名で管理します。</p>
+<hr/>
+<h2 id="区分コード">区分コード</h2>
+<table><tr><td>B</td><td></td><td></td></tr><tr><td>I</td><td></td><td></td></tr><tr><td>A</td><td></td><td></td></tr><tr><td>G</td><td></td><td></td></tr><tr><td>R</td><td></td><td></td></tr><tr><td>S</td><td></td><td></td></tr></table>
+<p>新しい区分は、その帳票が既存区分とは明確に異なる実務目的を持つ場合に限って作成します。</p>
+<hr/>
+<h2 id="現行帳票レジスター">現行帳票レジスター</h2>
+<table><tr><td>L30-FRM-B01</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-B02</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-I01</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-I02</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-I03</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-A01</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-G01</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-R01</td><td></td><td></td><td></td></tr><tr><td>L30-FRM-S01</td><td></td><td></td><td></td></tr></table>
+<hr/>
+<h2 id="boundary-kernel-との関係">Boundary Kernel との関係</h2>
+<p>これらの帳票は、PCR-C または LUMINA-30 Boundary Kernel を代替しません。</p>
+<p>を、人間によるレビュー・事故分析・監査文脈で運用可能にするための補助帳票です。</p>
+<p>これらの帳票を、認証マークや「システムが安全である」という主張として使用してはなりません。</p>
+<hr/>
+<h2 id="バージョン管理ルール">バージョン管理ルール</h2>
+<p>帳票の内容、チェックリスト構造、判定基準、実務用途が変わる場合は、バージョンを変更します。</p>
+<p>同じ帳票の英語版と各言語版は、同じ文書IDとバージョン番号を共有します。</p>
+<p>固定の帳票日付を主要メタ表から外し、実務用のレビュー記入欄を追加する初回ユーザビリティ修正にはv1_0_1を使用します。</p>
+<hr/>
+<h2 id="採番ルール">採番ルール</h2>
+<p>新しいIDは慎重に割り当てます。</p>
+<p>帳票の実務目的が明確に異なる場合のみ、新しい区分を使用します。</p>
+<p>廃止済みIDを別帳票に再利用しません。</p>
+<p>理論論文、README、図版、スライド、一般説明文書には帳票IDを付与しません。</p>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>
