@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="ISO / IEC / ITU 標準化周辺用語境界メモ" />
+  <title>ISO / IEC / ITU 標準化周辺用語境界メモ</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="ISO_IEC_ITU_Standards_Terminology_Boundary_Note.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="ISO_IEC_ITU_Standards_Terminology_Boundary_Note_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>ISO / IEC / ITU 標準化周辺用語境界メモ</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<h2 id="目的">目的</h2>
+<p>本メモは、AI標準、保証、監査、ガバナンス議論の周辺でLUMINA-30を説明するための用語整理である。 LUMINA-30がISO、IEC、ITU、IEEE、国家、分野別、または組織内標準であると主張しない。</p>
+<h2 id="位置づけ">位置づけ</h2>
+<p>本メモは、非拘束的・記述的であり、いかなる外部機関とも提携していない。 外部機関による承認、採用、認定、承諾、認証、準拠、法的効力、または制度利用を主張しない。</p>
+<h2 id="標準化周辺で使いやすい語">標準化周辺で使いやすい語</h2>
+<p>使用する語：</p>
+<ul><li><p>補助的境界チェック</p></li><li><p>事故後レビュー支援</p></li><li><p>実効的な人間拒否</p></li><li><p>運用上実効的な監督</p></li><li><p>拒否経路</p></li><li><p>検証可能な停止・遅延・上書き権限</p></li><li><p>不可逆化前の境界条件</p></li><li><p>境界レビュー上の手続的妥当性</p></li></ul>
+<h2 id="避ける語">避ける語</h2>
+<p>を以下として説明しない。</p>
+<ul><li><p>標準</p></li><li><p>認証制度</p></li><li><p>準拠フレームワーク</p></li><li><p>実装要件</p></li><li><p>安全保証</p></li><li><p>公式保証手法</p></li><li><p>標準の代替</p></li></ul>
+<h2 id="用語橋渡し">用語橋渡し</h2>
+<table><tr><th>既存議論</th><th>の境界語彙</th></tr><tr><td>人間監督</td><td>監督は実効的拒否を保全できるほど強かったか。</td></tr><tr><td>説明責任</td><td>拒否、停止、遅延、上書きの責任経路を追跡できるか。</td></tr><tr><td>監査可能性</td><td>拒否経路を記録で検証できるか。</td></tr><tr><td>インシデント対応</td><td>封じ込めや復旧の前に、拒否はなお行使可能だったか。</td></tr><tr><td>保証</td><td>保証の中に不可逆化前の拒否チェックが含まれるか。</td></tr></table>
+<h2 id="添付用短文">添付用短文</h2>
+<p>は、標準または準拠フレームワークとして提示してはならない。 標準化周辺の用語として、形式的人間監督が不可逆的AI関連影響の前に実効的拒否を保全できるほど運用上十分だったか、という補助的境界問いに使用できる。</p>
+<h2 id="外部文脈リンク">外部文脈リンク</h2>
+<h2 id="関連内部資料">関連内部資料</h2>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>

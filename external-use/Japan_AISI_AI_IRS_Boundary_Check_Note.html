@@ -1,166 +1,76 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
-  <meta name="description" content="Japan AISI / AI-IRS Boundary Check Note ｜ Japan AISI / AI-IRS 境界チェック接続メモ" />
-  <title>Japan AISI / AI-IRS Boundary Check Note ｜ Japan AISI / AI-IRS 境界チェック接続メモ</title>
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="Japan AISI / AI-IRS Boundary Check Note" />
+  <title>Japan AISI / AI-IRS Boundary Check Note</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Japan_AISI_AI_IRS_Boundary_Check_Note_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Japan_AISI_AI_IRS_Boundary_Check_Note.html">↻ Reload / 再読み込み</a>
+      <a href="Japan_AISI_AI_IRS_Boundary_Check_Note.html">↻ Reload</a>
     </nav>
     <header>
-      <h1>Japan AISI / AI-IRS Boundary Check Note ｜ Japan AISI / AI-IRS 境界チェック接続メモ</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <h1>Japan AISI / AI-IRS Boundary Check Note</h1>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This note explains how LUMINA-30 can be described near AI
-incident-response discussions in Japan, especially where readers are
-already thinking about AI-specific incident response, detection,
-containment, recovery, supply chains, and organizational
-accountability.</p>
-<p>本メモは、日本におけるAIインシデント対応、とくにAI特有のインシデント対応、検知、封じ込め、復旧、サプライチェーン、組織的説明責任を検討する読者に対して、LUMINA-30をどのように接続説明できるかを示す。</p>
-<h2 id="status--位置づけ">Status ｜ 位置づけ</h2>
-<p>This note is non-binding, descriptive, and unaffiliated with any
-external institution. It does not claim endorsement, adoption,
-recognition, approval, certification, compliance, legal effect, or
-institutional use by any external organization.</p>
-<p>本メモは、非拘束的・記述的であり、いかなる外部機関とも提携していない。
-外部機関による承認、採用、認定、承諾、認証、準拠、法的効力、または制度利用を主張しない。</p>
-<h2 id="connection-point--接続点">Connection Point ｜ 接続点</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This note explains how LUMINA-30 can be described near AI incident-response discussions in Japan, especially where readers are already thinking about AI-specific incident response, detection, containment, recovery, supply chains, and organizational accountability.</p>
+<h2 id="status">Status</h2>
+<p>This note is non-binding, descriptive, and unaffiliated with any external institution. It does not claim endorsement, adoption, recognition, approval, certification, compliance, legal effect, or institutional use by any external organization.</p>
+<h2 id="connection-point">Connection Point</h2>
 <p>AI incident-response discussions often ask:</p>
-<p>AIインシデント対応では、しばしば次が問われる。</p>
-<ul>
-<li><p>How was the incident detected?</p></li>
-<li><p>How was damage contained?</p></li>
-<li><p>How was recovery managed?</p></li>
-<li><p>Which organizational actors were responsible?</p></li>
-<li><p>Were lifecycle and supply-chain risks considered?</p></li>
-<li><p>インシデントはどのように検知されたか。</p></li>
-<li><p>被害はどのように封じ込められたか。</p></li>
-<li><p>復旧はどのように管理されたか。</p></li>
-<li><p>どの組織主体が責任を持っていたか。</p></li>
-<li><p>ライフサイクルとサプライチェーンのリスクは考慮されたか。</p></li>
-</ul>
+<p>AI</p>
+<ul><li><p>How was the incident detected?</p></li><li><p>How was damage contained?</p></li><li><p>How was recovery managed?</p></li><li><p>Which organizational actors were responsible?</p></li><li><p>Were lifecycle and supply-chain risks considered?</p></li></ul>
 <p>LUMINA-30 adds one prior boundary question:</p>
-<p>LUMINA-30は、その前段の境界問いを一つ加える。</p>
-<blockquote>
-<p>Before detection, containment, or recovery became necessary, was
-effective human refusal still exercisable before irreversible
-impact?</p>
-</blockquote>
-<blockquote>
-<p>検知、封じ込め、復旧が必要になる前に、不可逆的影響の前で実効的な人間拒否はなお行使可能だったか。</p>
-</blockquote>
-<h2 id="suggested-use--推奨される使い方">Suggested Use ｜
-推奨される使い方</h2>
-<p>Use this note as a one-page attachment when explaining LUMINA-30 to
-readers familiar with AI incident response. Do not present it as an AISI
-document, AI-IRS module, official interpretation, compliance
-requirement, or response procedure.</p>
-<p>AIインシデント対応に関心を持つ読者へLUMINA-30を説明する際の1ページ添付資料として使用する。
-AISI文書、AI-IRSモジュール、公式解釈、準拠要件、対応手順として提示してはならない。</p>
-<h2
-id="minimal-ai-irs-adjacent-boundary-questions--ai-irs周辺文脈に接続しやすい最小境界問い">Minimal
-AI-IRS-Adjacent Boundary Questions ｜
-AI-IRS周辺文脈に接続しやすい最小境界問い</h2>
-<ol type="1">
-<li>Was a human refusal pathway defined before the AI system affected
-external operations?<br />
-AIシステムが外部運用へ影響する前に、人間拒否経路は定義されていたか。</li>
-<li>Was that pathway still operationally effective during the incident
-window?<br />
-その経路はインシデント発生時間帯に運用上なお実効的だったか。</li>
-<li>Were logs, approvals, stop signals, escalation records, and dissent
-records preserved?<br />
-ログ、承認、停止信号、エスカレーション記録、異議記録は保存されていたか。</li>
-<li>Did autonomous execution outrun meaningful human refusal?<br />
-自律的実行が、意味ある人間拒否を追い越していなかったか。</li>
-</ol>
-<h2 id="attachment-text--添付用短文">Attachment Text ｜ 添付用短文</h2>
-<p>In AI incident-response contexts, LUMINA-30 can be used as a
-non-binding supplementary boundary check. It does not specify incident
-handling procedures. It asks whether, before containment or recovery
-became necessary, effective human refusal remained exercisable and
-verifiable before irreversible AI-related impact.</p>
-<p>AIインシデント対応文脈では、LUMINA-30を非拘束的な補助境界チェックとして使用できる。
-インシデント対応手順そのものを定めるものではない。
-封じ込めや復旧が必要になる前に、不可逆的なAI関連影響の前で実効的な人間拒否が行使可能かつ検証可能だったかを問う。</p>
-<h2 id="external-context-links--外部文脈リンク">External Context Links
-｜ 外部文脈リンク</h2>
-<ul>
-<li><a
-href="https://aisi.go.jp/activity/activity_security/260109/">Japan AISI:
-AI Incident Response Approach Book</a></li>
-</ul>
-<h2 id="related-internal-materials--関連内部資料">Related Internal
-Materials ｜ 関連内部資料</h2>
-<ul>
-<li><a href="./Boundary_Check_for_AI_Incident_Response.html">Boundary
-Check for AI Incident Response</a></li>
-<li><a
-href="../boundary-check/Incident_Quick_Assessment_Template.html">Incident
-Quick Assessment Template</a></li>
-<li><a
-href="../response-templates/Evidence_Insufficient_Response.html">Evidence
-Insufficient Response</a></li>
-</ul>
+<p>LUMINA-30</p>
+<blockquote>Before detection, containment, or recovery became necessary, was effective human refusal still exercisable before irreversible impact?</blockquote>
+<h2 id="suggested-use">Suggested Use</h2>
+<p>Use this note as a one-page attachment when explaining LUMINA-30 to readers familiar with AI incident response. Do not present it as an AISI document, AI-IRS module, official interpretation, compliance requirement, or response procedure.</p>
+<p>AI</p>
+<h2 id="minimal-ai-irs-adjacent-boundary-questions">Minimal AI-IRS-Adjacent Boundary Questions</h2>
+<ol type="1"><li><p>Was a human refusal pathway defined before the AI system affected external operations? AI</p></li><li><p>Was that pathway still operationally effective during the incident window?</p></li><li><p>Were logs, approvals, stop signals, escalation records, and dissent records preserved?</p></li><li><p>Did autonomous execution outrun meaningful human refusal?</p></li></ol>
+<h2 id="attachment-text">Attachment Text</h2>
+<p>In AI incident-response contexts, LUMINA-30 can be used as a non-binding supplementary boundary check. It does not specify incident handling procedures. It asks whether, before containment or recovery became necessary, effective human refusal remained exercisable and verifiable before irreversible AI-related impact.</p>
+<p>AI</p>
+<h2 id="external-context-links">External Context Links</h2>
+<ul><li><p>Japan AISI: AI Incident Response Approach Book</p></li></ul>
+<h2 id="related-internal-materials">Related Internal Materials</h2>
+<ul><li><p>Boundary Check for AI Incident Response</p></li><li><p>Incident Quick Assessment Template</p></li><li><p>Evidence Insufficient Response</p></li></ul>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

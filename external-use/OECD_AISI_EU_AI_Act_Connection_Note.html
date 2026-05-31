@@ -1,317 +1,105 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Connection Note: OECD / AISI / EU AI Act Context" />
   <title>Connection Note: OECD / AISI / EU AI Act Context</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="OECD_AISI_EU_AI_Act_Connection_Note_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="OECD_AISI_EU_AI_Act_Connection_Note.html">↻ Reload / 再読み込み</a>
+      <a href="OECD_AISI_EU_AI_Act_Connection_Note.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Connection Note: OECD / AISI / EU AI Act Context</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="接続メモoecd--aisi--eu-ai-act-文脈">接続メモ：OECD / AISI / EU
-AI Act 文脈</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This note explains how LUMINA-30 may be positioned as a supplementary
-boundary reference within existing AI incident, safety, audit, and
-governance discussions.</p>
-<p>本メモは、LUMINA-30を既存のAIインシデント、安全性、監査、ガバナンス議論の中で、補助的な境界参照として位置づける方法を示す。</p>
-<h2 id="position--位置づけ">Position ｜ 位置づけ</h2>
-<p>LUMINA-30 does not replace existing institutions, regulations,
-standards, or incident reporting systems.</p>
-<p>LUMINA-30は、既存の制度、規制、標準、インシデント報告制度を置き換えるものではない。</p>
+<h2 id="purpose">Purpose</h2>
+<p>This note explains how LUMINA-30 may be positioned as a supplementary boundary reference within existing AI incident, safety, audit, and governance discussions.</p>
+<h2 id="position">Position</h2>
+<p>LUMINA-30 does not replace existing institutions, regulations, standards, or incident reporting systems.</p>
+<p>LUMINA-30</p>
 <p>It provides one missing boundary question:</p>
-<p>LUMINA-30が提供するのは、次の不足しがちな境界問いである。</p>
-<blockquote>
-<p>Was meaningful human refusal effective before irreversible AI
-impact?</p>
-</blockquote>
-<blockquote>
-<p>不可逆的なAI影響の前に、意味ある人間の拒否は実効的だったか。</p>
-</blockquote>
-<h2 id="incident-reporting-context--インシデント報告文脈">Incident
-Reporting Context ｜ インシデント報告文脈</h2>
-<p>Existing incident reporting records what happened, what failed, and
-what harms or hazards occurred.</p>
-<p>既存のインシデント報告は、何が起きたか、何が失敗したか、どのような被害やハザードが発生したかを記録する。</p>
+<p>LUMINA-30</p>
+<blockquote>Was meaningful human refusal effective before irreversible AI impact?</blockquote>
+<h2 id="incident-reporting-context">Incident Reporting Context</h2>
+<p>Existing incident reporting records what happened, what failed, and what harms or hazards occurred.</p>
 <p>LUMINA-30 adds a boundary check:</p>
-<p>LUMINA-30は、そこに境界チェックを加える。</p>
-<ul>
-<li><p>Could humans stop the process?</p></li>
-<li><p>Could humans refuse the final action?</p></li>
-<li><p>Was refusal verifiable?</p></li>
-<li><p>Was AI-generated output merely advisory, or did it become the
-final rationale?</p></li>
-<li><p>人間はそのプロセスを停止できたか。</p></li>
-<li><p>人間は最終行為を拒否できたか。</p></li>
-<li><p>拒否は検証可能だったか。</p></li>
-<li><p>AI生成出力は助言にとどまったか、それとも最終根拠になったか。</p></li>
-</ul>
-<h2 id="incident-response-context--インシデント対応文脈">Incident
-Response Context ｜ インシデント対応文脈</h2>
-<p>Incident response often focuses on observation, containment, control,
-and recovery.</p>
-<p>インシデント対応では、観測、封じ込め、制御、復旧が重視されることが多い。</p>
+<p>LUMINA-30</p>
+<ul><li><p>Could humans stop the process?</p></li><li><p>Could humans refuse the final action?</p></li><li><p>Was refusal verifiable?</p></li><li><p>Was AI-generated output merely advisory, or did it become the final rationale?</p></li><li><p>AI</p></li></ul>
+<h2 id="incident-response-context">Incident Response Context</h2>
+<p>Incident response often focuses on observation, containment, control, and recovery.</p>
 <p>LUMINA-30 adds a prior boundary question:</p>
-<p>LUMINA-30は、その前提にあたる境界問いを加える。</p>
-<blockquote>
-<p>Before recovery became necessary, was human refusal still
-effective?</p>
-</blockquote>
-<blockquote>
-<p>復旧が必要になる前に、人間の拒否はまだ実効的だったか。</p>
-</blockquote>
-<h2 id="regulatory-and-audit-context--規制監査文脈">Regulatory and Audit
-Context ｜ 規制・監査文脈</h2>
-<p>Legal and regulatory frameworks may require human oversight,
-accountability, documentation, and risk management.</p>
-<p>法制度や規制枠組みは、人間による監督、説明責任、文書化、リスク管理を求める場合がある。</p>
+<p>LUMINA-30</p>
+<blockquote>Before recovery became necessary, was human refusal still effective?</blockquote>
+<h2 id="regulatory-and-audit-context">Regulatory and Audit Context</h2>
+<p>Legal and regulatory frameworks may require human oversight, accountability, documentation, and risk management.</p>
 <p>LUMINA-30 does not define those legal requirements.</p>
-<p>LUMINA-30は、それらの法的要件を定義しない。</p>
+<p>LUMINA-30</p>
 <p>It supports a supplementary post-incident question:</p>
-<p>補助的な事故後問いとして、次を支援する。</p>
-<blockquote>
-<p>Was human oversight effective enough to preserve refusal before
-irreversibility?</p>
-</blockquote>
-<blockquote>
-<p>不可逆化の前に拒否を保全できる程度に、人間の監督は実効的だったか。</p>
-</blockquote>
-<h2 id="recommended-use--推奨用途">Recommended Use ｜ 推奨用途</h2>
+<blockquote>Was human oversight effective enough to preserve refusal before irreversibility?</blockquote>
+<h2 id="recommended-use">Recommended Use</h2>
 <p>Use this note as:</p>
-<ul>
-<li>A short bridge to incident-review workflows</li>
-<li>A non-binding audit prompt</li>
-<li>A research citation context</li>
-<li>A policy memo attachment</li>
-</ul>
-<p>本メモは以下として使用する。</p>
-<ul>
-<li>インシデントレビュー手順への短い橋渡し</li>
-<li>非拘束的な監査プロンプト</li>
-<li>研究引用の文脈説明</li>
-<li>政策メモの添付説明</li>
-</ul>
-<hr />
-<h2 id="current-external-context-2026--現行外部文脈2026">Current
-External Context (2026) ｜ 現行外部文脈（2026）</h2>
-<p>This section provides a current positioning layer for readers
-comparing LUMINA-30 with incident-monitoring, safety-report, and
-regulatory contexts. It does not claim that LUMINA-30 is endorsed,
-adopted, recognised, or required by any external institution.</p>
-<p>本節は、LUMINA-30をインシデント監視、安全性レポート、規制文脈と比較する読者のために、現行の位置づけを示す補助層である。
-LUMINA-30が外部機関により承認、採用、認定、要求されていると主張するものではない。</p>
-<h3
-id="oecd-ai-incidents-and-hazards-context--oecd-aiインシデントハザード文脈">OECD
-AI incidents and hazards context ｜ OECD
-AIインシデント・ハザード文脈</h3>
-<p>The OECD AI Incidents and Hazards Monitor documents AI incidents and
-hazards as an evidence base for policymakers, practitioners, and other
-stakeholders. LUMINA-30 should not be described as an OECD tool, OECD
-standard, or OECD-aligned requirement.</p>
-<p>OECD AI Incidents and Hazards Monitor
-は、政策担当者、実務者、その他の関係者のための証拠基盤として、AIインシデントおよびハザードを記録する。
-LUMINA-30をOECDのツール、OECD標準、またはOECD準拠要件として説明してはならない。</p>
-<p>LUMINA-30 may be used only as a supplementary boundary question after
-or alongside incident documentation:</p>
-<p>LUMINA-30は、インシデント記録の後、またはそれと並行して用いる補助的な境界問いとしてのみ扱う。</p>
-<blockquote>
-<p>Did the review show that humans could still meaningfully refuse
-before irreversible impact?</p>
-</blockquote>
-<blockquote>
-<p>レビューは、不可逆的影響の前に人間がなお意味ある拒否をできたことを示したか。</p>
-</blockquote>
-<h3 id="eu-ai-act--gpai-context--eu-ai-actgpai文脈">EU AI Act / GPAI
-context ｜ EU AI Act・GPAI文脈</h3>
-<p>The EU AI Act sets obligations for providers of general-purpose AI
-models, including documentation, copyright-policy, and
-training-content-summary obligations for GPAI providers, with additional
-duties for GPAI models with systemic risk such as notification, risk
-assessment and mitigation, incident reporting, and cybersecurity
-protections.</p>
-<p>EU AI
-Actは、GPAI提供者に対して技術文書、著作権方針、学習内容概要などの義務を定め、システミックリスクを持つGPAIモデルには通知、リスク評価・緩和、インシデント報告、サイバーセキュリティ保護などの追加義務を定めている。</p>
-<p>LUMINA-30 does not provide AI Act compliance, legal advice,
-certification, or regulatory approval. It may only be described as a
-non-binding boundary-reference question that can supplement governance
-or post-incident analysis.</p>
-<p>LUMINA-30は、AI Actへの適合、法的助言、認証、規制承認を提供しない。
-ガバナンスまたは事故後分析を補助し得る、非拘束の境界参照問いとしてのみ説明できる。</p>
-<h3
-id="international-ai-safety-report--aisi-related-safety-context--国際ai安全性レポートaisi関連安全性文脈">International
-AI Safety Report / AISI-related safety context ｜
-国際AI安全性レポート・AISI関連安全性文脈</h3>
-<p>The International AI Safety Report 2026 reviews scientific evidence
-on general-purpose AI capabilities and risks. LUMINA-30 does not replace
-AI safety reports, model evaluations, capability assessments, or
-technical safety research.</p>
-<p>International AI Safety Report 2026
-は、GPAIの能力とリスクに関する科学的証拠をレビューする。
-LUMINA-30は、AI安全性レポート、モデル評価、能力評価、技術的安全性研究を置き換えない。</p>
+<ul><li><p>A short bridge to incident-review workflows</p></li><li><p>A non-binding audit prompt</p></li><li><p>A research citation context</p></li><li><p>A policy memo attachment</p></li></ul>
+<hr/>
+<h2 id="current-external-context-2026">Current External Context (2026)</h2>
+<p>This section provides a current positioning layer for readers comparing LUMINA-30 with incident-monitoring, safety-report, and regulatory contexts. It does not claim that LUMINA-30 is endorsed, adopted, recognised, or required by any external institution.</p>
+<h3 id="oecd-ai-incidents-and-hazards-context">OECD AI incidents and hazards context</h3>
+<p>The OECD AI Incidents and Hazards Monitor documents AI incidents and hazards as an evidence base for policymakers, practitioners, and other stakeholders. LUMINA-30 should not be described as an OECD tool, OECD standard, or OECD-aligned requirement.</p>
+<p>OECD AI Incidents and Hazards Monitor</p>
+<p>LUMINA-30 may be used only as a supplementary boundary question after or alongside incident documentation:</p>
+<p>LUMINA-30</p>
+<blockquote>Did the review show that humans could still meaningfully refuse before irreversible impact?</blockquote>
+<h3 id="eu-ai-act-gpai-context">EU AI Act / GPAI context</h3>
+<p>The EU AI Act sets obligations for providers of general-purpose AI models, including documentation, copyright-policy, and training-content-summary obligations for GPAI providers, with additional duties for GPAI models with systemic risk such as notification, risk assessment and mitigation, incident reporting, and cybersecurity protections.</p>
+<p>EU AI Act</p>
+<p>LUMINA-30 does not provide AI Act compliance, legal advice, certification, or regulatory approval. It may only be described as a non-binding boundary-reference question that can supplement governance or post-incident analysis.</p>
+<p>LUMINA-30</p>
+<h3 id="international-ai-safety-report-aisi-related-safety-context">International AI Safety Report / AISI-related safety context</h3>
+<p>The International AI Safety Report 2026 reviews scientific evidence on general-purpose AI capabilities and risks. LUMINA-30 does not replace AI safety reports, model evaluations, capability assessments, or technical safety research.</p>
+<p>International AI Safety Report 2026</p>
 <p>Its role is narrower:</p>
-<p>その役割はより限定的である。</p>
-<blockquote>
-<p>It asks whether effective human refusal remained possible before the
-point at which AI-related impact became irreversible.</p>
-</blockquote>
-<blockquote>
-<p>AI関連影響が不可逆化する前に、実効的な人間の拒否がなお可能だったかを問う。</p>
-</blockquote>
-<h2 id="review-gap-mapping--レビュー上の欠落対応">Review Gap Mapping ｜
-レビュー上の欠落対応</h2>
-<table>
-<thead>
-<tr class="header">
-<th>External context</th>
-<th>Typical focus</th>
-<th>LUMINA-30 supplemental question</th>
-<th>Non-claim</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>OECD AI incident / hazard monitoring</td>
-<td>What happened, what harm or hazard occurred, and what patterns can
-be learned</td>
-<td>Was human refusal still effective before irreversible impact?</td>
-<td>Not an OECD standard or OECD tool</td>
-</tr>
-<tr class="even">
-<td>EU AI Act / GPAI obligations</td>
-<td>Documentation, transparency, risk management, incident reporting,
-cybersecurity</td>
-<td>Does the record show meaningful refusal authority before
-irreversibility?</td>
-<td>Not compliance, certification, or legal advice</td>
-</tr>
-<tr class="odd">
-<td>International AI Safety Report / AISI-related safety context</td>
-<td>Capabilities, risks, evidence gaps, safety research</td>
-<td>Did safety review preserve a human refusal pathway before
-irreversible impact?</td>
-<td>Not a safety evaluation replacement or institutional
-endorsement</td>
-</tr>
-<tr class="even">
-<td>Research and governance discussion</td>
-<td>Analysis, comparison, policy discussion, audit prompts</td>
-<td>What becomes incomplete if refusal-before-irreversibility is not
-checked?</td>
-<td>Not policy mandate, regulation, or approval regime</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th>外部文脈</th>
-<th>主な焦点</th>
-<th>LUMINA-30の補助問い</th>
-<th>主張しないこと</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>OECD AIインシデント・ハザード監視</td>
-<td>何が起きたか、どの被害・ハザードが発生したか、どのパターンを学べるか</td>
-<td>不可逆的影響の前に人間の拒否は実効的だったか</td>
-<td>OECD標準またはOECDツールではない</td>
-</tr>
-<tr class="even">
-<td>EU AI Act / GPAI義務</td>
-<td>文書化、透明性、リスク管理、インシデント報告、サイバーセキュリティ</td>
-<td>記録は、不可逆化前の意味ある拒否権を示しているか</td>
-<td>適合、認証、法的助言ではない</td>
-</tr>
-<tr class="odd">
-<td>International AI Safety Report / AISI関連安全性文脈</td>
-<td>能力、リスク、証拠ギャップ、安全性研究</td>
-<td>安全性レビューは、不可逆的影響前の人間拒否経路を保全していたか</td>
-<td>安全性評価の代替または機関承認ではない</td>
-</tr>
-<tr class="even">
-<td>研究・ガバナンス議論</td>
-<td>分析、比較、政策議論、監査プロンプト</td>
-<td>不可逆化前の拒否を確認しない場合、何が不完全になるか</td>
-<td>政策命令、規制、承認制度ではない</td>
-</tr>
-</tbody>
-</table>
-<h2 id="source-links-checked--確認済み参照リンク">Source Links Checked
-｜ 確認済み参照リンク</h2>
-<ul>
-<li>OECD AI Incidents and Hazards Monitor: <a
-href="https://oecd.ai/en/incidents">https://oecd.ai/en/incidents</a></li>
-<li>OECD AI risks and incidents topic page: <a
-href="https://www.oecd.org/en/topics/ai-risks-and-incidents">https://www.oecd.org/en/topics/ai-risks-and-incidents</a></li>
-<li>European Commission GPAI obligations under the AI Act: <a
-href="https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act">https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act</a></li>
-<li>European Commission General-Purpose AI Code of Practice: <a
-href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai">https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai</a></li>
-<li>International AI Safety Report 2026: <a
-href="https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026">https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026</a></li>
-</ul>
+<blockquote>It asks whether effective human refusal remained possible before the point at which AI-related impact became irreversible.</blockquote>
+<blockquote>AI</blockquote>
+<h2 id="review-gap-mapping">Review Gap Mapping</h2>
+<table><tr><th>External context</th><th>Typical focus</th><th>LUMINA-30 supplemental question</th><th>Non-claim</th></tr><tr><td>OECD AI incident / hazard monitoring</td><td>What happened, what harm or hazard occurred, and what patterns can be learned</td><td>Was human refusal still effective before irreversible impact?</td><td>Not an OECD standard or OECD tool</td></tr><tr><td>EU AI Act / GPAI obligations</td><td>Documentation, transparency, risk management, incident reporting, cybersecurity</td><td>Does the record show meaningful refusal authority before irreversibility?</td><td>Not compliance, certification, or legal advice</td></tr><tr><td>International AI Safety Report / AISI-related safety context</td><td>Capabilities, risks, evidence gaps, safety research</td><td>Did safety review preserve a human refusal pathway before irreversible impact?</td><td>Not a safety evaluation replacement or institutional endorsement</td></tr><tr><td>Research and governance discussion</td><td>Analysis, comparison, policy discussion, audit prompts</td><td>What becomes incomplete if refusal-before-irreversibility is not checked?</td><td>Not policy mandate, regulation, or approval regime</td></tr></table>
+<table><tr><th></th><th></th><th>LUMINA-30</th><th></th></tr><tr><td>OECD AI</td><td></td><td></td><td>OECD</td></tr><tr><td>EU AI Act / GPAI</td><td></td><td></td><td></td></tr><tr><td>International AI Safety Report / AISI</td><td></td><td></td><td></td></tr></table>
+<h2 id="source-links-checked">Source Links Checked</h2>
+<ul><li><p>OECD AI Incidents and Hazards Monitor: https://oecd.ai/en/incidents</p></li><li><p>OECD AI risks and incidents topic page: https://www.oecd.org/en/topics/ai-risks-and-incidents</p></li><li><p>European Commission GPAI obligations under the AI Act: https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act</p></li><li><p>European Commission General-Purpose AI Code of Practice: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai</p></li><li><p>International AI Safety Report 2026: https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026</p></li></ul>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

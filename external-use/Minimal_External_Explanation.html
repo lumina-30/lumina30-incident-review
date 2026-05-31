@@ -1,129 +1,69 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Minimal External Explanation" />
   <title>Minimal External Explanation</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Minimal_External_Explanation_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Minimal_External_Explanation.html">↻ Reload / 再読み込み</a>
+      <a href="Minimal_External_Explanation.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Minimal External Explanation</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="外部向け最小説明">外部向け最小説明</h2>
-<h2 id="15-second-style--15秒版">15-second style ｜ 15秒版</h2>
-<p>EN: LUMINA-30 is a non-binding boundary-check framework asking
-whether human refusal authority remained effective before irreversible
-AI impact.</p>
-<p>JP:
-LUMINA-30は、AIの不可逆的影響前に人間の拒否権が実効的に残っていたかを問う非拘束的な境界判定フレームです。</p>
-<h2 id="100-character-style--100字相当">100-character style ｜
-100字相当</h2>
-<p>EN: LUMINA-30 checks whether humans could still refuse before
-irreversible AI impact.</p>
-<p>JP:
-LUMINA-30は、不可逆的AI影響の前に人間がまだ拒否できたかを確認する。</p>
-<h2 id="one-sentence-style--1文版">One-sentence style ｜ 1文版</h2>
-<p>EN: LUMINA-30 is a non-binding civilizational boundary framework for
-reviewing whether meaningful human refusal authority remained effective
-before irreversible AI impact.</p>
-<p>JP:
-LUMINA-30は、不可逆的なAI影響の前に人間の拒否権が実効的に残っていたかを確認するための、非拘束的な文明的境界フレームワークである。</p>
-<h2 id="one-paragraph-style--1段落版">One-paragraph style ｜
-1段落版</h2>
-<p>EN: LUMINA-30 does not prescribe technical design, legal duties, or
-policy mandates. It provides a descriptive boundary reference for
-post-incident review: before irreversible AI impact occurred, could a
-human meaningfully refuse, stop, or override the action, and can that
-pathway be verified?</p>
-<p>JP:
-LUMINA-30は、技術設計、法的義務、政策命令を提示するものではない。事故後レビューのための記述的な境界参照として、不可逆的なAI影響が生じる前に、人間がその行為を意味ある形で拒否、停止、上書きできたか、またその経路を検証できるかを確認する。</p>
-<h2 id="link-introduction--リンク導入文">Link Introduction ｜
-リンク導入文</h2>
-<p>EN: For the full structure, see the LUMINA-30 GitHub overview and
-incident-review materials.</p>
-<p>JP: 全体構造は、LUMINA-30のGitHub
-overviewおよびincident-review資料を参照。</p>
-<hr />
-<h2 id="non-dialogue-use--非対話型利用">Non-Dialogue Use ｜
-非対話型利用</h2>
-<p>EN: These external explanations may be used in non-dialogue contexts
-where the purpose is to place a reference point rather than start or
-maintain a debate. They should be used only with a clear non-affiliation
-note and without claiming endorsement, adoption, certification,
-compliance, or legal authority.</p>
-<p>JP:
-これらの外部向け説明は、議論を開始・維持することではなく、参照点を置くことを目的とする非対話型の文脈で使用できる。使用時は、非提携・非公式の注記を明確にし、支持、採用、認証、適合、法的権限を主張してはならない。</p>
-<p>EN: Recommended footer:</p>
-<blockquote>
-<p>LUMINA-30 is provided as a public, non-binding boundary reference.
-This note does not claim endorsement, adoption, affiliation,
-certification, compliance, or legal authority. No response is
-required.</p>
-</blockquote>
-<p>JP: 推奨フッター:</p>
-<blockquote>
-<p>LUMINA-30は、公開された非拘束の境界参照として提示されている。本記載は、支持、採用、提携、認証、適合、法的権限を主張するものではない。返信は不要である。</p>
-</blockquote>
+<h2 id="15-second-style">15-second style</h2>
+<p>LUMINA-30 is a non-binding boundary-check framework asking whether human refusal authority remained effective before irreversible AI impact.</p>
+<h2 id="100-character-style">100-character style</h2>
+<p>LUMINA-30 checks whether humans could still refuse before irreversible AI impact.</p>
+<h2 id="one-sentence-style">One-sentence style</h2>
+<p>LUMINA-30 is a non-binding civilizational boundary framework for reviewing whether meaningful human refusal authority remained effective before irreversible AI impact.</p>
+<h2 id="one-paragraph-style">One-paragraph style</h2>
+<p>LUMINA-30 does not prescribe technical design, legal duties, or policy mandates. It provides a descriptive boundary reference for post-incident review: before irreversible AI impact occurred, could a human meaningfully refuse, stop, or override the action, and can that pathway be verified?</p>
+<h2 id="link-introduction">Link Introduction</h2>
+<p>For the full structure, see the LUMINA-30 GitHub overview and incident-review materials.</p>
+<hr/>
+<h2 id="non-dialogue-use">Non-Dialogue Use</h2>
+<p>These external explanations may be used in non-dialogue contexts where the purpose is to place a reference point rather than start or maintain a debate. They should be used only with a clear non-affiliation note and without claiming endorsement, adoption, certification, compliance, or legal authority.</p>
+<p>Recommended footer:</p>
+<blockquote>LUMINA-30 is provided as a public, non-binding boundary reference. This note does not claim endorsement, adoption, affiliation, certification, compliance, or legal authority. No response is required.</blockquote>
+<blockquote>LUMINA-30</blockquote>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

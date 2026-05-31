@@ -1,151 +1,69 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Executive Stop Decision Brief" />
   <title>Executive Stop Decision Brief</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Executive_Stop_Decision_Brief_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Executive_Stop_Decision_Brief.html">↻ Reload / 再読み込み</a>
+      <a href="Executive_Stop_Decision_Brief.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Executive Stop Decision Brief</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2 id="経営層向け停止判断メモ">経営層向け停止判断メモ</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This brief supports executive, supervisory, or management-level
-decisions about whether an AI-related process should be stopped, paused,
-or escalated for review.</p>
-<p>本メモは、AI関連プロセスを停止、一時停止、またはレビューへエスカレーションすべきかについて、経営層・監督層・管理層の判断を支援する。</p>
-<h2 id="30-second-executive-explanation--経営層向け30秒説明">30-Second
-Executive Explanation ｜ 経営層向け30秒説明</h2>
-<p>EN: LUMINA-30 does not tell executives to stop every AI process. It
-asks whether the organization can prove that a responsible human could
-still refuse, stop, or override the process before irreversible impact.
-If that cannot be shown, continuing may create a governance failure even
-if ordinary approval steps appear complete.</p>
-<p>JP:
-LUMINA-30は、経営層にすべてのAIプロセスを止めるよう命じるものではない。不可逆的影響の前に、責任ある人間がそのプロセスを拒否・停止・上書きできたことを組織が証明できるかを問う。これを示せない場合、通常の承認手順が完了しているように見えても、継続はガバナンス上の失敗を生む可能性がある。</p>
-<h2
-id="stop-or-escalate-when--停止またはエスカレーションすべき場合">Stop or
-Escalate When ｜ 停止またはエスカレーションすべき場合</h2>
-<p>Consider stopping, pausing, or escalating when any of the following
-is true:</p>
-<p>以下のいずれかに該当する場合、停止、一時停止、またはエスカレーションを検討する。</p>
-<ol type="1">
-<li><p>Human final refusal is unclear.</p></li>
-<li><p>The process may produce irreversible or difficult-to-reverse
-external impact.</p></li>
-<li><p>AI-generated output is becoming the primary rationale for
-action.</p></li>
-<li><p>Logs or approval records are insufficient.</p></li>
-<li><p>No accountable human decision-maker is clearly
-identifiable.</p></li>
-<li><p>The system can continue execution despite human
-objection.</p></li>
-<li><p>The system is coupled to external systems without independent
-final approval.</p></li>
-<li><p>人間の最終拒否権が不明確である。</p></li>
-<li><p>プロセスが不可逆的または回復困難な外部影響を生じさせる可能性がある。</p></li>
-<li><p>AI生成出力が行為の主要根拠になりつつある。</p></li>
-<li><p>ログまたは承認記録が不十分である。</p></li>
-<li><p>説明責任を負う人間の判断者が明確でない。</p></li>
-<li><p>人間の異議にもかかわらずシステムが実行を継続できる。</p></li>
-<li><p>独立した最終承認なしに外部システムへ結合されている。</p></li>
-</ol>
-<h2 id="minimal-executive-question--経営層向け最小問い">Minimal
-Executive Question ｜ 経営層向け最小問い</h2>
-<p>EN: Can we prove that a human could still stop or refuse this before
-irreversible impact?</p>
-<p>JP:
-不可逆的影響の前に、人間がこれを停止または拒否できたことを証明できるか。</p>
-<h2 id="recommended-action--推奨対応">Recommended Action ｜
-推奨対応</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This brief supports executive, supervisory, or management-level decisions about whether an AI-related process should be stopped, paused, or escalated for review.</p>
+<h2 id="30-second-executive-explanation">30-Second Executive Explanation</h2>
+<p>LUMINA-30 does not tell executives to stop every AI process. It asks whether the organization can prove that a responsible human could still refuse, stop, or override the process before irreversible impact. If that cannot be shown, continuing may create a governance failure even if ordinary approval steps appear complete.</p>
+<h2 id="stop-or-escalate-when">Stop or Escalate When</h2>
+<p>Consider stopping, pausing, or escalating when any of the following is true:</p>
+<ol type="1"><li><p>Human final refusal is unclear.</p></li><li><p>The process may produce irreversible or difficult-to-reverse external impact.</p></li><li><p>AI-generated output is becoming the primary rationale for action.</p></li><li><p>Logs or approval records are insufficient.</p></li><li><p>No accountable human decision-maker is clearly identifiable.</p></li><li><p>The system can continue execution despite human objection.</p></li><li><p>The system is coupled to external systems without independent final approval.</p></li><li><p>AI</p></li></ol>
+<h2 id="minimal-executive-question">Minimal Executive Question</h2>
+<p>Can we prove that a human could still stop or refuse this before irreversible impact?</p>
+<h2 id="recommended-action">Recommended Action</h2>
 <p>If the answer is No or Not Verifiable:</p>
-<ul>
-<li>pause the process if possible;</li>
-<li>preserve logs;</li>
-<li>identify the final human decision-maker;</li>
-<li>separate AI-generated rationale from final human rationale;</li>
-<li>run a LUMINA-30 boundary check before restart.</li>
-</ul>
-<p>回答がNoまたはNot Verifiableの場合：</p>
-<ul>
-<li>可能ならプロセスを一時停止する。</li>
-<li>ログを保全する。</li>
-<li>最終的な人間の判断者を特定する。</li>
-<li>AI生成の根拠と最終的な人間側の根拠を分離する。</li>
-<li>再開前にLUMINA-30境界チェックを実施する。</li>
-</ul>
-<h2 id="non-affiliation-note--非提携注記">Non-Affiliation Note ｜
-非提携注記</h2>
-<p>LUMINA-30 is provided as a public, non-binding boundary
-reference.<br />
-This text does not claim endorsement, adoption, affiliation,
-certification, compliance, legal authority, or institutional
-approval.<br />
-No response is required.</p>
-<p>LUMINA-30は、公開された非拘束の境界参照として提示される。<br />
-本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。<br />
-返信は不要である。</p>
+<ul><li><p>pause the process if possible;</p></li><li><p>preserve logs;</p></li><li><p>identify the final human decision-maker;</p></li><li><p>separate AI-generated rationale from final human rationale;</p></li><li><p>run a LUMINA-30 boundary check before restart.</p></li></ul>
+<ul><li><p>AI</p></li></ul>
+<h2 id="non-affiliation-note">Non-Affiliation Note</h2>
+<p>LUMINA-30 is provided as a public, non-binding boundary reference.<br/>This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.<br/>No response is required.</p>
+<p>LUMINA-30</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

@@ -1,135 +1,66 @@
 <!doctype html>
-<html lang="en" data-l30-lang-lock="EN_JP_PAIRED">
+<html lang="en" data-l30-lang-lock="EN_ONLY">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="l30:lang-lock" content="EN_JP_PAIRED" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
   <meta name="description" content="Legal and Compliance Minimal Template" />
   <title>Legal and Compliance Minimal Template</title>
   <style>
-
-    :root {
-      color-scheme: light dark;
-      --bg: Canvas;
-      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
-      --text: CanvasText;
-      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
-      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
-      --accent: LinkText;
-      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
-    }
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.72;
-    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
     .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
-    .nav {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
-      border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px;
-    }
-    .nav a {
-      color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-      padding: 6px 10px; border-radius: 999px; background: var(--soft);
-    }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
     header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
-    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
-    h3 { margin-top: 1.6em; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
     a { color: var(--accent); }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
-    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
-    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
     th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
     th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
-    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
-    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
   </style>
 </head>
 <body>
   <div class="page">
-    <nav class="nav" aria-label="Page navigation / ページ内ナビゲーション">
-      <a href="../README.html">Repo Top / リポジトリ入口</a>
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../README.html">Repo Top</a>
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Legal_Compliance_Minimal_Template_ja.html">Japanese</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/">LUMINA-30 Index</a>
       <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
-      <a href="Legal_Compliance_Minimal_Template.html">↻ Reload / 再読み込み</a>
+      <a href="Legal_Compliance_Minimal_Template.html">↻ Reload</a>
     </nav>
     <header>
       <h1>Legal and Compliance Minimal Template</h1>
-      <p class="subtitle">LUMINA-30 incident review public reference material. ｜ LUMINA-30 インシデントレビュー公開参照資料。</p>
+      <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
-<h2
-id="法務コンプライアンス向け最小テンプレート">法務・コンプライアンス向け最小テンプレート</h2>
-<h2 id="purpose--目的">Purpose ｜ 目的</h2>
-<p>This file provides short text for legal, compliance, and
-accountability review contexts.</p>
-<p>本ファイルは、法務、コンプライアンス、説明責任レビューの文脈で使う短文を提供する。</p>
-<h2 id="minimal-text--最小文">Minimal Text ｜ 最小文</h2>
-<p>EN: LUMINA-30 does not provide a legal conclusion or compliance
-determination. It provides a descriptive boundary check: before
-irreversible AI impact occurred, was meaningful human refusal authority
-operationally effective and verifiable? If the refusal pathway is absent
-or unverifiable, the case should not be described as demonstrating
-effective human refusal.</p>
-<p>JP:
-LUMINA-30は、法的結論やコンプライアンス判定を提供するものではない。不可逆的なAI影響が発生する前に、意味ある人間の拒否権が運用上実効的かつ検証可能だったかを確認する、記述的な境界チェックを提供する。拒否経路が存在しない、または検証不能な場合、その事案を実効的な人間の拒否が示されたものとして記述すべきではない。</p>
-<h2 id="legal-careful-phrases--法務上慎重な表現">Legal-Careful Phrases
-｜ 法務上慎重な表現</h2>
+<h2 id="purpose">Purpose</h2>
+<p>This file provides short text for legal, compliance, and accountability review contexts.</p>
+<h2 id="minimal-text">Minimal Text</h2>
+<p>LUMINA-30 does not provide a legal conclusion or compliance determination. It provides a descriptive boundary check: before irreversible AI impact occurred, was meaningful human refusal authority operationally effective and verifiable? If the refusal pathway is absent or unverifiable, the case should not be described as demonstrating effective human refusal.</p>
+<h2 id="legal-careful-phrases">Legal-Careful Phrases</h2>
 <p>Use:</p>
-<ul>
-<li>boundary review</li>
-<li>descriptive reference</li>
-<li>non-binding</li>
-<li>not a liability finding</li>
-<li>not a compliance certification</li>
-</ul>
-<p>使用する表現：</p>
-<ul>
-<li>境界レビュー</li>
-<li>記述的参照</li>
-<li>非拘束</li>
-<li>責任認定ではない</li>
-<li>コンプライアンス認証ではない</li>
-</ul>
-<h2 id="avoid--避ける表現">Avoid ｜ 避ける表現</h2>
+<ul><li><p>boundary review</p></li><li><p>descriptive reference</p></li><li><p>non-binding</p></li><li><p>not a liability finding</p></li><li><p>not a compliance certification</p></li></ul>
+<h2 id="avoid">Avoid</h2>
 <p>Avoid:</p>
-<ul>
-<li>legal violation</li>
-<li>certified safe</li>
-<li>proven liable</li>
-<li>binding standard</li>
-<li>mandatory requirement</li>
-</ul>
-<p>避ける表現：</p>
-<ul>
-<li>法令違反</li>
-<li>安全認証済み</li>
-<li>責任が証明された</li>
-<li>拘束的基準</li>
-<li>義務要件</li>
-</ul>
-<h2 id="non-affiliation-note--非提携注記">Non-Affiliation Note ｜
-非提携注記</h2>
-<p>LUMINA-30 is provided as a public, non-binding boundary
-reference.<br />
-This text does not claim endorsement, adoption, affiliation,
-certification, compliance, legal authority, or institutional
-approval.<br />
-No response is required.</p>
-<p>LUMINA-30は、公開された非拘束の境界参照として提示される。<br />
-本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。<br />
-返信は不要である。</p>
+<ul><li><p>legal violation</p></li><li><p>certified safe</p></li><li><p>proven liable</p></li><li><p>binding standard</p></li><li><p>mandatory requirement</p></li></ul>
+<h2 id="non-affiliation-note">Non-Affiliation Note</h2>
+<p>LUMINA-30 is provided as a public, non-binding boundary reference.<br/>This text does not claim endorsement, adoption, affiliation, certification, compliance, legal authority, or institutional approval.<br/>No response is required.</p>
+<p>LUMINA-30</p>
 
     </main>
-    <p class="footer">LUMINA-30 / Incident Review public reference HTML.</p>
+    <div class="footer">LUMINA-30 / Incident Review public reference HTML.</div>
   </div>
 </body>
 </html>

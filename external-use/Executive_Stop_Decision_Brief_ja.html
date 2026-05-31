@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="経営層向け停止判断メモ" />
+  <title>経営層向け停止判断メモ</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.1em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.5em; }
+    a { color: var(--accent); }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle, .footer { color: var(--muted); }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Executive_Stop_Decision_Brief.html">English</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHub Repository</a>
+      <a href="Executive_Stop_Decision_Brief_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>経営層向け停止判断メモ</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<h2 id="目的">目的</h2>
+<p>本メモは、AI関連プロセスを停止、一時停止、またはレビューへエスカレーションすべきかについて、経営層・監督層・管理層の判断を支援する。</p>
+<h2 id="経営層向け30秒説明">経営層向け30秒説明</h2>
+<p>LUMINA-30は、経営層にすべてのAIプロセスを止めるよう命じるものではない。不可逆的影響の前に、責任ある人間がそのプロセスを拒否・停止・上書きできたことを組織が証明できるかを問う。これを示せない場合、通常の承認手順が完了しているように見えても、継続はガバナンス上の失敗を生む可能性がある。</p>
+<h2 id="停止またはエスカレーションすべき場合">停止またはエスカレーションすべき場合</h2>
+<p>以下のいずれかに該当する場合、停止、一時停止、またはエスカレーションを検討する。</p>
+<ol type="1"><li><p>人間の最終拒否権が不明確である。</p></li><li><p>プロセスが不可逆的または回復困難な外部影響を生じさせる可能性がある。</p></li><li><p>生成出力が行為の主要根拠になりつつある。</p></li><li><p>ログまたは承認記録が不十分である。</p></li><li><p>説明責任を負う人間の判断者が明確でない。</p></li><li><p>人間の異議にもかかわらずシステムが実行を継続できる。</p></li><li><p>独立した最終承認なしに外部システムへ結合されている。</p></li></ol>
+<h2 id="経営層向け最小問い">経営層向け最小問い</h2>
+<p>不可逆的影響の前に、人間がこれを停止または拒否できたことを証明できるか。</p>
+<h2 id="推奨対応">推奨対応</h2>
+<p>回答がNoまたはNot Verifiableの場合：</p>
+<ul><li><p>可能ならプロセスを一時停止する。</p></li><li><p>ログを保全する。</p></li><li><p>最終的な人間の判断者を特定する。</p></li><li><p>生成の根拠と最終的な人間側の根拠を分離する。</p></li><li><p>再開前にLUMINA-30境界チェックを実施する。</p></li></ul>
+<h2 id="非提携注記">非提携注記</h2>
+<p>は、公開された非拘束の境界参照として提示される。<br/>本文は、支持、採用、提携、認証、適合、法的権限、制度的承認を主張するものではない。<br/>返信は不要である。</p>
+
+    </main>
+    <div class="footer">本ページは日本語読者向けHTMLです。英語版・履歴・ソース確認は上部リンクから確認してください。</div>
+  </div>
+</body>
+</html>
