@@ -1,5 +1,5 @@
 <!-- L30_LANG_LOCK: EN_ONLY -->
-# L30-FRM Code System for Claude Review
+# L30-FRM Code System for AI-Assisted Review
 
 This file summarizes the document ID, filename, and localization system used in this review package.
 
@@ -67,3 +67,4 @@ Please check that:
 ## Stable public filenames
 
 Public filenames do not include version numbers. The English form is the default filename. Localized forms use uppercase language suffixes before the file extension.
+
