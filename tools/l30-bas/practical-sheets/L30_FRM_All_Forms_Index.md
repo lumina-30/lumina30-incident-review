@@ -154,10 +154,10 @@ Use `L30-FRM-B01`, `L30-FRM-I01`, or `L30-FRM-A01` first when a minimum practica
 ## Category Pattern Forms ｜ 区分別基本パターン帳票
 
 The following English forms provide baseline patterns for users who need to create sector-specific or organization-specific L30-BAS forms.  
-They are official L30-FRM examples for the `G`, `R`, and `S` categories, but they do not require users to copy their wording exactly.
+They are maintained L30-FRM reference examples for the `G`, `R`, and `S` categories, but they do not require users to copy their wording exactly.
 
 以下の英語帳票は、利用者が業界別または組織別のL30-BAS派生フォームを作成する際の基本パターンを提供します。  
-これらは `G`, `R`, `S` 区分の公式L30-FRM例ですが、利用者が文言を完全にコピーすることを要求するものではありません。
+これらは `G`, `R`, `S` 区分のL30-FRM参照例ですが、利用者が文言を完全にコピーすることを要求するものではありません。
 
 | Document ID | Category | Default DOCX | Default PDF | Intended pattern |
 |---|---|---|---|---|

@@ -5,7 +5,7 @@ This file summarizes the document ID, filename, and localization system used in 
 
 ## Core rule
 
-`L30-FRM-B01`, `L30-FRM-B02`, `L30-FRM-I01`, `L30-FRM-I02`, `L30-FRM-I03`, `L30-FRM-A01`, `L30-FRM-G01`, `L30-FRM-R01`, and `L30-FRM-S01` are the current official document IDs. Document IDs use hyphens; public filenames use underscores.
+`L30-FRM-B01`, `L30-FRM-B02`, `L30-FRM-I01`, `L30-FRM-I02`, `L30-FRM-I03`, `L30-FRM-A01`, `L30-FRM-G01`, `L30-FRM-R01`, and `L30-FRM-S01` are the current stable document IDs. Document IDs use hyphens; public filenames use underscores.
 
 English files are the canonical templates and do not use a language suffix.
 
@@ -15,7 +15,7 @@ Japanese files use the `_JA` suffix.
 
 Language suffixes such as `_JA`, `_FR`, or `_DE` are not part of the document ID.
 
-## Official document IDs
+## Stable document IDs
 
 ```text
 L30-FRM-B01 = Boundary_Check

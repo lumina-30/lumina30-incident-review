@@ -35,14 +35,14 @@ It is a document-control system for practical forms only.
 <a id="document-id"></a>
 ## Document ID ｜ 文書ID
 
-The official document ID uses hyphens, not underscores, and does not include a language suffix.  
-正式な文書IDはアンダースコアではなくハイフンを使用し、言語接尾辞を含めません。
+The stable document ID uses hyphens, not underscores, and does not include a language suffix.  
+安定文書IDはアンダースコアではなくハイフンを使用し、言語接尾辞を含めません。
 
 Public filenames use underscores for filesystem and URL compatibility.  
 公開ファイル名は、ファイルシステムおよびURL互換性のためアンダースコアを使用します。
 
-Official document IDs:  
-正式文書ID：
+Stable document IDs:  
+安定文書ID：
 
 ```text
 L30-FRM-B01
@@ -118,7 +118,7 @@ Public filenames do not include version numbers. Version information is stored i
 
 | Component | Meaning |
 |---|---|
-| `L30-FRM-[Category][Number]` | Official document ID shown inside the form |
+| `L30-FRM-[Category][Number]` | Stable document ID shown inside the form |
 | `L30_FRM_[Category][Number]_[English_Title]` | Public filename base using underscores |
 | `_[LANGUAGE]` | Localized language suffix, used only in filenames and not part of the document ID |
 
