@@ -17,7 +17,7 @@ It does not claim endorsement, adoption, recognition, approval, certification, c
 本メモは、非拘束的・記述的であり、いかなる外部機関とも提携していない。
 外部機関による承認、採用、認定、承諾、認証、準拠、法的効力、または制度利用を主張しない。
 
-## Preferred Standards-Adjacent Terms ｜ 標準化周辺で使いやすい語
+## Preferred Standards-Adjacent Terms ｜ 標準化周辺で優先する語
 
 Use:
 

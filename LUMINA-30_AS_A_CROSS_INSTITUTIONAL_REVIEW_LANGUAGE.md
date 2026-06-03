@@ -16,7 +16,7 @@ Capability evaluation and safety evaluation are necessary, but they do not alway
 
 ---
 
-## Policy-friendly features ｜ 政策実務で使いやすい点
+## Policy-friendly features ｜ 政策実務に接続しやすい特徴
 
 - not tied to a specific technical stack
 - not tied to a specific company
