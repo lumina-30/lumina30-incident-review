@@ -17,8 +17,8 @@ License: CC0 1.0 Universal (Public Domain)
 This document defines the document ID system for LUMINA-30 practical forms, sheets, templates, and checklists.  
 この文書は、LUMINA-30 が提供する実務用帳票・シート・テンプレート・チェックリストの管理番号体系を定義します。
 
-The purpose is to make each form easy to reference, review, update, and use in incident review, audit, and boundary-evaluation contexts.  
-目的は、各帳票を事故検証・監査・境界評価の中で、一貫して参照・レビュー・更新・利用できるようにすることです。
+The purpose is to keep each form consistently referenceable, reviewable, updateable, and usable in incident review, audit, and boundary-evaluation contexts.  
+目的は、各帳票を事故検証・監査・境界評価の中で、一貫して参照・レビュー・更新・利用できる状態に保つことです。
 
 ---
 
