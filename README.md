@@ -9,13 +9,6 @@
 >
 > 日本語で読む場合も、このREADME.mdに留まらず、日本語HTMLフロアを使用してください：  
 > [インシデントレビュー・フロア 日本語HTML版を開く](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
->
-> This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.  
-> 本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLフロアを使用してください。
-
-This floor name is a navigation label for readers. It does not imply certification, legal authority, regulatory force, institutional status, official adoption, endorsement, affiliation, or a change to repository names or file paths.
-
-このフロア名は、読者の移動を助けるための案内名です。認証、法的権限、規制上の効力、制度的地位、公式採用、支持、提携、またはリポジトリ名・ファイルパスの変更を意味しません。
 
 This repository provides a minimal review structure
 for examining AI incidents through the LUMINA-30 framework.
@@ -509,6 +502,20 @@ This repository can be treated as the main incident-review hub within the LUMINA
   Organization-level entry point for the LUMINA-30 repository network.  
   LUMINA-30 repo群全体への組織レベル入口。
 
+
+---
+
+## Floor Name and README Preservation Note ｜ フロア名とREADME保管注記
+
+This floor name is a navigation label for readers. It does not imply certification, legal authority, regulatory force, institutional status, official adoption, endorsement, affiliation, or a change to repository names or file paths.
+
+このフロア名は、読者の移動を助けるための案内名です。認証、法的権限、規制上の効力、制度的地位、公式採用、支持、提携、またはリポジトリ名・ファイルパスの変更を意味しません。
+
+This README.md is retained for canonical text preservation, search discoverability, existing links, source review, and version comparison. It is not the preferred reader-facing route.
+
+本README.mdは、正本文書の保管、検索到達性、既存リンク維持、ソース確認、差分確認のために残しています。読者向けの閲覧・移動・戻り導線には、HTMLフロアを使用してください。
+
 ---
 Keywords: irreversible escalation, boundary condition, effective human refusal, procedural invalidity review, post-incident review
+
 
