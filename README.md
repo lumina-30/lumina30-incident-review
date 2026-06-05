@@ -10,6 +10,10 @@
 > 日本語で読む場合も、このREADME.mdに留まらず、日本語HTMLフロアを使用してください：  
 > [インシデントレビュー・フロア 日本語HTML版を開く](https://lumina-30.github.io/lumina30-incident-review/index-ja.html)  
 
+> **Status ｜ ステータス**  
+> LUMINA-30 is a public reference framework for evaluating whether effective human refusal remains possible before irreversible escalation. It is not a certification system, not an adopted legal standard, and not evidence of institutional approval.  
+> LUMINA-30は、不可逆化の前に人間の実効的拒否権が残っているかを評価するための公開参照フレームです。認証制度、採用済み法制度、制度的承認の証拠ではありません。  
+
 This repository provides a minimal review structure
 for examining AI incidents through the LUMINA-30 framework.
 
@@ -517,5 +521,6 @@ This README.md is retained for canonical text preservation, search discoverabili
 
 ---
 Keywords: irreversible escalation, boundary condition, effective human refusal, procedural invalidity review, post-incident review
+
 
 
