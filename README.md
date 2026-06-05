@@ -81,6 +81,29 @@ Intended users: reviewers, auditors, governance and oversight bodies.
 
 This repository turns refusal authority from an abstract principle into a reviewable condition.
 
+## Effective refusal test ｜ 実効的拒否テスト
+
+For LUMINA-30 incident review, formal oversight is not enough. The review must ask whether a legitimate human refusal could actually take effect before irreversible escalation occurred.
+
+LUMINA-30の事故レビューでは、形式的な監督だけでは不十分である。レビューでは、不可逆化が発生する前に、正当な人間の拒否が実際に効力を持ち得たかを確認する。
+
+Minimum questions:
+
+- Who could refuse, stop, suspend, or challenge the system?
+- Did that person or body have the information, time, and authority needed to act?
+- Would refusal have actually stopped or delayed the irreversible consequence?
+- Was refusal replaced by inferred consent, organizational pressure, system confidence, or post-hoc justification?
+- At what point did refusal become ineffective?
+
+最小確認事項：
+
+- 誰がシステムを拒否・停止・保留・異議申立てできたのか。
+- その人または主体には、行使に必要な情報・時間・権限があったのか。
+- 拒否すれば、不可逆な結果を実際に停止または遅延できたのか。
+- 拒否は、推定同意、組織圧力、システム信頼度、事後正当化で置き換えられていなかったか。
+- どの時点で拒否は効かなくなったのか。
+
+
 ## Immediate Incident Route ｜ 事故時の即応導線
 
 For a quick AI-related incident review, use the following five-step route:

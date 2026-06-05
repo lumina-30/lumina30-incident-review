@@ -42,6 +42,14 @@ LUMINA-30 asks the boundary question. PCR-C specifies one possible infrastructur
 JP:
 LUMINA-30は境界問いを提示する。PCR-Cは、その境界が越えられる前に作用するためのインフラ層メカニズムの一例を示す。
 
+## Cutoff and Procedural Invalidity ｜ カットオフと手続き的無効性
+
+EN:
+PCR-C identifies the cutoff before recursive or self-reinforcing escalation makes refusal ineffective. LUMINA-30 treats escalation beyond that cutoff without effective human refusal as procedurally invalid.
+
+JP:
+PCR-Cは、再帰的または自己強化的なエスカレーションによって拒否が効かなくなる前の切断点を扱う。LUMINA-30は、その切断点を越える前に実効的人間拒否が確保されていないエスカレーションを、手続き的に無効と扱う。
+
 ## What PCR-C Does Not Do ｜ PCR-Cがしないこと
 
 PCR-C does not modify the canonical LUMINA-30 boundary definition.
