@@ -215,7 +215,7 @@ Choose the entry point within this Incident Review Floor by role and review stag
   Use this when connecting the boundary question to external governance, standards, incident-response, or human-oversight contexts.  
   境界質問を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する場合に使用。
 
-- [For pre-incident boundary review ｜ 事故前境界レビュー](https://lumina-30.github.io/lumina30-incident-review/reference/Pre_Incident_Boundary_Review_Extension.html) ｜ [日本語](https://lumina-30.github.io/lumina30-incident-review/reference/Pre_Incident_Boundary_Review_Extension_ja.html)  
+- [For pre-incident boundary review ｜ 事故前境界レビュー](reference/Pre_Incident_Boundary_Review_Extension.md) ｜ [日本語](https://lumina-30.github.io/lumina30-incident-review/reference/Pre_Incident_Boundary_Review_Extension_ja.html)  
   Use this when evaluating capability exposure, access control, automation, and human refusal capacity before irreversible execution pathways become available.  
   不可逆な実行経路が開く前に、能力露出、アクセス制御、自動化、人間の拒否能力を評価する場合に使用。
 

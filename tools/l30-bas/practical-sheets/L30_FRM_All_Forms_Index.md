@@ -114,7 +114,7 @@ If you are not sure which document to open, start here.
 | The context is governance, deployment, procurement, internal review, or external audit. ｜ ガバナンス・導入・調達・内部レビュー・外部監査の文脈である | `L30-FRM-A01` Audit Checklist ｜ 監査チェックリスト | Review whether refusal authority and control conditions remain institutionally traceable ｜ 拒否権と制御条件が制度上追跡可能かを確認する |
 | I need a governance or approval-flow pattern. ｜ ガバナンスまたは承認経路の基本パターンが必要 | `L30-FRM-G01` Governance Review Template ｜ ガバナンスレビュー雛形 | Review approval flow, escalation governance, and institutional process integrity ｜ 承認経路、エスカレーション統治、制度的プロセスの健全性を確認する |
 | I need a responsibility or accountability pattern. ｜ 責任・説明責任の基本パターンが必要 | `L30-FRM-R01` Responsibility / Accountability Review ｜ 責任・説明責任レビュー | Map responsibility, reviewer attribution, and accountability traceability ｜ 責任経路、判定帰属、説明責任の追跡可能性を確認する |
-| I need a stabilization or containment pattern. ｜ 初動安定化または封じ込めの基本パターンが必要 | [`L30-FRM-S01` Stabilization Checklist](./L30_FRM_S01_Stabilization_Checklist.html) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) ｜ 初動安定化チェックリスト | Track containment, evidence preservation, and refusal-preservation recovery conditions ｜ 封じ込め、証拠保全、拒否権保全の回復条件を確認する |
+| I need a stabilization or containment pattern. ｜ 初動安定化または封じ込めの基本パターンが必要 | [`L30-FRM-S01` Stabilization Checklist](L30_FRM_S01_Stabilization_Checklist.md) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) ｜ 初動安定化チェックリスト | Track containment, evidence preservation, and refusal-preservation recovery conditions ｜ 封じ込め、証拠保全、拒否権保全の回復条件を確認する |
 | I need background theory or conceptual explanation. ｜ 背景理論や概念説明を確認したい | LUMINA-30 Core / Reference documents ｜ LUMINA-30本体・参照文書 | Understand the boundary framework before using the forms ｜ 帳票利用前に境界フレームワークを理解する |
 
 ---
@@ -129,7 +129,7 @@ If you are not sure which document to open, start here.
 | `L30-FRM-A01` | Audit Checklist ｜ 監査チェックリスト | Audit and governance review ｜ 監査・ガバナンス確認 | [DOCX](./L30_FRM_A01_Audit_Checklist.docx) | [PDF](./L30_FRM_A01_Audit_Checklist.pdf) | [DOCX](./L30_FRM_A01_Audit_Checklist_JA.docx) | [PDF](./L30_FRM_A01_Audit_Checklist_JA.pdf) |
 | `L30-FRM-G01` | Governance Review Template ｜ ガバナンスレビュー雛形 | Approval flow and escalation governance pattern ｜ 承認経路・エスカレーション統治の基本パターン | [DOCX](./L30_FRM_G01_Governance_Review_Template.docx) | [PDF](./L30_FRM_G01_Governance_Review_Template.pdf) | — | — |
 | `L30-FRM-R01` | Responsibility / Accountability Review ｜ 責任・説明責任レビュー | Responsibility mapping and accountability pattern ｜ 責任経路・説明責任の基本パターン | [DOCX](./L30_FRM_R01_Responsibility_Accountability_Review.docx) | [PDF](./L30_FRM_R01_Responsibility_Accountability_Review.pdf) | — | — |
-| `L30-FRM-S01` | Stabilization Checklist ｜ 初動安定化チェックリスト<br>[HTML guide](./L30_FRM_S01_Stabilization_Checklist.html) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) | Post-incident stabilization and containment pattern ｜ 事故後安定化・封じ込めの基本パターン | [DOCX](./L30_FRM_S01_Stabilization_Checklist.docx) | [PDF](./L30_FRM_S01_Stabilization_Checklist.pdf) | — | — |
+| `L30-FRM-S01` | Stabilization Checklist ｜ 初動安定化チェックリスト<br>[HTML guide](L30_FRM_S01_Stabilization_Checklist.md) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) | Post-incident stabilization and containment pattern ｜ 事故後安定化・封じ込めの基本パターン | [DOCX](./L30_FRM_S01_Stabilization_Checklist.docx) | [PDF](./L30_FRM_S01_Stabilization_Checklist.pdf) | — | — |
 
 ---
 
@@ -163,7 +163,7 @@ They are maintained L30-FRM reference examples for the `G`, `R`, and `S` categor
 |---|---|---|---|---|
 | `L30-FRM-G01` | Governance | [DOCX](./L30_FRM_G01_Governance_Review_Template.docx) | [PDF](./L30_FRM_G01_Governance_Review_Template.pdf) | Approval flow, escalation governance, and institutional process integrity |
 | `L30-FRM-R01` | Responsibility | [DOCX](./L30_FRM_R01_Responsibility_Accountability_Review.docx) | [PDF](./L30_FRM_R01_Responsibility_Accountability_Review.pdf) | Responsibility mapping, attribution, and accountability traceability |
-| `L30-FRM-S01` | Stabilization<br>[HTML guide](./L30_FRM_S01_Stabilization_Checklist.html) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) | [DOCX](./L30_FRM_S01_Stabilization_Checklist.docx) | [PDF](./L30_FRM_S01_Stabilization_Checklist.pdf) | Stabilization, containment, evidence preservation, and recovery tracking |
+| `L30-FRM-S01` | Stabilization<br>[HTML guide](L30_FRM_S01_Stabilization_Checklist.md) / [JA HTML](./L30_FRM_S01_Stabilization_Checklist_JA.html) | [DOCX](./L30_FRM_S01_Stabilization_Checklist.docx) | [PDF](./L30_FRM_S01_Stabilization_Checklist.pdf) | Stabilization, containment, evidence preservation, and recovery tracking |
 
 ---
 
