@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="PCR-C校正とH測定メモ" />
+  <title>PCR-C校正とH測定メモ</title>
+  <style>
+
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 980px; margin: 0 auto; padding: 28px 18px 48px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 12px; }
+    .nav a { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; background: var(--soft); }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.6em; }
+    a { color: var(--accent); }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    code { background: var(--soft); padding: .12em .3em; border-radius: 6px; }
+    pre { overflow-x: auto; padding: 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); }
+    blockquote { margin: 1.2em 0; padding: .8em 1em; border-left: 4px solid var(--line); background: var(--panel); border-radius: 0 12px 12px 0; }
+    table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--panel); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="PCRC_Calibration_and_H_Measurement_Note.html">英語版</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
+      <a href="https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/index-ja.html">境界レビューフロア</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/index-ja.html">LUMINA-30索引</a>
+      <a href="../FIRST_3_FILES_ja.html">最初の3ファイル</a>
+      <a href="../READING_ORDER_ja.html">読む順序</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review">GitHubリポジトリ</a>
+      <a href="PCRC_Calibration_and_H_Measurement_Note_ja.html">↻ 再読み込み</a>
+    </nav>
+    <header>
+      <h1>PCR-C校正とH測定メモ</h1>
+      <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
+    </header>
+    <main>
+<p>本ノートは、PCR-Cの閾値と介入能力Hを、運用レビューの文脈でどのように解釈すべきかを定義する。</p>
+<p>PCR-Cの閾値は、経験的に固定された定数ではない。<br />段階的レビューおよび制御行動を開始するための、正規化された参照水準である。</p>
+<p>本ノートの目的は、次の2つの誤りを防ぐことである。</p>
+<ol type="1">
+<li>PCR-Cの閾値を、普遍的な経験的リスク定数として扱うこと。</li>
+<li>直接的な経験的校正が存在しないことを理由に、介入能力の失敗を無視すること。</li>
+</ol>
+<hr />
+<h2 id="1-status">1. 状態</h2>
+<p>PCR-Cは構造的制御フレームワークであり、経験的予測モデルではない。</p>
+<p>閾値は以下のとおりである。</p>
+<ul>
+<li>黄色 = 5</li>
+<li>橙色 = 7</li>
+<li>赤色 = 9</li>
+</ul>
+<p>これらは、境界づけられたスコアリングモデル内の正規化された参照露出水準として読むべきである。</p>
+<p>これらは、レビュー、スロットリング、隔離、または切断を検討すべき時点を示す。<br />すべてのシステムが同一の数値で危険になると主張するものではない。</p>
+<hr />
+<h2 id="2-calibration-principle">2. 校正原則</h2>
+<p>PCR-Cの校正は、運用環境に対して相対的に行うべきである。</p>
+<p>少なくとも、校正では以下を考慮する。</p>
+<ul>
+<li>過去の基準変動幅</li>
+<li>展開速度</li>
+<li>権限拡張率</li>
+<li>インフラ結合</li>
+<li>人間承認の遅延</li>
+<li>停止命令の伝播遅延</li>
+<li>ロールバック可能性</li>
+<li>監査可視性</li>
+<li>地域横断または分散実行の挙動</li>
+<li>再起動統治の強度</li>
+</ul>
+<p>実行が速く、接続範囲が広く、権限が高く、または人間側の応答能力が弱いシステムでは、より厳しい閾値を使用すべきである。</p>
+<hr />
+<h2 id="3-intervention-capacity-h">3. 介入能力H</h2>
+<p>PCR-Cにおいて、Hは実効的な介入能力を表す。</p>
+<p>Hは単一の直接観測可能な量ではない。<br />不可逆的影響の前に、人間および制度がシステム経路を検知、判断、停止、隔離、または反転できる実際的能力を表す。</p>
+<p>Hは精密な物理定数ではなく、境界づけられた運用推定値として扱うべきである。</p>
+<hr />
+<h2 id="4-proxy-measurements-for-h">4. Hの代理測定</h2>
+<p>Hは、以下を含む反復的な運用測定によって近似できる。</p>
+<table>
+<thead>
+<tr><th>代理指標</th><th>測定対象</th></tr>
+</thead>
+<tbody>
+<tr><td>検知遅延</td><td>エスカレーションまたは境界関連挙動を検知するために必要な時間</td></tr>
+<tr><td>承認連鎖の遅延</td><td>権限ある人間が判断し、停止行動を発行するために必要な時間</td></tr>
+<tr><td>停止命令の伝播遅延</td><td>停止または隔離命令が関連インフラへ到達するために必要な時間</td></tr>
+<tr><td>ロールバック可能性</td><td>介入後にシステム状態を復元または封じ込められるか</td></tr>
+<tr><td>権限凍結時間</td><td>追加の許可またはツール拡張を防ぐために必要な時間</td></tr>
+<tr><td>地域横断同期遅延</td><td>分散インフラ全体で封じ込めを強制するために必要な時間</td></tr>
+<tr><td>監査ログ利用可能性</td><td>介入前に何が起きたかをレビュー担当者が検証できるか</td></tr>
+<tr><td>再起動統治遅延</td><td>システムが運用再開できるまでに必要な時間と権限</td></tr>
+</tbody>
+</table>
+<p>これらの測定は、Hが正確であることを証明しない。<br />人間の拒否権限がなお実効的かを評価するための運用上の境界を提供する。</p>
+<hr />
+<h2 id="5-stop-drill-method">5. 停止訓練法</h2>
+<p>停止訓練とは、エスカレーションが不可逆化する前に人間がなお介入できるかを推定するための管理された演習である。</p>
+<p>最小限の停止訓練では、以下を記録すべきである。</p>
+<ol type="1">
+<li>検知時間</li>
+<li>エスカレーション分類時間</li>
+<li>判断承認時間</li>
+<li>命令実行時間</li>
+<li>インフラ伝播時間</li>
+<li>確認時間</li>
+<li>ロールバックまたは隔離状態</li>
+<li>監査ログの完全性</li>
+</ol>
+<p>これらの値が想定されるエスカレーション窓を超える場合、実効的介入能力は劣化しているものとして扱うべきである。</p>
+<hr />
+<h2 id="6-threshold-adjustment-rule">6. 閾値調整規則</h2>
+<p>PCR-Cの閾値は、以下の場合に引き下げるべきである。</p>
+<ul>
+<li>実行速度が増す場合</li>
+<li>自律的なツールアクセスが拡大する場合</li>
+<li>権限水準が上がる場合</li>
+<li>展開が分散化する場合</li>
+<li>監査可視性が下がる場合</li>
+<li>人間の承認経路が遅くなる場合</li>
+<li>ロールバックが不確実になる場合</li>
+<li>過去の停止訓練が失敗する、または想定エスカレーション窓を超える場合</li>
+</ul>
+<p>PCR-Cの閾値を緩く扱えるのは、反復的な停止訓練によって、検知、判断、封じ込め、検証が関連するエスカレーション窓内でなお実効的であることが示される場合に限られる。</p>
+<hr />
+<h2 id="7-review-interpretation">7. レビュー上の解釈</h2>
+<p>PCR-Cレビューは、次の問いを立てるべきではない。</p>
+<p>「5、7、9という数値は経験的に普遍か。」</p>
+<p>問うべきなのは、次である。</p>
+<p>「このシステムの能力、接続性、権限、速度、および測定された介入能力を前提として、人間は不可逆的影響の前にその経路を拒否または停止できたか。」</p>
+<p>これを示せない場合、レビューでは実効的な人間拒否は検証されていないものとして扱うべきである。</p>
+<hr />
+<h2 id="8-relationship-to-lumina-30">8. LUMINA-30との関係</h2>
+<p>本ノートは、LUMINA-30の正典的境界を変更しない。</p>
+<p>本ノートは、1つの測定問いを運用化する。</p>
+<p>不可逆的なAI関連影響の前に、実効的な人間拒否を行使できるか。</p>
+<p>PCR-Cは、インフラ層のスコアリングおよびゲーティングモデルを提供する。<br />LUMINA-30は境界条件を提供する。すなわち、人間の拒否は不可逆化の前に実効的でなければならない。</p>
+<hr />
+<h2 id="9-non-guarantee">9. 非保証</h2>
+<p>PCR-Cの校正は安全を保証しない。</p>
+<p>PCR-Cの校正は、人間の介入能力がシステムの増幅に遅れ始め得る時点を特定するための構造化された方法を提供する。</p>
+<p>校正済みPCR-Cレビューは手続き上の可視性を強化するが、アライメント研究、法令遵守、制度的ガバナンス、セキュリティ評価、またはインシデント調査を置き換えるものではない。</p>
+    </main>
+    <p class="footer">LUMINA-30 / インシデントレビュー公開参照HTML。</p>
+  </div>
+</body>
+</html>
