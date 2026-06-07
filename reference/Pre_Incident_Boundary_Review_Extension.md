@@ -131,10 +131,10 @@ This note may be used with public reports on frontier AI cyber-capability accele
 ## Reader path ｜ 読者導線
 
 - [Incident Review Floor HTML](../index.html)
-- [FIRST_3_FILES](../FIRST_3_FILES.html)
-- [Irreversibility Decision Criteria](../boundary-check/Irreversibility_Decision_Criteria.html)
-- [Absence Rule Check](../boundary-check/Absence_Rule_Check.html)
-- [Boundary Check Result Classification](../boundary-check/Boundary_Check_Result_Classification.html)
+- [FIRST_3_FILES](../FIRST_3_FILES.md)
+- [Irreversibility Decision Criteria](../boundary-check/Irreversibility_Decision_Criteria.md)
+- [Absence Rule Check](../boundary-check/Absence_Rule_Check.md)
+- [Boundary Check Result Classification](../boundary-check/Boundary_Check_Result_Classification.md)
 
 ---
 
