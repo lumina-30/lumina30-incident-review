@@ -25,6 +25,10 @@
 
 > **Role in the first-use route ｜ 初見導線における役割**  
 > Use this repository after the Overview when you need to review a specific case, deployment, near miss, or incident.  
+> **Authority-routing failures ｜ 権限経路の失敗**  
+> AI-related incidents should be reviewed not only as model-output failures, but also as authority-routing failures: account recovery, credential changes, tool execution, production access, privileged API actions, rollback authority, and removal of recovery options.  
+> AI関連インシデントは、モデル出力の失敗としてだけでなく、権限経路の失敗としても確認してください。本人確認、アカウント復旧、認証情報変更、ツール実行、本番環境アクセス、特権API操作、ロールバック権限、復旧手段の喪失が含まれます。  
+
 > 具体的な事例・導入・準事故・事故をレビューする場合は、Overviewで全体像を確認した後にこのrepoを使用してください。  
 > Use Boundary Kernel when an AI needs fixed boundary language, Index when you need the full document map, and Research Context when you need theoretical background.  
 > AIに固定境界を読ませる場合はBoundary Kernel、文書全体を探す場合はIndex、理論背景を確認する場合はResearch Contextを使用してください。  
@@ -561,6 +565,7 @@ This README.md is retained for canonical text preservation, search discoverabili
 
 ---
 Keywords: irreversible escalation, boundary condition, effective human refusal, procedural invalidity review, post-incident review
+
 
 
 
