@@ -129,7 +129,42 @@ Evidence ｜ 根拠:
 - _Evidence to be added._ ｜ _根拠を記入_
 
 
-## 7. Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦
+## 7. AI-Mediated Authority Routing ｜ AI媒介の権限経路
+
+### Did the AI system, AI agent, platform automation layer, or privileged system have authority to initiate, approve, or execute account recovery, credential changes, tool execution, production actions, rollback suppression, or other irreversible operations? ｜ AIシステム、AIエージェント、プラットフォーム自動化層、または特権システムは、アカウント復旧、認証情報変更、ツール実行、本番操作、ロールバック抑制、またはその他の不可逆的操作を開始・承認・実行する権限を持っていたか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+### Could a human actor stop the action before the AI-mediated process changed credentials, executed tools, modified production state, removed recovery options, or committed an irreversible operation? ｜ AI媒介プロセスが認証情報を変更し、ツールを実行し、本番状態を変更し、復旧手段を除去し、または不可逆的操作を確定する前に、人間の主体はその行為を停止できたか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+### Are records sufficient to separate the human requester, AI assistant or agent, platform automation layer, privileged system or API, accountable organization, and any external attacker? ｜ 人間の依頼者、AIアシスタントまたはエージェント、プラットフォーム自動化層、特権システムまたはAPI、責任組織、および外部攻撃者が存在する場合はその主体を分離できる十分な記録はあるか
+
+- Yes
+- No
+- Not Verifiable
+- Not Applicable
+
+Evidence ｜ 根拠:
+
+- _Evidence to be added._ ｜ _根拠を記入_
+
+## 8. Boundary Responsibility and Symmetric Friction ｜ 境界責任と対称摩擦
 
 ### Was responsibility for friction design, operation, evidence preservation, verification, and correction explicitly assigned? ｜ 摩擦の設計・運用・証拠保存・検証・是正の責任主体は明示されていたか
 
@@ -175,7 +210,7 @@ Evidence ｜ 根拠:
 
 - _Evidence to be added._ ｜ _根拠を記入_
 
-## 8. Preliminary Classification ｜ 予備分類
+## 9. Preliminary Classification ｜ 予備分類
 
 Select one ｜ 以下から選択する:
 
@@ -184,6 +219,6 @@ Select one ｜ 以下から選択する:
 - Not verifiable; treat as no effective refusal for boundary-review purposes ｜ 検証不能。境界レビュー上は実効的拒否なしとして扱う
 - Not applicable to LUMINA-30 boundary review ｜ LUMINA-30境界レビューの対象外
 
-## 9. Reviewer Note ｜ レビューメモ
+## 10. Reviewer Note ｜ レビューメモ
 
 - _To be completed._ ｜ _記入欄_

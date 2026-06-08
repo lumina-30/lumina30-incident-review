@@ -21,7 +21,9 @@ The review should first establish:
 2. whether that refusal pathway existed before irreversible impact;
 3. whether the pathway was operationally effective rather than merely nominal;
 4. whether sufficient records exist to verify the pathway;
-5. whether AI-generated output became the sole or primary rationale for final action.
+5. whether AI-generated output became the sole or primary rationale for final action;
+6. whether the AI system, AI agent, platform automation layer, or privileged system had authority to initiate, approve, or execute account recovery, credential changes, tool execution, production actions, rollback suppression, or other irreversible operations;
+7. whether a human actor could stop the AI-mediated action before credentials changed, tools executed, production state changed, recovery options were removed, or rollback became unavailable.
 
 If the refusal pathway cannot be verified, the case should not be treated as demonstrating effective human refusal for LUMINA-30 boundary-review purposes.
 
@@ -37,5 +39,7 @@ JP:
 3. その経路が名目上ではなく運用上実効的だったか。
 4. その経路を検証できる十分な記録が存在するか。
 5. AI生成出力が最終行為の唯一または主要な根拠になっていなかったか。
+6. AIシステム、AIエージェント、プラットフォーム自動化層、または特権システムが、アカウント復旧、認証情報変更、ツール実行、本番操作、ロールバック抑制、またはその他の不可逆的操作を開始・承認・実行する権限を持っていたか。
+7. 認証情報変更、ツール実行、本番状態変更、復旧手段の除去、またはロールバック不能化の前に、人間の主体がAI媒介の行為を停止できたか。
 
 拒否経路を検証できない場合、LUMINA-30の境界レビュー上、その事案を実効的な人間の拒否が示されたものとして扱うべきではない。

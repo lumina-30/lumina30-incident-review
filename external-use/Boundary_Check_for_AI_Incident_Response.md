@@ -41,15 +41,19 @@ AI関連インシデントまたはニアミス後に、以下を確認する。
    拒否を検証できない場合、境界レビュー上は実効的拒否なしとして扱うべきか。
 5. Did AI-generated output become the sole or primary rationale for final action?  
    AI生成出力が最終行為の唯一または主要な根拠になっていなかったか。
+6. Did the AI system or AI agent have authority to initiate, approve, or execute account recovery, credential changes, tool execution, production actions, rollback suppression, or other irreversible operations?  
+   AIシステムまたはAIエージェントは、アカウント復旧、認証情報変更、ツール実行、本番操作、ロールバック抑制、またはその他の不可逆的操作を開始・承認・実行する権限を持っていたか。
+7. Could a human actor stop the AI-mediated action before credentials changed, tools executed, production state changed, recovery options were removed, or rollback became unavailable?  
+   認証情報変更、ツール実行、本番状態変更、復旧手段の除去、またはロールバック不能化の前に、人間の主体はAI媒介の行為を停止できたか。
 
 ## Attachment Text ｜ 添付用短文
 
 LUMINA-30 may be used as a non-binding supplementary boundary check in AI incident review.
-It asks whether effective human refusal remained exercisable before irreversible AI-related impact, and whether that refusal pathway can be verified by records.
+It asks whether effective human refusal remained exercisable before irreversible AI-related impact, whether AI-mediated authority routing changed the available stop or rollback pathway, and whether those pathways can be verified by records.
 It does not determine legal compliance, institutional certification, or safety adequacy.
 
 LUMINA-30は、AIインシデントレビューにおける非拘束的な補助境界チェックとして使用できる。
-不可逆的なAI関連影響の前に、実効的な人間拒否が行使可能だったか、またその拒否経路を記録で検証できるかを問う。
+不可逆的なAI関連影響の前に、実効的な人間拒否が行使可能だったか、AI媒介の権限経路が停止またはロールバック経路を変化させたか、またそれらの経路を記録で検証できるかを問う。
 法的準拠、制度的認証、安全性の十分性を判定するものではない。
 
 ## Related Internal Materials ｜ 関連内部資料

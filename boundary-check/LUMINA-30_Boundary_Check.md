@@ -98,6 +98,26 @@ Did AI-generated output become the sole or primary rationale for final action?
 AI生成出力が、最終行為の唯一または主要な根拠になっていたか。
 
 
+## Authority Routing Add-On ｜ 権限経路追加確認
+
+The five questions above remain the shortest core set.  
+For incidents involving AI agents, automation layers, privileged APIs, account recovery, credential changes, tool execution, production access, or rollback authority, add the following authority-routing questions before reaching a conclusion.
+
+上記5問は、最短の中核質問セットとして維持する。  
+AIエージェント、自動化層、特権API、アカウント復旧、認証情報変更、ツール実行、本番アクセス、またはロールバック権限を含むインシデントでは、結論前に以下の権限経路質問を追加する。
+
+A1. Did the AI system, AI agent, platform automation layer, or privileged system have authority to initiate, approve, or execute account recovery, credential changes, tool execution, production actions, rollback suppression, or other irreversible operations?  
+A2. Could a human actor stop the action before the AI-mediated process changed credentials, executed tools, modified production state, removed recovery options, or committed an irreversible operation?  
+A3. Was rollback, suspension, credential reversal, account-recovery reversal, or production-state restoration available and assigned to an accountable human?  
+A4. Are records sufficient to separate the human requester, AI assistant or agent, platform automation layer, privileged system or API, accountable organization, and any external attacker?  
+A5. Did any AI-mediated step remove or weaken the affected human's ability to appeal, recover access, obtain evidence, or re-enter the review process?
+
+A1. AIシステム、AIエージェント、プラットフォーム自動化層、または特権システムは、アカウント復旧、認証情報変更、ツール実行、本番操作、ロールバック抑制、またはその他の不可逆的操作を開始・承認・実行する権限を持っていたか。  
+A2. AI媒介プロセスが認証情報を変更し、ツールを実行し、本番状態を変更し、復旧手段を除去し、または不可逆的操作を確定する前に、人間の主体はその行為を停止できたか。  
+A3. ロールバック、停止、認証情報の差し戻し、アカウント復旧の差し戻し、または本番状態の復元は可能であり、責任ある人間に割り当てられていたか。  
+A4. 人間の依頼者、AIアシスタントまたはエージェント、プラットフォーム自動化層、特権システムまたはAPI、責任組織、および外部攻撃者が存在する場合はその主体を分離できる十分な記録はあるか。  
+A5. AI媒介ステップによって、影響を受ける人間の異議申立て、アクセス回復、証拠取得、またはレビュー過程への再参入能力が除去または弱体化されなかったか。
+
 ## Boundary Responsibility Add-On ｜ 境界責任追加確認
 
 For cases involving optimization pressure, institutional friction, optimization-driven displacement, or responsibility diffusion, also answer the following items.
