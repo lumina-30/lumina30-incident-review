@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="LUMINA-30のインシデントレビューと境界レビューのための公開情報レビューおよびActor-Authority-Evidenceマッピング。" />
+  <title>公開情報レビューとActor-Authority-Evidenceマッピング｜LUMINA-30</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav, .notice, .card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); display: inline-block; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin: 0 0 .55em; }
+    a { color: var(--accent); }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .notice { padding: 14px 16px; margin: 18px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { padding: 16px; }
+    .card p { margin: .3em 0 .85em; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th, td { border: 1px solid var(--line); padding: 9px 10px; vertical-align: top; }
+    th { background: var(--soft); }
+    .muted { color: var(--muted); }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Public_Source_Review_and_Actor_Authority_Evidence_Mapping.html">英語版</a>
+      <a href="Pre_Incident_Boundary_Review_Extension_ja.html">事故前レビュー</a>
+      <a href="../boundary-check/LUMINA-30_Boundary_Check_ja.html">境界チェック</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/adoption-review-ja.html">採用審査導線</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md">Markdown Source</a>
+    </nav>
+
+    <header>
+      <h1>公開情報レビューとActor-Authority-Evidenceマッピング</h1>
+      <p class="subtitle">AI関連インシデントについて、公開事実、権限経路、証拠ギャップ、未確定結論を分けるためのレビュー補助です。</p>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="ステータス">
+        <strong>ステータス：公開情報レビュー補助であり、原因認定や認証ではありません。</strong>
+        本書は、非公開ログ、内部事故記録、公式な原因認定、規制上の判断、法的結論、安全保証へのアクセスまたは確定を主張しません。
+      </section>
+
+      <section id="purpose">
+        <h2>目的</h2>
+        <p>公開報道、公開声明、公開文書、スクリーンショット、論文、第三者要約だけでAI関連事案を確認する場合に、このマッピングを使います。目的は、確認済み事項、推定事項、不足している証拠、結論してはいけない事項を分けることです。</p>
+      </section>
+
+      <section id="map">
+        <h2>Actor-Authority-Evidenceマップ</h2>
+        <table>
+          <thead><tr><th>層</th><th>確認すること</th><th>保全する証拠</th><th>推定してはいけないこと</th></tr></thead>
+          <tbody>
+            <tr><td>人間の依頼者・運用者</td><td>AI媒介行為を開始、承認、使用、または依拠した人。</td><td>公開声明、ワークフロー説明、時刻、レビュー記録、公開された承認記録。</td><td>人間が名目上存在しただけで、実際の制御があったと推定しない。</td></tr>
+            <tr><td>被影響者・アカウント所有者</td><td>影響を受けた人、および異議申立て、回復、争い、停止が可能だった人。</td><td>公開報道、通知、異議申立て経路、回復経路、公開されたサポート記録。</td><td>異議申立てや回復が実効的だったと、証拠なしに推定しない。</td></tr>
+            <tr><td>AIアシスタント・エージェント</td><td>AIが判断、推奨、振り分け、生成、または実行したこと。</td><td>製品説明、公開された会話記録、公開プロンプトログ、事故報告、可視出力。</td><td>モデル出力ミスだけを唯一の失敗モードとして扱わない。</td></tr>
+            <tr><td>プラットフォーム自動化層</td><td>AI出力または利用者操作の後に作動した自動ワークフロー。</td><td>公開された構成説明、サポートフロー文書、API挙動、公開ポストモーテム。</td><td>自動化やプラットフォーム規則が実行した行為を、AIの最終権限と即断しない。</td></tr>
+            <tr><td>特権システム・API</td><td>アカウント復旧、認証情報変更、本番操作、ツール実行、rollback抑制が起きたか。</td><td>公開技術メモ、公開監査抜粋、時系列、影響状態の記録。</td><td>証拠なしに特権アクセスがあったと推定しない。</td></tr>
+            <tr><td>責任組織・人間権限者</td><td>不可逆化前に一時停止、撤回、エスカレーション、封じ込めが可能だった主体。</td><td>ガバナンス声明、事故対応メモ、エスカレーション経路、責任チームの声明。</td><td>組織責任があることを、時間内の拒否可能性の証拠へ変換しない。</td></tr>
+            <tr><td>外部攻撃者がいる場合</td><td>外部主体がAI媒介プロセスを操作、誘導、悪用、経路化したか。</td><td>公開脆弱性報告、開示時系列、exploit説明、公式声明。</td><td>公開証拠を超えて意図、身元、原因を断定しない。</td></tr>
+            <tr><td>証拠管理者</td><td>ログ、メッセージ、時刻、回復記録、承認、不足証拠メモを保全する主体。</td><td>公開された保全声明、調査範囲、公開証拠一覧。</td><td>証拠不在を、安全性、拒否可能性、手続き的有効性の証明として扱わない。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="questions">
+        <h2>公開情報レビューの最小質問</h2>
+        <ol>
+          <li>AIは何を判断、推奨、振り分け、生成、または実行したのか。</li>
+          <li>どの権限経路が関与したのか。アカウント復旧、認証情報変更、ツール実行、本番操作、特権API、rollback、異議申立て手段の喪失が含まれるか。</li>
+          <li>責任ある人間は、不可逆的影響の前に、その行為を停止、保留、撤回、またはエスカレーションできたのか。</li>
+          <li>何が公開証拠で、何が推定で、何が不足しているのか。</li>
+          <li>内部ログ、非公開記録、公式判断がないため、未解決として残すべき結論は何か。</li>
+        </ol>
+      </section>
+
+      <section id="safe-wording">
+        <h2>安全な公開表現</h2>
+        <div class="notice">公開情報レビューのみ。本メモは、内部ログ、非公開事故記録、公式な原因認定、規制上の判断、法的結論へのアクセスを主張しません。LUMINA-30の下で、公開上見えるActor、Authority、Evidenceの問いを整理するものです。</div>
+      </section>
+
+      <section id="adoption-review">
+        <h2>採用審査との接続</h2>
+        <p>採用審査では、このマッピングにより、将来の事故を再構成したり時間内に止めたりすることが難しくなる権限経路へAIシステムが導入されようとしていないかを確認できます。公開情報レビューで、責任主体、権限経路、証拠管理者、拒否可能な時間窓を特定できない場合、同じ空白は、導入、調達、アクセス拡張の前にも確認すべきです。</p>
+      </section>
+
+      <section id="limits">
+        <h2>限界</h2>
+        <p>このマッピングは、認証、承認、準拠状態、公式な原因認定、法的結論、安全保証、制度的採用の証拠を作るものではありません。公開情報ベースの事故レビューが、単なる推測や出力ミスだけの論評に落ちないようにするための構造化手段です。</p>
+      </section>
+    </main>
+
+    <p class="footer">Markdown source: <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md">Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md</a></p>
+  </div>
+</body>
+</html>

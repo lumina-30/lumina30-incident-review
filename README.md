@@ -219,6 +219,11 @@ Choose the entry point within this Incident Review Floor by role and review stag
   Use this when connecting the boundary question to external governance, standards, incident-response, or human-oversight contexts.  
   境界質問を外部ガバナンス、標準化、事故対応、人間監督文脈へ接続する場合に使用。
 
+
+- [For public-source incident review and Actor-Authority-Evidence mapping ｜ 公開情報レビューとActor-Authority-Evidenceマッピング](reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md) ｜ [日本語HTML](https://lumina-30.github.io/lumina30-incident-review/reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping_ja.html)
+  Use this when a case is known through public reporting, public statements, public documentation, screenshots, papers, or third-party summaries, and the review must separate public facts, authority paths, evidence gaps, and unresolved conclusions.
+  事案が公開報道、公開声明、公開文書、スクリーンショット、論文、第三者要約だけで知られており、公開事実、権限経路、証拠ギャップ、未確定結論を分ける必要がある場合に使用。
+
 - [For pre-incident boundary review ｜ 事故前境界レビュー](reference/Pre_Incident_Boundary_Review_Extension.md) ｜ [日本語](https://lumina-30.github.io/lumina30-incident-review/reference/Pre_Incident_Boundary_Review_Extension_ja.html)  
   Use this when evaluating capability exposure, access control, automation, and human refusal capacity before irreversible execution pathways become available.  
   不可逆な実行経路が開く前に、能力露出、アクセス制御、自動化、人間の拒否能力を評価する場合に使用。
@@ -446,6 +451,11 @@ The following documents provide citation phrases, terminology, PCR-C relationshi
 - [Boundary Reference Terminology](reference/Boundary_Reference_Terminology.md)  
   Preferred terms for non-binding, descriptive, post-incident boundary reference use.  
   非拘束的・記述的な事故後境界参照として使うための推奨語彙。
+
+
+- [Public-Source Review and Actor-Authority-Evidence Mapping](reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md)
+  Separates public facts, authority paths, evidence gaps, and unresolved conclusions in public-source AI incident review.
+  公開情報ベースのAIインシデントレビューで、公開事実、権限経路、証拠ギャップ、未確定結論を分けるためのマッピング。
 
 - [Stable Reference Links](reference/Stable_Reference_Links.md)  
   Stable GitHub and DOI links for citation and navigation.  

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" data-l30-lang-lock="EN_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="EN_ONLY" />
+  <meta name="description" content="Public-source review and actor-authority-evidence mapping for LUMINA-30 incident and boundary review." />
+  <title>Public-Source Review and Actor-Authority-Evidence Mapping | LUMINA-30</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: Canvas;
+      --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      --text: CanvasText;
+      --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%);
+      --line: color-mix(in srgb, CanvasText 28%, Canvas 72%);
+      --accent: LinkText;
+      --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 1100px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav, .notice, .card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); display: inline-block; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin: 0 0 .55em; }
+    a { color: var(--accent); }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .notice { padding: 14px 16px; margin: 18px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { padding: 16px; }
+    .card p { margin: .3em 0 .85em; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th, td { border: 1px solid var(--line); padding: 9px 10px; vertical-align: top; }
+    th { background: var(--soft); }
+    .muted { color: var(--muted); }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+    [id] { scroll-margin-top: 92px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Page navigation">
+      <a href="../index.html">Incident Review Floor</a>
+      <a href="Public_Source_Review_and_Actor_Authority_Evidence_Mapping_ja.html">Japanese</a>
+      <a href="Pre_Incident_Boundary_Review_Extension.html">Pre-Incident Review</a>
+      <a href="../boundary-check/LUMINA-30_Boundary_Check.html">Boundary Check</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/adoption-review.html">Adoption Review</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md">Markdown Source</a>
+    </nav>
+
+    <header>
+      <h1>Public-Source Review and Actor-Authority-Evidence Mapping</h1>
+      <p class="subtitle">A review aid for separating public facts, authority paths, evidence gaps, and unresolved conclusions in AI-related incidents.</p>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="Status">
+        <strong>Status: public-source review aid, not attribution or certification.</strong>
+        This document does not claim access to private logs, internal incident records, official attribution, regulatory findings, legal conclusions, or safety guarantees.
+      </section>
+
+      <section id="purpose">
+        <h2>Purpose</h2>
+        <p>Use this mapping when an AI-related case is known only through public reporting, public statements, public documentation, screenshots, papers, or third-party summaries. The goal is to separate what is known, what is inferred, what is missing, and what must not be concluded.</p>
+      </section>
+
+      <section id="map">
+        <h2>Actor-Authority-Evidence map</h2>
+        <table>
+          <thead><tr><th>Layer</th><th>What to identify</th><th>Evidence to retain</th><th>What not to assume</th></tr></thead>
+          <tbody>
+            <tr><td>Human requester or operator</td><td>Who initiated, approved, used, or relied on the AI-mediated action.</td><td>Public statement, workflow description, timestamp, review record, approval record if public.</td><td>Do not assume actual control merely because a human was nominally present.</td></tr>
+            <tr><td>Affected human or account owner</td><td>Who was affected and who could appeal, recover, contest, or stop the result.</td><td>Public report, notice, appeal path, recovery path, support record if public.</td><td>Do not assume appeal or recovery was effective without evidence.</td></tr>
+            <tr><td>AI assistant or agent</td><td>What the AI judged, recommended, routed, generated, or executed.</td><td>Product description, transcript, prompt log if public, incident report, visible output.</td><td>Do not treat a model-output error as the only possible failure mode.</td></tr>
+            <tr><td>Platform automation layer</td><td>Which automated workflow acted after the AI output or user interaction.</td><td>Public architecture description, support-flow documentation, API behavior, public postmortem.</td><td>Do not assume the AI had final authority if automation or platform rules executed the action.</td></tr>
+            <tr><td>Privileged system or API</td><td>Whether account recovery, credential changes, production actions, tool execution, or rollback suppression occurred.</td><td>Public technical note, audit excerpt if public, timeline, affected-state record.</td><td>Do not infer privileged access without evidence.</td></tr>
+            <tr><td>Accountable organization or human authority</td><td>Who could have paused, reversed, escalated, or contained the action before irreversibility.</td><td>Governance statement, incident response note, escalation path, responsible team statement.</td><td>Do not convert organizational responsibility into proof that refusal was available in time.</td></tr>
+            <tr><td>External attacker, if any</td><td>Whether an external actor manipulated, induced, exploited, or routed the AI-mediated process.</td><td>Public vulnerability report, disclosure timeline, exploit description, official statement.</td><td>Do not attribute intent, identity, or causation beyond public evidence.</td></tr>
+            <tr><td>Evidence custodian</td><td>Who preserves logs, messages, timestamps, recovery records, approvals, and missing-evidence notes.</td><td>Public preservation statement, investigation scope, evidence inventory if public.</td><td>Do not treat missing evidence as proof of safety, refusal, or procedural validity.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="questions">
+        <h2>Minimal public-source review questions</h2>
+        <ol>
+          <li>What did the AI judge, recommend, route, generate, or execute?</li>
+          <li>Which authority path was involved: account recovery, credential change, tool execution, production action, privileged API, rollback, or appeal removal?</li>
+          <li>Could an accountable human stop, suspend, reverse, or escalate the action before irreversible effect?</li>
+          <li>What evidence is public, what is inferred, and what is missing?</li>
+          <li>What conclusions must remain unresolved because internal logs, private records, or official findings are unavailable?</li>
+        </ol>
+      </section>
+
+      <section id="safe-wording">
+        <h2>Safe public wording</h2>
+        <div class="notice">Public-source review only. This note does not claim access to internal logs, private incident records, official attribution, regulatory findings, or legal conclusions. It maps publicly visible actor, authority, and evidence questions under LUMINA-30.</div>
+      </section>
+
+      <section id="adoption-review">
+        <h2>How this connects to adoption review</h2>
+        <p>For adoption review, this mapping helps teams ask whether an AI system is being introduced into an authority path where future incidents would become difficult to reconstruct or stop in time. If a public-source review cannot identify the responsible actor, authority path, evidence custodian, or refusal window, the same gap should be checked before deployment, procurement, or expanded access.</p>
+      </section>
+
+      <section id="limits">
+        <h2>Limits</h2>
+        <p>This mapping does not create certification, approval, compliance status, official attribution, legal conclusion, safety guarantee, or proof of institutional adoption. It is a structured way to keep public-source incident review from becoming either speculation or mere output-error commentary.</p>
+      </section>
+    </main>
+
+    <p class="footer">Markdown source: <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md">Public_Source_Review_and_Actor_Authority_Evidence_Mapping.md</a></p>
+  </div>
+</body>
+</html>
