@@ -69,6 +69,14 @@ For adoption review, this mapping helps teams ask whether an AI system is being 
 
 採用審査では、このマッピングにより、将来の事故を再構成したり時間内に止めたりすることが難しくなる権限経路へAIシステムが導入されようとしていないかを確認できます。公開情報レビューで、責任主体、権限経路、証拠管理者、拒否可能な時間窓を特定できない場合、同じ空白は、導入、調達、アクセス拡張の前にも確認すべきです。
 
+## Practical template ｜ 実務テンプレート
+
+After using this mapping guide, use the public-source review template to record sources, public facts, inferences, unknowns, authority paths, evidence gaps, and safe summary wording.
+
+このマッピングガイドを確認した後は、公開情報レビュー・テンプレートを使って、情報源、公開事実、推定、不明点、権限経路、証拠ギャップ、安全な要約表現を記録します。
+
+- [Public-Source Review Template](./Public_Source_Review_Template.md) ｜ [公開情報レビュー・テンプレートHTML](https://lumina-30.github.io/lumina30-incident-review/reference/Public_Source_Review_Template_ja.html)
+
 ## Limits ｜ 限界
 
 This mapping does not create certification, approval, compliance status, official attribution, legal conclusion, safety guarantee, or proof of institutional adoption. It is a structured way to keep public-source incident review from becoming either speculation or mere output-error commentary.

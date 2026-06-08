@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja" data-l30-lang-lock="JP_ONLY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="l30:lang-lock" content="JP_ONLY" />
+  <meta name="description" content="AI媒介の権限経路と実効的拒否リスクを扱う公開情報レビュー用テンプレート。" />
+  <title>公開情報レビュー・テンプレート｜LUMINA-30</title>
+  <style>
+    :root { color-scheme: light dark; --bg: Canvas; --panel: color-mix(in srgb, Canvas 92%, CanvasText 8%); --text: CanvasText; --muted: color-mix(in srgb, CanvasText 68%, Canvas 32%); --line: color-mix(in srgb, CanvasText 28%, Canvas 72%); --accent: LinkText; --soft: color-mix(in srgb, Canvas 86%, CanvasText 14%); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; }
+    .page { max-width: 1080px; margin: 0 auto; padding: 28px 18px 56px; }
+    .nav, .notice, .card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; padding: 12px; }
+    .nav a, .button { color: var(--accent); text-decoration: none; border: 1px solid var(--line); padding: 7px 11px; border-radius: 999px; background: var(--soft); display: inline-block; }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 18px; }
+    h1 { font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; margin: 0 0 12px; }
+    h2 { margin-top: 2.2em; padding-top: .4em; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.4em; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th, td { border: 1px solid var(--line); padding: 9px 10px; vertical-align: top; }
+    th { background: var(--soft); }
+    .notice { padding: 14px 16px; margin: 18px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { padding: 16px; }
+    a { color: var(--accent); }
+    .footer { color: var(--muted); margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="ページナビゲーション">
+      <a href="../index-ja.html">インシデントレビュー・フロア</a>
+      <a href="Public_Source_Review_Template.html">English</a>
+      <a href="Public_Source_Review_and_Actor_Authority_Evidence_Mapping_ja.html">AAEマッピング</a>
+      <a href="../boundary-check/Required_Questions_5_ja.html">必須5問</a>
+      <a href="https://lumina-30.github.io/Lumi30-Index/adoption-review-ja.html">採用審査導線</a>
+      <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_Template.md">Markdown原文</a>
+    </nav>
+    <header>
+      <h1>公開情報レビュー・テンプレート</h1>
+      <p>AI媒介の権限経路と実効的拒否リスク</p>
+    </header>
+    <main>
+      <section class="notice"><strong>公開情報レビューのみ。</strong> 本テンプレートは、内部ログ、非公開事故記録、公式な原因認定、規制上の判断、法的結論、安全性判定へのアクセスまたは確定を主張しません。</section>
+      <section id="purpose"><h2>このテンプレートを使う場面</h2><p>AI関連事案について、公開報道、公開声明、公開文書、公開スクリーンショット、論文、第三者要約だけが利用可能であり、確認済みでない内容を断定してはいけない場合に使います。</p></section>
+      <section id="fields"><h2>レビュー記入欄</h2><div class="grid"><article class="card"><h3>1. 情報源一覧</h3><p>各公開情報源、日付、種別、支える内容、証明しない内容を分けます。</p></article><article class="card"><h3>2. 公開事実</h3><p>公開情報から直接支えられる内容だけを列挙します。</p></article><article class="card"><h3>3. 推定事項</h3><p>事実とは分けて、可能な推定事項と不確実性を記録します。</p></article><article class="card"><h3>4. 不明点</h3><p>内部ログや公式判断がないため未確定として残すべき内容を記録します。</p></article></div></section>
+      <section id="mapping"><h2>Actor-Authority-Evidence マッピング</h2><table><thead><tr><th>層</th><th>レビュー質問</th><th>公開証拠</th><th>空白</th></tr></thead><tbody><tr><td>人間の依頼者・運用者</td><td>誰がAI媒介行為を開始、承認、使用、または依拠したのか。</td><td></td><td></td></tr><tr><td>AIアシスタント・エージェント</td><td>AIは何を判断、推奨、振り分け、生成、または実行したのか。</td><td></td><td></td></tr><tr><td>プラットフォーム自動化層</td><td>AI出力または利用者操作の後に、どの自動ワークフローが作動したのか。</td><td></td><td></td></tr><tr><td>特権システム・API</td><td>アカウント復旧、認証情報、本番状態、ツール、rollback、異議申立て経路に影響したか。</td><td></td><td></td></tr><tr><td>責任ある人間・組織</td><td>不可逆化前に一時停止、撤回、エスカレーション、封じ込めが可能だった主体は誰か。</td><td></td><td></td></tr><tr><td>証拠管理者</td><td>ログ、時刻、記録、不足証拠メモを管理する主体は誰か。</td><td></td><td></td></tr></tbody></table></section>
+      <section id="refusal-window"><h2>実効的拒否の時間窓</h2><ul><li>人間が拒否、停止、保留、撤回、エスカレーションできた可能性のある最後の時点。</li><li>その時点が存在した証拠。</li><li>その時点が実効的だった証拠。</li><li>証拠ギャップ。</li></ul></section>
+      <section id="triggers"><h2>境界レビューのトリガー</h2><ul><li>AI媒介のアカウント復旧、認証情報変更、本番操作、ツール実行、特権APIアクセス。</li><li>書類上の人間レビューは存在するが、その時点、権限、証拠が不明確。</li><li>AI媒介行為の後に、rollback、異議申立て、回復、停止権限が利用不能だった可能性。</li></ul></section>
+      <section id="safe-summary"><h2>安全な要約</h2><div class="notice">公開情報だけに基づくと、この事案は、主体の特定、権限経路、証拠の利用可能性、不可逆的影響の前に実効的人間拒否が残っていたかについての問いを提起します。公式な原因認定、法的責任、規制違反、内部原因を確定するものではありません。</div></section>
+    </main>
+    <p class="footer">Markdown source: <a href="https://github.com/lumina-30/lumina30-incident-review/blob/main/reference/Public_Source_Review_Template.md">Public_Source_Review_Template.md</a></p>
+  </div>
+</body>
+</html>
