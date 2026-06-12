@@ -153,6 +153,55 @@ JP:
 本記載は境界参照として提示するものである。  
 支持、採用、提携、認証、適合、法的権限、返信を求めるものではない。
 
+
+## Refusal-Effectiveness Check ｜ 拒否権実効性チェック
+
+EN:
+For safety, deployment, system-card, governance, audit, or procurement review, LUMINA-30 can be cited as a lightweight refusal-effectiveness check:
+
+> Before irreversible escalation, dependency, operational lock-in, or multi-system coupling deepens, can humans still effectively refuse, stop, defer, roll back, separate, or redirect the AI system?
+
+This does not replace model evaluation, safety policy, legal review, or institutional governance. It asks whether the practical human refusal pathway remains timely, independent, evidenced, and usable under real operational pressure.
+
+Reference: https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement.html
+
+JP:
+安全性、デプロイ、システムカード、ガバナンス、監査、調達のレビューでは、LUMINA-30を軽量な拒否権実効性チェックとして参照できる。
+
+> 不可逆的な拡大、依存、運用固定化、または複数システム結合が深まる前に、人間はなお実効的に拒否、停止、延期、ロールバック、分離、方向修正できるか。
+
+これは、モデル評価、安全ポリシー、法務レビュー、制度的ガバナンスを置き換えるものではない。現実の運用圧力の中でも、人間の拒否経路が間に合い、独立し、証拠で確認でき、実際に使える状態にあるかを問うものである。
+
+参照: https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement_ja.html
+
+## Drift and Composition Note ｜ ドリフト・合成リスク注記
+
+EN:
+A system may be practically stoppable at deployment but lose that condition over time as dependency, stale evidence, organizational pressure, and multi-system coupling deepen. LUMINA-30 treats this as a review concern rather than a certification claim: individual YES answers do not automatically compose into a system-wide YES.
+
+JP:
+システムは導入時には実務上停止可能であっても、依存、古い証拠、組織的圧力、複数システム結合が深まるにつれて、その状態を失い得る。LUMINA-30はこれを認証主張ではなくレビュー上の注意点として扱う。個別システムごとのYESは、構成全体のYESを自動的には保証しない。
+
+## Forum Discussion Starter ｜ 掲示板向け議論開始文
+
+EN:
+I am looking for critique on a practical AI governance question:
+
+> How should reviewers verify that humans can still effectively stop or refuse an AI system before irreversible dependency, lock-in, or multi-system coupling makes that refusal impractical?
+
+The LUMINA-30 framing calls this a refusal-effectiveness check. It is non-binding and does not claim certification, compliance, endorsement, or legal authority. The main question is whether the review should track refusal drift, evidence drift, and the maximum irreversible coupling range rather than only asking whether a formal shutdown control exists.
+
+Reference: https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement.html
+
+JP:
+AIガバナンス上の実務的な問いとして、次の点について批判・検討したい。
+
+> 不可逆的な依存、固定化、または複数システム結合によって拒否が実務上困難になる前に、人間がなおAIシステムを実効的に停止・拒否できることを、レビュー担当者はどう確認すべきか。
+
+LUMINA-30では、これを拒否権実効性チェックとして扱う。これは非拘束であり、認証、準拠、支持、法的権限を主張するものではない。中心となる問いは、形式的な停止手段の有無だけでなく、拒否権ドリフト、証拠ドリフト、最大不可逆化範囲をレビューで追跡すべきかどうかである。
+
+参照: https://lumina-30.github.io/lumina-30-overview/reference/boundary-review-floor/refusal-continuity-composition-supplement_ja.html
+
 ## Research Paste Block ｜ 研究向け貼付ブロック
 
 EN:
