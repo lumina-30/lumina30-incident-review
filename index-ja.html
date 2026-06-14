@@ -45,6 +45,22 @@
       font-weight: 800;
       margin-bottom: .35em;
     }
+
+
+
+    .place-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45em;
+      margin: .45rem 0 1rem;
+      padding: .38rem .72rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: var(--soft, var(--panel, Canvas));
+      color: var(--text, CanvasText);
+      font-weight: 800;
+      font-size: .98rem;
+    }
 </style>
 </head>
 <body>
@@ -61,6 +77,7 @@
 
     <header>
       <h1>LUMINA-30 インシデントレビュー・フロア</h1>
+      <div class="place-badge" aria-label="現在地">🚨 事故レビュー塔</div>
       <p class="subtitle">境界判定、事故レビュー、証拠保全、事故後安定化の入口です。</p>
     </header>
 

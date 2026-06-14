@@ -27,7 +27,23 @@
     .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
-  </style>
+  
+
+
+    .place-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45em;
+      margin: .45rem 0 1rem;
+      padding: .38rem .72rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: var(--soft, var(--panel, Canvas));
+      color: var(--text, CanvasText);
+      font-weight: 800;
+      font-size: .98rem;
+    }
+</style>
 </head>
 <body>
   <div class="page">
@@ -41,6 +57,7 @@
     </nav>
     <header>
       <h1>研究地図上の位置づけ</h1>
+      <div class="place-badge" aria-label="現在地">🧬 理論研究区</div>
       <p class="subtitle">LUMINA-30 インシデントレビュー日本語HTMLページ。</p>
     </header>
     <main>

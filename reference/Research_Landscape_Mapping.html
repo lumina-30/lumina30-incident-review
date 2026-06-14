@@ -27,7 +27,23 @@
     .subtitle, .footer { color: var(--muted); }
     [id] { scroll-margin-top: 92px; }
 
-  </style>
+  
+
+
+    .place-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45em;
+      margin: .45rem 0 1rem;
+      padding: .38rem .72rem;
+      border-radius: 999px;
+      border: 1px solid var(--line, var(--border, currentColor));
+      background: var(--soft, var(--panel, Canvas));
+      color: var(--text, CanvasText);
+      font-weight: 800;
+      font-size: .98rem;
+    }
+</style>
 </head>
 <body>
   <div class="page">
@@ -42,6 +58,7 @@
     </nav>
     <header>
       <h1>Research Landscape Mapping</h1>
+      <div class="place-badge" aria-label="Current location">🧬 Research District</div>
       <p class="subtitle">LUMINA-30 incident review public reference material.</p>
     </header>
     <main>
