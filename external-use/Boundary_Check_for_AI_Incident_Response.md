@@ -56,7 +56,7 @@ LUMINA-30は、AIインシデントレビューにおける非拘束的な補助
 不可逆的なAI関連影響の前に、実効的な人間拒否が行使可能だったか、AI媒介の権限経路が停止またはロールバック経路を変化させたか、またそれらの経路を記録で検証できるかを問う。
 法的準拠、制度的認証、安全性の十分性を判定するものではない。
 
-## Related Internal Materials ｜ 関連内部資料
+## Related Materials ｜ 関連資料
 
 - [LUMINA-30 Boundary Check](../boundary-check/LUMINA-30_Boundary_Check.md)
 - [Required Questions 5](../boundary-check/Required_Questions_5.md)

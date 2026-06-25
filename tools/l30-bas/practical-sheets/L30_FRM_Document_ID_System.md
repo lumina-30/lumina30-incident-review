@@ -113,8 +113,8 @@ L30_FRM_[Category][Number]_[English_Title]_[LANGUAGE].docx
 L30_FRM_[Category][Number]_[English_Title]_[LANGUAGE].pdf
 ```
 
-Public filenames do not include version numbers. Version information is stored inside the document, footer, Git history, releases/tags, and review-candidate ZIP names.  
-公開ファイル名にはバージョン番号を入れません。バージョン情報は、文書内、フッター、Git履歴、Release/Tag、レビュー候補ZIP名で管理します。
+Public filenames do not include version numbers. Version information is stored inside the document, footer, Git history, and releases/tags.  
+公開ファイル名にはバージョン番号を入れません。バージョン情報は、文書内、フッター、Git履歴、Release/Tagで管理します。
 
 | Component | Meaning |
 |---|---|

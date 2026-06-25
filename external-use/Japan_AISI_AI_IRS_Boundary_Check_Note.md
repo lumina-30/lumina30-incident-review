@@ -74,7 +74,7 @@ AIインシデント対応文脈では、LUMINA-30を非拘束的な補助境界
 
 - [Japan AISI: AI Incident Response Approach Book](https://aisi.go.jp/activity/activity_security/260109/)
 
-## Related Internal Materials ｜ 関連内部資料
+## Related Materials ｜ 関連資料
 
 - [Boundary Check for AI Incident Response](./Boundary_Check_for_AI_Incident_Response.md)
 - [Incident Quick Assessment Template](../boundary-check/Incident_Quick_Assessment_Template.md)
