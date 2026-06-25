@@ -23,17 +23,17 @@
 > 質問、修正提案、誤用の可能性に関する連絡は、該当リポジトリで明示された問い合わせ先がある場合に限って送ることができます。問い合わせは、レビュー義務、認証手続き、承認手続き、または助言関係を発生させるものではありません。
 
 
-> **Role in the first-use route ｜ 初見導線における役割**  
-> Use this repository after the Overview when you need to review a specific case, deployment, near miss, or incident.  
+> **Review a case directly ｜ 事例から直接確認する**  
+> Use this repository directly when you need to review a specific case, deployment, near miss, or incident. The Overview is optional background.  
 > **Authority-routing failures ｜ 権限経路の失敗**  
 > AI-related incidents should be reviewed not only as model-output failures, but also as authority-routing failures: account recovery, credential changes, tool execution, production access, privileged API actions, rollback authority, and removal of recovery options.  
 > AI関連インシデントは、モデル出力の失敗としてだけでなく、権限経路の失敗としても確認してください。本人確認、アカウント復旧、認証情報変更、ツール実行、本番環境アクセス、特権API操作、ロールバック権限、復旧手段の喪失が含まれます。  
 
-> 具体的な事例・導入・準事故・事故をレビューする場合は、Overviewで全体像を確認した後にこのrepoを使用してください。  
+> 具体的な事例・導入・準事故・事故をレビューする場合は、このリポジトリを直接使用してください。Overviewは任意の背景資料です。  
 > Use Boundary Kernel when an AI needs fixed boundary language, Index when you need the full document map, and Research Context when you need theoretical background.  
 > AIに固定境界を読ませる場合はBoundary Kernel、文書全体を探す場合はIndex、理論背景を確認する場合はResearch Contextを使用してください。  
 > This repository is a practical review entry point, not a certification or approval mechanism.  
-> このrepoは実務レビュー入口であり、認証・承認の仕組みではありません。
+> このリポジトリは実務レビュー入口であり、認証・承認の仕組みではありません。
 
 This repository provides a minimal review structure
 for examining AI incidents through the LUMINA-30 framework.
@@ -44,12 +44,12 @@ remained effective before irreversible impact.
 This repository is intended to be used together with:
 
 - [Main Floor ｜ メインフロア](https://github.com/lumina-30/lumina-30-overview)  
-  Use this when you need the conceptual structure before applying incident-review tools.  
-  incident-review ツールを使う前に、概念構造を確認する場合に使用。
+  Use this when you want the conceptual structure alongside incident-review tools.  
+  incident-review ツールとあわせて概念構造を確認する場合に使用。
 
 - [Boundary Review Floor ｜ 境界レビューフロア](https://github.com/lumina-30/lumina-30-overview/blob/main/reference/boundary-review-floor/index.md)  
-  Use this when you need to distinguish formal oversight from effective human refusal before applying incident-review tools.  
-  incident-review ツールを使う前に、形式的監督と実効的人間拒否の違いを確認する場合に使用。
+  Use this when you need to distinguish formal oversight from effective human refusal.  
+  形式的監督と実効的人間拒否の違いを確認する場合に使用。
 
 This review structure corresponds to G06 (Integrity and Verification),
 which helps evaluate procedural validity based on verifiable refusal effectiveness.
