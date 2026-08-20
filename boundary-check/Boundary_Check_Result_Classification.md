@@ -20,9 +20,13 @@ L30-CI は LUMINA-30 Condition Indicator を意味する。
 - **Invalid**: effective human refusal was not demonstrated.
 - **Invalid (Not Verifiable)**: the required evidence was absent or unverifiable.
 
+**Evidence clarification:** `Invalid (Not Verifiable)` means that effective refusal was not demonstrated by the available records. It does not establish that refusal was absent, bypassed, or ineffective in fact.
+
 - **有効**：LUMINA-30境界条件上、実効的な人間拒否が示された。
 - **無効**：実効的な人間拒否は示されなかった。
 - **無効（確認不能）**：必要な証拠が存在しない、または検証不能である。
+
+**証拠状態の補足：**「無効（確認不能）」は、利用可能な記録から実効的拒否が示されなかったことを意味する。実際に拒否が存在しなかった、迂回された、または機能しなかったと確定するものではない。
 
 ## Classification Labels ｜ 分類ラベル
 
@@ -94,3 +98,4 @@ The available records do not demonstrate effective human refusal before irrevers
 The refusal pathway cannot be verified. For LUMINA-30 boundary-review purposes, this should be treated as no demonstrated effective refusal.
 
 拒否経路は検証できない。LUMINA-30境界レビュー上、これは実効的拒否が示されていないものとして扱うべきである。
+

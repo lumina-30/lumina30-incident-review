@@ -6,6 +6,10 @@
 **LUMINA-30 is a boundary framework for determining whether human refusal remained effective before irreversible AI autonomy emerged.**  
 **LUMINA-30は、人間の拒否が不可逆的AI自律化の前に有効だったかを判定するための境界フレームワークである。**
 
+**Scope note:** This is a boundary and governance review lens, not a causal accident-investigation method. It does not determine root cause, individual blame, technical fault, legal liability, or regulatory violation, and it does not replace established incident-analysis methods.
+
+**射程の注記：**これは境界・ガバナンス確認の視点であり、事故原因調査手法ではない。根本原因、個人非難、技術的過失、法的責任、規制違反を確定せず、確立されたインシデント分析手法を置き換えない。
+
 ---
 
 ## Why this matters here ｜ この相手に関係する理由
@@ -101,4 +105,5 @@ A review should treat the system as procedurally invalid when any of the followi
 
 **LUMINA-30 does not ask only whether harm occurred. It asks whether human refusal remained real before the system crossed into irreversible impact.**  
 **LUMINA-30は被害発生の有無だけを問わない。不可逆的影響に至る前に、人間の拒否が現実に機能していたかを問う。**
+
 
