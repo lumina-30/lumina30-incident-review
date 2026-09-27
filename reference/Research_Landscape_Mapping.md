@@ -110,6 +110,14 @@ PCR-C is therefore related to LUMINA-30 as a research-layer and infrastructure-c
 
 したがってPCR-Cは、研究レイヤーおよびインフラ制御上の明確化としてLUMINA-30に関係する。PCR-Cは、LUMINA-30の正典的境界定義を変更しない。
 
+The Refusal Option (Paper 5) provides a distinct human-centered research layer. It examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility. It supports the LUMINA-30 boundary question without replacing or redefining the canon; RET is not a certification, safety guarantee, or official safety test.
+
+The Refusal Option（第5論文）は、これとは別の人間側研究レイヤーを提供する。不可逆化前に、独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する。LUMINA-30の境界問いを支えるが、正典を置き換えたり再定義したりしない。RETは認証、安全保証、公式安全テストではない。
+
+The current public research series is Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are outside the current public LUMINA-30 research set; their content is not described here.
+
+現在の公開研究系列は第1・第2・第5論文である。第3・第4論文は内部研究・非公開で、現在の公開LUMINA-30研究資料群には含まれず、本書ではその内容を説明しない。
+
 ---
 
 ## 6. Non-Expansion Clause ｜ 非拡張条項
@@ -135,6 +143,7 @@ Use this document when:
 - explaining where LUMINA-30 sits relative to AI safety, governance, and incident review;
 - preventing confusion between LUMINA-30 and alignment, regulation, certification, or enforcement;
 - connecting PCR-C to LUMINA-30 without merging their roles;
+- connecting the public Paper 5 human-centered research layer to LUMINA-30 without merging research and canon;
 - deciding whether the former research-context repository can be consolidated or retired.
 
 以下の場合に本書を使用する。
@@ -142,6 +151,7 @@ Use this document when:
 - LUMINA-30がAI安全性、ガバナンス、インシデントレビューに対してどこに位置するかを説明する場合
 - LUMINA-30をアライメント、規制、認証、執行と混同することを防ぐ場合
 - PCR-CとLUMINA-30を、役割を混同せずに接続する場合
+- 公開第5論文の人間側研究レイヤーを、研究と正典を混同せずにLUMINA-30へ接続する場合
 - 旧Research-Contextリポジトリを統合または後方化できるか判断する場合
 
 
