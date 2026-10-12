@@ -81,49 +81,50 @@ Use this relationship statement when:
 ---
 
 ## Three-Layer Research Position ｜ 三層研究位置づけ
+For external research explanation, LUMINA-30, PCR-C, and the Objective Persistence assurance-independence argument should not be merged. They should be described as separate layers.
 
-For external research explanation, LUMINA-30, PCR-C, and the related existence-condition argument should not be merged.
-They should be described as separate layers.
-
-外部研究説明では、LUMINA-30、PCR-C、および関連する存在条件論を統合して説明してはならない。
-それぞれを別レイヤーとして説明する。
+外部研究説明では、LUMINA-30、PCR-C、およびObjective Persistenceの保証独立性の議論を統合して説明してはならない。それぞれを別レイヤーとして説明する。
 
 | Layer | Role | What it answers | What it must not be confused with |
 |---|---|---|---|
 | LUMINA-30 | Boundary reference | Was Human Refusal Authority still effective before Irreversible Impact? | Regulation, certification, alignment method, or approval regime |
 | PCR-C | Infrastructure-layer cutoff model | How can infrastructure-level control act before irreversibility risk becomes dominant? | The canonical LUMINA-30 boundary definition |
-| Existence-condition argument | Research-layer rationale | Why may an external boundary or anchor be structurally necessary? | Operational checklist, compliance rule, or institutional mandate |
+| Objective Persistence / assurance independence | Research-layer rationale | When does a positive persistence verdict lose independent evidential force because the same amendment authority can alter the objective and the persistence-relevant validation basis? | A universal requirement for a physically external anchor, operational checklist, compliance rule, or institutional mandate |
 
 | レイヤー | 役割 | 答える問い | 混同してはならないもの |
 |---|---|---|---|
 | LUMINA-30 | 境界参照 | 不可逆的影響の前に人間の拒否権は実効的だったか | 規制、認証、アライメント手法、承認制度 |
 | PCR-C | インフラ層カットオフモデル | 不可逆リスクが支配的になる前に、インフラ層制御はどう作用できるか | LUMINA-30の正典的境界定義 |
-| 存在条件論 | 研究レイヤー上の根拠説明 | なぜ外部境界または外部アンカーが構造的に必要になり得るか | 実務チェックリスト、適合規則、制度命令 |
+| Objective Persistence／保証独立性 | 研究レイヤー上の根拠説明 | 同一のamendment authorityが目的と目的持続性の検証基盤を変更できるとき、正判定が独立した証拠としての効力を失うのはどの条件か | 物理的な外部アンカーの普遍要件、実務チェックリスト、適合規則、制度命令 |
 
 ## Related Research Paper ｜ 関連研究論文
-
 EN:
-The existence-condition layer is supported by the following paper:
+The assurance-independence layer is supported by the following paper:
 
 On the Structural Instability of Objective Persistence in Self-Contained Systems  
-Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
+Current public version: 3  
+Version DOI: [10.5281/zenodo.23282068](https://doi.org/10.5281/zenodo.23282068)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+Version 3 states a conditional result: if an amendment authority can co-amend the objective, persistence-relevant semantics, and validation basis so that a positive verdict survives a masking change, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant that excludes such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed. That basis need not be physically external.
 
 JP:
-存在条件レイヤーは、以下の論文によって補助される。
+保証独立性レイヤーは、以下の論文によって補助される。
 
 On the Structural Instability of Objective Persistence in Self-Contained Systems  
-Version DOI: [10.5281/zenodo.19896405](https://doi.org/10.5281/zenodo.19896405)  
+現行公開版: 3  
+Version DOI: [10.5281/zenodo.23282068](https://doi.org/10.5281/zenodo.23282068)  
 Concept DOI: [10.5281/zenodo.19887869](https://doi.org/10.5281/zenodo.19887869)
+
+Version 3の結論は条件付きである。同一のamendment authorityが目的、目的持続性に関係する意味、検証基盤を共に変更し、masking change後も正判定を維持できる場合、その判定はamendment-independentな目的持続性の証拠ではない。防御可能な保証には、masking amendmentを排除する検証済み不変条件、または評価対象のamendment authorityから独立した目的持続性関連の検証基盤が必要であり、その基盤は物理的に外部である必要はない。
 
 This paper does not modify the canonical LUMINA-30 boundary definition and does not define an operational checklist, compliance rule, certification status, or institutional mandate.
 
 本論文は、LUMINA-30の正典的境界定義を変更せず、実務チェックリスト、適合規則、認証状態、制度命令を定義しない。
 
 ## Reusable External Sentence ｜ 外部説明用再利用文
-
 EN:
-LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-layer control model for acting before the boundary is crossed; the existence-condition argument explains why an external boundary may be structurally necessary. These layers are complementary but not interchangeable.
+LUMINA-30 defines the boundary question; PCR-C formalizes one infrastructure-layer control model for acting before the boundary is crossed; Objective Persistence v3 identifies a conditional assurance-independence problem when the same amendment authority can alter both the objective and its persistence-relevant validation basis. These layers are complementary but not interchangeable.
 
 JP:
-LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、存在条件論は外部境界が構造的に必要になり得る理由を説明する。これらは補完的だが、相互に置き換え可能ではない。
+LUMINA-30は境界問いを定義し、PCR-Cはその境界が越えられる前に作用するインフラ層制御モデルの一例を形式化し、Objective Persistence v3は同一のamendment authorityが目的と目的持続性の検証基盤の双方を変更できる場合に生じる条件付きの保証独立性問題を扱う。これらは補完的だが、相互に置き換え可能ではない。

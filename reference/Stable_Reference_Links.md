@@ -44,29 +44,29 @@ Use this when referring to post-incident review materials, Boundary Check docume
 事故後レビュー、Boundary Check、外部利用テンプレートを参照する場合に使用する。
 
 ## PCR-C Preprint ｜ PCR-Cプレプリント
-
 Pre-Critical Recursive Cutoff: A Staged Infrastructure Control Framework for Irreversibility Risk  
-Persistent DOI: https://doi.org/10.5281/zenodo.18824181
+Version: 16 / Preprint  
+Version DOI: https://doi.org/10.5281/zenodo.23288056  
+Concept DOI: https://doi.org/10.5281/zenodo.18824181
 
 Use PCR-C as a research layer for pre-irreversibility control. It does not modify the boundary definition of LUMINA-30.
 
 PCR-Cは、LUMINA-30の境界定義を変更するものではなく、不可逆化前制御のための研究レイヤーとして参照する。
 
 ## Objective Persistence Paper ｜ 目的持続性論文
-
 On the Structural Instability of Objective Persistence in Self-Contained Systems  
-Version DOI: https://doi.org/10.5281/zenodo.19896405  
+Version: 3 / Preprint  
+Version DOI: https://doi.org/10.5281/zenodo.23282068  
 Concept DOI: https://doi.org/10.5281/zenodo.19887869
 
-This paper is supporting research for the existence-condition layer related to LUMINA-30. It explains why objective persistence in self-contained systems cannot be non-circularly guaranteed without an external, non-optional anchor.
+Version 3 states a conditional assurance-independence result. If an amendment authority can co-amend the objective, persistence-relevant semantics, and validation basis so that a positive verdict survives a masking change, that verdict is not amendment-independent evidence of persistence. Defensible assurance requires either a verified invariant excluding such masking amendments or a persistence-relevant validation basis outside the amendment authority being assessed; that basis need not be physically external.
 
-本論文は、LUMINA-30に関連する存在条件レイヤーの補助研究である。自己完結型システムにおける目的の持続性が、外部の非任意アンカーなしには非循環的に保証できないことを説明する。
+Version 3は条件付きの保証独立性の結果を示す。同一のamendment authorityが目的・目的同一性の意味・検証基盤を共に変更し、masking change後も正判定を維持できる場合、その判定はamendment-independentな目的持続性の証拠ではない。防御可能な保証には、masking amendmentを排除する検証済み不変条件、または評価対象のamendment authorityから独立した目的持続性関連の検証基盤が必要であり、その基盤は物理的に外部である必要はない。
 
 ## The Refusal Option Paper ｜ The Refusal Option 論文
-
 The Refusal Option: Effective Human Control Before and Beyond Irreversible AI Transitions  
-Version: 1.0 / Preprint / Published 2026-09-27  
-Version DOI: https://doi.org/10.5281/zenodo.22980039  
+Version: 1.3 / Preprint / Current public version  
+Version DOI: https://doi.org/10.5281/zenodo.23282593  
 Concept DOI: https://doi.org/10.5281/zenodo.22980038
 
 Use this paper as the human-standing, effective-refusal, and decision-governance research layer. It examines whether an independent Human NO can still change the outcome within the remaining time before irreversibility. It does not modify the canonical LUMINA-30 boundary definition and is not a certification or safety proof.
@@ -76,9 +76,19 @@ Use this paper as the human-standing, effective-refusal, and decision-governance
 Research-to-practice guide:  
 https://lumina-30.github.io/lumina-30-overview/research/the-refusal-option.html
 
-Publication numbering note: public research papers are Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are outside the current public LUMINA-30 research set. Paper numbering reflects internal research chronology, not publication sequence; unpublished content must not be inferred from numbering.
+## PISF Paper ｜ PISF論文
+Pre-Irreversibility Safety for Advanced AI: Distributed Irreversible Authority, Timely Refusal, and Human-Revisable Development  
+Version: 1.2 / Preprint / Current public version  
+Version DOI: https://doi.org/10.5281/zenodo.23283256  
+Concept DOI: https://doi.org/10.5281/zenodo.23042905
 
-公開研究論文は第1・第2・第5論文である。第3・第4論文は内部研究・非公開であり、現在の公開LUMINA-30研究資料群には含まれない。論文番号は内部研究上の時系列を示し、公開順ではない。番号から非公開内容を推測しない。
+PISF is the integrated pre-irreversibility safety research layer covering irreversible authority distribution, effective time-bounded refusal, and human-revisable development. It does not redefine the LUMINA-30 canon and does not constitute certification or a safety guarantee.
+
+PISFは、不可逆権限の分散、時間内に因果的に有効な拒否、人間が発展経路を選び直せる状態を扱う統合的な不可逆化前安全研究レイヤーである。LUMINA-30正典を再定義せず、認証や安全保証でもない。
+
+Publication numbering note: the current public research set contains Papers 1, 2, 5, and 6. Papers 3 and 4 are internal unpublished research and are outside the current public set. Numbering follows internal research chronology, not publication sequence; do not infer unpublished content from numbering.
+
+公開論文番号の注記：現在の公開研究資料群は第1・第2・第5・第6論文である。第3・第4論文は内部研究・非公開であり、現行公開研究資料群には含まれない。論文番号は内部研究上の時系列を示し、公開順ではない。番号から非公開内容を推測しない。
 
 ## Public Record ｜ 公開記録真正性
 

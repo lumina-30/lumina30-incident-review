@@ -97,28 +97,29 @@ It defines a minimal structural condition:
 ---
 
 ## 5. Relationship to PCR-C ｜ PCR-Cとの関係
-
 LUMINA-30 defines the boundary.
 
 LUMINA-30は境界を定義する。
 
-PCR-C provides an infrastructure-layer cutoff model for acting before irreversibility risk becomes structurally dominant.
+PCR-C provides an infrastructure-layer cutoff model for acting before irreversibility risk becomes structurally dominant. It is the public Paper 1 research line and does not modify the canonical LUMINA-30 boundary definition.
 
-PCR-Cは、不可逆化リスクが構造的に優勢になる前に作用するためのインフラ層カットオフモデルを提供する。
+PCR-Cは、不可逆化リスクが構造的に優勢になる前に作用するためのインフラ層カットオフモデルを提供する。公開第1論文の研究ラインであり、LUMINA-30の正典的境界定義を変更しない。
 
-PCR-C is therefore related to LUMINA-30 as a research-layer and infrastructure-control articulation. It does not modify the canonical LUMINA-30 boundary definition.
+Objective Persistence (Paper 2) provides the assurance-independence research layer. Version 3 asks when a positive persistence verdict loses independent evidential force because the same amendment authority can alter the objective and the persistence-relevant validation basis. It does not require the protected basis to be physically external.
 
-したがってPCR-Cは、研究レイヤーおよびインフラ制御上の明確化としてLUMINA-30に関係する。PCR-Cは、LUMINA-30の正典的境界定義を変更しない。
+Objective Persistence（第2論文）は保証独立性の研究レイヤーを提供する。Version 3は、同一のamendment authorityが目的と目的持続性の検証基盤を変更できる場合に、正判定が独立した証拠としての効力を失う条件を扱う。保護された検証基盤が物理的に外部であること自体は要求しない。
 
-The Refusal Option (Paper 5) provides a distinct human-centered research layer. It examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility. It supports the LUMINA-30 boundary question without replacing or redefining the canon; RET is not a certification, safety guarantee, or official safety test.
+The Refusal Option (Paper 5) provides the human-centered research layer. It examines whether an independent Human NO remains operationally effective, temporally sufficient, causally meaningful, and sufficiently independent before irreversibility. RET is not a certification, safety guarantee, or official safety test.
 
-The Refusal Option（第5論文）は、これとは別の人間側研究レイヤーを提供する。不可逆化前に、独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する。LUMINA-30の境界問いを支えるが、正典を置き換えたり再定義したりしない。RETは認証、安全保証、公式安全テストではない。
+The Refusal Option（第5論文）は人間側研究レイヤーを提供する。不可逆化前に、独立した人間のNOが、実務上行使可能で、時間的に間に合い、因果的に結果を変え、十分な独立性を保っているかを検討する。RETは認証、安全保証、公式安全テストではない。
 
-The current public research series is Papers 1, 2, and 5. Papers 3 and 4 are internal unpublished research and are outside the current public LUMINA-30 research set; their content is not described here.
+PISF (Paper 6) provides an integrated pre-irreversibility safety research layer connecting Distributed Irreversible Authority, Effective Pre-Irreversibility Refusal, and Human-Revisable Development Viability, while treating Boundary Completeness, Model Adequacy, and Independent Assurance as separate assurance conditions.
 
-現在の公開研究系列は第1・第2・第5論文である。第3・第4論文は内部研究・非公開で、現在の公開LUMINA-30研究資料群には含まれず、本書ではその内容を説明しない。
+PISF（第6論文）は、Distributed Irreversible Authority、Effective Pre-Irreversibility Refusal、Human-Revisable Development Viabilityを接続する統合的な不可逆化前安全研究レイヤーを提供し、Boundary Completeness、Model Adequacy、Independent Assuranceを別個の保証条件として扱う。
 
----
+The current public research series is Papers 1, 2, 5, and 6. Papers 3 and 4 remain internal unpublished research and are outside the current public LUMINA-30 research set; their content is not described here.
+
+現在の公開研究系列は第1・第2・第5・第6論文である。第3・第4論文は内部研究・非公開で、現在の公開LUMINA-30研究資料群には含まれず、本書ではその内容を説明しない。
 
 ## 6. Non-Expansion Clause ｜ 非拡張条項
 
@@ -137,26 +138,25 @@ It should be treated as a research-context reference, not as a new core document
 ---
 
 ## 7. Recommended Use ｜ 推奨用途
-
 Use this document when:
 
 - explaining where LUMINA-30 sits relative to AI safety, governance, and incident review;
 - preventing confusion between LUMINA-30 and alignment, regulation, certification, or enforcement;
 - connecting PCR-C to LUMINA-30 without merging their roles;
-- connecting the public Paper 5 human-centered research layer to LUMINA-30 without merging research and canon;
-- deciding whether the former research-context repository can be consolidated or retired.
+- connecting Objective Persistence v3 as an assurance-independence research layer without turning it into a universal external-anchor requirement;
+- connecting L30-RET / Paper 5 to effective human refusal without merging research and canon;
+- connecting PISF / Paper 6 to authority, refusal, revisability, and assurance analysis without treating it as certification or a safety guarantee;
+- deciding whether older research-context material can be consolidated or retired.
 
 以下の場合に本書を使用する。
 
 - LUMINA-30がAI安全性、ガバナンス、インシデントレビューに対してどこに位置するかを説明する場合
 - LUMINA-30をアライメント、規制、認証、執行と混同することを防ぐ場合
 - PCR-CとLUMINA-30を、役割を混同せずに接続する場合
-- 公開第5論文の人間側研究レイヤーを、研究と正典を混同せずにLUMINA-30へ接続する場合
-- 旧Research-Contextリポジトリを統合または後方化できるか判断する場合
-
-
-
----
+- Objective Persistence v3を保証独立性の研究レイヤーとして接続し、物理的な外部アンカーの普遍要件へ拡張しない場合
+- L30-RET／第5論文を、研究と正典を混同せず実効的人間拒否へ接続する場合
+- PISF／第6論文を、認証や安全保証として扱わず、権限・拒否・再選択可能性・保証条件の分析へ接続する場合
+- 旧Research-Context資料を統合または後方化できるか判断する場合
 
 ## 8. Current External Review Context (2026) ｜ 現行外部レビュー文脈（2026）
 
