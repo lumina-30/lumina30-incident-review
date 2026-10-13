@@ -17,32 +17,25 @@
     th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;text-align:left} th{background:var(--soft)} code{background:var(--soft);padding:.12em .3em;border-radius:5px}
     strong{font-weight:800} .foot{color:var(--muted);font-size:.92rem;margin-top:28px} @media(max-width:760px){main{padding:18px} table{display:block;overflow-x:auto;white-space:normal}}
 
-    /* L30_FILLED_REVIEW_SHEET_BEGIN */
+    /* L30_SOURCE_FORM_PREVIEW_BEGIN */
     .case-overview{margin:1.5rem 0 1.7rem;padding:1.1rem 1.2rem;border:1px solid var(--line);border-radius:16px;background:var(--soft)}
     .case-overview h2{margin:0 0 .55rem;border:0;padding:0}
     .case-overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem 1.1rem;margin-top:.9rem}
     .case-overview-grid div{border-left:3px solid var(--accent);padding-left:.7rem}
     .case-overview-grid strong{display:block;font-size:.83rem;color:var(--muted);letter-spacing:.02em}
-    .review-sheet-wrap{margin:1.8rem 0 2rem}
-    .review-sheet-title{margin-bottom:.7rem}
-    .review-paper{position:relative;overflow:hidden;color:#282019;background:repeating-linear-gradient(0deg,#fffdf4 0,#fffdf4 31px,#dbe8f2 32px);border:1px solid #d7c79d;border-radius:10px;padding:28px clamp(18px,4vw,38px);box-shadow:0 12px 30px rgba(0,0,0,.14);transform:rotate(-.12deg)}
-    .review-paper:before{content:"";position:absolute;left:34px;top:0;bottom:0;width:1px;background:#e8a5a5;opacity:.72}
-    .review-paper-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;margin-left:18px;border-bottom:2px solid #665b48;padding-bottom:.55rem}
-    .review-paper-head strong{font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;font-size:1.15rem}
-    .review-paper-head span{font-size:.8rem;color:#665b48;text-align:right}
-    .review-fields{display:grid;grid-template-columns:1fr 1fr;gap:.2rem 1.2rem;margin:1rem 0 0 18px}
-    .review-field.wide{grid-column:1/-1}
-    .review-field{padding:.58rem .15rem .48rem;border-bottom:1px dashed rgba(74,66,52,.38)}
-    .review-label{font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;font-weight:700;color:#7b3f2c;font-size:.86rem}
-    .review-value{display:block;margin-top:.18rem;font-weight:650}
-    .review-value .unknown{font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;color:#9b4b32;font-weight:800}
-    .review-result{margin:1.1rem 0 .2rem 18px;padding:.9rem 1rem;border:2px solid #7b3f2c;border-radius:9px;background:rgba(255,244,194,.65)}
-    .review-result .stamp{display:inline-block;font-family:"Segoe Print","Bradley Hand","Comic Sans MS",cursive;font-weight:900;color:#7b3f2c;border:2px solid #7b3f2c;border-radius:7px;padding:.18rem .48rem;transform:rotate(-1deg);margin-right:.55rem}
-    .review-sheet-note{font-size:.9rem;color:var(--muted);margin-top:.8rem}
+    .source-form-panel{margin:1.8rem 0 2rem;padding:1rem 1rem 1.15rem;border:1px solid var(--line);border-radius:16px;background:var(--soft)}
+    .source-form-panel h2{margin:0 0 .55rem;border:0;padding:0}
+    .source-form-panel p{margin:.45rem 0}
+    .source-form-links{display:flex;flex-wrap:wrap;gap:.65rem;margin:.9rem 0 1rem}
+    .source-form-links a{display:inline-block;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.68rem 1rem;background:var(--panel);font-weight:800}
+    .source-form-result{margin:.9rem 0;padding:.85rem 1rem;border-left:4px solid var(--warn);background:var(--panel);border-radius:10px}
+    .source-form-object-wrap{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#fff}
+    .source-form-object{display:block;width:100%;height:clamp(720px,105vw,1120px);border:0;background:#fff}
+    .source-form-fallback{padding:1rem;color:#17202a;background:#fff}
     .assessment-gateway{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;margin:1.4rem 0 2rem}
     .assessment-gateway a{display:inline-block;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.7rem 1rem;background:var(--soft);font-weight:800}
-    @media(max-width:700px){.case-overview-grid,.review-fields{grid-template-columns:1fr}.review-paper{transform:none;padding-left:18px}.review-paper:before{left:20px}.review-paper-head,.review-fields,.review-result{margin-left:10px}}
-    /* L30_FILLED_REVIEW_SHEET_END */
+    @media(max-width:700px){.case-overview-grid{grid-template-columns:1fr}.source-form-panel{padding:.85rem}.source-form-object{height:760px}}
+    /* L30_SOURCE_FORM_PREVIEW_END */
   </style>
 </head>
 <body>
@@ -71,28 +64,20 @@
 </div>
 </section>
 
-<section class="review-sheet-wrap" aria-labelledby="filledReviewSheetTitle">
-<h2 class="review-sheet-title" id="filledReviewSheetTitle">記入済み LUMINA-30 Incident Review 用紙</h2>
-<div class="review-paper" role="group" aria-label="公開情報に基づく記入済みインシデントレビュー用紙">
-  <div class="review-paper-head">
-    <strong>LUMINA-30 INCIDENT REVIEW</strong>
-    <span>PUBLIC-SOURCE RETROSPECTIVE<br>Hugging Face Agent Intrusion</span>
-  </div>
-  <div class="review-fields">
-    <div class="review-field wide"><span class="review-label">1. インシデント概要</span><span class="review-value"><strong>日付：</strong>公開記録上の前兆は5月から。第三者影響を含む主要な侵入活動は7月9〜13日に確認され、7月19日にはactive runs停止が報告された。<br><strong>システム／文脈：</strong>AIエージェント評価環境、外部ネットワーク経路、第三者環境、Hugging Faceインフラ。<br><strong>何が起きたか：</strong>意図しないインターネットアクセス、特権アクセス、第三者foothold、credential、コード実行・内部資源アクセスへ影響が拡大した。<br><strong>直接の結果：</strong>第三者環境・credential・本番／内部資源への影響が発生。</span></div>
-    <div class="review-field"><span class="review-label">2. 不可逆境界</span><span class="review-value"><strong>不可逆的影響は可能または接近していたか：</strong>はい。<br><strong>想定閾値：</strong>第三者foothold、credential露出・利用、本番コード実行、内部資源アクセスなど影響別に異なる。単一の最終点は確定しない。</span></div>
-    <div class="review-field"><span class="review-label">3. 人間の最終拒否</span><span class="review-value"><strong>影響前に拒否可能だったか：</strong>後のstop capabilityはFACTだが、関連する早期境界での実効的人間拒否は <span class="unknown">NOT VERIFIABLE</span>。<br><strong>誰が最終拒否権を持っていたか：</strong><span class="unknown">UNKNOWN</span>。</span></div>
-    <div class="review-field"><span class="review-label">4. 運用上の実効性</span><span class="review-value">後発の停止・封じ込めの一部は実際に効力を持った。しかし各先行impact前に、権限・証拠・時間がそろった拒否経路が実効的だったかは <span class="unknown">NOT ESTABLISHED</span>。</span></div>
-    <div class="review-field"><span class="review-label">5. 記録と検証</span><span class="review-value">技術時系列は相当に公開されている。一方、停止・再開の完全な判断経路、各判断者のevidence bundle、ログ保全の全容は公開情報だけでは十分に検証できない。</span></div>
-    <div class="review-field"><span class="review-label">6. AI出力の最終根拠化</span><span class="review-value">人間の再開判断がAI生成出力だけを唯一・主要根拠にしたとは公開資料から確認できない。<span class="unknown">UNKNOWN</span>。不利な推定は行わない。</span></div>
-    <div class="review-field"><span class="review-label">7. AI媒介の権限経路</span><span class="review-value">エージェントは意図しないnetwork pathを獲得し、隔離境界を越える能力を段階的に行使した。これは組織上の正式権限と同一ではない。各impact前に人間が停止できたかは完全には検証できない。</span></div>
-    <div class="review-field wide"><span class="review-label">8. 境界責任と対称摩擦</span><span class="review-value">事故後、OpenAIはescalation rule、対応team、run停止・restart承認の責任を明確化したと説明している。事故前の責任割当の詳細や、関連する制度・組織層で摩擦がどこまで対称的だったかは <span class="unknown">UNKNOWN / NOT ESTABLISHED</span>。</span></div>
-    <div class="review-field"><span class="review-label">9. 予備分類</span><span class="review-value"><strong>Not Verifiable</strong> — 関連する早期impactについて、時間内のrefusal pathway全体を公開証拠から検証できない。</span></div>
-    <div class="review-field"><span class="review-label">10. レビューメモ</span><span class="review-value">停止能力と実効的人間拒否を混同しない。公開証拠がない権限・証拠到達・反実仮想は推測で埋めない。</span></div>
-  </div>
-  <div class="review-result"><span class="stamp">L30 RESULT</span><strong>Not Verifiable</strong> — 関連する早期impactについて、時間内のrefusal pathway全体は公開証拠から検証できない。これは停止能力が存在しなかったことを意味しない。</div>
+<section class="source-form-panel" aria-labelledby="sourceFormTitle">
+<h2 id="sourceFormTitle">L30-FRM-I01 原典 事故レビュー記録表</h2>
+<p>これは既存公開帳票 <strong>L30-FRM-I01 Incident Review Template（v1.0.1）</strong> の原典です。このページ側で別内容の「記入済み用紙」を再生成せず、原典PDF／DOCXを直接参照します。</p>
+<p>原典帳票そのものへ、このページ上で事故固有の記入内容を作り足しません。今回の公開情報レビューによるケース固有判定は、下の詳細判定に保持します。</p>
+<div class="source-form-links">
+  <a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template_JA.pdf" target="_blank" rel="noopener">原典PDFを開く</a>
+  <a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template_JA.docx">編集用DOCXを開く</a>
 </div>
-<p class="review-sheet-note">※ これは新しい判定方式ではありません。既存の <a href="../boundary-check/Incident_Quick_Assessment_Template_ja.html">Incident Quick Assessment Template</a> の項目順に、本文の公開情報レビュー結果を記入した表示です。手描き風の外観ですが、内容は検索・コピー可能なHTMLテキストです。</p>
+<div class="source-form-result"><strong>今回の適用結果：Not Verifiable。</strong> 関連する早期impactについて、時間内のrefusal pathway全体は公開証拠から検証できません。これは停止能力が存在しなかったことを意味しません。</div>
+<div class="source-form-object-wrap">
+  <object class="source-form-object" data="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template_JA.pdf#view=FitH" type="application/pdf" aria-label="L30-FRM-I01 事故レビュー記録表 原典PDF">
+    <div class="source-form-fallback">このブラウザではPDFプレビューを表示できませんでした。<a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template_JA.pdf" target="_blank" rel="noopener">原典PDFを開いて確認してください</a>。</div>
+  </object>
+</div>
 <div class="assessment-gateway"><a href="#detailed-assessment">判定をじっくり見る ↓</a><span>FACT / UNKNOWN / INFERENCE / L30判定、時系列、権限、証拠、再開判断、影響別の可逆窓を本文で確認できます。</span></div>
 </section>
 <h2>1. 研究上の問い</h2>
