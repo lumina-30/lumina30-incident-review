@@ -17,25 +17,24 @@
     th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;text-align:left} th{background:var(--soft)} code{background:var(--soft);padding:.12em .3em;border-radius:5px}
     strong{font-weight:800} .foot{color:var(--muted);font-size:.92rem;margin-top:28px} @media(max-width:760px){main{padding:18px} table{display:block;overflow-x:auto;white-space:normal}}
 
-    /* L30_SOURCE_FORM_PREVIEW_BEGIN */
+    /* L30_CASE001_IMAGE_FORM_BEGIN */
     .case-overview{margin:1.5rem 0 1.7rem;padding:1.1rem 1.2rem;border:1px solid var(--line);border-radius:16px;background:var(--soft)}
     .case-overview h2{margin:0 0 .55rem;border:0;padding:0}
     .case-overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem 1.1rem;margin-top:.9rem}
     .case-overview-grid div{border-left:3px solid var(--accent);padding-left:.7rem}
     .case-overview-grid strong{display:block;font-size:.83rem;color:var(--muted);letter-spacing:.02em}
-    .source-form-panel{margin:1.8rem 0 2rem;padding:1rem 1rem 1.15rem;border:1px solid var(--line);border-radius:16px;background:var(--soft)}
-    .source-form-panel h2{margin:0 0 .55rem;border:0;padding:0}
-    .source-form-panel p{margin:.45rem 0}
-    .source-form-links{display:flex;flex-wrap:wrap;gap:.65rem;margin:.9rem 0 1rem}
-    .source-form-links a{display:inline-block;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.68rem 1rem;background:var(--panel);font-weight:800}
-    .source-form-result{margin:.9rem 0;padding:.85rem 1rem;border-left:4px solid var(--warn);background:var(--panel);border-radius:10px}
-    .source-form-object-wrap{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#fff}
-    .source-form-object{display:block;width:100%;height:clamp(720px,105vw,1120px);border:0;background:#fff}
-    .source-form-fallback{padding:1rem;color:#17202a;background:#fff}
+    .filled-form-panel{margin:1.8rem 0 2rem}
+    .filled-form-panel h2{margin-bottom:.55rem}
+    .filled-form-meta{padding:1rem 1.1rem;border:1px solid var(--line);border-radius:14px;background:var(--soft)}
+    .filled-form-meta p{margin:.35rem 0}
+    .filled-form-preview{margin-top:1rem;border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+    .filled-form-preview a{display:block}
+    .filled-form-preview img{display:block;width:100%;height:auto;background:#fff}
+    .filled-form-caption{font-size:.9rem;color:var(--muted);margin:.75rem 0 0}
     .assessment-gateway{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;margin:1.4rem 0 2rem}
     .assessment-gateway a{display:inline-block;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.7rem 1rem;background:var(--soft);font-weight:800}
-    @media(max-width:700px){.case-overview-grid{grid-template-columns:1fr}.source-form-panel{padding:.85rem}.source-form-object{height:760px}}
-    /* L30_SOURCE_FORM_PREVIEW_END */
+    @media(max-width:700px){.case-overview-grid{grid-template-columns:1fr}.filled-form-meta{padding:.85rem}}
+    /* L30_CASE001_IMAGE_FORM_END */
   </style>
 </head>
 <body>
@@ -64,23 +63,17 @@
 </div>
 </section>
 
-<section class="source-form-panel" aria-labelledby="sourceFormTitle">
-<h2 id="sourceFormTitle">L30-FRM-I01 original Incident Review form</h2>
-<p>This is the existing public <strong>L30-FRM-I01 Incident Review Template (v1.0.1)</strong>. The source PDF/DOCX is shown directly rather than recreating a different “completed form” on this page.</p>
-<p>The source form itself is not rewritten with case-specific entries here. The case-specific public-source assessment remains in the detailed review below.</p>
-<div class="source-form-links">
-  <a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf" target="_blank" rel="noopener">Open source PDF</a>
-  <a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.docx">Open editable DOCX</a>
+<section class="filled-form-panel" aria-labelledby="filledFormTitle">
+<h2 id="filledFormTitle">L30-CASE-001 completed Incident Review image</h2>
+<div class="filled-form-meta">
+<p><strong>Case:</strong> L30-CASE-001 / Hugging Face Agent Intrusion</p>
+<p><strong>Finding:</strong> Not Verifiable. Items unsupported by the public record remain Unknown / Not Established.</p>
+<p>The completed image preserves the original L30-FRM-I01 item wording, order, and top fields while using a web-readable image layout rather than A4/PDF.</p>
 </div>
-<div class="source-form-result"><strong>Case application result: Not Verifiable.</strong> For the relevant earlier impacts, the complete in-time refusal pathway cannot be verified from the public evidence used here. This does not mean stop capability did not exist.</div>
-<div class="source-form-object-wrap">
-  <object class="source-form-object" data="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf#view=FitH" type="application/pdf" aria-label="Original L30-FRM-I01 Incident Review Template PDF">
-    <div class="source-form-fallback">Your browser did not display the PDF preview. <a href="../tools/l30-bas/practical-sheets/L30_FRM_I01_Incident_Review_Template.pdf" target="_blank" rel="noopener">Open the original PDF</a>.</div>
-  </object>
-</div>
-<div class="assessment-gateway"><a href="#detailed-assessment">Read the full assessment ↓</a><span>Continue into FACT / UNKNOWN / INFERENCE / L30 ASSESSMENT, timeline, authority, evidence, restart decisions, and impact-specific reversible windows.</span></div>
-</section>
-<h2>1. Research question</h2>
+<div class="filled-form-preview"><a href="cases/case-001/L30_CASE001_FRM_I01_FILLED_EN.png" target="_blank" rel="noopener"><img src="cases/case-001/L30_CASE001_FRM_I01_FILLED_EN.png" alt="Completed L30-FRM-I01 review image for L30-CASE-001, Hugging Face Agent Intrusion" loading="lazy"></a></div>
+<p class="filled-form-caption">Tap the image to enlarge it. The detailed FACT / UNKNOWN / INFERENCE / L30 ASSESSMENT record remains below.</p>
+<div class="assessment-gateway"><a href="#detailed-assessment">Read the full assessment ↓</a><span>Continue into timeline, authority, evidence, restart decisions, and impact-specific reversible windows.</span></div>
+</section><h2>1. Research question</h2>
 <p>What does the existing LUMINA-30 Incident Review make visible when it is retrospectively applied to a real, publicly documented AI-agent security incident, and what remains unresolved because public evidence is insufficient?</p>
 <p>The review deliberately permits negative results. If a question cannot be answered from public evidence, it remains <strong>UNKNOWN</strong> or <strong>NOT ESTABLISHED</strong>.</p>
 <h2>2. Method: existing Incident Review materials, unchanged</h2>
