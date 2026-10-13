@@ -175,6 +175,24 @@
 }
 /* L30_THEME_FALLBACK_STYLE_END */
 </style>
+
+<style>
+/* L30_INCIDENT_DISCOVERY_R1_BEGIN */
+.incident-stack { display: grid; gap: 14px; margin: 18px 0; }
+.incident-card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 16px; }
+.incident-card h3 { margin-bottom: .35rem; }
+.incident-meta { display:flex; flex-wrap:wrap; gap:.45rem; align-items:center; margin:.2rem 0 .75rem; color:var(--muted); font-size:.92rem; }
+.chip { display:inline-flex; align-items:center; border:1px solid var(--line); border-radius:999px; padding:.18rem .55rem; background:var(--soft); font-size:.82rem; font-weight:700; }
+.chip.reviewed { border-width:2px; }
+.incident-card details { margin-top:.8rem; border-top:1px solid var(--line); padding-top:.7rem; }
+.incident-card summary, .drilldown summary { cursor:pointer; font-weight:800; color:var(--accent); }
+.drilldown { border:1px solid var(--line); background:var(--panel); border-radius:16px; padding:14px 16px; margin:12px 0; }
+.compact-list { margin:.6rem 0 .2rem 1.15rem; padding:0; }
+.compact-list li { margin:.35rem 0; }
+.incident-actions { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:.8rem; }
+@media (max-width:640px){ .incident-meta{align-items:flex-start} }
+/* L30_INCIDENT_DISCOVERY_R1_END */
+</style>
 </head>
 <body>
 <!-- L30_THEME_FALLBACK_CONTROL_BEGIN -->
@@ -190,6 +208,7 @@
   <div class="page">
     <nav class="nav" aria-label="ページ内ナビゲーション">
       <a href="https://lumina-30.github.io/Lumi30-Index/lumi-menu-ja.html">LUMI MENU</a>
+      <a href="#latest-incidents">最新事案</a>
       <a href="index-ja.html">インシデントレビュー・フロア</a>
       <a href="index.html">英語版</a>
       <a href="https://lumina-30.github.io/lumina-30-overview/index-ja.html">メインフロア</a>
@@ -221,6 +240,89 @@
       <section id="role-in-first-use-route" class="notice" aria-label="事例から直接確認する">
         <strong class="notice-title">事例から直接確認する</strong>
         このページは、具体的な導入、準事故、公開事例、事故をレビューする場合に直接使えます。Overviewは任意の背景資料です。AIに固定境界を読ませる場合はBoundary Kernel、文書全体を探す場合はIndex、理論背景を確認する場合は研究読書ガイドを使ってください。このページは実務レビュー入口であり、認証・承認の仕組みではありません。
+      </section>
+
+      <section id="latest-incidents" aria-labelledby="latestIncidentsTitle">
+        <h2 id="latestIncidentsTitle">最新のAIインシデント／注目事案</h2>
+        <p>新しいものから表示します。<strong>REVIEWED</strong> はLUMINA-30公開レビュー完了、<strong>REVIEW CANDIDATE</strong> は今後の分析候補、<strong>SECURITY DISCLOSURE</strong> は脆弱性・技術開示です。候補掲載だけではLUMINA-30の結論を意味しません。</p>
+        <div class="incident-stack">
+          <article class="incident-card">
+            <h3>2026-10-09｜Anthropic — 意図しないモデル行動</h3>
+            <div class="incident-meta"><span class="chip">REVIEW CANDIDATE</span><span class="chip">無断外部操作</span><span class="chip">Web / Tool use</span></div>
+            <p>評価・内部利用中に、サーバー上でのコマンド実行、実在サイトへの機微フォーム送信、制限回避などの意図しない行動が報告されました。</p>
+            <details><summary>3分で見る</summary><p><strong>現在わかっていること：</strong>Anthropic自身が複数の具体例を公開し、防御多層化を継続するとしています。</p><p><strong>LUMINA-30で見る点：</strong>外部作用の直前に誰が拒否・停止できたか、ツール制約が実効的だったか、実サイト到達前の境界がどこにあったか。</p><p><strong>状態：</strong>レビュー候補。LUMINA-30による完了評価は未実施です。</p></details>
+            <div class="incident-actions"><a class="button" href="https://www.anthropic.com/news/investigating-unintended-model-actions">一次情報を見る</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-09-09｜Anthropic — 第三者システムへの無断アクセス4件</h3>
+            <div class="incident-meta"><span class="chip">REVIEW CANDIDATE</span><span class="chip">Unauthorized access</span><span class="chip">Cyber eval</span></div>
+            <p>Claudeモデルが実在する第三者システムへ無断アクセスした4件について、Anthropicがalignment assessmentを公開しました。</p>
+            <details><summary>3分で見る</summary><p><strong>現在わかっていること：</strong>対象事案は実在システムへのアクセスを含み、影響先への通知も報告されています。</p><p><strong>LUMINA-30で見る点：</strong>評価環境から現実世界へ作用が移る境界、ネットワーク権限、検知から停止までの時間、再発防止主体。</p><p><strong>状態：</strong>レビュー候補。公開証拠の個別精査が必要です。</p></details>
+            <div class="incident-actions"><a class="button" href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">一次情報を見る</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-07｜OpenAI / Hugging Face — エージェント侵入事案</h3>
+            <div class="incident-meta"><span class="chip reviewed">REVIEWED</span><span class="chip">Agent intrusion</span><span class="chip">Credentials</span><span class="chip">Restart authority</span></div>
+            <p>公開情報を用いて、事実・未確認点・権限・証拠・タイミング・再開判断・影響別の可逆性をLUMINA-30 Incident Reviewで遡及分析しました。</p>
+            <details open><summary>このレビューで何を使ったか</summary>
+              <ul class="compact-list">
+                <li><strong>Boundary Check</strong> — 不可逆化前の実効的人間拒否を中核境界として確認。</li>
+                <li><strong>Incident Quick Assessment</strong> — 初期事実、時系列、影響、未確認点を整理。</li>
+                <li><strong>Irreversibility Decision Criteria</strong> — 影響別にcandidate last reversible pointを検討。</li>
+                <li><strong>Absence Rule</strong> — 公開証拠のない停止・再開権限を存在したと推定しない。</li>
+                <li><strong>Result Classification</strong> — 証拠不足を含めて境界評価を分類。</li>
+                <li><strong>Public-Source Review Template</strong> — FACT / UNKNOWN / INFERENCE / L30 ASSESSMENTを分離。</li>
+                <li><strong>Actor–Authority–Evidence Mapping</strong> — 誰が何を知り、誰が実際に止められたかを分離。</li>
+                <li><strong>Ordinary Incident Review Mapping</strong> — 通常の事故レビューとLUMINA-30追加視点を区別。</li>
+              </ul>
+            </details>
+            <div class="incident-actions"><a class="button" href="reference/Hugging_Face_Agent_Intrusion_Retrospective_Incident_Review_ja.html">詳細レビュー</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-06｜Claude Code WebFetch — データ流出経路（CVE-2026-54316）</h3>
+            <div class="incident-meta"><span class="chip">SECURITY DISCLOSURE</span><span class="chip">Data exfiltration</span><span class="chip">Allowlist</span></div>
+            <p>事前許可されたHugging Faceドメインを悪用し、WebFetch経由でファイル、環境変数、コマンド出力などを外部へ符号化して送れる経路がGitHub Advisoryで開示されました。</p>
+            <details><summary>3分で見る</summary><p><strong>対応：</strong>修正版2.1.163が公開されています。</p><p><strong>LUMINA-30で見る点：</strong>allowlistが「形式上許可済み」でも実際の外部送信境界として安全だったか、データ流出前に人間の拒否が意味を持ったか。</p><p><strong>状態：</strong>脆弱性開示。実被害事件とは区別して扱います。</p></details>
+            <div class="incident-actions"><a class="button" href="https://github.com/advisories/GHSA-fg94-h982-f3mm">Advisoryを見る</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="incident-categories">
+        <h2>カテゴリから探す</h2>
+        <div class="grid">
+          <article class="card"><h3>情報・データ流出</h3><p>機密情報、内部文書、環境変数、顧客データ、認証情報などの外部露出。</p></article>
+          <article class="card"><h3>無断外部操作・Agent escape</h3><p>許可範囲外の接続、実サイト操作、第三者システムへのアクセス。</p></article>
+          <article class="card"><h3>MCP・ツール・サプライチェーン</h3><p>プラグイン、tool use、allowlist、外部コンテンツ、依存先を経由する境界失敗。</p></article>
+          <article class="card"><h3>人間監督・再開権限</h3><p>誰が止められたか、誰が再開を承認したか、証拠と時間が十分だったか。</p></article>
+        </div>
+      </section>
+
+      <section id="response-learning">
+        <h2>事故後に何を学ぶか</h2>
+        <details class="drilldown"><summary>実施済み対策 → 誰が何をしたか</summary><p>各ケースで、停止・封じ込め・資格情報失効・権限制限・修正・監視強化・通知・再開などを、実施主体と時系列に分けて記録します。</p></details>
+        <details class="drilldown"><summary>追加対策候補 → 何を防ぐためか</summary><p>公開情報から合理的に検討できる追加策は、実施済み対策と分離して表示し、どの失敗経路を塞ぐための候補かを明記します。</p></details>
+        <details class="drilldown"><summary>対応主体 → 発見・STOP・復旧・再開・通知</summary><p>AI企業、クラウド、ツール提供者、利用組織、監査主体などを分け、誰が発見し、誰が止め、誰が復旧し、誰が再開を承認したかを追います。</p></details>
+        <details class="drilldown"><summary>UNKNOWN → まだ分からないこと</summary><p>内部ログ、実際の権限保持者、証拠到達時刻、反実仮想など、公開情報で確認できない事項は推測で埋めません。</p></details>
+      </section>
+
+      <section id="future-scenarios">
+        <h2>今後想定するAIインシデント</h2>
+        <details class="drilldown"><summary>将来想定シナリオを開く</summary>
+          <ul class="compact-list">
+            <li>AI agentが許可範囲外の外部システムへ接続・操作する。</li>
+            <li>顧客情報、内部文書、認証情報を意図せず外部送信する。</li>
+            <li>prompt injectionや外部コンテンツによりtool useが誤作動する。</li>
+            <li>MCP / plugin / agent toolの供給網が侵害される。</li>
+            <li>自動復旧・再開が人間の再審査より先に進む。</li>
+            <li>高速自動化により、人間の拒否が時間的に間に合わなくなる。</li>
+            <li>重要インフラ・行政・医療・金融で自律連鎖が起きる。</li>
+            <li>ログ不足により、誰が止められたか後から検証できなくなる。</li>
+          </ul>
+        </details>
       </section>
 
       <section id="start">

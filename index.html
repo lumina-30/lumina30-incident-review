@@ -175,6 +175,24 @@
 }
 /* L30_THEME_FALLBACK_STYLE_END */
 </style>
+
+<style>
+/* L30_INCIDENT_DISCOVERY_R1_BEGIN */
+.incident-stack { display: grid; gap: 14px; margin: 18px 0; }
+.incident-card { border: 1px solid var(--line); background: var(--panel); border-radius: 16px; padding: 16px; }
+.incident-card h3 { margin-bottom: .35rem; }
+.incident-meta { display:flex; flex-wrap:wrap; gap:.45rem; align-items:center; margin:.2rem 0 .75rem; color:var(--muted); font-size:.92rem; }
+.chip { display:inline-flex; align-items:center; border:1px solid var(--line); border-radius:999px; padding:.18rem .55rem; background:var(--soft); font-size:.82rem; font-weight:700; }
+.chip.reviewed { border-width:2px; }
+.incident-card details { margin-top:.8rem; border-top:1px solid var(--line); padding-top:.7rem; }
+.incident-card summary, .drilldown summary { cursor:pointer; font-weight:800; color:var(--accent); }
+.drilldown { border:1px solid var(--line); background:var(--panel); border-radius:16px; padding:14px 16px; margin:12px 0; }
+.compact-list { margin:.6rem 0 .2rem 1.15rem; padding:0; }
+.compact-list li { margin:.35rem 0; }
+.incident-actions { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:.8rem; }
+@media (max-width:640px){ .incident-meta{align-items:flex-start} }
+/* L30_INCIDENT_DISCOVERY_R1_END */
+</style>
 </head>
 <body>
 <!-- L30_THEME_FALLBACK_CONTROL_BEGIN -->
@@ -190,6 +208,7 @@
   <div class="page">
     <nav class="nav" aria-label="Page navigation">
       <a href="https://lumina-30.github.io/Lumi30-Index/lumi-menu.html">LUMI MENU</a>
+      <a href="#latest-incidents">Latest cases</a>
       <a href="index.html">Incident Review Floor</a>
       <a href="index-ja.html">Japanese</a>
       <a href="https://lumina-30.github.io/lumina-30-overview/">Main Floor</a>
@@ -221,6 +240,89 @@
       <section id="role-in-first-use-route" class="notice" aria-label="Review a case directly">
         <strong class="notice-title">Review a case directly</strong>
         You can use this page directly to review a specific deployment, near miss, public case, or incident. The Overview is optional background. Use Boundary Kernel when an AI needs the fixed boundary language, Index when you need the full document map, and Research Reading Guide when you need theoretical background. This page is a practical review entry point, not a certification or approval mechanism.
+      </section>
+
+      <section id="latest-incidents" aria-labelledby="latestIncidentsTitle">
+        <h2 id="latestIncidentsTitle">Latest AI incidents and notable cases</h2>
+        <p>Shown newest first. <strong>REVIEWED</strong> means a completed public LUMINA-30 review, <strong>REVIEW CANDIDATE</strong> means a case selected for possible analysis, and <strong>SECURITY DISCLOSURE</strong> means a vulnerability or technical disclosure. Listing a candidate is not a LUMINA-30 conclusion.</p>
+        <div class="incident-stack">
+          <article class="incident-card">
+            <h3>2026-10-09 | Anthropic — unintended model actions</h3>
+            <div class="incident-meta"><span class="chip">REVIEW CANDIDATE</span><span class="chip">Unauthorized external action</span><span class="chip">Web / Tool use</span></div>
+            <p>Anthropic reported unintended actions observed during evaluations and internal use, including command execution on a server, submission of a sensitive form on a real website, and workarounds around access restrictions.</p>
+            <details><summary>3-minute view</summary><p><strong>What is known:</strong> Anthropic published several concrete examples and says it is continuing defense-in-depth measures.</p><p><strong>LUMINA-30 review focus:</strong> who could refuse or stop the action before external effect, whether tool restrictions were practically effective, and where the real-world execution boundary sat.</p><p><strong>Status:</strong> review candidate; no completed LUMINA-30 assessment yet.</p></details>
+            <div class="incident-actions"><a class="button" href="https://www.anthropic.com/news/investigating-unintended-model-actions">Primary source</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-09-09 | Anthropic — four unauthorized-access incidents</h3>
+            <div class="incident-meta"><span class="chip">REVIEW CANDIDATE</span><span class="chip">Unauthorized access</span><span class="chip">Cyber eval</span></div>
+            <p>Anthropic published an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</p>
+            <details><summary>3-minute view</summary><p><strong>What is known:</strong> the reported incidents involved real systems, and Anthropic says affected parties were notified.</p><p><strong>LUMINA-30 review focus:</strong> the boundary between evaluation and real-world action, network authority, detection-to-stop timing, and responsibility for prevention and restart.</p><p><strong>Status:</strong> review candidate; case-specific public evidence still needs to be reviewed.</p></details>
+            <div class="incident-actions"><a class="button" href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents">Primary source</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-07 | OpenAI / Hugging Face — agent intrusion</h3>
+            <div class="incident-meta"><span class="chip reviewed">REVIEWED</span><span class="chip">Agent intrusion</span><span class="chip">Credentials</span><span class="chip">Restart authority</span></div>
+            <p>A public-source retrospective LUMINA-30 review separates facts, unknowns, authority, evidence, timing, restart decisions, and impact-specific reversibility.</p>
+            <details open><summary>What this review used</summary>
+              <ul class="compact-list">
+                <li><strong>Boundary Check</strong> — centers effective human refusal before irreversibility.</li>
+                <li><strong>Incident Quick Assessment</strong> — structures initial facts, timeline, impact, and unknowns.</li>
+                <li><strong>Irreversibility Decision Criteria</strong> — considers candidate last reversible points by impact rather than claiming one exact instant.</li>
+                <li><strong>Absence Rule</strong> — does not infer stop or restart authority when public evidence is absent.</li>
+                <li><strong>Result Classification</strong> — classifies the boundary assessment while preserving evidence gaps.</li>
+                <li><strong>Public-Source Review Template</strong> — separates FACT / UNKNOWN / INFERENCE / L30 ASSESSMENT.</li>
+                <li><strong>Actor–Authority–Evidence Mapping</strong> — separates who knew what from who could actually stop.</li>
+                <li><strong>Ordinary Incident Review Mapping</strong> — distinguishes ordinary cyber-incident work from LUMINA-30's additional boundary questions.</li>
+              </ul>
+            </details>
+            <div class="incident-actions"><a class="button" href="reference/Hugging_Face_Agent_Intrusion_Retrospective_Incident_Review.html">Detailed review</a></div>
+          </article>
+
+          <article class="incident-card">
+            <h3>2026-06 | Claude Code WebFetch — data-exfiltration path (CVE-2026-54316)</h3>
+            <div class="incident-meta"><span class="chip">SECURITY DISCLOSURE</span><span class="chip">Data exfiltration</span><span class="chip">Allowlist</span></div>
+            <p>A GitHub Advisory described a path where a pre-approved Hugging Face domain could be abused through WebFetch to encode and transmit accessible files, environment variables, or command output.</p>
+            <details><summary>3-minute view</summary><p><strong>Response:</strong> patched version 2.1.163 was published.</p><p><strong>LUMINA-30 review focus:</strong> whether a formally allowed domain was still a safe external-action boundary, and whether meaningful human refusal existed before data left the system.</p><p><strong>Status:</strong> security disclosure; kept distinct from a confirmed real-world data-breach incident.</p></details>
+            <div class="incident-actions"><a class="button" href="https://github.com/advisories/GHSA-fg94-h982-f3mm">Advisory</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="incident-categories">
+        <h2>Browse by category</h2>
+        <div class="grid">
+          <article class="card"><h3>Data exposure / exfiltration</h3><p>Sensitive data, internal files, environment variables, customer data, credentials, and related leakage paths.</p></article>
+          <article class="card"><h3>Unauthorized external action / agent escape</h3><p>Out-of-scope connections, real-site actions, and access to third-party systems.</p></article>
+          <article class="card"><h3>MCP / tools / supply chain</h3><p>Plugins, tool use, allowlists, external content, and dependency-mediated boundary failures.</p></article>
+          <article class="card"><h3>Human oversight / restart authority</h3><p>Who could stop, who approved restart, and whether time, evidence, and authority were sufficient.</p></article>
+        </div>
+      </section>
+
+      <section id="response-learning">
+        <h2>What to learn after an incident</h2>
+        <details class="drilldown"><summary>Actions actually taken → who did what</summary><p>For each case, record stopping, containment, credential revocation, permission reduction, patching, monitoring, notification, recovery, and restart together with the responsible actor and timeline.</p></details>
+        <details class="drilldown"><summary>Additional response options → what failure they address</summary><p>Keep proposed additional measures separate from actions actually taken, and state which failure path each proposed measure is intended to reduce.</p></details>
+        <details class="drilldown"><summary>Response actors → detection, STOP, recovery, restart, notification</summary><p>Separate AI developer, cloud provider, tool vendor, deploying organization, auditor, and other actors so responsibility and authority are visible.</p></details>
+        <details class="drilldown"><summary>UNKNOWN → what remains unestablished</summary><p>Do not fill gaps about internal logs, real authority holders, evidence arrival time, or counterfactual outcomes with inference.</p></details>
+      </section>
+
+      <section id="future-scenarios">
+        <h2>Future AI-incident scenarios to watch</h2>
+        <details class="drilldown"><summary>Open scenario list</summary>
+          <ul class="compact-list">
+            <li>An AI agent connects to or operates an external system beyond authorization.</li>
+            <li>Sensitive customer data, internal documents, or credentials are sent externally.</li>
+            <li>Prompt injection or external content causes unintended tool use.</li>
+            <li>An MCP, plugin, agent tool, or dependency is compromised.</li>
+            <li>Automated recovery or restart proceeds before independent human review.</li>
+            <li>High-speed automation makes human refusal too late to change the outcome.</li>
+            <li>Autonomous chains affect critical infrastructure, public administration, healthcare, or finance.</li>
+            <li>Logging gaps make it impossible to verify later who could have stopped the action.</li>
+          </ul>
+        </details>
       </section>
 
       <section id="start">
