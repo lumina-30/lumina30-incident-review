@@ -232,7 +232,7 @@ This conclusion does **not** establish LUMINA-30 effectiveness, superiority over
 
 # 遡及的インシデントレビュー：Hugging Face エージェント侵入事案
 
-> **状態：公開情報に基づく遡及ケーススタディ／公開候補。**
+> **状態：公開情報に基づく遡及ケーススタディ／研究上のケース分析候補。**
 >
 > 本文書は、2026年に公表されたOpenAI／Hugging Faceのエージェント侵入事案へ、既存のLUMINA-30 Incident Review資料を遡及適用したものです。内部ログや非公開事故記録へのアクセスを主張しません。公式な原因認定、法的・規制上の判断、安全性判定、認証、支持、制度採用の証拠ではありません。
 >
